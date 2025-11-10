@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/vivado_work/TDC/TDC/TDC.sim/sim_1/impl/timing/xsim/tb_tdc_top_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bubble_fix
+INFO: [VRFC 10-311] analyzing module bubble_fix_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-311] analyzing module latch2bin
+INFO: [VRFC 10-311] analyzing module latch2bin_1
+INFO: [VRFC 10-311] analyzing module line_tdc
+INFO: [VRFC 10-311] analyzing module tdc_top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/vivado_work/TDC/TDC/TDC.srcs/sim_1/new/tb_tdc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_tdc_top
