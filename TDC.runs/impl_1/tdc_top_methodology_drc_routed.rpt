@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Fri Nov  7 20:37:01 2025
+| Date         : Tue Nov 11 17:27:12 2025
 | Host         : DESKTOP-RBHFTC6 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file tdc_top_methodology_drc_routed.rpt -pb tdc_top_methodology_drc_routed.pb -rpx tdc_top_methodology_drc_routed.rpx
 | Design       : tdc_top

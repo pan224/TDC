@@ -99,15 +99,17 @@ always@(posedge clk_bufg) begin
         end
     end
     else begin
-        bin_final <= 'd0;
+        bin_final <= bin_final;
         bin_cs_final <= 1'b0;
     end
 end
 
 assign bin = bin_final;
+reg bin_cs_final_reg;
 // assign bin_cs = bin_cs_final;
 always @(posedge clk_bufg) begin
-    bin_cs <= bin_cs_final;
+    bin_cs_final_reg <= bin_cs_final;
+    bin_cs <= bin_cs_final_reg;
 end
 
 endmodule

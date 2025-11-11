@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Fri Nov  7 20:38:26 2025
+// Date        : Tue Nov 11 17:28:25 2025
 // Host        : DESKTOP-RBHFTC6 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               D:/project/vivado_work/TDC/TDC/TDC.sim/sim_1/impl/timing/xsim/tb_tdc_top_time_impl.v
@@ -15,18 +15,19 @@
 
 module bubble_fix
    (in0,
-    reset_IBUF,
+    out,
     D,
-    CLK);
+    \in_code_reg_reg[511]_0 );
   output [511:0]in0;
-  input reset_IBUF;
+  input out;
   input [511:0]D;
-  input CLK;
+  input \in_code_reg_reg[511]_0 ;
 
-  wire CLK;
   wire [511:0]D;
   wire [511:0]in0;
+  wire \in_code_reg_reg[511]_0 ;
   wire \in_code_reg_reg_n_0_[0] ;
+  wire out;
   wire p_0_in;
   wire p_0_in0_in;
   wire p_0_in1000_in;
@@ -538,7 +539,6 @@ module bubble_fix
   wire p_0_in996_in;
   wire p_0_in998_in;
   wire p_2_in;
-  wire reset_IBUF;
 
   LUT3 #(
     .INIT(8'hEA)) 
@@ -4113,4099 +4113,4099 @@ module bubble_fix
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[0] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[0]),
         .Q(\in_code_reg_reg_n_0_[0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[100] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[100]),
         .Q(p_0_in194_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[101] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[101]),
         .Q(p_0_in196_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[102] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[102]),
         .Q(p_0_in198_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[103] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[103]),
         .Q(p_0_in200_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[104] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[104]),
         .Q(p_0_in202_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[105] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[105]),
         .Q(p_0_in204_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[106] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[106]),
         .Q(p_0_in206_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[107] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[107]),
         .Q(p_0_in208_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[108] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[108]),
         .Q(p_0_in210_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[109] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[109]),
         .Q(p_0_in212_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[10] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[10]),
         .Q(p_0_in14_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[110] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[110]),
         .Q(p_0_in214_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[111] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[111]),
         .Q(p_0_in216_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[112] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[112]),
         .Q(p_0_in218_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[113] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[113]),
         .Q(p_0_in220_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[114] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[114]),
         .Q(p_0_in222_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[115] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[115]),
         .Q(p_0_in224_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[116] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[116]),
         .Q(p_0_in226_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[117] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[117]),
         .Q(p_0_in228_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[118] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[118]),
         .Q(p_0_in230_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[119] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[119]),
         .Q(p_0_in232_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[11] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[11]),
         .Q(p_0_in16_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[120] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[120]),
         .Q(p_0_in234_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[121] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[121]),
         .Q(p_0_in236_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[122] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[122]),
         .Q(p_0_in238_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[123] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[123]),
         .Q(p_0_in240_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[124] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[124]),
         .Q(p_0_in242_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[125] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[125]),
         .Q(p_0_in244_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[126] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[126]),
         .Q(p_0_in246_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[127] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[127]),
         .Q(p_0_in248_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[128] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[128]),
         .Q(p_0_in250_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[129] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[129]),
         .Q(p_0_in252_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[12] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[12]),
         .Q(p_0_in18_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[130] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[130]),
         .Q(p_0_in254_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[131] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[131]),
         .Q(p_0_in256_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[132] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[132]),
         .Q(p_0_in258_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[133] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[133]),
         .Q(p_0_in260_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[134] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[134]),
         .Q(p_0_in262_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[135] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[135]),
         .Q(p_0_in264_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[136] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[136]),
         .Q(p_0_in266_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[137] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[137]),
         .Q(p_0_in268_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[138] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[138]),
         .Q(p_0_in270_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[139] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[139]),
         .Q(p_0_in272_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[13] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[13]),
         .Q(p_0_in20_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[140] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[140]),
         .Q(p_0_in274_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[141] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[141]),
         .Q(p_0_in276_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[142] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[142]),
         .Q(p_0_in278_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[143] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[143]),
         .Q(p_0_in280_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[144] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[144]),
         .Q(p_0_in282_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[145] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[145]),
         .Q(p_0_in284_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[146] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[146]),
         .Q(p_0_in286_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[147] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[147]),
         .Q(p_0_in288_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[148] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[148]),
         .Q(p_0_in290_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[149] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[149]),
         .Q(p_0_in292_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[14] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[14]),
         .Q(p_0_in22_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[150] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[150]),
         .Q(p_0_in294_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[151] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[151]),
         .Q(p_0_in296_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[152] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[152]),
         .Q(p_0_in298_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[153] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[153]),
         .Q(p_0_in300_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[154] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[154]),
         .Q(p_0_in302_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[155] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[155]),
         .Q(p_0_in304_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[156] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[156]),
         .Q(p_0_in306_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[157] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[157]),
         .Q(p_0_in308_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[158] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[158]),
         .Q(p_0_in310_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[159] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[159]),
         .Q(p_0_in312_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[15] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[15]),
         .Q(p_0_in24_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[160] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[160]),
         .Q(p_0_in314_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[161] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[161]),
         .Q(p_0_in316_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[162] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[162]),
         .Q(p_0_in318_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[163] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[163]),
         .Q(p_0_in320_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[164] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[164]),
         .Q(p_0_in322_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[165] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[165]),
         .Q(p_0_in324_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[166] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[166]),
         .Q(p_0_in326_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[167] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[167]),
         .Q(p_0_in328_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[168] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[168]),
         .Q(p_0_in330_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[169] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[169]),
         .Q(p_0_in332_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[16] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[16]),
         .Q(p_0_in26_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[170] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[170]),
         .Q(p_0_in334_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[171] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[171]),
         .Q(p_0_in336_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[172] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[172]),
         .Q(p_0_in338_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[173] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[173]),
         .Q(p_0_in340_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[174] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[174]),
         .Q(p_0_in342_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[175] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[175]),
         .Q(p_0_in344_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[176] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[176]),
         .Q(p_0_in346_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[177] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[177]),
         .Q(p_0_in348_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[178] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[178]),
         .Q(p_0_in350_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[179] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[179]),
         .Q(p_0_in352_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[17] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[17]),
         .Q(p_0_in28_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[180] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[180]),
         .Q(p_0_in354_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[181] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[181]),
         .Q(p_0_in356_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[182] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[182]),
         .Q(p_0_in358_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[183] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[183]),
         .Q(p_0_in360_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[184] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[184]),
         .Q(p_0_in362_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[185] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[185]),
         .Q(p_0_in364_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[186] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[186]),
         .Q(p_0_in366_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[187] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[187]),
         .Q(p_0_in368_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[188] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[188]),
         .Q(p_0_in370_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[189] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[189]),
         .Q(p_0_in372_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[18] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[18]),
         .Q(p_0_in30_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[190] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[190]),
         .Q(p_0_in374_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[191] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[191]),
         .Q(p_0_in376_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[192] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[192]),
         .Q(p_0_in378_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[193] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[193]),
         .Q(p_0_in380_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[194] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[194]),
         .Q(p_0_in382_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[195] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[195]),
         .Q(p_0_in384_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[196] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[196]),
         .Q(p_0_in386_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[197] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[197]),
         .Q(p_0_in388_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[198] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[198]),
         .Q(p_0_in390_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[199] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[199]),
         .Q(p_0_in392_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[19] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[19]),
         .Q(p_0_in32_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[1] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[1]),
         .Q(p_2_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[200] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[200]),
         .Q(p_0_in394_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[201] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[201]),
         .Q(p_0_in396_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[202] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[202]),
         .Q(p_0_in398_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[203] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[203]),
         .Q(p_0_in400_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[204] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[204]),
         .Q(p_0_in402_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[205] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[205]),
         .Q(p_0_in404_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[206] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[206]),
         .Q(p_0_in406_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[207] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[207]),
         .Q(p_0_in408_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[208] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[208]),
         .Q(p_0_in410_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[209] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[209]),
         .Q(p_0_in412_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[20] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[20]),
         .Q(p_0_in34_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[210] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[210]),
         .Q(p_0_in414_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[211] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[211]),
         .Q(p_0_in416_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[212] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[212]),
         .Q(p_0_in418_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[213] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[213]),
         .Q(p_0_in420_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[214] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[214]),
         .Q(p_0_in422_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[215] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[215]),
         .Q(p_0_in424_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[216] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[216]),
         .Q(p_0_in426_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[217] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[217]),
         .Q(p_0_in428_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[218] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[218]),
         .Q(p_0_in430_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[219] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[219]),
         .Q(p_0_in432_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[21] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[21]),
         .Q(p_0_in36_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[220] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[220]),
         .Q(p_0_in434_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[221] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[221]),
         .Q(p_0_in436_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[222] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[222]),
         .Q(p_0_in438_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[223] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[223]),
         .Q(p_0_in440_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[224] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[224]),
         .Q(p_0_in442_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[225] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[225]),
         .Q(p_0_in444_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[226] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[226]),
         .Q(p_0_in446_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[227] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[227]),
         .Q(p_0_in448_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[228] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[228]),
         .Q(p_0_in450_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[229] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[229]),
         .Q(p_0_in452_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[22] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[22]),
         .Q(p_0_in38_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[230] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[230]),
         .Q(p_0_in454_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[231] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[231]),
         .Q(p_0_in456_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[232] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[232]),
         .Q(p_0_in458_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[233] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[233]),
         .Q(p_0_in460_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[234] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[234]),
         .Q(p_0_in462_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[235] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[235]),
         .Q(p_0_in464_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[236] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[236]),
         .Q(p_0_in466_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[237] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[237]),
         .Q(p_0_in468_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[238] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[238]),
         .Q(p_0_in470_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[239] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[239]),
         .Q(p_0_in472_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[23] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[23]),
         .Q(p_0_in40_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[240] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[240]),
         .Q(p_0_in474_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[241] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[241]),
         .Q(p_0_in476_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[242] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[242]),
         .Q(p_0_in478_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[243] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[243]),
         .Q(p_0_in480_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[244] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[244]),
         .Q(p_0_in482_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[245] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[245]),
         .Q(p_0_in484_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[246] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[246]),
         .Q(p_0_in486_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[247] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[247]),
         .Q(p_0_in488_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[248] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[248]),
         .Q(p_0_in490_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[249] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[249]),
         .Q(p_0_in492_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[24] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[24]),
         .Q(p_0_in42_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[250] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[250]),
         .Q(p_0_in494_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[251] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[251]),
         .Q(p_0_in496_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[252] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[252]),
         .Q(p_0_in498_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[253] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[253]),
         .Q(p_0_in500_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[254] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[254]),
         .Q(p_0_in502_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[255] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[255]),
         .Q(p_0_in504_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[256] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[256]),
         .Q(p_0_in506_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[257] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[257]),
         .Q(p_0_in508_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[258] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[258]),
         .Q(p_0_in510_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[259] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[259]),
         .Q(p_0_in512_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[25] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[25]),
         .Q(p_0_in44_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[260] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[260]),
         .Q(p_0_in514_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[261] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[261]),
         .Q(p_0_in516_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[262] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[262]),
         .Q(p_0_in518_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[263] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[263]),
         .Q(p_0_in520_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[264] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[264]),
         .Q(p_0_in522_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[265] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[265]),
         .Q(p_0_in524_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[266] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[266]),
         .Q(p_0_in526_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[267] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[267]),
         .Q(p_0_in528_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[268] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[268]),
         .Q(p_0_in530_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[269] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[269]),
         .Q(p_0_in532_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[26] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[26]),
         .Q(p_0_in46_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[270] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[270]),
         .Q(p_0_in534_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[271] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[271]),
         .Q(p_0_in536_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[272] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[272]),
         .Q(p_0_in538_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[273] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[273]),
         .Q(p_0_in540_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[274] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[274]),
         .Q(p_0_in542_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[275] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[275]),
         .Q(p_0_in544_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[276] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[276]),
         .Q(p_0_in546_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[277] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[277]),
         .Q(p_0_in548_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[278] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[278]),
         .Q(p_0_in550_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[279] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[279]),
         .Q(p_0_in552_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[27] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[27]),
         .Q(p_0_in48_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[280] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[280]),
         .Q(p_0_in554_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[281] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[281]),
         .Q(p_0_in556_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[282] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[282]),
         .Q(p_0_in558_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[283] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[283]),
         .Q(p_0_in560_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[284] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[284]),
         .Q(p_0_in562_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[285] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[285]),
         .Q(p_0_in564_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[286] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[286]),
         .Q(p_0_in566_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[287] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[287]),
         .Q(p_0_in568_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[288] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[288]),
         .Q(p_0_in570_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[289] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[289]),
         .Q(p_0_in572_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[28] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[28]),
         .Q(p_0_in50_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[290] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[290]),
         .Q(p_0_in574_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[291] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[291]),
         .Q(p_0_in576_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[292] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[292]),
         .Q(p_0_in578_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[293] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[293]),
         .Q(p_0_in580_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[294] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[294]),
         .Q(p_0_in582_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[295] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[295]),
         .Q(p_0_in584_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[296] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[296]),
         .Q(p_0_in586_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[297] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[297]),
         .Q(p_0_in588_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[298] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[298]),
         .Q(p_0_in590_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[299] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[299]),
         .Q(p_0_in592_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[29] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[29]),
         .Q(p_0_in52_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[2] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[2]),
         .Q(p_0_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[300] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[300]),
         .Q(p_0_in594_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[301] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[301]),
         .Q(p_0_in596_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[302] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[302]),
         .Q(p_0_in598_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[303] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[303]),
         .Q(p_0_in600_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[304] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[304]),
         .Q(p_0_in602_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[305] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[305]),
         .Q(p_0_in604_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[306] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[306]),
         .Q(p_0_in606_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[307] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[307]),
         .Q(p_0_in608_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[308] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[308]),
         .Q(p_0_in610_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[309] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[309]),
         .Q(p_0_in612_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[30] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[30]),
         .Q(p_0_in54_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[310] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[310]),
         .Q(p_0_in614_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[311] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[311]),
         .Q(p_0_in616_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[312] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[312]),
         .Q(p_0_in618_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[313] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[313]),
         .Q(p_0_in620_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[314] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[314]),
         .Q(p_0_in622_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[315] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[315]),
         .Q(p_0_in624_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[316] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[316]),
         .Q(p_0_in626_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[317] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[317]),
         .Q(p_0_in628_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[318] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[318]),
         .Q(p_0_in630_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[319] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[319]),
         .Q(p_0_in632_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[31] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[31]),
         .Q(p_0_in56_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[320] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[320]),
         .Q(p_0_in634_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[321] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[321]),
         .Q(p_0_in636_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[322] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[322]),
         .Q(p_0_in638_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[323] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[323]),
         .Q(p_0_in640_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[324] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[324]),
         .Q(p_0_in642_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[325] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[325]),
         .Q(p_0_in644_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[326] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[326]),
         .Q(p_0_in646_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[327] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[327]),
         .Q(p_0_in648_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[328] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[328]),
         .Q(p_0_in650_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[329] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[329]),
         .Q(p_0_in652_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[32] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[32]),
         .Q(p_0_in58_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[330] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[330]),
         .Q(p_0_in654_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[331] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[331]),
         .Q(p_0_in656_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[332] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[332]),
         .Q(p_0_in658_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[333] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[333]),
         .Q(p_0_in660_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[334] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[334]),
         .Q(p_0_in662_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[335] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[335]),
         .Q(p_0_in664_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[336] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[336]),
         .Q(p_0_in666_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[337] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[337]),
         .Q(p_0_in668_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[338] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[338]),
         .Q(p_0_in670_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[339] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[339]),
         .Q(p_0_in672_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[33] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[33]),
         .Q(p_0_in60_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[340] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[340]),
         .Q(p_0_in674_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[341] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[341]),
         .Q(p_0_in676_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[342] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[342]),
         .Q(p_0_in678_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[343] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[343]),
         .Q(p_0_in680_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[344] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[344]),
         .Q(p_0_in682_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[345] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[345]),
         .Q(p_0_in684_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[346] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[346]),
         .Q(p_0_in686_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[347] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[347]),
         .Q(p_0_in688_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[348] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[348]),
         .Q(p_0_in690_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[349] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[349]),
         .Q(p_0_in692_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[34] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[34]),
         .Q(p_0_in62_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[350] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[350]),
         .Q(p_0_in694_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[351] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[351]),
         .Q(p_0_in696_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[352] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[352]),
         .Q(p_0_in698_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[353] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[353]),
         .Q(p_0_in700_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[354] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[354]),
         .Q(p_0_in702_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[355] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[355]),
         .Q(p_0_in704_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[356] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[356]),
         .Q(p_0_in706_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[357] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[357]),
         .Q(p_0_in708_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[358] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[358]),
         .Q(p_0_in710_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[359] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[359]),
         .Q(p_0_in712_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[35] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[35]),
         .Q(p_0_in64_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[360] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[360]),
         .Q(p_0_in714_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[361] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[361]),
         .Q(p_0_in716_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[362] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[362]),
         .Q(p_0_in718_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[363] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[363]),
         .Q(p_0_in720_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[364] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[364]),
         .Q(p_0_in722_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[365] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[365]),
         .Q(p_0_in724_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[366] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[366]),
         .Q(p_0_in726_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[367] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[367]),
         .Q(p_0_in728_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[368] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[368]),
         .Q(p_0_in730_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[369] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[369]),
         .Q(p_0_in732_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[36] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[36]),
         .Q(p_0_in66_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[370] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[370]),
         .Q(p_0_in734_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[371] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[371]),
         .Q(p_0_in736_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[372] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[372]),
         .Q(p_0_in738_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[373] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[373]),
         .Q(p_0_in740_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[374] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[374]),
         .Q(p_0_in742_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[375] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[375]),
         .Q(p_0_in744_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[376] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[376]),
         .Q(p_0_in746_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[377] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[377]),
         .Q(p_0_in748_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[378] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[378]),
         .Q(p_0_in750_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[379] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[379]),
         .Q(p_0_in752_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[37] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[37]),
         .Q(p_0_in68_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[380] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[380]),
         .Q(p_0_in754_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[381] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[381]),
         .Q(p_0_in756_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[382] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[382]),
         .Q(p_0_in758_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[383] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[383]),
         .Q(p_0_in760_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[384] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[384]),
         .Q(p_0_in762_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[385] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[385]),
         .Q(p_0_in764_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[386] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[386]),
         .Q(p_0_in766_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[387] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[387]),
         .Q(p_0_in768_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[388] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[388]),
         .Q(p_0_in770_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[389] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[389]),
         .Q(p_0_in772_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[38] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[38]),
         .Q(p_0_in70_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[390] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[390]),
         .Q(p_0_in774_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[391] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[391]),
         .Q(p_0_in776_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[392] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[392]),
         .Q(p_0_in778_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[393] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[393]),
         .Q(p_0_in780_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[394] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[394]),
         .Q(p_0_in782_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[395] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[395]),
         .Q(p_0_in784_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[396] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[396]),
         .Q(p_0_in786_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[397] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[397]),
         .Q(p_0_in788_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[398] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[398]),
         .Q(p_0_in790_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[399] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[399]),
         .Q(p_0_in792_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[39] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[39]),
         .Q(p_0_in72_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[3] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[3]),
         .Q(p_0_in0_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[400] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[400]),
         .Q(p_0_in794_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[401] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[401]),
         .Q(p_0_in796_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[402] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[402]),
         .Q(p_0_in798_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[403] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[403]),
         .Q(p_0_in800_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[404] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[404]),
         .Q(p_0_in802_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[405] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[405]),
         .Q(p_0_in804_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[406] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[406]),
         .Q(p_0_in806_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[407] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[407]),
         .Q(p_0_in808_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[408] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[408]),
         .Q(p_0_in810_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[409] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[409]),
         .Q(p_0_in812_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[40] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[40]),
         .Q(p_0_in74_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[410] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[410]),
         .Q(p_0_in814_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[411] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[411]),
         .Q(p_0_in816_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[412] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[412]),
         .Q(p_0_in818_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[413] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[413]),
         .Q(p_0_in820_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[414] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[414]),
         .Q(p_0_in822_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[415] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[415]),
         .Q(p_0_in824_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[416] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[416]),
         .Q(p_0_in826_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[417] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[417]),
         .Q(p_0_in828_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[418] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[418]),
         .Q(p_0_in830_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[419] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[419]),
         .Q(p_0_in832_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[41] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[41]),
         .Q(p_0_in76_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[420] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[420]),
         .Q(p_0_in834_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[421] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[421]),
         .Q(p_0_in836_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[422] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[422]),
         .Q(p_0_in838_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[423] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[423]),
         .Q(p_0_in840_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[424] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[424]),
         .Q(p_0_in842_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[425] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[425]),
         .Q(p_0_in844_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[426] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[426]),
         .Q(p_0_in846_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[427] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[427]),
         .Q(p_0_in848_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[428] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[428]),
         .Q(p_0_in850_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[429] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[429]),
         .Q(p_0_in852_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[42] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[42]),
         .Q(p_0_in78_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[430] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[430]),
         .Q(p_0_in854_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[431] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[431]),
         .Q(p_0_in856_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[432] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[432]),
         .Q(p_0_in858_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[433] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[433]),
         .Q(p_0_in860_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[434] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[434]),
         .Q(p_0_in862_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[435] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[435]),
         .Q(p_0_in864_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[436] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[436]),
         .Q(p_0_in866_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[437] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[437]),
         .Q(p_0_in868_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[438] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[438]),
         .Q(p_0_in870_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[439] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[439]),
         .Q(p_0_in872_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[43] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[43]),
         .Q(p_0_in80_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[440] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[440]),
         .Q(p_0_in874_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[441] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[441]),
         .Q(p_0_in876_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[442] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[442]),
         .Q(p_0_in878_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[443] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[443]),
         .Q(p_0_in880_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[444] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[444]),
         .Q(p_0_in882_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[445] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[445]),
         .Q(p_0_in884_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[446] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[446]),
         .Q(p_0_in886_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[447] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[447]),
         .Q(p_0_in888_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[448] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[448]),
         .Q(p_0_in890_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[449] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[449]),
         .Q(p_0_in892_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[44] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[44]),
         .Q(p_0_in82_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[450] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[450]),
         .Q(p_0_in894_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[451] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[451]),
         .Q(p_0_in896_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[452] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[452]),
         .Q(p_0_in898_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[453] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[453]),
         .Q(p_0_in900_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[454] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[454]),
         .Q(p_0_in902_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[455] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[455]),
         .Q(p_0_in904_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[456] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[456]),
         .Q(p_0_in906_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[457] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[457]),
         .Q(p_0_in908_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[458] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[458]),
         .Q(p_0_in910_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[459] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[459]),
         .Q(p_0_in912_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[45] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[45]),
         .Q(p_0_in84_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[460] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[460]),
         .Q(p_0_in914_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[461] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[461]),
         .Q(p_0_in916_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[462] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[462]),
         .Q(p_0_in918_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[463] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[463]),
         .Q(p_0_in920_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[464] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[464]),
         .Q(p_0_in922_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[465] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[465]),
         .Q(p_0_in924_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[466] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[466]),
         .Q(p_0_in926_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[467] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[467]),
         .Q(p_0_in928_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[468] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[468]),
         .Q(p_0_in930_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[469] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[469]),
         .Q(p_0_in932_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[46] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[46]),
         .Q(p_0_in86_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[470] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[470]),
         .Q(p_0_in934_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[471] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[471]),
         .Q(p_0_in936_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[472] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[472]),
         .Q(p_0_in938_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[473] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[473]),
         .Q(p_0_in940_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[474] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[474]),
         .Q(p_0_in942_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[475] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[475]),
         .Q(p_0_in944_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[476] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[476]),
         .Q(p_0_in946_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[477] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[477]),
         .Q(p_0_in948_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[478] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[478]),
         .Q(p_0_in950_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[479] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[479]),
         .Q(p_0_in952_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[47] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[47]),
         .Q(p_0_in88_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[480] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[480]),
         .Q(p_0_in954_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[481] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[481]),
         .Q(p_0_in956_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[482] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[482]),
         .Q(p_0_in958_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[483] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[483]),
         .Q(p_0_in960_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[484] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[484]),
         .Q(p_0_in962_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[485] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[485]),
         .Q(p_0_in964_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[486] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[486]),
         .Q(p_0_in966_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[487] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[487]),
         .Q(p_0_in968_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[488] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[488]),
         .Q(p_0_in970_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[489] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[489]),
         .Q(p_0_in972_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[48] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[48]),
         .Q(p_0_in90_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[490] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[490]),
         .Q(p_0_in974_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[491] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[491]),
         .Q(p_0_in976_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[492] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[492]),
         .Q(p_0_in978_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[493] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[493]),
         .Q(p_0_in980_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[494] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[494]),
         .Q(p_0_in982_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[495] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[495]),
         .Q(p_0_in984_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[496] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[496]),
         .Q(p_0_in986_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[497] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[497]),
         .Q(p_0_in988_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[498] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[498]),
         .Q(p_0_in990_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[499] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[499]),
         .Q(p_0_in992_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[49] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[49]),
         .Q(p_0_in92_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[4] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[4]),
         .Q(p_0_in2_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[500] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[500]),
         .Q(p_0_in994_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[501] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[501]),
         .Q(p_0_in996_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[502] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[502]),
         .Q(p_0_in998_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[503] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[503]),
         .Q(p_0_in1000_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[504] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[504]),
         .Q(p_0_in1002_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[505] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[505]),
         .Q(p_0_in1004_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[506] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[506]),
         .Q(p_0_in1006_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[507] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[507]),
         .Q(p_0_in1008_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[508] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[508]),
         .Q(p_0_in1010_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[509] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[509]),
         .Q(p_0_in1012_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[50] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[50]),
         .Q(p_0_in94_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[510] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[510]),
         .Q(p_0_in1014_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[511] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[511]),
         .Q(p_0_in1016_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[51] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[51]),
         .Q(p_0_in96_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[52] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[52]),
         .Q(p_0_in98_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[53] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[53]),
         .Q(p_0_in100_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[54] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[54]),
         .Q(p_0_in102_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[55] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[55]),
         .Q(p_0_in104_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[56] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[56]),
         .Q(p_0_in106_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[57] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[57]),
         .Q(p_0_in108_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[58] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[58]),
         .Q(p_0_in110_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[59] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[59]),
         .Q(p_0_in112_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[5] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[5]),
         .Q(p_0_in4_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[60] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[60]),
         .Q(p_0_in114_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[61] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[61]),
         .Q(p_0_in116_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[62] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[62]),
         .Q(p_0_in118_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[63] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[63]),
         .Q(p_0_in120_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[64] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[64]),
         .Q(p_0_in122_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[65] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[65]),
         .Q(p_0_in124_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[66] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[66]),
         .Q(p_0_in126_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[67] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[67]),
         .Q(p_0_in128_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[68] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[68]),
         .Q(p_0_in130_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[69] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[69]),
         .Q(p_0_in132_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[6] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[6]),
         .Q(p_0_in6_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[70] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[70]),
         .Q(p_0_in134_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[71] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[71]),
         .Q(p_0_in136_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[72] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[72]),
         .Q(p_0_in138_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[73] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[73]),
         .Q(p_0_in140_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[74] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[74]),
         .Q(p_0_in142_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[75] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[75]),
         .Q(p_0_in144_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[76] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[76]),
         .Q(p_0_in146_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[77] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[77]),
         .Q(p_0_in148_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[78] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[78]),
         .Q(p_0_in150_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[79] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[79]),
         .Q(p_0_in152_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[7] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[7]),
         .Q(p_0_in8_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[80] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[80]),
         .Q(p_0_in154_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[81] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[81]),
         .Q(p_0_in156_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[82] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[82]),
         .Q(p_0_in158_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[83] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[83]),
         .Q(p_0_in160_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[84] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[84]),
         .Q(p_0_in162_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[85] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[85]),
         .Q(p_0_in164_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[86] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[86]),
         .Q(p_0_in166_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[87] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[87]),
         .Q(p_0_in168_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[88] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[88]),
         .Q(p_0_in170_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[89] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[89]),
         .Q(p_0_in172_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[8] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[8]),
         .Q(p_0_in10_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[90] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[90]),
         .Q(p_0_in174_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[91] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[91]),
         .Q(p_0_in176_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[92] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[92]),
         .Q(p_0_in178_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[93] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[93]),
         .Q(p_0_in180_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[94] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[94]),
         .Q(p_0_in182_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[95] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[95]),
         .Q(p_0_in184_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[96] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[96]),
         .Q(p_0_in186_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[97] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[97]),
         .Q(p_0_in188_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[98] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[98]),
         .Q(p_0_in190_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[99] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[99]),
         .Q(p_0_in192_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[9] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[9]),
         .Q(p_0_in12_in),
-        .R(reset_IBUF));
+        .R(out));
   LUT2 #(
     .INIT(4'hE)) 
     value_latch_fixed_inferred_i_2
@@ -8217,18 +8217,19 @@ endmodule
 (* ORIG_REF_NAME = "bubble_fix" *) 
 module bubble_fix_0
    (in0,
-    reset_IBUF,
+    out,
     D,
-    CLK);
+    \in_code_reg_reg[511]_0 );
   output [511:0]in0;
-  input reset_IBUF;
+  input out;
   input [511:0]D;
-  input CLK;
+  input \in_code_reg_reg[511]_0 ;
 
-  wire CLK;
   wire [511:0]D;
   wire [511:0]in0;
+  wire \in_code_reg_reg[511]_0 ;
   wire \in_code_reg_reg_n_0_[0] ;
+  wire out;
   wire p_0_in;
   wire p_0_in0_in;
   wire p_0_in1000_in;
@@ -8740,7 +8741,6 @@ module bubble_fix_0
   wire p_0_in996_in;
   wire p_0_in998_in;
   wire p_2_in;
-  wire reset_IBUF;
 
   LUT3 #(
     .INIT(8'hEA)) 
@@ -12315,4099 +12315,4099 @@ module bubble_fix_0
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[0] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[0]),
         .Q(\in_code_reg_reg_n_0_[0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[100] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[100]),
         .Q(p_0_in194_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[101] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[101]),
         .Q(p_0_in196_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[102] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[102]),
         .Q(p_0_in198_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[103] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[103]),
         .Q(p_0_in200_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[104] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[104]),
         .Q(p_0_in202_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[105] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[105]),
         .Q(p_0_in204_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[106] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[106]),
         .Q(p_0_in206_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[107] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[107]),
         .Q(p_0_in208_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[108] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[108]),
         .Q(p_0_in210_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[109] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[109]),
         .Q(p_0_in212_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[10] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[10]),
         .Q(p_0_in14_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[110] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[110]),
         .Q(p_0_in214_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[111] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[111]),
         .Q(p_0_in216_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[112] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[112]),
         .Q(p_0_in218_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[113] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[113]),
         .Q(p_0_in220_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[114] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[114]),
         .Q(p_0_in222_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[115] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[115]),
         .Q(p_0_in224_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[116] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[116]),
         .Q(p_0_in226_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[117] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[117]),
         .Q(p_0_in228_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[118] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[118]),
         .Q(p_0_in230_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[119] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[119]),
         .Q(p_0_in232_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[11] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[11]),
         .Q(p_0_in16_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[120] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[120]),
         .Q(p_0_in234_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[121] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[121]),
         .Q(p_0_in236_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[122] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[122]),
         .Q(p_0_in238_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[123] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[123]),
         .Q(p_0_in240_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[124] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[124]),
         .Q(p_0_in242_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[125] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[125]),
         .Q(p_0_in244_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[126] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[126]),
         .Q(p_0_in246_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[127] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[127]),
         .Q(p_0_in248_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[128] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[128]),
         .Q(p_0_in250_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[129] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[129]),
         .Q(p_0_in252_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[12] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[12]),
         .Q(p_0_in18_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[130] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[130]),
         .Q(p_0_in254_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[131] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[131]),
         .Q(p_0_in256_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[132] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[132]),
         .Q(p_0_in258_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[133] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[133]),
         .Q(p_0_in260_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[134] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[134]),
         .Q(p_0_in262_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[135] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[135]),
         .Q(p_0_in264_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[136] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[136]),
         .Q(p_0_in266_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[137] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[137]),
         .Q(p_0_in268_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[138] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[138]),
         .Q(p_0_in270_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[139] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[139]),
         .Q(p_0_in272_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[13] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[13]),
         .Q(p_0_in20_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[140] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[140]),
         .Q(p_0_in274_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[141] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[141]),
         .Q(p_0_in276_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[142] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[142]),
         .Q(p_0_in278_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[143] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[143]),
         .Q(p_0_in280_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[144] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[144]),
         .Q(p_0_in282_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[145] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[145]),
         .Q(p_0_in284_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[146] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[146]),
         .Q(p_0_in286_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[147] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[147]),
         .Q(p_0_in288_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[148] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[148]),
         .Q(p_0_in290_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[149] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[149]),
         .Q(p_0_in292_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[14] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[14]),
         .Q(p_0_in22_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[150] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[150]),
         .Q(p_0_in294_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[151] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[151]),
         .Q(p_0_in296_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[152] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[152]),
         .Q(p_0_in298_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[153] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[153]),
         .Q(p_0_in300_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[154] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[154]),
         .Q(p_0_in302_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[155] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[155]),
         .Q(p_0_in304_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[156] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[156]),
         .Q(p_0_in306_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[157] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[157]),
         .Q(p_0_in308_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[158] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[158]),
         .Q(p_0_in310_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[159] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[159]),
         .Q(p_0_in312_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[15] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[15]),
         .Q(p_0_in24_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[160] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[160]),
         .Q(p_0_in314_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[161] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[161]),
         .Q(p_0_in316_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[162] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[162]),
         .Q(p_0_in318_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[163] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[163]),
         .Q(p_0_in320_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[164] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[164]),
         .Q(p_0_in322_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[165] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[165]),
         .Q(p_0_in324_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[166] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[166]),
         .Q(p_0_in326_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[167] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[167]),
         .Q(p_0_in328_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[168] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[168]),
         .Q(p_0_in330_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[169] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[169]),
         .Q(p_0_in332_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[16] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[16]),
         .Q(p_0_in26_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[170] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[170]),
         .Q(p_0_in334_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[171] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[171]),
         .Q(p_0_in336_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[172] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[172]),
         .Q(p_0_in338_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[173] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[173]),
         .Q(p_0_in340_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[174] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[174]),
         .Q(p_0_in342_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[175] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[175]),
         .Q(p_0_in344_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[176] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[176]),
         .Q(p_0_in346_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[177] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[177]),
         .Q(p_0_in348_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[178] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[178]),
         .Q(p_0_in350_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[179] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[179]),
         .Q(p_0_in352_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[17] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[17]),
         .Q(p_0_in28_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[180] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[180]),
         .Q(p_0_in354_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[181] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[181]),
         .Q(p_0_in356_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[182] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[182]),
         .Q(p_0_in358_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[183] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[183]),
         .Q(p_0_in360_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[184] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[184]),
         .Q(p_0_in362_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[185] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[185]),
         .Q(p_0_in364_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[186] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[186]),
         .Q(p_0_in366_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[187] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[187]),
         .Q(p_0_in368_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[188] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[188]),
         .Q(p_0_in370_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[189] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[189]),
         .Q(p_0_in372_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[18] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[18]),
         .Q(p_0_in30_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[190] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[190]),
         .Q(p_0_in374_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[191] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[191]),
         .Q(p_0_in376_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[192] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[192]),
         .Q(p_0_in378_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[193] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[193]),
         .Q(p_0_in380_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[194] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[194]),
         .Q(p_0_in382_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[195] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[195]),
         .Q(p_0_in384_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[196] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[196]),
         .Q(p_0_in386_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[197] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[197]),
         .Q(p_0_in388_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[198] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[198]),
         .Q(p_0_in390_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[199] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[199]),
         .Q(p_0_in392_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[19] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[19]),
         .Q(p_0_in32_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[1] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[1]),
         .Q(p_2_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[200] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[200]),
         .Q(p_0_in394_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[201] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[201]),
         .Q(p_0_in396_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[202] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[202]),
         .Q(p_0_in398_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[203] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[203]),
         .Q(p_0_in400_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[204] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[204]),
         .Q(p_0_in402_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[205] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[205]),
         .Q(p_0_in404_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[206] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[206]),
         .Q(p_0_in406_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[207] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[207]),
         .Q(p_0_in408_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[208] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[208]),
         .Q(p_0_in410_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[209] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[209]),
         .Q(p_0_in412_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[20] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[20]),
         .Q(p_0_in34_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[210] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[210]),
         .Q(p_0_in414_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[211] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[211]),
         .Q(p_0_in416_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[212] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[212]),
         .Q(p_0_in418_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[213] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[213]),
         .Q(p_0_in420_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[214] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[214]),
         .Q(p_0_in422_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[215] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[215]),
         .Q(p_0_in424_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[216] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[216]),
         .Q(p_0_in426_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[217] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[217]),
         .Q(p_0_in428_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[218] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[218]),
         .Q(p_0_in430_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[219] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[219]),
         .Q(p_0_in432_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[21] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[21]),
         .Q(p_0_in36_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[220] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[220]),
         .Q(p_0_in434_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[221] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[221]),
         .Q(p_0_in436_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[222] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[222]),
         .Q(p_0_in438_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[223] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[223]),
         .Q(p_0_in440_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[224] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[224]),
         .Q(p_0_in442_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[225] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[225]),
         .Q(p_0_in444_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[226] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[226]),
         .Q(p_0_in446_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[227] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[227]),
         .Q(p_0_in448_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[228] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[228]),
         .Q(p_0_in450_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[229] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[229]),
         .Q(p_0_in452_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[22] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[22]),
         .Q(p_0_in38_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[230] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[230]),
         .Q(p_0_in454_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[231] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[231]),
         .Q(p_0_in456_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[232] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[232]),
         .Q(p_0_in458_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[233] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[233]),
         .Q(p_0_in460_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[234] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[234]),
         .Q(p_0_in462_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[235] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[235]),
         .Q(p_0_in464_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[236] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[236]),
         .Q(p_0_in466_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[237] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[237]),
         .Q(p_0_in468_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[238] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[238]),
         .Q(p_0_in470_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[239] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[239]),
         .Q(p_0_in472_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[23] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[23]),
         .Q(p_0_in40_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[240] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[240]),
         .Q(p_0_in474_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[241] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[241]),
         .Q(p_0_in476_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[242] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[242]),
         .Q(p_0_in478_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[243] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[243]),
         .Q(p_0_in480_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[244] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[244]),
         .Q(p_0_in482_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[245] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[245]),
         .Q(p_0_in484_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[246] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[246]),
         .Q(p_0_in486_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[247] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[247]),
         .Q(p_0_in488_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[248] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[248]),
         .Q(p_0_in490_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[249] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[249]),
         .Q(p_0_in492_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[24] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[24]),
         .Q(p_0_in42_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[250] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[250]),
         .Q(p_0_in494_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[251] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[251]),
         .Q(p_0_in496_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[252] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[252]),
         .Q(p_0_in498_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[253] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[253]),
         .Q(p_0_in500_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[254] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[254]),
         .Q(p_0_in502_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[255] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[255]),
         .Q(p_0_in504_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[256] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[256]),
         .Q(p_0_in506_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[257] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[257]),
         .Q(p_0_in508_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[258] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[258]),
         .Q(p_0_in510_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[259] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[259]),
         .Q(p_0_in512_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[25] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[25]),
         .Q(p_0_in44_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[260] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[260]),
         .Q(p_0_in514_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[261] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[261]),
         .Q(p_0_in516_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[262] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[262]),
         .Q(p_0_in518_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[263] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[263]),
         .Q(p_0_in520_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[264] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[264]),
         .Q(p_0_in522_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[265] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[265]),
         .Q(p_0_in524_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[266] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[266]),
         .Q(p_0_in526_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[267] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[267]),
         .Q(p_0_in528_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[268] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[268]),
         .Q(p_0_in530_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[269] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[269]),
         .Q(p_0_in532_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[26] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[26]),
         .Q(p_0_in46_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[270] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[270]),
         .Q(p_0_in534_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[271] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[271]),
         .Q(p_0_in536_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[272] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[272]),
         .Q(p_0_in538_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[273] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[273]),
         .Q(p_0_in540_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[274] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[274]),
         .Q(p_0_in542_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[275] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[275]),
         .Q(p_0_in544_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[276] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[276]),
         .Q(p_0_in546_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[277] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[277]),
         .Q(p_0_in548_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[278] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[278]),
         .Q(p_0_in550_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[279] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[279]),
         .Q(p_0_in552_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[27] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[27]),
         .Q(p_0_in48_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[280] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[280]),
         .Q(p_0_in554_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[281] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[281]),
         .Q(p_0_in556_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[282] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[282]),
         .Q(p_0_in558_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[283] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[283]),
         .Q(p_0_in560_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[284] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[284]),
         .Q(p_0_in562_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[285] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[285]),
         .Q(p_0_in564_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[286] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[286]),
         .Q(p_0_in566_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[287] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[287]),
         .Q(p_0_in568_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[288] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[288]),
         .Q(p_0_in570_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[289] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[289]),
         .Q(p_0_in572_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[28] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[28]),
         .Q(p_0_in50_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[290] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[290]),
         .Q(p_0_in574_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[291] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[291]),
         .Q(p_0_in576_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[292] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[292]),
         .Q(p_0_in578_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[293] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[293]),
         .Q(p_0_in580_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[294] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[294]),
         .Q(p_0_in582_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[295] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[295]),
         .Q(p_0_in584_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[296] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[296]),
         .Q(p_0_in586_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[297] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[297]),
         .Q(p_0_in588_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[298] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[298]),
         .Q(p_0_in590_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[299] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[299]),
         .Q(p_0_in592_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[29] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[29]),
         .Q(p_0_in52_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[2] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[2]),
         .Q(p_0_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[300] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[300]),
         .Q(p_0_in594_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[301] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[301]),
         .Q(p_0_in596_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[302] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[302]),
         .Q(p_0_in598_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[303] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[303]),
         .Q(p_0_in600_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[304] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[304]),
         .Q(p_0_in602_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[305] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[305]),
         .Q(p_0_in604_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[306] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[306]),
         .Q(p_0_in606_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[307] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[307]),
         .Q(p_0_in608_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[308] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[308]),
         .Q(p_0_in610_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[309] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[309]),
         .Q(p_0_in612_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[30] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[30]),
         .Q(p_0_in54_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[310] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[310]),
         .Q(p_0_in614_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[311] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[311]),
         .Q(p_0_in616_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[312] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[312]),
         .Q(p_0_in618_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[313] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[313]),
         .Q(p_0_in620_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[314] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[314]),
         .Q(p_0_in622_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[315] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[315]),
         .Q(p_0_in624_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[316] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[316]),
         .Q(p_0_in626_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[317] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[317]),
         .Q(p_0_in628_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[318] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[318]),
         .Q(p_0_in630_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[319] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[319]),
         .Q(p_0_in632_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[31] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[31]),
         .Q(p_0_in56_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[320] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[320]),
         .Q(p_0_in634_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[321] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[321]),
         .Q(p_0_in636_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[322] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[322]),
         .Q(p_0_in638_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[323] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[323]),
         .Q(p_0_in640_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[324] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[324]),
         .Q(p_0_in642_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[325] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[325]),
         .Q(p_0_in644_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[326] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[326]),
         .Q(p_0_in646_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[327] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[327]),
         .Q(p_0_in648_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[328] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[328]),
         .Q(p_0_in650_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[329] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[329]),
         .Q(p_0_in652_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[32] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[32]),
         .Q(p_0_in58_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[330] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[330]),
         .Q(p_0_in654_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[331] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[331]),
         .Q(p_0_in656_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[332] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[332]),
         .Q(p_0_in658_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[333] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[333]),
         .Q(p_0_in660_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[334] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[334]),
         .Q(p_0_in662_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[335] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[335]),
         .Q(p_0_in664_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[336] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[336]),
         .Q(p_0_in666_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[337] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[337]),
         .Q(p_0_in668_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[338] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[338]),
         .Q(p_0_in670_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[339] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[339]),
         .Q(p_0_in672_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[33] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[33]),
         .Q(p_0_in60_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[340] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[340]),
         .Q(p_0_in674_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[341] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[341]),
         .Q(p_0_in676_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[342] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[342]),
         .Q(p_0_in678_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[343] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[343]),
         .Q(p_0_in680_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[344] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[344]),
         .Q(p_0_in682_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[345] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[345]),
         .Q(p_0_in684_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[346] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[346]),
         .Q(p_0_in686_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[347] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[347]),
         .Q(p_0_in688_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[348] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[348]),
         .Q(p_0_in690_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[349] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[349]),
         .Q(p_0_in692_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[34] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[34]),
         .Q(p_0_in62_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[350] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[350]),
         .Q(p_0_in694_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[351] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[351]),
         .Q(p_0_in696_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[352] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[352]),
         .Q(p_0_in698_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[353] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[353]),
         .Q(p_0_in700_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[354] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[354]),
         .Q(p_0_in702_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[355] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[355]),
         .Q(p_0_in704_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[356] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[356]),
         .Q(p_0_in706_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[357] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[357]),
         .Q(p_0_in708_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[358] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[358]),
         .Q(p_0_in710_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[359] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[359]),
         .Q(p_0_in712_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[35] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[35]),
         .Q(p_0_in64_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[360] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[360]),
         .Q(p_0_in714_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[361] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[361]),
         .Q(p_0_in716_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[362] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[362]),
         .Q(p_0_in718_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[363] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[363]),
         .Q(p_0_in720_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[364] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[364]),
         .Q(p_0_in722_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[365] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[365]),
         .Q(p_0_in724_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[366] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[366]),
         .Q(p_0_in726_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[367] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[367]),
         .Q(p_0_in728_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[368] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[368]),
         .Q(p_0_in730_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[369] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[369]),
         .Q(p_0_in732_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[36] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[36]),
         .Q(p_0_in66_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[370] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[370]),
         .Q(p_0_in734_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[371] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[371]),
         .Q(p_0_in736_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[372] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[372]),
         .Q(p_0_in738_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[373] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[373]),
         .Q(p_0_in740_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[374] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[374]),
         .Q(p_0_in742_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[375] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[375]),
         .Q(p_0_in744_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[376] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[376]),
         .Q(p_0_in746_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[377] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[377]),
         .Q(p_0_in748_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[378] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[378]),
         .Q(p_0_in750_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[379] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[379]),
         .Q(p_0_in752_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[37] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[37]),
         .Q(p_0_in68_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[380] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[380]),
         .Q(p_0_in754_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[381] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[381]),
         .Q(p_0_in756_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[382] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[382]),
         .Q(p_0_in758_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[383] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[383]),
         .Q(p_0_in760_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[384] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[384]),
         .Q(p_0_in762_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[385] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[385]),
         .Q(p_0_in764_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[386] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[386]),
         .Q(p_0_in766_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[387] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[387]),
         .Q(p_0_in768_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[388] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[388]),
         .Q(p_0_in770_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[389] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[389]),
         .Q(p_0_in772_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[38] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[38]),
         .Q(p_0_in70_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[390] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[390]),
         .Q(p_0_in774_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[391] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[391]),
         .Q(p_0_in776_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[392] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[392]),
         .Q(p_0_in778_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[393] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[393]),
         .Q(p_0_in780_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[394] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[394]),
         .Q(p_0_in782_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[395] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[395]),
         .Q(p_0_in784_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[396] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[396]),
         .Q(p_0_in786_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[397] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[397]),
         .Q(p_0_in788_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[398] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[398]),
         .Q(p_0_in790_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[399] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[399]),
         .Q(p_0_in792_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[39] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[39]),
         .Q(p_0_in72_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[3] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[3]),
         .Q(p_0_in0_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[400] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[400]),
         .Q(p_0_in794_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[401] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[401]),
         .Q(p_0_in796_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[402] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[402]),
         .Q(p_0_in798_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[403] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[403]),
         .Q(p_0_in800_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[404] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[404]),
         .Q(p_0_in802_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[405] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[405]),
         .Q(p_0_in804_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[406] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[406]),
         .Q(p_0_in806_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[407] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[407]),
         .Q(p_0_in808_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[408] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[408]),
         .Q(p_0_in810_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[409] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[409]),
         .Q(p_0_in812_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[40] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[40]),
         .Q(p_0_in74_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[410] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[410]),
         .Q(p_0_in814_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[411] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[411]),
         .Q(p_0_in816_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[412] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[412]),
         .Q(p_0_in818_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[413] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[413]),
         .Q(p_0_in820_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[414] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[414]),
         .Q(p_0_in822_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[415] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[415]),
         .Q(p_0_in824_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[416] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[416]),
         .Q(p_0_in826_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[417] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[417]),
         .Q(p_0_in828_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[418] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[418]),
         .Q(p_0_in830_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[419] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[419]),
         .Q(p_0_in832_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[41] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[41]),
         .Q(p_0_in76_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[420] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[420]),
         .Q(p_0_in834_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[421] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[421]),
         .Q(p_0_in836_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[422] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[422]),
         .Q(p_0_in838_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[423] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[423]),
         .Q(p_0_in840_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[424] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[424]),
         .Q(p_0_in842_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[425] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[425]),
         .Q(p_0_in844_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[426] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[426]),
         .Q(p_0_in846_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[427] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[427]),
         .Q(p_0_in848_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[428] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[428]),
         .Q(p_0_in850_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[429] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[429]),
         .Q(p_0_in852_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[42] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[42]),
         .Q(p_0_in78_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[430] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[430]),
         .Q(p_0_in854_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[431] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[431]),
         .Q(p_0_in856_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[432] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[432]),
         .Q(p_0_in858_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[433] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[433]),
         .Q(p_0_in860_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[434] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[434]),
         .Q(p_0_in862_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[435] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[435]),
         .Q(p_0_in864_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[436] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[436]),
         .Q(p_0_in866_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[437] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[437]),
         .Q(p_0_in868_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[438] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[438]),
         .Q(p_0_in870_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[439] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[439]),
         .Q(p_0_in872_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[43] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[43]),
         .Q(p_0_in80_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[440] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[440]),
         .Q(p_0_in874_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[441] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[441]),
         .Q(p_0_in876_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[442] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[442]),
         .Q(p_0_in878_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[443] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[443]),
         .Q(p_0_in880_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[444] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[444]),
         .Q(p_0_in882_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[445] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[445]),
         .Q(p_0_in884_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[446] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[446]),
         .Q(p_0_in886_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[447] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[447]),
         .Q(p_0_in888_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[448] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[448]),
         .Q(p_0_in890_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[449] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[449]),
         .Q(p_0_in892_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[44] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[44]),
         .Q(p_0_in82_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[450] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[450]),
         .Q(p_0_in894_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[451] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[451]),
         .Q(p_0_in896_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[452] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[452]),
         .Q(p_0_in898_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[453] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[453]),
         .Q(p_0_in900_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[454] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[454]),
         .Q(p_0_in902_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[455] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[455]),
         .Q(p_0_in904_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[456] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[456]),
         .Q(p_0_in906_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[457] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[457]),
         .Q(p_0_in908_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[458] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[458]),
         .Q(p_0_in910_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[459] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[459]),
         .Q(p_0_in912_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[45] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[45]),
         .Q(p_0_in84_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[460] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[460]),
         .Q(p_0_in914_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[461] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[461]),
         .Q(p_0_in916_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[462] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[462]),
         .Q(p_0_in918_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[463] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[463]),
         .Q(p_0_in920_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[464] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[464]),
         .Q(p_0_in922_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[465] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[465]),
         .Q(p_0_in924_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[466] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[466]),
         .Q(p_0_in926_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[467] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[467]),
         .Q(p_0_in928_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[468] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[468]),
         .Q(p_0_in930_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[469] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[469]),
         .Q(p_0_in932_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[46] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[46]),
         .Q(p_0_in86_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[470] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[470]),
         .Q(p_0_in934_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[471] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[471]),
         .Q(p_0_in936_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[472] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[472]),
         .Q(p_0_in938_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[473] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[473]),
         .Q(p_0_in940_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[474] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[474]),
         .Q(p_0_in942_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[475] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[475]),
         .Q(p_0_in944_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[476] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[476]),
         .Q(p_0_in946_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[477] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[477]),
         .Q(p_0_in948_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[478] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[478]),
         .Q(p_0_in950_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[479] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[479]),
         .Q(p_0_in952_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[47] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[47]),
         .Q(p_0_in88_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[480] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[480]),
         .Q(p_0_in954_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[481] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[481]),
         .Q(p_0_in956_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[482] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[482]),
         .Q(p_0_in958_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[483] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[483]),
         .Q(p_0_in960_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[484] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[484]),
         .Q(p_0_in962_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[485] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[485]),
         .Q(p_0_in964_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[486] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[486]),
         .Q(p_0_in966_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[487] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[487]),
         .Q(p_0_in968_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[488] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[488]),
         .Q(p_0_in970_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[489] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[489]),
         .Q(p_0_in972_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[48] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[48]),
         .Q(p_0_in90_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[490] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[490]),
         .Q(p_0_in974_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[491] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[491]),
         .Q(p_0_in976_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[492] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[492]),
         .Q(p_0_in978_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[493] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[493]),
         .Q(p_0_in980_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[494] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[494]),
         .Q(p_0_in982_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[495] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[495]),
         .Q(p_0_in984_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[496] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[496]),
         .Q(p_0_in986_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[497] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[497]),
         .Q(p_0_in988_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[498] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[498]),
         .Q(p_0_in990_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[499] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[499]),
         .Q(p_0_in992_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[49] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[49]),
         .Q(p_0_in92_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[4] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[4]),
         .Q(p_0_in2_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[500] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[500]),
         .Q(p_0_in994_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[501] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[501]),
         .Q(p_0_in996_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[502] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[502]),
         .Q(p_0_in998_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[503] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[503]),
         .Q(p_0_in1000_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[504] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[504]),
         .Q(p_0_in1002_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[505] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[505]),
         .Q(p_0_in1004_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[506] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[506]),
         .Q(p_0_in1006_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[507] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[507]),
         .Q(p_0_in1008_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[508] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[508]),
         .Q(p_0_in1010_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[509] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[509]),
         .Q(p_0_in1012_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[50] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[50]),
         .Q(p_0_in94_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[510] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[510]),
         .Q(p_0_in1014_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[511] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[511]),
         .Q(p_0_in1016_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[51] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[51]),
         .Q(p_0_in96_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[52] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[52]),
         .Q(p_0_in98_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[53] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[53]),
         .Q(p_0_in100_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[54] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[54]),
         .Q(p_0_in102_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[55] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[55]),
         .Q(p_0_in104_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[56] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[56]),
         .Q(p_0_in106_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[57] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[57]),
         .Q(p_0_in108_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[58] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[58]),
         .Q(p_0_in110_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[59] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[59]),
         .Q(p_0_in112_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[5] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[5]),
         .Q(p_0_in4_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[60] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[60]),
         .Q(p_0_in114_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[61] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[61]),
         .Q(p_0_in116_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[62] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[62]),
         .Q(p_0_in118_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[63] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[63]),
         .Q(p_0_in120_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[64] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[64]),
         .Q(p_0_in122_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[65] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[65]),
         .Q(p_0_in124_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[66] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[66]),
         .Q(p_0_in126_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[67] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[67]),
         .Q(p_0_in128_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[68] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[68]),
         .Q(p_0_in130_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[69] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[69]),
         .Q(p_0_in132_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[6] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[6]),
         .Q(p_0_in6_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[70] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[70]),
         .Q(p_0_in134_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[71] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[71]),
         .Q(p_0_in136_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[72] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[72]),
         .Q(p_0_in138_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[73] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[73]),
         .Q(p_0_in140_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[74] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[74]),
         .Q(p_0_in142_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[75] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[75]),
         .Q(p_0_in144_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[76] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[76]),
         .Q(p_0_in146_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[77] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[77]),
         .Q(p_0_in148_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[78] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[78]),
         .Q(p_0_in150_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[79] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[79]),
         .Q(p_0_in152_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[7] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[7]),
         .Q(p_0_in8_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[80] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[80]),
         .Q(p_0_in154_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[81] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[81]),
         .Q(p_0_in156_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[82] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[82]),
         .Q(p_0_in158_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[83] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[83]),
         .Q(p_0_in160_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[84] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[84]),
         .Q(p_0_in162_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[85] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[85]),
         .Q(p_0_in164_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[86] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[86]),
         .Q(p_0_in166_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[87] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[87]),
         .Q(p_0_in168_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[88] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[88]),
         .Q(p_0_in170_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[89] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[89]),
         .Q(p_0_in172_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[8] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[8]),
         .Q(p_0_in10_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[90] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[90]),
         .Q(p_0_in174_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[91] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[91]),
         .Q(p_0_in176_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[92] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[92]),
         .Q(p_0_in178_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[93] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[93]),
         .Q(p_0_in180_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[94] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[94]),
         .Q(p_0_in182_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[95] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[95]),
         .Q(p_0_in184_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[96] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[96]),
         .Q(p_0_in186_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[97] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[97]),
         .Q(p_0_in188_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[98] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[98]),
         .Q(p_0_in190_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[99] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[99]),
         .Q(p_0_in192_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \in_code_reg_reg[9] 
-       (.C(CLK),
+       (.C(\in_code_reg_reg[511]_0 ),
         .CE(1'b1),
         .D(D[9]),
         .Q(p_0_in12_in),
-        .R(reset_IBUF));
+        .R(out));
   LUT2 #(
     .INIT(4'hE)) 
     value_latch_fixed_dly_inferred_i_2
@@ -16565,39 +16565,49 @@ module clk_wiz_0_clk_wiz_0_clk_wiz
 endmodule
 
 module decode
-   (bin_cs,
+   (cs_gap_OBUF,
     Q,
-    reset_IBUF,
     clk_out1,
-    CLK,
-    valid_for_latch2bin_dly,
     out,
-    \genblk1[0].decoding_reg[1][254] );
-  output bin_cs;
+    \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3 ,
+    \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ,
+    \genblk1[0].decoding_reg[1][254] ,
+    \genblk1[0].decoding_reg[1][254]_0 );
+  output cs_gap_OBUF;
   output [8:0]Q;
-  input reset_IBUF;
   input clk_out1;
-  input CLK;
-  input valid_for_latch2bin_dly;
-  input [510:0]out;
+  input out;
+  input \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3 ;
+  input \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ;
   input [510:0]\genblk1[0].decoding_reg[1][254] ;
+  input [510:0]\genblk1[0].decoding_reg[1][254]_0 ;
 
-  wire CLK;
   wire [8:0]Q;
   wire [8:0]bin1_reg;
   wire [8:0]bin2_reg;
-  wire bin_cs;
   wire bin_cs1;
   wire bin_cs2;
   wire bin_cs_comb;
-  wire bin_cs_final;
+  wire bin_cs_final_reg_reg_srl2_n_0;
   wire bin_final1__14;
+  wire \bin_final[0]_i_1_n_0 ;
+  wire \bin_final[1]_i_1_n_0 ;
+  wire \bin_final[2]_i_1_n_0 ;
+  wire \bin_final[3]_i_1_n_0 ;
+  wire \bin_final[4]_i_1_n_0 ;
+  wire \bin_final[5]_i_1_n_0 ;
+  wire \bin_final[6]_i_1_n_0 ;
+  wire \bin_final[7]_i_1_n_0 ;
+  wire \bin_final[8]_i_2_n_0 ;
   wire \bin_final[8]_i_4_n_0 ;
   wire \bin_final[8]_i_5_n_0 ;
   wire clk_out1;
+  wire cs_gap_OBUF;
   wire [510:0]\genblk1[0].decoding_reg[1][254] ;
+  wire [510:0]\genblk1[0].decoding_reg[1][254]_0 ;
+  wire \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3 ;
+  wire \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ;
   wire latch2bin_inst1_n_1;
-  wire latch2bin_inst1_n_10;
   wire latch2bin_inst1_n_2;
   wire latch2bin_inst1_n_3;
   wire latch2bin_inst1_n_4;
@@ -16619,89 +16629,86 @@ module decode
   wire latch2bin_inst2_n_7;
   wire latch2bin_inst2_n_8;
   wire latch2bin_inst2_n_9;
-  wire [510:0]out;
-  wire [8:0]p_1_in;
-  wire reset_IBUF;
-  wire valid_for_latch2bin_dly;
+  wire out;
 
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[0] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_10),
+        .CLR(out),
+        .D(latch2bin_inst1_n_9),
         .Q(bin1_reg[0]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[1] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_9),
+        .CLR(out),
+        .D(latch2bin_inst1_n_8),
         .Q(bin1_reg[1]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[2] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_8),
+        .CLR(out),
+        .D(latch2bin_inst1_n_7),
         .Q(bin1_reg[2]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[3] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_7),
+        .CLR(out),
+        .D(latch2bin_inst1_n_6),
         .Q(bin1_reg[3]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[4] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_6),
+        .CLR(out),
+        .D(latch2bin_inst1_n_5),
         .Q(bin1_reg[4]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[5] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_5),
+        .CLR(out),
+        .D(latch2bin_inst1_n_4),
         .Q(bin1_reg[5]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[6] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_4),
+        .CLR(out),
+        .D(latch2bin_inst1_n_3),
         .Q(bin1_reg[6]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[7] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_3),
+        .CLR(out),
+        .D(latch2bin_inst1_n_2),
         .Q(bin1_reg[7]));
   FDCE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[8] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(reset_IBUF),
-        .D(latch2bin_inst1_n_2),
+        .CLR(out),
+        .D(latch2bin_inst1_n_1),
         .Q(bin1_reg[8]));
   FDCE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[0] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_14),
         .Q(bin2_reg[0]));
   FDCE #(
@@ -16709,7 +16716,7 @@ module decode
     \bin2_reg_reg[1] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_13),
         .Q(bin2_reg[1]));
   FDCE #(
@@ -16717,7 +16724,7 @@ module decode
     \bin2_reg_reg[2] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_12),
         .Q(bin2_reg[2]));
   FDCE #(
@@ -16725,7 +16732,7 @@ module decode
     \bin2_reg_reg[3] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_11),
         .Q(bin2_reg[3]));
   FDCE #(
@@ -16733,7 +16740,7 @@ module decode
     \bin2_reg_reg[4] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_10),
         .Q(bin2_reg[4]));
   FDCE #(
@@ -16741,7 +16748,7 @@ module decode
     \bin2_reg_reg[5] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_9),
         .Q(bin2_reg[5]));
   FDCE #(
@@ -16749,7 +16756,7 @@ module decode
     \bin2_reg_reg[6] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_8),
         .Q(bin2_reg[6]));
   FDCE #(
@@ -16757,7 +16764,7 @@ module decode
     \bin2_reg_reg[7] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_7),
         .Q(bin2_reg[7]));
   FDCE #(
@@ -16765,24 +16772,28 @@ module decode
     \bin2_reg_reg[8] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(reset_IBUF),
+        .CLR(out),
         .D(latch2bin_inst2_n_6),
         .Q(bin2_reg[8]));
-  FDRE #(
-    .INIT(1'b0)) 
-    bin_cs_final_reg
-       (.C(clk_out1),
+  (* srl_name = "\decode_inst/bin_cs_final_reg_reg_srl2 " *) 
+  SRL16E #(
+    .INIT(16'h0000)) 
+    bin_cs_final_reg_reg_srl2
+       (.A0(1'b1),
+        .A1(1'b0),
+        .A2(1'b0),
+        .A3(1'b0),
         .CE(1'b1),
+        .CLK(clk_out1),
         .D(bin_cs_comb),
-        .Q(bin_cs_final),
-        .R(1'b0));
+        .Q(bin_cs_final_reg_reg_srl2_n_0));
   FDRE #(
     .INIT(1'b0)) 
     bin_cs_reg
        (.C(clk_out1),
         .CE(1'b1),
-        .D(bin_cs_final),
-        .Q(bin_cs),
+        .D(bin_cs_final_reg_reg_srl2_n_0),
+        .Q(cs_gap_OBUF),
         .R(1'b0));
   (* SOFT_HLUTNM = "soft_lutpair764" *) 
   LUT3 #(
@@ -16791,7 +16802,7 @@ module decode
        (.I0(bin2_reg[0]),
         .I1(bin1_reg[0]),
         .I2(bin_final1__14),
-        .O(p_1_in[0]));
+        .O(\bin_final[0]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair764" *) 
   LUT3 #(
     .INIT(8'hAC)) 
@@ -16799,7 +16810,7 @@ module decode
        (.I0(bin2_reg[1]),
         .I1(bin1_reg[1]),
         .I2(bin_final1__14),
-        .O(p_1_in[1]));
+        .O(\bin_final[1]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair765" *) 
   LUT3 #(
     .INIT(8'hAC)) 
@@ -16807,7 +16818,7 @@ module decode
        (.I0(bin2_reg[2]),
         .I1(bin1_reg[2]),
         .I2(bin_final1__14),
-        .O(p_1_in[2]));
+        .O(\bin_final[2]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair765" *) 
   LUT3 #(
     .INIT(8'hAC)) 
@@ -16815,7 +16826,7 @@ module decode
        (.I0(bin2_reg[3]),
         .I1(bin1_reg[3]),
         .I2(bin_final1__14),
-        .O(p_1_in[3]));
+        .O(\bin_final[3]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair766" *) 
   LUT3 #(
     .INIT(8'hAC)) 
@@ -16823,7 +16834,7 @@ module decode
        (.I0(bin2_reg[4]),
         .I1(bin1_reg[4]),
         .I2(bin_final1__14),
-        .O(p_1_in[4]));
+        .O(\bin_final[4]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair766" *) 
   LUT3 #(
     .INIT(8'hAC)) 
@@ -16831,7 +16842,7 @@ module decode
        (.I0(bin2_reg[5]),
         .I1(bin1_reg[5]),
         .I2(bin_final1__14),
-        .O(p_1_in[5]));
+        .O(\bin_final[5]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair767" *) 
   LUT3 #(
     .INIT(8'hAC)) 
@@ -16839,7 +16850,7 @@ module decode
        (.I0(bin2_reg[6]),
         .I1(bin1_reg[6]),
         .I2(bin_final1__14),
-        .O(p_1_in[6]));
+        .O(\bin_final[6]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair767" *) 
   LUT3 #(
     .INIT(8'hAC)) 
@@ -16847,14 +16858,14 @@ module decode
        (.I0(bin2_reg[7]),
         .I1(bin1_reg[7]),
         .I2(bin_final1__14),
-        .O(p_1_in[7]));
+        .O(\bin_final[7]_i_1_n_0 ));
   LUT3 #(
     .INIT(8'hAC)) 
     \bin_final[8]_i_2 
        (.I0(bin2_reg[8]),
         .I1(bin1_reg[8]),
         .I2(bin_final1__14),
-        .O(p_1_in[8]));
+        .O(\bin_final[8]_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hDDD0D0D000000000)) 
     \bin_final[8]_i_3 
@@ -16889,136 +16900,127 @@ module decode
     .INIT(1'b0)) 
     \bin_final_reg[0] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[0]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[0]_i_1_n_0 ),
         .Q(Q[0]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[1] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[1]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[1]_i_1_n_0 ),
         .Q(Q[1]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[2] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[2]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[2]_i_1_n_0 ),
         .Q(Q[2]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[3] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[3]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[3]_i_1_n_0 ),
         .Q(Q[3]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[4] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[4]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[4]_i_1_n_0 ),
         .Q(Q[4]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[5] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[5]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[5]_i_1_n_0 ),
         .Q(Q[5]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[6] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[6]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[6]_i_1_n_0 ),
         .Q(Q[6]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[7] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[7]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[7]_i_1_n_0 ),
         .Q(Q[7]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[8] 
        (.C(clk_out1),
-        .CE(1'b1),
-        .D(p_1_in[8]),
+        .CE(bin_cs_comb),
+        .D(\bin_final[8]_i_2_n_0 ),
         .Q(Q[8]),
-        .R(latch2bin_inst1_n_1));
+        .R(1'b0));
   latch2bin latch2bin_inst1
-       (.CLK(CLK),
-        .Q({latch2bin_inst1_n_2,latch2bin_inst1_n_3,latch2bin_inst1_n_4,latch2bin_inst1_n_5,latch2bin_inst1_n_6,latch2bin_inst1_n_7,latch2bin_inst1_n_8,latch2bin_inst1_n_9,latch2bin_inst1_n_10}),
-        .SR(latch2bin_inst1_n_1),
-        .bin_cs_reg_0(bin_cs1),
-        .\bin_final_reg[0]_0 (bin_cs2),
+       (.CLK(bin_cs1),
+        .Q({latch2bin_inst1_n_1,latch2bin_inst1_n_2,latch2bin_inst1_n_3,latch2bin_inst1_n_4,latch2bin_inst1_n_5,latch2bin_inst1_n_6,latch2bin_inst1_n_7,latch2bin_inst1_n_8,latch2bin_inst1_n_9}),
         .\bin_final_reg[5]_0 (latch2bin_inst2_n_0),
         .\bin_final_reg[6]_0 (latch2bin_inst2_n_1),
         .\bin_final_reg[8]_0 (latch2bin_inst2_n_3),
         .clk_out1(clk_out1),
         .\data_valid_reg[6]_0 (latch2bin_inst2_n_2),
-        .\genblk1[0].decoding_reg[1][254]_0 (\genblk1[0].decoding_reg[1][254] ),
-        .reset_IBUF(reset_IBUF));
+        .\genblk1[0].decoding_reg[1][254]_0 (\genblk1[0].decoding_reg[1][254]_0 ),
+        .\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 (\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3 ),
+        .out(out));
   latch2bin_1 latch2bin_inst2
        (.CLK(bin_cs2),
+        .E(bin_cs_comb),
         .Q({latch2bin_inst2_n_6,latch2bin_inst2_n_7,latch2bin_inst2_n_8,latch2bin_inst2_n_9,latch2bin_inst2_n_10,latch2bin_inst2_n_11,latch2bin_inst2_n_12,latch2bin_inst2_n_13,latch2bin_inst2_n_14}),
-        .bin_cs_comb(bin_cs_comb),
-        .bin_cs_final_reg(bin_cs1),
+        .\bin_final_reg[0]_0 (bin_cs1),
         .binary_reg_r_0(latch2bin_inst2_n_3),
         .clk_out1(clk_out1),
+        .\genblk1[0].decoding_reg[1][254]_0 (\genblk1[0].decoding_reg[1][254] ),
+        .\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 (\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ),
         .genblk1_r_1_0(latch2bin_inst2_n_0),
         .genblk1_r_2_0(latch2bin_inst2_n_1),
         .genblk1_r_3_0(latch2bin_inst2_n_2),
-        .out(out),
-        .reset_IBUF(reset_IBUF),
-        .valid_for_latch2bin_dly(valid_for_latch2bin_dly));
+        .out(out));
 endmodule
 
 module latch2bin
-   (bin_cs_reg_0,
-    SR,
+   (CLK,
     Q,
-    CLK,
+    \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ,
     clk_out1,
     \data_valid_reg[6]_0 ,
-    reset_IBUF,
+    out,
     \genblk1[0].decoding_reg[1][254]_0 ,
     \bin_final_reg[8]_0 ,
     \bin_final_reg[6]_0 ,
-    \bin_final_reg[5]_0 ,
-    \bin_final_reg[0]_0 );
-  output bin_cs_reg_0;
-  output [0:0]SR;
+    \bin_final_reg[5]_0 );
+  output CLK;
   output [8:0]Q;
-  input CLK;
+  input \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ;
   input clk_out1;
   input \data_valid_reg[6]_0 ;
-  input reset_IBUF;
+  input out;
   input [510:0]\genblk1[0].decoding_reg[1][254]_0 ;
   input \bin_final_reg[8]_0 ;
   input \bin_final_reg[6]_0 ;
   input \bin_final_reg[5]_0 ;
-  input \bin_final_reg[0]_0 ;
 
   wire CLK;
   wire [8:0]Q;
-  wire [0:0]SR;
   wire \bin[8]_i_1_n_0 ;
-  wire bin_cs_reg_0;
   wire bin_cs_reg__0;
   wire [8:0]bin_final;
-  wire \bin_final_reg[0]_0 ;
   wire \bin_final_reg[5]_0 ;
   wire \bin_final_reg[6]_0 ;
   wire \bin_final_reg[8]_0 ;
@@ -17739,6 +17741,7 @@ module latch2bin
   wire \genblk1[4].binary_reg[5][7]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2_n_0 ;
   wire \genblk1[4].binary_reg[5][8]_srl5___decode_inst_latch2bin_inst2_genblk1_r_3_n_0 ;
   wire [4:4]\genblk1[4].binary_reg[5]_0 ;
+  wire \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ;
   wire \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_n_0 ;
   wire \genblk1[4].decoding[5][0]_i_1_n_0 ;
   wire \genblk1[4].decoding[5][10]_i_1_n_0 ;
@@ -17779,6 +17782,7 @@ module latch2bin
   wire \ones[3]_i_7_n_0 ;
   wire \ones[3]_i_8_n_0 ;
   wire \ones[3]_i_9_n_0 ;
+  wire out;
   wire p_0_in;
   wire p_0_in0;
   wire p_0_in0_in;
@@ -17794,13 +17798,12 @@ module latch2bin
   wire p_0_in7_in;
   wire p_0_in8_in;
   wire p_0_in9_in;
-  wire reset_IBUF;
   wire srlopt_n;
 
   LUT2 #(
     .INIT(4'hB)) 
     \bin[8]_i_1 
-       (.I0(reset_IBUF),
+       (.I0(out),
         .I1(data_valid[7]),
         .O(\bin[8]_i_1_n_0 ));
   FDRE #(
@@ -17809,7 +17812,7 @@ module latch2bin
        (.C(clk_out1),
         .CE(1'b1),
         .D(bin_cs_reg__0),
-        .Q(bin_cs_reg_0),
+        .Q(CLK),
         .R(1'b0));
   FDRE #(
     .INIT(1'b0)) 
@@ -17818,13 +17821,7 @@ module latch2bin
         .CE(1'b1),
         .D(data_valid[7]),
         .Q(bin_cs_reg__0),
-        .R(reset_IBUF));
-  LUT2 #(
-    .INIT(4'h7)) 
-    \bin_final[8]_i_1 
-       (.I0(bin_cs_reg_0),
-        .I1(\bin_final_reg[0]_0 ),
-        .O(SR));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[0] 
@@ -17832,7 +17829,7 @@ module latch2bin
         .CE(1'b1),
         .D(ones[0]),
         .Q(bin_final[0]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[1] 
@@ -17840,7 +17837,7 @@ module latch2bin
         .CE(1'b1),
         .D(ones[1]),
         .Q(bin_final[1]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[2] 
@@ -17848,7 +17845,7 @@ module latch2bin
         .CE(1'b1),
         .D(ones[2]),
         .Q(bin_final[2]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[3] 
@@ -17856,7 +17853,7 @@ module latch2bin
         .CE(1'b1),
         .D(ones[3]),
         .Q(bin_final[3]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[4] 
@@ -17864,7 +17861,7 @@ module latch2bin
         .CE(1'b1),
         .D(\binary_reg[6]_1 ),
         .Q(bin_final[4]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[5] 
@@ -17872,7 +17869,7 @@ module latch2bin
         .CE(1'b1),
         .D(binary_reg_gate__2_n_0),
         .Q(bin_final[5]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[6] 
@@ -17880,7 +17877,7 @@ module latch2bin
         .CE(1'b1),
         .D(binary_reg_gate__1_n_0),
         .Q(bin_final[6]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[7] 
@@ -17888,7 +17885,7 @@ module latch2bin
         .CE(1'b1),
         .D(binary_reg_gate__0_n_0),
         .Q(bin_final[7]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[8] 
@@ -17896,7 +17893,7 @@ module latch2bin
         .CE(1'b1),
         .D(binary_reg_gate_n_0),
         .Q(bin_final[8]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_reg[0] 
@@ -17976,7 +17973,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].binary_reg[5]_0 ),
         .Q(\binary_reg[6]_1 ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \binary_reg[6][5]_decode_inst_latch2bin_inst2_genblk1_r_1 
@@ -18037,7 +18034,7 @@ module latch2bin
     .INIT(8'hE2)) 
     \data_valid[7]_i_1 
        (.I0(data_valid[6]),
-        .I1(reset_IBUF),
+        .I1(out),
         .I2(data_valid[7]),
         .O(\data_valid[7]_i_1_n_0 ));
   FDRE #(
@@ -18047,7 +18044,7 @@ module latch2bin
         .CE(1'b1),
         .D(genblk1_gate_n_0),
         .Q(data_valid[6]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \data_valid_reg[7] 
@@ -20102,7 +20099,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[0]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][100] 
@@ -20110,7 +20107,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[100]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][100] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][101] 
@@ -20118,7 +20115,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[101]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][101] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][102] 
@@ -20126,7 +20123,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[102]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][102] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][103] 
@@ -20134,7 +20131,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[103]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][103] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][104] 
@@ -20142,7 +20139,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[104]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][104] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][105] 
@@ -20150,7 +20147,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[105]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][105] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][106] 
@@ -20158,7 +20155,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[106]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][106] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][107] 
@@ -20166,7 +20163,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[107]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][107] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][108] 
@@ -20174,7 +20171,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[108]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][108] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][109] 
@@ -20182,7 +20179,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[109]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][109] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][10] 
@@ -20190,7 +20187,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[10]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][110] 
@@ -20198,7 +20195,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[110]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][110] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][111] 
@@ -20206,7 +20203,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[111]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][111] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][112] 
@@ -20214,7 +20211,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[112]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][112] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][113] 
@@ -20222,7 +20219,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[113]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][113] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][114] 
@@ -20230,7 +20227,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[114]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][114] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][115] 
@@ -20238,7 +20235,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[115]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][115] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][116] 
@@ -20246,7 +20243,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[116]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][116] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][117] 
@@ -20254,7 +20251,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[117]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][117] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][118] 
@@ -20262,7 +20259,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[118]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][118] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][119] 
@@ -20270,7 +20267,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[119]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][119] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][11] 
@@ -20278,7 +20275,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[11]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][120] 
@@ -20286,7 +20283,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[120]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][120] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][121] 
@@ -20294,7 +20291,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[121]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][121] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][122] 
@@ -20302,7 +20299,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[122]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][122] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][123] 
@@ -20310,7 +20307,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[123]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][123] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][124] 
@@ -20318,7 +20315,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[124]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][124] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][125] 
@@ -20326,7 +20323,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[125]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][125] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][126] 
@@ -20334,7 +20331,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[126]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][126] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][127] 
@@ -20342,7 +20339,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[127]),
         .Q(p_0_in0),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][128] 
@@ -20350,7 +20347,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[128]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][128] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][129] 
@@ -20358,7 +20355,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[129]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][129] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][12] 
@@ -20366,7 +20363,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[12]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][130] 
@@ -20374,7 +20371,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[130]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][130] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][131] 
@@ -20382,7 +20379,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[131]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][131] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][132] 
@@ -20390,7 +20387,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[132]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][132] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][133] 
@@ -20398,7 +20395,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[133]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][133] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][134] 
@@ -20406,7 +20403,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[134]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][134] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][135] 
@@ -20414,7 +20411,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[135]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][135] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][136] 
@@ -20422,7 +20419,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[136]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][136] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][137] 
@@ -20430,7 +20427,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[137]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][137] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][138] 
@@ -20438,7 +20435,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[138]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][138] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][139] 
@@ -20446,7 +20443,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[139]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][139] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][13] 
@@ -20454,7 +20451,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[13]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][140] 
@@ -20462,7 +20459,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[140]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][140] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][141] 
@@ -20470,7 +20467,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[141]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][141] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][142] 
@@ -20478,7 +20475,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[142]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][142] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][143] 
@@ -20486,7 +20483,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[143]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][143] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][144] 
@@ -20494,7 +20491,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[144]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][144] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][145] 
@@ -20502,7 +20499,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[145]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][145] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][146] 
@@ -20510,7 +20507,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[146]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][146] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][147] 
@@ -20518,7 +20515,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[147]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][147] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][148] 
@@ -20526,7 +20523,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[148]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][148] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][149] 
@@ -20534,7 +20531,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[149]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][149] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][14] 
@@ -20542,7 +20539,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[14]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][150] 
@@ -20550,7 +20547,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[150]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][150] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][151] 
@@ -20558,7 +20555,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[151]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][151] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][152] 
@@ -20566,7 +20563,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[152]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][152] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][153] 
@@ -20574,7 +20571,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[153]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][153] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][154] 
@@ -20582,7 +20579,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[154]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][154] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][155] 
@@ -20590,7 +20587,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[155]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][155] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][156] 
@@ -20598,7 +20595,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[156]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][156] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][157] 
@@ -20606,7 +20603,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[157]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][157] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][158] 
@@ -20614,7 +20611,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[158]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][158] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][159] 
@@ -20622,7 +20619,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[159]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][159] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][15] 
@@ -20630,7 +20627,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[15]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][160] 
@@ -20638,7 +20635,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[160]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][160] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][161] 
@@ -20646,7 +20643,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[161]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][161] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][162] 
@@ -20654,7 +20651,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[162]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][162] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][163] 
@@ -20662,7 +20659,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[163]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][163] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][164] 
@@ -20670,7 +20667,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[164]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][164] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][165] 
@@ -20678,7 +20675,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[165]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][165] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][166] 
@@ -20686,7 +20683,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[166]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][166] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][167] 
@@ -20694,7 +20691,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[167]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][167] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][168] 
@@ -20702,7 +20699,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[168]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][168] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][169] 
@@ -20710,7 +20707,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[169]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][169] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][16] 
@@ -20718,7 +20715,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[16]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][170] 
@@ -20726,7 +20723,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[170]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][170] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][171] 
@@ -20734,7 +20731,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[171]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][171] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][172] 
@@ -20742,7 +20739,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[172]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][172] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][173] 
@@ -20750,7 +20747,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[173]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][173] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][174] 
@@ -20758,7 +20755,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[174]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][174] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][175] 
@@ -20766,7 +20763,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[175]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][175] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][176] 
@@ -20774,7 +20771,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[176]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][176] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][177] 
@@ -20782,7 +20779,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[177]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][177] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][178] 
@@ -20790,7 +20787,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[178]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][178] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][179] 
@@ -20798,7 +20795,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[179]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][179] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][17] 
@@ -20806,7 +20803,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[17]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][180] 
@@ -20814,7 +20811,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[180]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][180] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][181] 
@@ -20822,7 +20819,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[181]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][181] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][182] 
@@ -20830,7 +20827,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[182]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][182] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][183] 
@@ -20838,7 +20835,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[183]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][183] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][184] 
@@ -20846,7 +20843,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[184]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][184] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][185] 
@@ -20854,7 +20851,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[185]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][185] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][186] 
@@ -20862,7 +20859,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[186]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][186] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][187] 
@@ -20870,7 +20867,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[187]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][187] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][188] 
@@ -20878,7 +20875,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[188]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][188] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][189] 
@@ -20886,7 +20883,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[189]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][189] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][18] 
@@ -20894,7 +20891,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[18]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][190] 
@@ -20902,7 +20899,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[190]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][190] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][191] 
@@ -20910,7 +20907,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[191]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][191] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][192] 
@@ -20918,7 +20915,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[192]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][192] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][193] 
@@ -20926,7 +20923,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[193]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][193] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][194] 
@@ -20934,7 +20931,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[194]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][194] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][195] 
@@ -20942,7 +20939,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[195]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][195] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][196] 
@@ -20950,7 +20947,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[196]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][196] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][197] 
@@ -20958,7 +20955,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[197]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][197] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][198] 
@@ -20966,7 +20963,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[198]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][198] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][199] 
@@ -20974,7 +20971,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[199]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][199] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][19] 
@@ -20982,7 +20979,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[19]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][1] 
@@ -20990,7 +20987,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[1]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][200] 
@@ -20998,7 +20995,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[200]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][200] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][201] 
@@ -21006,7 +21003,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[201]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][201] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][202] 
@@ -21014,7 +21011,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[202]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][202] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][203] 
@@ -21022,7 +21019,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[203]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][203] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][204] 
@@ -21030,7 +21027,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[204]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][204] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][205] 
@@ -21038,7 +21035,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[205]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][205] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][206] 
@@ -21046,7 +21043,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[206]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][206] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][207] 
@@ -21054,7 +21051,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[207]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][207] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][208] 
@@ -21062,7 +21059,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[208]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][208] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][209] 
@@ -21070,7 +21067,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[209]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][209] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][20] 
@@ -21078,7 +21075,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[20]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][210] 
@@ -21086,7 +21083,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[210]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][210] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][211] 
@@ -21094,7 +21091,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[211]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][211] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][212] 
@@ -21102,7 +21099,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[212]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][212] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][213] 
@@ -21110,7 +21107,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[213]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][213] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][214] 
@@ -21118,7 +21115,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[214]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][214] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][215] 
@@ -21126,7 +21123,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[215]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][215] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][216] 
@@ -21134,7 +21131,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[216]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][216] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][217] 
@@ -21142,7 +21139,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[217]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][217] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][218] 
@@ -21150,7 +21147,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[218]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][218] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][219] 
@@ -21158,7 +21155,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[219]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][219] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][21] 
@@ -21166,7 +21163,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[21]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][220] 
@@ -21174,7 +21171,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[220]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][220] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][221] 
@@ -21182,7 +21179,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[221]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][221] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][222] 
@@ -21190,7 +21187,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[222]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][222] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][223] 
@@ -21198,7 +21195,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[223]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][223] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][224] 
@@ -21206,7 +21203,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[224]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][224] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][225] 
@@ -21214,7 +21211,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[225]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][225] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][226] 
@@ -21222,7 +21219,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[226]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][226] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][227] 
@@ -21230,7 +21227,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[227]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][227] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][228] 
@@ -21238,7 +21235,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[228]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][228] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][229] 
@@ -21246,7 +21243,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[229]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][229] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][22] 
@@ -21254,7 +21251,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[22]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][230] 
@@ -21262,7 +21259,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[230]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][230] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][231] 
@@ -21270,7 +21267,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[231]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][231] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][232] 
@@ -21278,7 +21275,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[232]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][232] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][233] 
@@ -21286,7 +21283,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[233]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][233] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][234] 
@@ -21294,7 +21291,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[234]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][234] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][235] 
@@ -21302,7 +21299,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[235]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][235] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][236] 
@@ -21310,7 +21307,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[236]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][236] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][237] 
@@ -21318,7 +21315,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[237]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][237] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][238] 
@@ -21326,7 +21323,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[238]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][238] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][239] 
@@ -21334,7 +21331,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[239]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][239] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][23] 
@@ -21342,7 +21339,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[23]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][240] 
@@ -21350,7 +21347,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[240]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][240] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][241] 
@@ -21358,7 +21355,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[241]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][241] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][242] 
@@ -21366,7 +21363,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[242]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][242] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][243] 
@@ -21374,7 +21371,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[243]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][243] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][244] 
@@ -21382,7 +21379,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[244]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][244] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][245] 
@@ -21390,7 +21387,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[245]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][245] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][246] 
@@ -21398,7 +21395,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[246]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][246] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][247] 
@@ -21406,7 +21403,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[247]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][247] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][248] 
@@ -21414,7 +21411,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[248]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][248] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][249] 
@@ -21422,7 +21419,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[249]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][249] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][24] 
@@ -21430,7 +21427,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[24]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][250] 
@@ -21438,7 +21435,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[250]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][250] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][251] 
@@ -21446,7 +21443,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[251]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][251] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][252] 
@@ -21454,7 +21451,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[252]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][252] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][253] 
@@ -21462,7 +21459,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[253]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][253] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][254] 
@@ -21470,7 +21467,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[254]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][254] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][25] 
@@ -21478,7 +21475,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[25]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][26] 
@@ -21486,7 +21483,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[26]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][27] 
@@ -21494,7 +21491,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[27]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][28] 
@@ -21502,7 +21499,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[28]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][29] 
@@ -21510,7 +21507,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[29]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][2] 
@@ -21518,7 +21515,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[2]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][30] 
@@ -21526,7 +21523,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[30]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][31] 
@@ -21534,7 +21531,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[31]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][31] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][32] 
@@ -21542,7 +21539,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[32]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][32] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][33] 
@@ -21550,7 +21547,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[33]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][33] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][34] 
@@ -21558,7 +21555,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[34]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][34] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][35] 
@@ -21566,7 +21563,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[35]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][35] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][36] 
@@ -21574,7 +21571,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[36]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][36] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][37] 
@@ -21582,7 +21579,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[37]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][37] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][38] 
@@ -21590,7 +21587,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[38]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][38] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][39] 
@@ -21598,7 +21595,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[39]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][39] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][3] 
@@ -21606,7 +21603,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[3]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][40] 
@@ -21614,7 +21611,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[40]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][40] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][41] 
@@ -21622,7 +21619,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[41]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][41] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][42] 
@@ -21630,7 +21627,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[42]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][42] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][43] 
@@ -21638,7 +21635,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[43]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][43] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][44] 
@@ -21646,7 +21643,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[44]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][44] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][45] 
@@ -21654,7 +21651,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[45]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][45] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][46] 
@@ -21662,7 +21659,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[46]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][46] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][47] 
@@ -21670,7 +21667,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[47]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][47] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][48] 
@@ -21678,7 +21675,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[48]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][48] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][49] 
@@ -21686,7 +21683,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[49]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][49] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][4] 
@@ -21694,7 +21691,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[4]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][50] 
@@ -21702,7 +21699,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[50]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][50] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][51] 
@@ -21710,7 +21707,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[51]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][51] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][52] 
@@ -21718,7 +21715,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[52]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][52] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][53] 
@@ -21726,7 +21723,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[53]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][53] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][54] 
@@ -21734,7 +21731,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[54]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][54] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][55] 
@@ -21742,7 +21739,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[55]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][55] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][56] 
@@ -21750,7 +21747,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[56]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][56] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][57] 
@@ -21758,7 +21755,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[57]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][57] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][58] 
@@ -21766,7 +21763,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[58]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][58] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][59] 
@@ -21774,7 +21771,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[59]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][59] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][5] 
@@ -21782,7 +21779,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[5]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][60] 
@@ -21790,7 +21787,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[60]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][60] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][61] 
@@ -21798,7 +21795,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[61]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][61] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][62] 
@@ -21806,7 +21803,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[62]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][62] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][63] 
@@ -21814,7 +21811,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[63]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][63] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][64] 
@@ -21822,7 +21819,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[64]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][64] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][65] 
@@ -21830,7 +21827,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[65]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][65] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][66] 
@@ -21838,7 +21835,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[66]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][66] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][67] 
@@ -21846,7 +21843,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[67]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][67] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][68] 
@@ -21854,7 +21851,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[68]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][68] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][69] 
@@ -21862,7 +21859,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[69]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][69] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][6] 
@@ -21870,7 +21867,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[6]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][70] 
@@ -21878,7 +21875,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[70]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][70] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][71] 
@@ -21886,7 +21883,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[71]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][71] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][72] 
@@ -21894,7 +21891,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[72]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][72] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][73] 
@@ -21902,7 +21899,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[73]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][73] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][74] 
@@ -21910,7 +21907,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[74]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][74] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][75] 
@@ -21918,7 +21915,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[75]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][75] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][76] 
@@ -21926,7 +21923,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[76]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][76] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][77] 
@@ -21934,7 +21931,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[77]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][77] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][78] 
@@ -21942,7 +21939,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[78]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][78] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][79] 
@@ -21950,7 +21947,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[79]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][79] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][7] 
@@ -21958,7 +21955,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[7]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][80] 
@@ -21966,7 +21963,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[80]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][80] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][81] 
@@ -21974,7 +21971,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[81]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][81] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][82] 
@@ -21982,7 +21979,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[82]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][82] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][83] 
@@ -21990,7 +21987,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[83]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][83] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][84] 
@@ -21998,7 +21995,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[84]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][84] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][85] 
@@ -22006,7 +22003,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[85]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][85] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][86] 
@@ -22014,7 +22011,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[86]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][86] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][87] 
@@ -22022,7 +22019,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[87]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][87] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][88] 
@@ -22030,7 +22027,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[88]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][88] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][89] 
@@ -22038,7 +22035,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[89]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][89] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][8] 
@@ -22046,7 +22043,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[8]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][90] 
@@ -22054,7 +22051,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[90]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][90] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][91] 
@@ -22062,7 +22059,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[91]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][91] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][92] 
@@ -22070,7 +22067,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[92]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][92] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][93] 
@@ -22078,7 +22075,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[93]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][93] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][94] 
@@ -22086,7 +22083,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[94]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][94] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][95] 
@@ -22094,7 +22091,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[95]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][95] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][96] 
@@ -22102,7 +22099,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[96]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][96] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][97] 
@@ -22110,7 +22107,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[97]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][97] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][98] 
@@ -22118,7 +22115,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[98]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][98] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][99] 
@@ -22126,7 +22123,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[99]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][99] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][9] 
@@ -22134,7 +22131,7 @@ module latch2bin
         .CE(1'b1),
         .D(decoding[9]),
         .Q(\genblk1[0].decoding_reg_n_0_[1][9] ),
-        .R(reset_IBUF));
+        .R(out));
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[1].decoding[2][0]_i_1 
@@ -23031,7 +23028,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][0]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][100] 
@@ -23039,7 +23036,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][100]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][100] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][101] 
@@ -23047,7 +23044,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][101]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][101] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][102] 
@@ -23055,7 +23052,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][102]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][102] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][103] 
@@ -23063,7 +23060,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][103]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][103] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][104] 
@@ -23071,7 +23068,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][104]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][104] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][105] 
@@ -23079,7 +23076,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][105]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][105] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][106] 
@@ -23087,7 +23084,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][106]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][106] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][107] 
@@ -23095,7 +23092,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][107]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][107] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][108] 
@@ -23103,7 +23100,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][108]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][108] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][109] 
@@ -23111,7 +23108,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][109]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][109] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][10] 
@@ -23119,7 +23116,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][10]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][110] 
@@ -23127,7 +23124,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][110]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][110] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][111] 
@@ -23135,7 +23132,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][111]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][111] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][112] 
@@ -23143,7 +23140,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][112]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][112] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][113] 
@@ -23151,7 +23148,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][113]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][113] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][114] 
@@ -23159,7 +23156,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][114]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][114] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][115] 
@@ -23167,7 +23164,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][115]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][115] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][116] 
@@ -23175,7 +23172,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][116]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][116] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][117] 
@@ -23183,7 +23180,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][117]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][117] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][118] 
@@ -23191,7 +23188,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][118]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][118] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][119] 
@@ -23199,7 +23196,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][119]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][119] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][11] 
@@ -23207,7 +23204,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][11]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][120] 
@@ -23215,7 +23212,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][120]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][120] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][121] 
@@ -23223,7 +23220,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][121]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][121] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][122] 
@@ -23231,7 +23228,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][122]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][122] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][123] 
@@ -23239,7 +23236,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][123]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][123] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][124] 
@@ -23247,7 +23244,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][124]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][124] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][125] 
@@ -23255,7 +23252,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][125]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][125] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][126] 
@@ -23263,7 +23260,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][126]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][126] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][12] 
@@ -23271,7 +23268,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][12]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][13] 
@@ -23279,7 +23276,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][13]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][14] 
@@ -23287,7 +23284,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][14]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][15] 
@@ -23295,7 +23292,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][15]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][16] 
@@ -23303,7 +23300,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][16]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][17] 
@@ -23311,7 +23308,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][17]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][18] 
@@ -23319,7 +23316,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][18]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][19] 
@@ -23327,7 +23324,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][19]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][1] 
@@ -23335,7 +23332,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][1]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][20] 
@@ -23343,7 +23340,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][20]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][21] 
@@ -23351,7 +23348,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][21]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][22] 
@@ -23359,7 +23356,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][22]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][23] 
@@ -23367,7 +23364,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][23]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][24] 
@@ -23375,7 +23372,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][24]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][25] 
@@ -23383,7 +23380,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][25]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][26] 
@@ -23391,7 +23388,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][26]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][27] 
@@ -23399,7 +23396,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][27]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][28] 
@@ -23407,7 +23404,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][28]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][29] 
@@ -23415,7 +23412,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][29]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][2] 
@@ -23423,7 +23420,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][2]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][30] 
@@ -23431,7 +23428,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][30]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][31] 
@@ -23439,7 +23436,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][31]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][31] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][32] 
@@ -23447,7 +23444,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][32]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][32] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][33] 
@@ -23455,7 +23452,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][33]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][33] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][34] 
@@ -23463,7 +23460,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][34]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][34] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][35] 
@@ -23471,7 +23468,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][35]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][35] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][36] 
@@ -23479,7 +23476,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][36]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][36] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][37] 
@@ -23487,7 +23484,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][37]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][37] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][38] 
@@ -23495,7 +23492,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][38]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][38] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][39] 
@@ -23503,7 +23500,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][39]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][39] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][3] 
@@ -23511,7 +23508,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][3]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][40] 
@@ -23519,7 +23516,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][40]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][40] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][41] 
@@ -23527,7 +23524,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][41]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][41] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][42] 
@@ -23535,7 +23532,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][42]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][42] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][43] 
@@ -23543,7 +23540,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][43]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][43] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][44] 
@@ -23551,7 +23548,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][44]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][44] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][45] 
@@ -23559,7 +23556,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][45]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][45] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][46] 
@@ -23567,7 +23564,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][46]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][46] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][47] 
@@ -23575,7 +23572,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][47]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][47] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][48] 
@@ -23583,7 +23580,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][48]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][48] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][49] 
@@ -23591,7 +23588,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][49]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][49] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][4] 
@@ -23599,7 +23596,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][4]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][50] 
@@ -23607,7 +23604,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][50]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][50] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][51] 
@@ -23615,7 +23612,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][51]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][51] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][52] 
@@ -23623,7 +23620,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][52]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][52] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][53] 
@@ -23631,7 +23628,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][53]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][53] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][54] 
@@ -23639,7 +23636,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][54]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][54] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][55] 
@@ -23647,7 +23644,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][55]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][55] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][56] 
@@ -23655,7 +23652,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][56]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][56] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][57] 
@@ -23663,7 +23660,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][57]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][57] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][58] 
@@ -23671,7 +23668,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][58]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][58] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][59] 
@@ -23679,7 +23676,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][59]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][59] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][5] 
@@ -23687,7 +23684,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][5]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][60] 
@@ -23695,7 +23692,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][60]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][60] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][61] 
@@ -23703,7 +23700,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][61]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][61] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][62] 
@@ -23711,7 +23708,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][62]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][62] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][63] 
@@ -23719,7 +23716,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][63]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][63] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][64] 
@@ -23727,7 +23724,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][64]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][64] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][65] 
@@ -23735,7 +23732,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][65]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][65] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][66] 
@@ -23743,7 +23740,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][66]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][66] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][67] 
@@ -23751,7 +23748,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][67]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][67] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][68] 
@@ -23759,7 +23756,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][68]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][68] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][69] 
@@ -23767,7 +23764,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][69]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][69] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][6] 
@@ -23775,7 +23772,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][6]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][70] 
@@ -23783,7 +23780,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][70]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][70] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][71] 
@@ -23791,7 +23788,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][71]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][71] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][72] 
@@ -23799,7 +23796,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][72]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][72] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][73] 
@@ -23807,7 +23804,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][73]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][73] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][74] 
@@ -23815,7 +23812,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][74]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][74] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][75] 
@@ -23823,7 +23820,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][75]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][75] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][76] 
@@ -23831,7 +23828,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][76]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][76] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][77] 
@@ -23839,7 +23836,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][77]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][77] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][78] 
@@ -23847,7 +23844,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][78]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][78] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][79] 
@@ -23855,7 +23852,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][79]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][79] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][7] 
@@ -23863,7 +23860,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][7]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][80] 
@@ -23871,7 +23868,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][80]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][80] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][81] 
@@ -23879,7 +23876,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][81]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][81] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][82] 
@@ -23887,7 +23884,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][82]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][82] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][83] 
@@ -23895,7 +23892,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][83]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][83] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][84] 
@@ -23903,7 +23900,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][84]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][84] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][85] 
@@ -23911,7 +23908,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][85]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][85] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][86] 
@@ -23919,7 +23916,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][86]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][86] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][87] 
@@ -23927,7 +23924,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][87]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][87] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][88] 
@@ -23935,7 +23932,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][88]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][88] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][89] 
@@ -23943,7 +23940,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][89]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][89] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][8] 
@@ -23951,7 +23948,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][8]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][90] 
@@ -23959,7 +23956,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][90]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][90] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][91] 
@@ -23967,7 +23964,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][91]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][91] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][92] 
@@ -23975,7 +23972,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][92]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][92] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][93] 
@@ -23983,7 +23980,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][93]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][93] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][94] 
@@ -23991,7 +23988,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][94]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][94] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][95] 
@@ -23999,7 +23996,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][95]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][95] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][96] 
@@ -24007,7 +24004,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][96]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][96] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][97] 
@@ -24015,7 +24012,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][97]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][97] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][98] 
@@ -24023,7 +24020,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][98]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][98] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][99] 
@@ -24031,7 +24028,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][99]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][99] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][9] 
@@ -24039,7 +24036,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][9]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][9] ),
-        .R(reset_IBUF));
+        .R(out));
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[2].decoding[3][0]_i_1 
@@ -24488,7 +24485,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][0]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][10] 
@@ -24496,7 +24493,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][10]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][11] 
@@ -24504,7 +24501,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][11]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][12] 
@@ -24512,7 +24509,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][12]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][13] 
@@ -24520,7 +24517,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][13]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][14] 
@@ -24528,7 +24525,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][14]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][15] 
@@ -24536,7 +24533,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][15]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][16] 
@@ -24544,7 +24541,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][16]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][17] 
@@ -24552,7 +24549,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][17]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][18] 
@@ -24560,7 +24557,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][18]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][19] 
@@ -24568,7 +24565,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][19]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][1] 
@@ -24576,7 +24573,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][1]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][20] 
@@ -24584,7 +24581,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][20]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][21] 
@@ -24592,7 +24589,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][21]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][22] 
@@ -24600,7 +24597,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][22]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][23] 
@@ -24608,7 +24605,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][23]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][24] 
@@ -24616,7 +24613,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][24]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][25] 
@@ -24624,7 +24621,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][25]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][26] 
@@ -24632,7 +24629,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][26]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][27] 
@@ -24640,7 +24637,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][27]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][28] 
@@ -24648,7 +24645,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][28]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][29] 
@@ -24656,7 +24653,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][29]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][2] 
@@ -24664,7 +24661,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][2]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][30] 
@@ -24672,7 +24669,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][30]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][31] 
@@ -24680,7 +24677,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][31]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][31] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][32] 
@@ -24688,7 +24685,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][32]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][32] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][33] 
@@ -24696,7 +24693,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][33]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][33] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][34] 
@@ -24704,7 +24701,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][34]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][34] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][35] 
@@ -24712,7 +24709,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][35]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][35] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][36] 
@@ -24720,7 +24717,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][36]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][36] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][37] 
@@ -24728,7 +24725,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][37]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][37] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][38] 
@@ -24736,7 +24733,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][38]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][38] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][39] 
@@ -24744,7 +24741,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][39]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][39] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][3] 
@@ -24752,7 +24749,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][3]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][40] 
@@ -24760,7 +24757,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][40]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][40] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][41] 
@@ -24768,7 +24765,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][41]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][41] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][42] 
@@ -24776,7 +24773,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][42]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][42] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][43] 
@@ -24784,7 +24781,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][43]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][43] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][44] 
@@ -24792,7 +24789,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][44]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][44] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][45] 
@@ -24800,7 +24797,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][45]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][45] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][46] 
@@ -24808,7 +24805,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][46]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][46] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][47] 
@@ -24816,7 +24813,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][47]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][47] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][48] 
@@ -24824,7 +24821,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][48]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][48] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][49] 
@@ -24832,7 +24829,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][49]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][49] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][4] 
@@ -24840,7 +24837,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][4]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][50] 
@@ -24848,7 +24845,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][50]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][50] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][51] 
@@ -24856,7 +24853,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][51]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][51] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][52] 
@@ -24864,7 +24861,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][52]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][52] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][53] 
@@ -24872,7 +24869,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][53]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][53] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][54] 
@@ -24880,7 +24877,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][54]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][54] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][55] 
@@ -24888,7 +24885,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][55]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][55] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][56] 
@@ -24896,7 +24893,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][56]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][56] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][57] 
@@ -24904,7 +24901,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][57]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][57] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][58] 
@@ -24912,7 +24909,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][58]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][58] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][59] 
@@ -24920,7 +24917,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][59]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][59] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][5] 
@@ -24928,7 +24925,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][5]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][60] 
@@ -24936,7 +24933,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][60]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][60] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][61] 
@@ -24944,7 +24941,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][61]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][61] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][62] 
@@ -24952,7 +24949,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][62]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][62] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][6] 
@@ -24960,7 +24957,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][6]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][7] 
@@ -24968,7 +24965,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][7]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][8] 
@@ -24976,7 +24973,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][8]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][9] 
@@ -24984,7 +24981,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][9]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][9] ),
-        .R(reset_IBUF));
+        .R(out));
   (* PHYS_OPT_MODIFIED = "SHIFT_REGISTER_OPT" *) 
   (* srl_bus_name = "\decode_inst/latch2bin_inst1/genblk1[3].data_valid_reg " *) 
   (* srl_name = "\decode_inst/latch2bin_inst1/genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2 " *) 
@@ -25005,7 +25002,7 @@ module latch2bin
     \genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2_srlopt 
        (.C(clk_out1),
         .CE(1'b1),
-        .D(CLK),
+        .D(\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ),
         .Q(srlopt_n),
         .R(1'b0));
   LUT3 #(
@@ -25232,7 +25229,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][0]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][10] 
@@ -25240,7 +25237,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][10]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][11] 
@@ -25248,7 +25245,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][11]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][12] 
@@ -25256,7 +25253,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][12]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][13] 
@@ -25264,7 +25261,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][13]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][14] 
@@ -25272,7 +25269,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][14]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][15] 
@@ -25280,7 +25277,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][15]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][16] 
@@ -25288,7 +25285,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][16]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][17] 
@@ -25296,7 +25293,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][17]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][18] 
@@ -25304,7 +25301,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][18]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][19] 
@@ -25312,7 +25309,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][19]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][1] 
@@ -25320,7 +25317,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][1]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][20] 
@@ -25328,7 +25325,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][20]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][21] 
@@ -25336,7 +25333,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][21]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][22] 
@@ -25344,7 +25341,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][22]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][23] 
@@ -25352,7 +25349,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][23]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][24] 
@@ -25360,7 +25357,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][24]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][25] 
@@ -25368,7 +25365,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][25]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][26] 
@@ -25376,7 +25373,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][26]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][27] 
@@ -25384,7 +25381,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][27]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][28] 
@@ -25392,7 +25389,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][28]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][29] 
@@ -25400,7 +25397,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][29]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][2] 
@@ -25408,7 +25405,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][2]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][30] 
@@ -25416,7 +25413,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][30]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][3] 
@@ -25424,7 +25421,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][3]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][4] 
@@ -25432,7 +25429,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][4]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][5] 
@@ -25440,7 +25437,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][5]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][6] 
@@ -25448,7 +25445,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][6]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][7] 
@@ -25456,7 +25453,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][7]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][8] 
@@ -25464,7 +25461,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][8]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][9] 
@@ -25472,7 +25469,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][9]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][9] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].binary_reg[5][4] 
@@ -25480,7 +25477,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[3].decoding_reg_n_0_[4][15] ),
         .Q(\genblk1[4].binary_reg[5]_0 ),
-        .R(reset_IBUF));
+        .R(out));
   (* srl_bus_name = "\decode_inst/latch2bin_inst1/genblk1[4].binary_reg[5] " *) 
   (* srl_name = "\decode_inst/latch2bin_inst1/genblk1[4].binary_reg[5][5]_srl2___decode_inst_latch2bin_inst2_genblk1_r_0 " *) 
   SRL16E #(
@@ -25653,7 +25650,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][0]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][10] 
@@ -25661,7 +25658,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][10]_i_1_n_0 ),
         .Q(p_0_in8_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][11] 
@@ -25669,7 +25666,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][11]_i_1_n_0 ),
         .Q(p_0_in9_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][12] 
@@ -25677,7 +25674,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][12]_i_1_n_0 ),
         .Q(p_0_in10_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][13] 
@@ -25685,7 +25682,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][13]_i_1_n_0 ),
         .Q(p_0_in11_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][14] 
@@ -25693,7 +25690,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][14]_i_1_n_0 ),
         .Q(p_0_in12_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][1] 
@@ -25701,7 +25698,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][1]_i_1_n_0 ),
         .Q(p_0_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][2] 
@@ -25709,7 +25706,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][2]_i_1_n_0 ),
         .Q(p_0_in0_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][3] 
@@ -25717,7 +25714,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][3]_i_1_n_0 ),
         .Q(p_0_in1_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][4] 
@@ -25725,7 +25722,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][4]_i_1_n_0 ),
         .Q(p_0_in2_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][5] 
@@ -25733,7 +25730,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][5]_i_1_n_0 ),
         .Q(p_0_in3_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][6] 
@@ -25741,7 +25738,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][6]_i_1_n_0 ),
         .Q(p_0_in4_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][7] 
@@ -25749,7 +25746,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][7]_i_1_n_0 ),
         .Q(p_0_in5_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][8] 
@@ -25757,7 +25754,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][8]_i_1_n_0 ),
         .Q(p_0_in6_in),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][9] 
@@ -25765,7 +25762,7 @@ module latch2bin
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][9]_i_1_n_0 ),
         .Q(p_0_in7_in),
-        .R(reset_IBUF));
+        .R(out));
   LUT2 #(
     .INIT(4'h8)) 
     genblk1_gate
@@ -25968,7 +25965,7 @@ module latch2bin
         .CE(1'b1),
         .D(\ones[0]_i_1_n_0 ),
         .Q(ones[0]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \ones_reg[1] 
@@ -25976,7 +25973,7 @@ module latch2bin
         .CE(1'b1),
         .D(\ones[1]_i_1_n_0 ),
         .Q(ones[1]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \ones_reg[2] 
@@ -25984,7 +25981,7 @@ module latch2bin
         .CE(1'b1),
         .D(\ones[2]_i_1_n_0 ),
         .Q(ones[2]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \ones_reg[3] 
@@ -25992,7 +25989,7 @@ module latch2bin
         .CE(1'b1),
         .D(\ones[3]_i_1_n_0 ),
         .Q(ones[3]),
-        .R(reset_IBUF));
+        .R(out));
 endmodule
 
 (* ORIG_REF_NAME = "latch2bin" *) 
@@ -26002,32 +25999,32 @@ module latch2bin_1
     genblk1_r_3_0,
     binary_reg_r_0,
     CLK,
-    bin_cs_comb,
+    E,
     Q,
-    reset_IBUF,
-    clk_out1,
-    valid_for_latch2bin_dly,
     out,
-    bin_cs_final_reg);
+    clk_out1,
+    \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ,
+    \genblk1[0].decoding_reg[1][254]_0 ,
+    \bin_final_reg[0]_0 );
   output genblk1_r_1_0;
   output genblk1_r_2_0;
   output genblk1_r_3_0;
   output binary_reg_r_0;
   output CLK;
-  output bin_cs_comb;
+  output [0:0]E;
   output [8:0]Q;
-  input reset_IBUF;
+  input out;
   input clk_out1;
-  input valid_for_latch2bin_dly;
-  input [510:0]out;
-  input bin_cs_final_reg;
+  input \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ;
+  input [510:0]\genblk1[0].decoding_reg[1][254]_0 ;
+  input \bin_final_reg[0]_0 ;
 
   wire CLK;
+  wire [0:0]E;
   wire [8:0]Q;
   wire \bin[8]_i_1__0_n_0 ;
-  wire bin_cs_comb;
-  wire bin_cs_final_reg;
   wire bin_cs_reg_reg_n_0;
+  wire \bin_final_reg[0]_0 ;
   wire \bin_final_reg_n_0_[0] ;
   wire \bin_final_reg_n_0_[1] ;
   wire \bin_final_reg_n_0_[2] ;
@@ -26305,6 +26302,7 @@ module latch2bin_1
   wire \genblk1[0].decoding[1][98]_i_1_n_0 ;
   wire \genblk1[0].decoding[1][99]_i_1_n_0 ;
   wire \genblk1[0].decoding[1][9]_i_1_n_0 ;
+  wire [510:0]\genblk1[0].decoding_reg[1][254]_0 ;
   wire \genblk1[0].decoding_reg_n_0_[1][0] ;
   wire \genblk1[0].decoding_reg_n_0_[1][100] ;
   wire \genblk1[0].decoding_reg_n_0_[1][101] ;
@@ -27008,6 +27006,7 @@ module latch2bin_1
   wire \genblk1[4].binary_reg[5][7]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2_n_0 ;
   wire \genblk1[4].binary_reg[5][8]_srl5___decode_inst_latch2bin_inst2_genblk1_r_3_n_0 ;
   wire \genblk1[4].binary_reg_n_0_[5][4] ;
+  wire \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ;
   wire \genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_n_0 ;
   wire \genblk1[4].decoding[5][0]_i_1_n_0 ;
   wire \genblk1[4].decoding[5][10]_i_1_n_0 ;
@@ -27070,22 +27069,14 @@ module latch2bin_1
   wire \ones_reg_n_0_[1] ;
   wire \ones_reg_n_0_[2] ;
   wire \ones_reg_n_0_[3] ;
-  wire [510:0]out;
-  wire reset_IBUF;
-  wire valid_for_latch2bin_dly;
+  wire out;
 
   LUT2 #(
     .INIT(4'hB)) 
     \bin[8]_i_1__0 
-       (.I0(reset_IBUF),
+       (.I0(out),
         .I1(data_valid[7]),
         .O(\bin[8]_i_1__0_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    bin_cs_final_i_1
-       (.I0(CLK),
-        .I1(bin_cs_final_reg),
-        .O(bin_cs_comb));
   FDRE #(
     .INIT(1'b0)) 
     bin_cs_reg
@@ -27101,7 +27092,13 @@ module latch2bin_1
         .CE(1'b1),
         .D(data_valid[7]),
         .Q(bin_cs_reg_reg_n_0),
-        .R(reset_IBUF));
+        .R(out));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \bin_final[8]_i_1 
+       (.I0(CLK),
+        .I1(\bin_final_reg[0]_0 ),
+        .O(E));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[0] 
@@ -27109,7 +27106,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones_reg_n_0_[0] ),
         .Q(\bin_final_reg_n_0_[0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[1] 
@@ -27117,7 +27114,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones_reg_n_0_[1] ),
         .Q(\bin_final_reg_n_0_[1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[2] 
@@ -27125,7 +27122,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones_reg_n_0_[2] ),
         .Q(\bin_final_reg_n_0_[2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[3] 
@@ -27133,7 +27130,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones_reg_n_0_[3] ),
         .Q(\bin_final_reg_n_0_[3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[4] 
@@ -27141,7 +27138,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\binary_reg_n_0_[6][4] ),
         .Q(\bin_final_reg_n_0_[4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[5] 
@@ -27149,7 +27146,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(binary_reg_gate__2_n_0),
         .Q(\bin_final_reg_n_0_[5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[6] 
@@ -27157,7 +27154,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(binary_reg_gate__1_n_0),
         .Q(\bin_final_reg_n_0_[6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[7] 
@@ -27165,7 +27162,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(binary_reg_gate__0_n_0),
         .Q(\bin_final_reg_n_0_[7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_final_reg[8] 
@@ -27173,7 +27170,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(binary_reg_gate_n_0),
         .Q(\bin_final_reg_n_0_[8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \bin_reg[0] 
@@ -27253,7 +27250,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].binary_reg_n_0_[5][4] ),
         .Q(\binary_reg_n_0_[6][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \binary_reg[6][5]_decode_inst_latch2bin_inst2_genblk1_r_1 
@@ -27317,12 +27314,12 @@ module latch2bin_1
         .CE(1'b1),
         .D(genblk1_r_3_0),
         .Q(binary_reg_r_0),
-        .R(reset_IBUF));
+        .R(out));
   LUT3 #(
     .INIT(8'hE2)) 
     \data_valid[7]_i_1__0 
        (.I0(data_valid[6]),
-        .I1(reset_IBUF),
+        .I1(out),
         .I2(data_valid[7]),
         .O(\data_valid[7]_i_1__0_n_0 ));
   FDRE #(
@@ -27332,7 +27329,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(genblk1_gate_n_0),
         .Q(data_valid[6]),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \data_valid_reg[7] 
@@ -27345,2040 +27342,2040 @@ module latch2bin_1
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][0]_i_1 
-       (.I0(out[256]),
-        .I1(out[255]),
-        .I2(out[0]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [256]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [0]),
         .O(\genblk1[0].decoding[1][0]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair687" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][100]_i_1 
-       (.I0(out[356]),
-        .I1(out[255]),
-        .I2(out[100]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [356]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [100]),
         .O(\genblk1[0].decoding[1][100]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair687" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][101]_i_1 
-       (.I0(out[357]),
-        .I1(out[255]),
-        .I2(out[101]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [357]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [101]),
         .O(\genblk1[0].decoding[1][101]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair688" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][102]_i_1 
-       (.I0(out[358]),
-        .I1(out[255]),
-        .I2(out[102]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [358]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [102]),
         .O(\genblk1[0].decoding[1][102]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair688" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][103]_i_1 
-       (.I0(out[359]),
-        .I1(out[255]),
-        .I2(out[103]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [359]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [103]),
         .O(\genblk1[0].decoding[1][103]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair689" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][104]_i_1 
-       (.I0(out[360]),
-        .I1(out[255]),
-        .I2(out[104]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [360]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [104]),
         .O(\genblk1[0].decoding[1][104]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair689" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][105]_i_1 
-       (.I0(out[361]),
-        .I1(out[255]),
-        .I2(out[105]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [361]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [105]),
         .O(\genblk1[0].decoding[1][105]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair690" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][106]_i_1 
-       (.I0(out[362]),
-        .I1(out[255]),
-        .I2(out[106]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [362]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [106]),
         .O(\genblk1[0].decoding[1][106]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair690" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][107]_i_1 
-       (.I0(out[363]),
-        .I1(out[255]),
-        .I2(out[107]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [363]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [107]),
         .O(\genblk1[0].decoding[1][107]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair691" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][108]_i_1 
-       (.I0(out[364]),
-        .I1(out[255]),
-        .I2(out[108]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [364]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [108]),
         .O(\genblk1[0].decoding[1][108]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair691" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][109]_i_1 
-       (.I0(out[365]),
-        .I1(out[255]),
-        .I2(out[109]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [365]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [109]),
         .O(\genblk1[0].decoding[1][109]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair642" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][10]_i_1 
-       (.I0(out[266]),
-        .I1(out[255]),
-        .I2(out[10]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [266]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [10]),
         .O(\genblk1[0].decoding[1][10]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair692" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][110]_i_1 
-       (.I0(out[366]),
-        .I1(out[255]),
-        .I2(out[110]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [366]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [110]),
         .O(\genblk1[0].decoding[1][110]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair692" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][111]_i_1 
-       (.I0(out[367]),
-        .I1(out[255]),
-        .I2(out[111]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [367]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [111]),
         .O(\genblk1[0].decoding[1][111]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair693" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][112]_i_1 
-       (.I0(out[368]),
-        .I1(out[255]),
-        .I2(out[112]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [368]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [112]),
         .O(\genblk1[0].decoding[1][112]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair693" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][113]_i_1 
-       (.I0(out[369]),
-        .I1(out[255]),
-        .I2(out[113]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [369]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [113]),
         .O(\genblk1[0].decoding[1][113]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair694" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][114]_i_1 
-       (.I0(out[370]),
-        .I1(out[255]),
-        .I2(out[114]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [370]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [114]),
         .O(\genblk1[0].decoding[1][114]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair694" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][115]_i_1 
-       (.I0(out[371]),
-        .I1(out[255]),
-        .I2(out[115]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [371]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [115]),
         .O(\genblk1[0].decoding[1][115]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair695" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][116]_i_1 
-       (.I0(out[372]),
-        .I1(out[255]),
-        .I2(out[116]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [372]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [116]),
         .O(\genblk1[0].decoding[1][116]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair695" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][117]_i_1 
-       (.I0(out[373]),
-        .I1(out[255]),
-        .I2(out[117]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [373]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [117]),
         .O(\genblk1[0].decoding[1][117]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair696" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][118]_i_1 
-       (.I0(out[374]),
-        .I1(out[255]),
-        .I2(out[118]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [374]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [118]),
         .O(\genblk1[0].decoding[1][118]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair696" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][119]_i_1 
-       (.I0(out[375]),
-        .I1(out[255]),
-        .I2(out[119]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [375]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [119]),
         .O(\genblk1[0].decoding[1][119]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair642" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][11]_i_1 
-       (.I0(out[267]),
-        .I1(out[255]),
-        .I2(out[11]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [267]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [11]),
         .O(\genblk1[0].decoding[1][11]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair697" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][120]_i_1 
-       (.I0(out[376]),
-        .I1(out[255]),
-        .I2(out[120]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [376]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [120]),
         .O(\genblk1[0].decoding[1][120]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair697" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][121]_i_1 
-       (.I0(out[377]),
-        .I1(out[255]),
-        .I2(out[121]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [377]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [121]),
         .O(\genblk1[0].decoding[1][121]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair698" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][122]_i_1 
-       (.I0(out[378]),
-        .I1(out[255]),
-        .I2(out[122]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [378]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [122]),
         .O(\genblk1[0].decoding[1][122]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair698" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][123]_i_1 
-       (.I0(out[379]),
-        .I1(out[255]),
-        .I2(out[123]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [379]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [123]),
         .O(\genblk1[0].decoding[1][123]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair699" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][124]_i_1 
-       (.I0(out[380]),
-        .I1(out[255]),
-        .I2(out[124]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [380]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [124]),
         .O(\genblk1[0].decoding[1][124]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair699" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][125]_i_1 
-       (.I0(out[381]),
-        .I1(out[255]),
-        .I2(out[125]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [381]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [125]),
         .O(\genblk1[0].decoding[1][125]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair700" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][126]_i_1 
-       (.I0(out[382]),
-        .I1(out[255]),
-        .I2(out[126]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [382]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [126]),
         .O(\genblk1[0].decoding[1][126]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair700" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][127]_i_1 
-       (.I0(out[383]),
-        .I1(out[255]),
-        .I2(out[127]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [383]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [127]),
         .O(\genblk1[0].decoding[1][127]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair701" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][128]_i_1 
-       (.I0(out[384]),
-        .I1(out[255]),
-        .I2(out[128]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [384]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [128]),
         .O(\genblk1[0].decoding[1][128]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair701" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][129]_i_1 
-       (.I0(out[385]),
-        .I1(out[255]),
-        .I2(out[129]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [385]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [129]),
         .O(\genblk1[0].decoding[1][129]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair643" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][12]_i_1 
-       (.I0(out[268]),
-        .I1(out[255]),
-        .I2(out[12]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [268]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [12]),
         .O(\genblk1[0].decoding[1][12]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair702" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][130]_i_1 
-       (.I0(out[386]),
-        .I1(out[255]),
-        .I2(out[130]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [386]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [130]),
         .O(\genblk1[0].decoding[1][130]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair702" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][131]_i_1 
-       (.I0(out[387]),
-        .I1(out[255]),
-        .I2(out[131]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [387]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [131]),
         .O(\genblk1[0].decoding[1][131]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair703" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][132]_i_1 
-       (.I0(out[388]),
-        .I1(out[255]),
-        .I2(out[132]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [388]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [132]),
         .O(\genblk1[0].decoding[1][132]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair703" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][133]_i_1 
-       (.I0(out[389]),
-        .I1(out[255]),
-        .I2(out[133]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [389]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [133]),
         .O(\genblk1[0].decoding[1][133]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair704" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][134]_i_1 
-       (.I0(out[390]),
-        .I1(out[255]),
-        .I2(out[134]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [390]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [134]),
         .O(\genblk1[0].decoding[1][134]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair704" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][135]_i_1 
-       (.I0(out[391]),
-        .I1(out[255]),
-        .I2(out[135]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [391]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [135]),
         .O(\genblk1[0].decoding[1][135]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair705" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][136]_i_1 
-       (.I0(out[392]),
-        .I1(out[255]),
-        .I2(out[136]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [392]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [136]),
         .O(\genblk1[0].decoding[1][136]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair705" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][137]_i_1 
-       (.I0(out[393]),
-        .I1(out[255]),
-        .I2(out[137]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [393]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [137]),
         .O(\genblk1[0].decoding[1][137]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair706" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][138]_i_1 
-       (.I0(out[394]),
-        .I1(out[255]),
-        .I2(out[138]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [394]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [138]),
         .O(\genblk1[0].decoding[1][138]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair706" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][139]_i_1 
-       (.I0(out[395]),
-        .I1(out[255]),
-        .I2(out[139]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [395]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [139]),
         .O(\genblk1[0].decoding[1][139]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair643" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][13]_i_1 
-       (.I0(out[269]),
-        .I1(out[255]),
-        .I2(out[13]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [269]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [13]),
         .O(\genblk1[0].decoding[1][13]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair707" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][140]_i_1 
-       (.I0(out[396]),
-        .I1(out[255]),
-        .I2(out[140]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [396]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [140]),
         .O(\genblk1[0].decoding[1][140]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair707" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][141]_i_1 
-       (.I0(out[397]),
-        .I1(out[255]),
-        .I2(out[141]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [397]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [141]),
         .O(\genblk1[0].decoding[1][141]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair708" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][142]_i_1 
-       (.I0(out[398]),
-        .I1(out[255]),
-        .I2(out[142]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [398]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [142]),
         .O(\genblk1[0].decoding[1][142]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair708" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][143]_i_1 
-       (.I0(out[399]),
-        .I1(out[255]),
-        .I2(out[143]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [399]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [143]),
         .O(\genblk1[0].decoding[1][143]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair709" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][144]_i_1 
-       (.I0(out[400]),
-        .I1(out[255]),
-        .I2(out[144]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [400]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [144]),
         .O(\genblk1[0].decoding[1][144]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair709" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][145]_i_1 
-       (.I0(out[401]),
-        .I1(out[255]),
-        .I2(out[145]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [401]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [145]),
         .O(\genblk1[0].decoding[1][145]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair710" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][146]_i_1 
-       (.I0(out[402]),
-        .I1(out[255]),
-        .I2(out[146]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [402]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [146]),
         .O(\genblk1[0].decoding[1][146]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair710" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][147]_i_1 
-       (.I0(out[403]),
-        .I1(out[255]),
-        .I2(out[147]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [403]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [147]),
         .O(\genblk1[0].decoding[1][147]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair711" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][148]_i_1 
-       (.I0(out[404]),
-        .I1(out[255]),
-        .I2(out[148]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [404]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [148]),
         .O(\genblk1[0].decoding[1][148]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair711" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][149]_i_1 
-       (.I0(out[405]),
-        .I1(out[255]),
-        .I2(out[149]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [405]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [149]),
         .O(\genblk1[0].decoding[1][149]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair644" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][14]_i_1 
-       (.I0(out[270]),
-        .I1(out[255]),
-        .I2(out[14]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [270]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [14]),
         .O(\genblk1[0].decoding[1][14]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair712" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][150]_i_1 
-       (.I0(out[406]),
-        .I1(out[255]),
-        .I2(out[150]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [406]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [150]),
         .O(\genblk1[0].decoding[1][150]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair712" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][151]_i_1 
-       (.I0(out[407]),
-        .I1(out[255]),
-        .I2(out[151]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [407]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [151]),
         .O(\genblk1[0].decoding[1][151]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair713" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][152]_i_1 
-       (.I0(out[408]),
-        .I1(out[255]),
-        .I2(out[152]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [408]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [152]),
         .O(\genblk1[0].decoding[1][152]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair713" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][153]_i_1 
-       (.I0(out[409]),
-        .I1(out[255]),
-        .I2(out[153]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [409]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [153]),
         .O(\genblk1[0].decoding[1][153]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair714" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][154]_i_1 
-       (.I0(out[410]),
-        .I1(out[255]),
-        .I2(out[154]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [410]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [154]),
         .O(\genblk1[0].decoding[1][154]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair714" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][155]_i_1 
-       (.I0(out[411]),
-        .I1(out[255]),
-        .I2(out[155]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [411]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [155]),
         .O(\genblk1[0].decoding[1][155]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair715" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][156]_i_1 
-       (.I0(out[412]),
-        .I1(out[255]),
-        .I2(out[156]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [412]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [156]),
         .O(\genblk1[0].decoding[1][156]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair715" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][157]_i_1 
-       (.I0(out[413]),
-        .I1(out[255]),
-        .I2(out[157]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [413]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [157]),
         .O(\genblk1[0].decoding[1][157]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair716" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][158]_i_1 
-       (.I0(out[414]),
-        .I1(out[255]),
-        .I2(out[158]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [414]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [158]),
         .O(\genblk1[0].decoding[1][158]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair716" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][159]_i_1 
-       (.I0(out[415]),
-        .I1(out[255]),
-        .I2(out[159]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [415]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [159]),
         .O(\genblk1[0].decoding[1][159]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair644" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][15]_i_1 
-       (.I0(out[271]),
-        .I1(out[255]),
-        .I2(out[15]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [271]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [15]),
         .O(\genblk1[0].decoding[1][15]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair717" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][160]_i_1 
-       (.I0(out[416]),
-        .I1(out[255]),
-        .I2(out[160]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [416]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [160]),
         .O(\genblk1[0].decoding[1][160]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair717" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][161]_i_1 
-       (.I0(out[417]),
-        .I1(out[255]),
-        .I2(out[161]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [417]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [161]),
         .O(\genblk1[0].decoding[1][161]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair718" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][162]_i_1 
-       (.I0(out[418]),
-        .I1(out[255]),
-        .I2(out[162]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [418]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [162]),
         .O(\genblk1[0].decoding[1][162]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair718" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][163]_i_1 
-       (.I0(out[419]),
-        .I1(out[255]),
-        .I2(out[163]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [419]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [163]),
         .O(\genblk1[0].decoding[1][163]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair719" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][164]_i_1 
-       (.I0(out[420]),
-        .I1(out[255]),
-        .I2(out[164]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [420]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [164]),
         .O(\genblk1[0].decoding[1][164]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair719" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][165]_i_1 
-       (.I0(out[421]),
-        .I1(out[255]),
-        .I2(out[165]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [421]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [165]),
         .O(\genblk1[0].decoding[1][165]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair720" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][166]_i_1 
-       (.I0(out[422]),
-        .I1(out[255]),
-        .I2(out[166]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [422]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [166]),
         .O(\genblk1[0].decoding[1][166]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair720" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][167]_i_1 
-       (.I0(out[423]),
-        .I1(out[255]),
-        .I2(out[167]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [423]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [167]),
         .O(\genblk1[0].decoding[1][167]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair721" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][168]_i_1 
-       (.I0(out[424]),
-        .I1(out[255]),
-        .I2(out[168]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [424]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [168]),
         .O(\genblk1[0].decoding[1][168]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair721" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][169]_i_1 
-       (.I0(out[425]),
-        .I1(out[255]),
-        .I2(out[169]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [425]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [169]),
         .O(\genblk1[0].decoding[1][169]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair645" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][16]_i_1 
-       (.I0(out[272]),
-        .I1(out[255]),
-        .I2(out[16]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [272]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [16]),
         .O(\genblk1[0].decoding[1][16]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair722" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][170]_i_1 
-       (.I0(out[426]),
-        .I1(out[255]),
-        .I2(out[170]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [426]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [170]),
         .O(\genblk1[0].decoding[1][170]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair722" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][171]_i_1 
-       (.I0(out[427]),
-        .I1(out[255]),
-        .I2(out[171]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [427]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [171]),
         .O(\genblk1[0].decoding[1][171]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair723" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][172]_i_1 
-       (.I0(out[428]),
-        .I1(out[255]),
-        .I2(out[172]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [428]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [172]),
         .O(\genblk1[0].decoding[1][172]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair723" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][173]_i_1 
-       (.I0(out[429]),
-        .I1(out[255]),
-        .I2(out[173]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [429]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [173]),
         .O(\genblk1[0].decoding[1][173]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair724" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][174]_i_1 
-       (.I0(out[430]),
-        .I1(out[255]),
-        .I2(out[174]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [430]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [174]),
         .O(\genblk1[0].decoding[1][174]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair724" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][175]_i_1 
-       (.I0(out[431]),
-        .I1(out[255]),
-        .I2(out[175]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [431]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [175]),
         .O(\genblk1[0].decoding[1][175]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair725" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][176]_i_1 
-       (.I0(out[432]),
-        .I1(out[255]),
-        .I2(out[176]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [432]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [176]),
         .O(\genblk1[0].decoding[1][176]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair725" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][177]_i_1 
-       (.I0(out[433]),
-        .I1(out[255]),
-        .I2(out[177]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [433]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [177]),
         .O(\genblk1[0].decoding[1][177]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair726" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][178]_i_1 
-       (.I0(out[434]),
-        .I1(out[255]),
-        .I2(out[178]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [434]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [178]),
         .O(\genblk1[0].decoding[1][178]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair726" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][179]_i_1 
-       (.I0(out[435]),
-        .I1(out[255]),
-        .I2(out[179]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [435]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [179]),
         .O(\genblk1[0].decoding[1][179]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair645" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][17]_i_1 
-       (.I0(out[273]),
-        .I1(out[255]),
-        .I2(out[17]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [273]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [17]),
         .O(\genblk1[0].decoding[1][17]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair727" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][180]_i_1 
-       (.I0(out[436]),
-        .I1(out[255]),
-        .I2(out[180]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [436]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [180]),
         .O(\genblk1[0].decoding[1][180]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair727" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][181]_i_1 
-       (.I0(out[437]),
-        .I1(out[255]),
-        .I2(out[181]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [437]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [181]),
         .O(\genblk1[0].decoding[1][181]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair728" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][182]_i_1 
-       (.I0(out[438]),
-        .I1(out[255]),
-        .I2(out[182]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [438]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [182]),
         .O(\genblk1[0].decoding[1][182]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair728" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][183]_i_1 
-       (.I0(out[439]),
-        .I1(out[255]),
-        .I2(out[183]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [439]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [183]),
         .O(\genblk1[0].decoding[1][183]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair729" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][184]_i_1 
-       (.I0(out[440]),
-        .I1(out[255]),
-        .I2(out[184]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [440]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [184]),
         .O(\genblk1[0].decoding[1][184]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair729" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][185]_i_1 
-       (.I0(out[441]),
-        .I1(out[255]),
-        .I2(out[185]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [441]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [185]),
         .O(\genblk1[0].decoding[1][185]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair730" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][186]_i_1 
-       (.I0(out[442]),
-        .I1(out[255]),
-        .I2(out[186]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [442]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [186]),
         .O(\genblk1[0].decoding[1][186]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair730" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][187]_i_1 
-       (.I0(out[443]),
-        .I1(out[255]),
-        .I2(out[187]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [443]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [187]),
         .O(\genblk1[0].decoding[1][187]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair731" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][188]_i_1 
-       (.I0(out[444]),
-        .I1(out[255]),
-        .I2(out[188]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [444]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [188]),
         .O(\genblk1[0].decoding[1][188]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair731" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][189]_i_1 
-       (.I0(out[445]),
-        .I1(out[255]),
-        .I2(out[189]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [445]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [189]),
         .O(\genblk1[0].decoding[1][189]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair646" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][18]_i_1 
-       (.I0(out[274]),
-        .I1(out[255]),
-        .I2(out[18]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [274]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [18]),
         .O(\genblk1[0].decoding[1][18]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair732" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][190]_i_1 
-       (.I0(out[446]),
-        .I1(out[255]),
-        .I2(out[190]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [446]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [190]),
         .O(\genblk1[0].decoding[1][190]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair732" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][191]_i_1 
-       (.I0(out[447]),
-        .I1(out[255]),
-        .I2(out[191]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [447]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [191]),
         .O(\genblk1[0].decoding[1][191]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair733" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][192]_i_1 
-       (.I0(out[448]),
-        .I1(out[255]),
-        .I2(out[192]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [448]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [192]),
         .O(\genblk1[0].decoding[1][192]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair733" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][193]_i_1 
-       (.I0(out[449]),
-        .I1(out[255]),
-        .I2(out[193]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [449]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [193]),
         .O(\genblk1[0].decoding[1][193]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair734" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][194]_i_1 
-       (.I0(out[450]),
-        .I1(out[255]),
-        .I2(out[194]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [450]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [194]),
         .O(\genblk1[0].decoding[1][194]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair734" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][195]_i_1 
-       (.I0(out[451]),
-        .I1(out[255]),
-        .I2(out[195]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [451]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [195]),
         .O(\genblk1[0].decoding[1][195]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair735" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][196]_i_1 
-       (.I0(out[452]),
-        .I1(out[255]),
-        .I2(out[196]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [452]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [196]),
         .O(\genblk1[0].decoding[1][196]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair735" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][197]_i_1 
-       (.I0(out[453]),
-        .I1(out[255]),
-        .I2(out[197]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [453]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [197]),
         .O(\genblk1[0].decoding[1][197]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair736" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][198]_i_1 
-       (.I0(out[454]),
-        .I1(out[255]),
-        .I2(out[198]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [454]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [198]),
         .O(\genblk1[0].decoding[1][198]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair736" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][199]_i_1 
-       (.I0(out[455]),
-        .I1(out[255]),
-        .I2(out[199]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [455]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [199]),
         .O(\genblk1[0].decoding[1][199]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair646" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][19]_i_1 
-       (.I0(out[275]),
-        .I1(out[255]),
-        .I2(out[19]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [275]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [19]),
         .O(\genblk1[0].decoding[1][19]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair637" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][1]_i_1 
-       (.I0(out[257]),
-        .I1(out[255]),
-        .I2(out[1]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [257]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [1]),
         .O(\genblk1[0].decoding[1][1]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair737" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][200]_i_1 
-       (.I0(out[456]),
-        .I1(out[255]),
-        .I2(out[200]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [456]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [200]),
         .O(\genblk1[0].decoding[1][200]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair737" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][201]_i_1 
-       (.I0(out[457]),
-        .I1(out[255]),
-        .I2(out[201]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [457]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [201]),
         .O(\genblk1[0].decoding[1][201]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair738" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][202]_i_1 
-       (.I0(out[458]),
-        .I1(out[255]),
-        .I2(out[202]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [458]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [202]),
         .O(\genblk1[0].decoding[1][202]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair738" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][203]_i_1 
-       (.I0(out[459]),
-        .I1(out[255]),
-        .I2(out[203]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [459]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [203]),
         .O(\genblk1[0].decoding[1][203]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair739" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][204]_i_1 
-       (.I0(out[460]),
-        .I1(out[255]),
-        .I2(out[204]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [460]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [204]),
         .O(\genblk1[0].decoding[1][204]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair739" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][205]_i_1 
-       (.I0(out[461]),
-        .I1(out[255]),
-        .I2(out[205]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [461]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [205]),
         .O(\genblk1[0].decoding[1][205]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair740" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][206]_i_1 
-       (.I0(out[462]),
-        .I1(out[255]),
-        .I2(out[206]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [462]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [206]),
         .O(\genblk1[0].decoding[1][206]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair740" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][207]_i_1 
-       (.I0(out[463]),
-        .I1(out[255]),
-        .I2(out[207]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [463]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [207]),
         .O(\genblk1[0].decoding[1][207]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair741" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][208]_i_1 
-       (.I0(out[464]),
-        .I1(out[255]),
-        .I2(out[208]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [464]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [208]),
         .O(\genblk1[0].decoding[1][208]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair741" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][209]_i_1 
-       (.I0(out[465]),
-        .I1(out[255]),
-        .I2(out[209]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [465]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [209]),
         .O(\genblk1[0].decoding[1][209]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair647" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][20]_i_1 
-       (.I0(out[276]),
-        .I1(out[255]),
-        .I2(out[20]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [276]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [20]),
         .O(\genblk1[0].decoding[1][20]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair742" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][210]_i_1 
-       (.I0(out[466]),
-        .I1(out[255]),
-        .I2(out[210]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [466]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [210]),
         .O(\genblk1[0].decoding[1][210]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair742" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][211]_i_1 
-       (.I0(out[467]),
-        .I1(out[255]),
-        .I2(out[211]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [467]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [211]),
         .O(\genblk1[0].decoding[1][211]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair743" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][212]_i_1 
-       (.I0(out[468]),
-        .I1(out[255]),
-        .I2(out[212]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [468]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [212]),
         .O(\genblk1[0].decoding[1][212]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair743" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][213]_i_1 
-       (.I0(out[469]),
-        .I1(out[255]),
-        .I2(out[213]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [469]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [213]),
         .O(\genblk1[0].decoding[1][213]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair744" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][214]_i_1 
-       (.I0(out[470]),
-        .I1(out[255]),
-        .I2(out[214]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [470]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [214]),
         .O(\genblk1[0].decoding[1][214]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair744" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][215]_i_1 
-       (.I0(out[471]),
-        .I1(out[255]),
-        .I2(out[215]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [471]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [215]),
         .O(\genblk1[0].decoding[1][215]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair745" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][216]_i_1 
-       (.I0(out[472]),
-        .I1(out[255]),
-        .I2(out[216]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [472]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [216]),
         .O(\genblk1[0].decoding[1][216]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair745" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][217]_i_1 
-       (.I0(out[473]),
-        .I1(out[255]),
-        .I2(out[217]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [473]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [217]),
         .O(\genblk1[0].decoding[1][217]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair746" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][218]_i_1 
-       (.I0(out[474]),
-        .I1(out[255]),
-        .I2(out[218]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [474]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [218]),
         .O(\genblk1[0].decoding[1][218]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair746" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][219]_i_1 
-       (.I0(out[475]),
-        .I1(out[255]),
-        .I2(out[219]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [475]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [219]),
         .O(\genblk1[0].decoding[1][219]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair647" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][21]_i_1 
-       (.I0(out[277]),
-        .I1(out[255]),
-        .I2(out[21]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [277]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [21]),
         .O(\genblk1[0].decoding[1][21]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair747" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][220]_i_1 
-       (.I0(out[476]),
-        .I1(out[255]),
-        .I2(out[220]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [476]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [220]),
         .O(\genblk1[0].decoding[1][220]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair747" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][221]_i_1 
-       (.I0(out[477]),
-        .I1(out[255]),
-        .I2(out[221]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [477]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [221]),
         .O(\genblk1[0].decoding[1][221]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair748" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][222]_i_1 
-       (.I0(out[478]),
-        .I1(out[255]),
-        .I2(out[222]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [478]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [222]),
         .O(\genblk1[0].decoding[1][222]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair748" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][223]_i_1 
-       (.I0(out[479]),
-        .I1(out[255]),
-        .I2(out[223]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [479]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [223]),
         .O(\genblk1[0].decoding[1][223]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair749" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][224]_i_1 
-       (.I0(out[480]),
-        .I1(out[255]),
-        .I2(out[224]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [480]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [224]),
         .O(\genblk1[0].decoding[1][224]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair749" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][225]_i_1 
-       (.I0(out[481]),
-        .I1(out[255]),
-        .I2(out[225]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [481]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [225]),
         .O(\genblk1[0].decoding[1][225]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair750" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][226]_i_1 
-       (.I0(out[482]),
-        .I1(out[255]),
-        .I2(out[226]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [482]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [226]),
         .O(\genblk1[0].decoding[1][226]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair750" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][227]_i_1 
-       (.I0(out[483]),
-        .I1(out[255]),
-        .I2(out[227]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [483]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [227]),
         .O(\genblk1[0].decoding[1][227]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair751" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][228]_i_1 
-       (.I0(out[484]),
-        .I1(out[255]),
-        .I2(out[228]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [484]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [228]),
         .O(\genblk1[0].decoding[1][228]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair751" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][229]_i_1 
-       (.I0(out[485]),
-        .I1(out[255]),
-        .I2(out[229]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [485]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [229]),
         .O(\genblk1[0].decoding[1][229]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair648" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][22]_i_1 
-       (.I0(out[278]),
-        .I1(out[255]),
-        .I2(out[22]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [278]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [22]),
         .O(\genblk1[0].decoding[1][22]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair752" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][230]_i_1 
-       (.I0(out[486]),
-        .I1(out[255]),
-        .I2(out[230]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [486]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [230]),
         .O(\genblk1[0].decoding[1][230]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair752" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][231]_i_1 
-       (.I0(out[487]),
-        .I1(out[255]),
-        .I2(out[231]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [487]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [231]),
         .O(\genblk1[0].decoding[1][231]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair753" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][232]_i_1 
-       (.I0(out[488]),
-        .I1(out[255]),
-        .I2(out[232]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [488]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [232]),
         .O(\genblk1[0].decoding[1][232]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair753" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][233]_i_1 
-       (.I0(out[489]),
-        .I1(out[255]),
-        .I2(out[233]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [489]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [233]),
         .O(\genblk1[0].decoding[1][233]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair754" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][234]_i_1 
-       (.I0(out[490]),
-        .I1(out[255]),
-        .I2(out[234]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [490]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [234]),
         .O(\genblk1[0].decoding[1][234]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair754" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][235]_i_1 
-       (.I0(out[491]),
-        .I1(out[255]),
-        .I2(out[235]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [491]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [235]),
         .O(\genblk1[0].decoding[1][235]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair755" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][236]_i_1 
-       (.I0(out[492]),
-        .I1(out[255]),
-        .I2(out[236]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [492]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [236]),
         .O(\genblk1[0].decoding[1][236]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair755" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][237]_i_1 
-       (.I0(out[493]),
-        .I1(out[255]),
-        .I2(out[237]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [493]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [237]),
         .O(\genblk1[0].decoding[1][237]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair756" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][238]_i_1 
-       (.I0(out[494]),
-        .I1(out[255]),
-        .I2(out[238]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [494]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [238]),
         .O(\genblk1[0].decoding[1][238]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair756" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][239]_i_1 
-       (.I0(out[495]),
-        .I1(out[255]),
-        .I2(out[239]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [495]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [239]),
         .O(\genblk1[0].decoding[1][239]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair648" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][23]_i_1 
-       (.I0(out[279]),
-        .I1(out[255]),
-        .I2(out[23]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [279]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [23]),
         .O(\genblk1[0].decoding[1][23]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair757" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][240]_i_1 
-       (.I0(out[496]),
-        .I1(out[255]),
-        .I2(out[240]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [496]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [240]),
         .O(\genblk1[0].decoding[1][240]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair757" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][241]_i_1 
-       (.I0(out[497]),
-        .I1(out[255]),
-        .I2(out[241]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [497]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [241]),
         .O(\genblk1[0].decoding[1][241]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair758" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][242]_i_1 
-       (.I0(out[498]),
-        .I1(out[255]),
-        .I2(out[242]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [498]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [242]),
         .O(\genblk1[0].decoding[1][242]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair758" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][243]_i_1 
-       (.I0(out[499]),
-        .I1(out[255]),
-        .I2(out[243]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [499]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [243]),
         .O(\genblk1[0].decoding[1][243]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair759" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][244]_i_1 
-       (.I0(out[500]),
-        .I1(out[255]),
-        .I2(out[244]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [500]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [244]),
         .O(\genblk1[0].decoding[1][244]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair759" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][245]_i_1 
-       (.I0(out[501]),
-        .I1(out[255]),
-        .I2(out[245]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [501]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [245]),
         .O(\genblk1[0].decoding[1][245]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair760" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][246]_i_1 
-       (.I0(out[502]),
-        .I1(out[255]),
-        .I2(out[246]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [502]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [246]),
         .O(\genblk1[0].decoding[1][246]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair760" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][247]_i_1 
-       (.I0(out[503]),
-        .I1(out[255]),
-        .I2(out[247]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [503]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [247]),
         .O(\genblk1[0].decoding[1][247]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair761" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][248]_i_1 
-       (.I0(out[504]),
-        .I1(out[255]),
-        .I2(out[248]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [504]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [248]),
         .O(\genblk1[0].decoding[1][248]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair761" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][249]_i_1 
-       (.I0(out[505]),
-        .I1(out[255]),
-        .I2(out[249]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [505]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [249]),
         .O(\genblk1[0].decoding[1][249]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair649" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][24]_i_1 
-       (.I0(out[280]),
-        .I1(out[255]),
-        .I2(out[24]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [280]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [24]),
         .O(\genblk1[0].decoding[1][24]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair762" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][250]_i_1 
-       (.I0(out[506]),
-        .I1(out[255]),
-        .I2(out[250]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [506]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [250]),
         .O(\genblk1[0].decoding[1][250]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair762" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][251]_i_1 
-       (.I0(out[507]),
-        .I1(out[255]),
-        .I2(out[251]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [507]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [251]),
         .O(\genblk1[0].decoding[1][251]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair763" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][252]_i_1 
-       (.I0(out[508]),
-        .I1(out[255]),
-        .I2(out[252]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [508]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [252]),
         .O(\genblk1[0].decoding[1][252]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair763" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][253]_i_1 
-       (.I0(out[509]),
-        .I1(out[255]),
-        .I2(out[253]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [509]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [253]),
         .O(\genblk1[0].decoding[1][253]_i_1_n_0 ));
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][254]_i_1 
-       (.I0(out[510]),
-        .I1(out[255]),
-        .I2(out[254]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [510]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [254]),
         .O(\genblk1[0].decoding[1][254]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair649" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][25]_i_1 
-       (.I0(out[281]),
-        .I1(out[255]),
-        .I2(out[25]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [281]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [25]),
         .O(\genblk1[0].decoding[1][25]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair650" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][26]_i_1 
-       (.I0(out[282]),
-        .I1(out[255]),
-        .I2(out[26]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [282]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [26]),
         .O(\genblk1[0].decoding[1][26]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair650" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][27]_i_1 
-       (.I0(out[283]),
-        .I1(out[255]),
-        .I2(out[27]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [283]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [27]),
         .O(\genblk1[0].decoding[1][27]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair651" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][28]_i_1 
-       (.I0(out[284]),
-        .I1(out[255]),
-        .I2(out[28]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [284]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [28]),
         .O(\genblk1[0].decoding[1][28]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair651" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][29]_i_1 
-       (.I0(out[285]),
-        .I1(out[255]),
-        .I2(out[29]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [285]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [29]),
         .O(\genblk1[0].decoding[1][29]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair638" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][2]_i_1 
-       (.I0(out[258]),
-        .I1(out[255]),
-        .I2(out[2]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [258]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [2]),
         .O(\genblk1[0].decoding[1][2]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair652" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][30]_i_1 
-       (.I0(out[286]),
-        .I1(out[255]),
-        .I2(out[30]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [286]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [30]),
         .O(\genblk1[0].decoding[1][30]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair652" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][31]_i_1 
-       (.I0(out[287]),
-        .I1(out[255]),
-        .I2(out[31]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [287]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [31]),
         .O(\genblk1[0].decoding[1][31]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair653" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][32]_i_1 
-       (.I0(out[288]),
-        .I1(out[255]),
-        .I2(out[32]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [288]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [32]),
         .O(\genblk1[0].decoding[1][32]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair653" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][33]_i_1 
-       (.I0(out[289]),
-        .I1(out[255]),
-        .I2(out[33]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [289]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [33]),
         .O(\genblk1[0].decoding[1][33]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair654" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][34]_i_1 
-       (.I0(out[290]),
-        .I1(out[255]),
-        .I2(out[34]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [290]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [34]),
         .O(\genblk1[0].decoding[1][34]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair654" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][35]_i_1 
-       (.I0(out[291]),
-        .I1(out[255]),
-        .I2(out[35]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [291]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [35]),
         .O(\genblk1[0].decoding[1][35]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair655" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][36]_i_1 
-       (.I0(out[292]),
-        .I1(out[255]),
-        .I2(out[36]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [292]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [36]),
         .O(\genblk1[0].decoding[1][36]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair655" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][37]_i_1 
-       (.I0(out[293]),
-        .I1(out[255]),
-        .I2(out[37]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [293]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [37]),
         .O(\genblk1[0].decoding[1][37]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair656" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][38]_i_1 
-       (.I0(out[294]),
-        .I1(out[255]),
-        .I2(out[38]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [294]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [38]),
         .O(\genblk1[0].decoding[1][38]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair656" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][39]_i_1 
-       (.I0(out[295]),
-        .I1(out[255]),
-        .I2(out[39]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [295]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [39]),
         .O(\genblk1[0].decoding[1][39]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair638" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][3]_i_1 
-       (.I0(out[259]),
-        .I1(out[255]),
-        .I2(out[3]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [259]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [3]),
         .O(\genblk1[0].decoding[1][3]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair657" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][40]_i_1 
-       (.I0(out[296]),
-        .I1(out[255]),
-        .I2(out[40]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [296]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [40]),
         .O(\genblk1[0].decoding[1][40]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair657" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][41]_i_1 
-       (.I0(out[297]),
-        .I1(out[255]),
-        .I2(out[41]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [297]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [41]),
         .O(\genblk1[0].decoding[1][41]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair658" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][42]_i_1 
-       (.I0(out[298]),
-        .I1(out[255]),
-        .I2(out[42]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [298]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [42]),
         .O(\genblk1[0].decoding[1][42]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair658" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][43]_i_1 
-       (.I0(out[299]),
-        .I1(out[255]),
-        .I2(out[43]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [299]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [43]),
         .O(\genblk1[0].decoding[1][43]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair659" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][44]_i_1 
-       (.I0(out[300]),
-        .I1(out[255]),
-        .I2(out[44]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [300]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [44]),
         .O(\genblk1[0].decoding[1][44]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair659" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][45]_i_1 
-       (.I0(out[301]),
-        .I1(out[255]),
-        .I2(out[45]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [301]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [45]),
         .O(\genblk1[0].decoding[1][45]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair660" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][46]_i_1 
-       (.I0(out[302]),
-        .I1(out[255]),
-        .I2(out[46]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [302]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [46]),
         .O(\genblk1[0].decoding[1][46]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair660" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][47]_i_1 
-       (.I0(out[303]),
-        .I1(out[255]),
-        .I2(out[47]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [303]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [47]),
         .O(\genblk1[0].decoding[1][47]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair661" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][48]_i_1 
-       (.I0(out[304]),
-        .I1(out[255]),
-        .I2(out[48]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [304]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [48]),
         .O(\genblk1[0].decoding[1][48]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair661" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][49]_i_1 
-       (.I0(out[305]),
-        .I1(out[255]),
-        .I2(out[49]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [305]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [49]),
         .O(\genblk1[0].decoding[1][49]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair639" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][4]_i_1 
-       (.I0(out[260]),
-        .I1(out[255]),
-        .I2(out[4]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [260]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [4]),
         .O(\genblk1[0].decoding[1][4]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair662" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][50]_i_1 
-       (.I0(out[306]),
-        .I1(out[255]),
-        .I2(out[50]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [306]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [50]),
         .O(\genblk1[0].decoding[1][50]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair662" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][51]_i_1 
-       (.I0(out[307]),
-        .I1(out[255]),
-        .I2(out[51]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [307]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [51]),
         .O(\genblk1[0].decoding[1][51]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair663" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][52]_i_1 
-       (.I0(out[308]),
-        .I1(out[255]),
-        .I2(out[52]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [308]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [52]),
         .O(\genblk1[0].decoding[1][52]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair663" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][53]_i_1 
-       (.I0(out[309]),
-        .I1(out[255]),
-        .I2(out[53]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [309]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [53]),
         .O(\genblk1[0].decoding[1][53]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair664" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][54]_i_1 
-       (.I0(out[310]),
-        .I1(out[255]),
-        .I2(out[54]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [310]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [54]),
         .O(\genblk1[0].decoding[1][54]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair664" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][55]_i_1 
-       (.I0(out[311]),
-        .I1(out[255]),
-        .I2(out[55]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [311]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [55]),
         .O(\genblk1[0].decoding[1][55]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair665" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][56]_i_1 
-       (.I0(out[312]),
-        .I1(out[255]),
-        .I2(out[56]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [312]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [56]),
         .O(\genblk1[0].decoding[1][56]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair665" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][57]_i_1 
-       (.I0(out[313]),
-        .I1(out[255]),
-        .I2(out[57]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [313]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [57]),
         .O(\genblk1[0].decoding[1][57]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair666" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][58]_i_1 
-       (.I0(out[314]),
-        .I1(out[255]),
-        .I2(out[58]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [314]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [58]),
         .O(\genblk1[0].decoding[1][58]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair666" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][59]_i_1 
-       (.I0(out[315]),
-        .I1(out[255]),
-        .I2(out[59]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [315]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [59]),
         .O(\genblk1[0].decoding[1][59]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair639" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][5]_i_1 
-       (.I0(out[261]),
-        .I1(out[255]),
-        .I2(out[5]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [261]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [5]),
         .O(\genblk1[0].decoding[1][5]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair667" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][60]_i_1 
-       (.I0(out[316]),
-        .I1(out[255]),
-        .I2(out[60]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [316]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [60]),
         .O(\genblk1[0].decoding[1][60]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair667" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][61]_i_1 
-       (.I0(out[317]),
-        .I1(out[255]),
-        .I2(out[61]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [317]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [61]),
         .O(\genblk1[0].decoding[1][61]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair668" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][62]_i_1 
-       (.I0(out[318]),
-        .I1(out[255]),
-        .I2(out[62]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [318]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [62]),
         .O(\genblk1[0].decoding[1][62]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair668" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][63]_i_1 
-       (.I0(out[319]),
-        .I1(out[255]),
-        .I2(out[63]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [319]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [63]),
         .O(\genblk1[0].decoding[1][63]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair669" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][64]_i_1 
-       (.I0(out[320]),
-        .I1(out[255]),
-        .I2(out[64]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [320]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [64]),
         .O(\genblk1[0].decoding[1][64]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair669" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][65]_i_1 
-       (.I0(out[321]),
-        .I1(out[255]),
-        .I2(out[65]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [321]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [65]),
         .O(\genblk1[0].decoding[1][65]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair670" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][66]_i_1 
-       (.I0(out[322]),
-        .I1(out[255]),
-        .I2(out[66]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [322]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [66]),
         .O(\genblk1[0].decoding[1][66]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair670" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][67]_i_1 
-       (.I0(out[323]),
-        .I1(out[255]),
-        .I2(out[67]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [323]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [67]),
         .O(\genblk1[0].decoding[1][67]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair671" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][68]_i_1 
-       (.I0(out[324]),
-        .I1(out[255]),
-        .I2(out[68]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [324]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [68]),
         .O(\genblk1[0].decoding[1][68]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair671" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][69]_i_1 
-       (.I0(out[325]),
-        .I1(out[255]),
-        .I2(out[69]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [325]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [69]),
         .O(\genblk1[0].decoding[1][69]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair640" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][6]_i_1 
-       (.I0(out[262]),
-        .I1(out[255]),
-        .I2(out[6]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [262]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [6]),
         .O(\genblk1[0].decoding[1][6]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair672" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][70]_i_1 
-       (.I0(out[326]),
-        .I1(out[255]),
-        .I2(out[70]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [326]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [70]),
         .O(\genblk1[0].decoding[1][70]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair672" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][71]_i_1 
-       (.I0(out[327]),
-        .I1(out[255]),
-        .I2(out[71]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [327]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [71]),
         .O(\genblk1[0].decoding[1][71]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair673" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][72]_i_1 
-       (.I0(out[328]),
-        .I1(out[255]),
-        .I2(out[72]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [328]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [72]),
         .O(\genblk1[0].decoding[1][72]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair673" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][73]_i_1 
-       (.I0(out[329]),
-        .I1(out[255]),
-        .I2(out[73]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [329]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [73]),
         .O(\genblk1[0].decoding[1][73]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair674" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][74]_i_1 
-       (.I0(out[330]),
-        .I1(out[255]),
-        .I2(out[74]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [330]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [74]),
         .O(\genblk1[0].decoding[1][74]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair674" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][75]_i_1 
-       (.I0(out[331]),
-        .I1(out[255]),
-        .I2(out[75]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [331]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [75]),
         .O(\genblk1[0].decoding[1][75]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair675" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][76]_i_1 
-       (.I0(out[332]),
-        .I1(out[255]),
-        .I2(out[76]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [332]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [76]),
         .O(\genblk1[0].decoding[1][76]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair675" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][77]_i_1 
-       (.I0(out[333]),
-        .I1(out[255]),
-        .I2(out[77]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [333]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [77]),
         .O(\genblk1[0].decoding[1][77]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair676" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][78]_i_1 
-       (.I0(out[334]),
-        .I1(out[255]),
-        .I2(out[78]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [334]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [78]),
         .O(\genblk1[0].decoding[1][78]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair676" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][79]_i_1 
-       (.I0(out[335]),
-        .I1(out[255]),
-        .I2(out[79]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [335]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [79]),
         .O(\genblk1[0].decoding[1][79]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair640" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][7]_i_1 
-       (.I0(out[263]),
-        .I1(out[255]),
-        .I2(out[7]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [263]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [7]),
         .O(\genblk1[0].decoding[1][7]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair677" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][80]_i_1 
-       (.I0(out[336]),
-        .I1(out[255]),
-        .I2(out[80]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [336]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [80]),
         .O(\genblk1[0].decoding[1][80]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair677" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][81]_i_1 
-       (.I0(out[337]),
-        .I1(out[255]),
-        .I2(out[81]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [337]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [81]),
         .O(\genblk1[0].decoding[1][81]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair678" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][82]_i_1 
-       (.I0(out[338]),
-        .I1(out[255]),
-        .I2(out[82]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [338]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [82]),
         .O(\genblk1[0].decoding[1][82]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair678" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][83]_i_1 
-       (.I0(out[339]),
-        .I1(out[255]),
-        .I2(out[83]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [339]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [83]),
         .O(\genblk1[0].decoding[1][83]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair679" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][84]_i_1 
-       (.I0(out[340]),
-        .I1(out[255]),
-        .I2(out[84]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [340]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [84]),
         .O(\genblk1[0].decoding[1][84]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair679" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][85]_i_1 
-       (.I0(out[341]),
-        .I1(out[255]),
-        .I2(out[85]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [341]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [85]),
         .O(\genblk1[0].decoding[1][85]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair680" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][86]_i_1 
-       (.I0(out[342]),
-        .I1(out[255]),
-        .I2(out[86]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [342]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [86]),
         .O(\genblk1[0].decoding[1][86]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair680" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][87]_i_1 
-       (.I0(out[343]),
-        .I1(out[255]),
-        .I2(out[87]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [343]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [87]),
         .O(\genblk1[0].decoding[1][87]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair681" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][88]_i_1 
-       (.I0(out[344]),
-        .I1(out[255]),
-        .I2(out[88]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [344]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [88]),
         .O(\genblk1[0].decoding[1][88]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair681" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][89]_i_1 
-       (.I0(out[345]),
-        .I1(out[255]),
-        .I2(out[89]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [345]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [89]),
         .O(\genblk1[0].decoding[1][89]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair641" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][8]_i_1 
-       (.I0(out[264]),
-        .I1(out[255]),
-        .I2(out[8]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [264]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [8]),
         .O(\genblk1[0].decoding[1][8]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair682" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][90]_i_1 
-       (.I0(out[346]),
-        .I1(out[255]),
-        .I2(out[90]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [346]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [90]),
         .O(\genblk1[0].decoding[1][90]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair682" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][91]_i_1 
-       (.I0(out[347]),
-        .I1(out[255]),
-        .I2(out[91]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [347]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [91]),
         .O(\genblk1[0].decoding[1][91]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair683" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][92]_i_1 
-       (.I0(out[348]),
-        .I1(out[255]),
-        .I2(out[92]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [348]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [92]),
         .O(\genblk1[0].decoding[1][92]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair683" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][93]_i_1 
-       (.I0(out[349]),
-        .I1(out[255]),
-        .I2(out[93]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [349]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [93]),
         .O(\genblk1[0].decoding[1][93]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair684" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][94]_i_1 
-       (.I0(out[350]),
-        .I1(out[255]),
-        .I2(out[94]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [350]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [94]),
         .O(\genblk1[0].decoding[1][94]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair684" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][95]_i_1 
-       (.I0(out[351]),
-        .I1(out[255]),
-        .I2(out[95]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [351]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [95]),
         .O(\genblk1[0].decoding[1][95]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair685" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][96]_i_1 
-       (.I0(out[352]),
-        .I1(out[255]),
-        .I2(out[96]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [352]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [96]),
         .O(\genblk1[0].decoding[1][96]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair685" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][97]_i_1 
-       (.I0(out[353]),
-        .I1(out[255]),
-        .I2(out[97]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [353]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [97]),
         .O(\genblk1[0].decoding[1][97]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair686" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][98]_i_1 
-       (.I0(out[354]),
-        .I1(out[255]),
-        .I2(out[98]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [354]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [98]),
         .O(\genblk1[0].decoding[1][98]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair686" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][99]_i_1 
-       (.I0(out[355]),
-        .I1(out[255]),
-        .I2(out[99]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [355]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [99]),
         .O(\genblk1[0].decoding[1][99]_i_1_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair641" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[0].decoding[1][9]_i_1 
-       (.I0(out[265]),
-        .I1(out[255]),
-        .I2(out[9]),
+       (.I0(\genblk1[0].decoding_reg[1][254]_0 [265]),
+        .I1(\genblk1[0].decoding_reg[1][254]_0 [255]),
+        .I2(\genblk1[0].decoding_reg[1][254]_0 [9]),
         .O(\genblk1[0].decoding[1][9]_i_1_n_0 ));
   FDRE #(
     .INIT(1'b0)) 
@@ -29387,7 +29384,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][0]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][100] 
@@ -29395,7 +29392,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][100]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][100] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][101] 
@@ -29403,7 +29400,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][101]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][101] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][102] 
@@ -29411,7 +29408,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][102]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][102] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][103] 
@@ -29419,7 +29416,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][103]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][103] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][104] 
@@ -29427,7 +29424,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][104]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][104] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][105] 
@@ -29435,7 +29432,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][105]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][105] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][106] 
@@ -29443,7 +29440,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][106]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][106] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][107] 
@@ -29451,7 +29448,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][107]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][107] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][108] 
@@ -29459,7 +29456,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][108]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][108] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][109] 
@@ -29467,7 +29464,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][109]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][109] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][10] 
@@ -29475,7 +29472,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][10]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][110] 
@@ -29483,7 +29480,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][110]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][110] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][111] 
@@ -29491,7 +29488,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][111]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][111] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][112] 
@@ -29499,7 +29496,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][112]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][112] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][113] 
@@ -29507,7 +29504,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][113]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][113] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][114] 
@@ -29515,7 +29512,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][114]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][114] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][115] 
@@ -29523,7 +29520,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][115]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][115] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][116] 
@@ -29531,7 +29528,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][116]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][116] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][117] 
@@ -29539,7 +29536,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][117]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][117] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][118] 
@@ -29547,7 +29544,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][118]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][118] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][119] 
@@ -29555,7 +29552,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][119]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][119] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][11] 
@@ -29563,7 +29560,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][11]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][120] 
@@ -29571,7 +29568,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][120]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][120] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][121] 
@@ -29579,7 +29576,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][121]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][121] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][122] 
@@ -29587,7 +29584,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][122]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][122] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][123] 
@@ -29595,7 +29592,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][123]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][123] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][124] 
@@ -29603,7 +29600,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][124]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][124] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][125] 
@@ -29611,7 +29608,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][125]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][125] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][126] 
@@ -29619,7 +29616,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][126]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][126] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][127] 
@@ -29627,7 +29624,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][127]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][127] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][128] 
@@ -29635,7 +29632,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][128]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][128] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][129] 
@@ -29643,7 +29640,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][129]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][129] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][12] 
@@ -29651,7 +29648,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][12]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][130] 
@@ -29659,7 +29656,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][130]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][130] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][131] 
@@ -29667,7 +29664,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][131]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][131] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][132] 
@@ -29675,7 +29672,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][132]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][132] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][133] 
@@ -29683,7 +29680,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][133]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][133] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][134] 
@@ -29691,7 +29688,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][134]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][134] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][135] 
@@ -29699,7 +29696,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][135]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][135] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][136] 
@@ -29707,7 +29704,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][136]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][136] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][137] 
@@ -29715,7 +29712,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][137]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][137] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][138] 
@@ -29723,7 +29720,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][138]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][138] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][139] 
@@ -29731,7 +29728,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][139]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][139] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][13] 
@@ -29739,7 +29736,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][13]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][140] 
@@ -29747,7 +29744,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][140]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][140] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][141] 
@@ -29755,7 +29752,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][141]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][141] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][142] 
@@ -29763,7 +29760,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][142]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][142] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][143] 
@@ -29771,7 +29768,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][143]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][143] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][144] 
@@ -29779,7 +29776,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][144]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][144] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][145] 
@@ -29787,7 +29784,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][145]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][145] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][146] 
@@ -29795,7 +29792,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][146]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][146] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][147] 
@@ -29803,7 +29800,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][147]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][147] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][148] 
@@ -29811,7 +29808,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][148]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][148] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][149] 
@@ -29819,7 +29816,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][149]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][149] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][14] 
@@ -29827,7 +29824,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][14]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][150] 
@@ -29835,7 +29832,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][150]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][150] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][151] 
@@ -29843,7 +29840,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][151]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][151] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][152] 
@@ -29851,7 +29848,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][152]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][152] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][153] 
@@ -29859,7 +29856,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][153]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][153] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][154] 
@@ -29867,7 +29864,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][154]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][154] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][155] 
@@ -29875,7 +29872,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][155]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][155] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][156] 
@@ -29883,7 +29880,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][156]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][156] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][157] 
@@ -29891,7 +29888,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][157]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][157] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][158] 
@@ -29899,7 +29896,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][158]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][158] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][159] 
@@ -29907,7 +29904,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][159]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][159] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][15] 
@@ -29915,7 +29912,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][15]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][160] 
@@ -29923,7 +29920,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][160]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][160] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][161] 
@@ -29931,7 +29928,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][161]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][161] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][162] 
@@ -29939,7 +29936,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][162]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][162] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][163] 
@@ -29947,7 +29944,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][163]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][163] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][164] 
@@ -29955,7 +29952,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][164]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][164] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][165] 
@@ -29963,7 +29960,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][165]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][165] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][166] 
@@ -29971,7 +29968,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][166]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][166] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][167] 
@@ -29979,7 +29976,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][167]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][167] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][168] 
@@ -29987,7 +29984,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][168]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][168] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][169] 
@@ -29995,7 +29992,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][169]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][169] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][16] 
@@ -30003,7 +30000,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][16]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][170] 
@@ -30011,7 +30008,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][170]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][170] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][171] 
@@ -30019,7 +30016,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][171]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][171] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][172] 
@@ -30027,7 +30024,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][172]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][172] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][173] 
@@ -30035,7 +30032,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][173]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][173] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][174] 
@@ -30043,7 +30040,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][174]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][174] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][175] 
@@ -30051,7 +30048,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][175]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][175] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][176] 
@@ -30059,7 +30056,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][176]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][176] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][177] 
@@ -30067,7 +30064,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][177]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][177] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][178] 
@@ -30075,7 +30072,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][178]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][178] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][179] 
@@ -30083,7 +30080,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][179]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][179] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][17] 
@@ -30091,7 +30088,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][17]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][180] 
@@ -30099,7 +30096,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][180]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][180] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][181] 
@@ -30107,7 +30104,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][181]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][181] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][182] 
@@ -30115,7 +30112,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][182]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][182] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][183] 
@@ -30123,7 +30120,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][183]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][183] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][184] 
@@ -30131,7 +30128,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][184]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][184] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][185] 
@@ -30139,7 +30136,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][185]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][185] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][186] 
@@ -30147,7 +30144,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][186]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][186] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][187] 
@@ -30155,7 +30152,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][187]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][187] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][188] 
@@ -30163,7 +30160,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][188]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][188] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][189] 
@@ -30171,7 +30168,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][189]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][189] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][18] 
@@ -30179,7 +30176,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][18]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][190] 
@@ -30187,7 +30184,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][190]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][190] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][191] 
@@ -30195,7 +30192,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][191]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][191] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][192] 
@@ -30203,7 +30200,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][192]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][192] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][193] 
@@ -30211,7 +30208,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][193]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][193] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][194] 
@@ -30219,7 +30216,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][194]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][194] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][195] 
@@ -30227,7 +30224,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][195]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][195] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][196] 
@@ -30235,7 +30232,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][196]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][196] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][197] 
@@ -30243,7 +30240,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][197]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][197] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][198] 
@@ -30251,7 +30248,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][198]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][198] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][199] 
@@ -30259,7 +30256,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][199]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][199] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][19] 
@@ -30267,7 +30264,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][19]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][1] 
@@ -30275,7 +30272,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][1]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][200] 
@@ -30283,7 +30280,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][200]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][200] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][201] 
@@ -30291,7 +30288,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][201]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][201] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][202] 
@@ -30299,7 +30296,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][202]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][202] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][203] 
@@ -30307,7 +30304,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][203]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][203] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][204] 
@@ -30315,7 +30312,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][204]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][204] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][205] 
@@ -30323,7 +30320,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][205]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][205] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][206] 
@@ -30331,7 +30328,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][206]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][206] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][207] 
@@ -30339,7 +30336,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][207]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][207] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][208] 
@@ -30347,7 +30344,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][208]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][208] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][209] 
@@ -30355,7 +30352,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][209]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][209] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][20] 
@@ -30363,7 +30360,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][20]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][210] 
@@ -30371,7 +30368,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][210]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][210] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][211] 
@@ -30379,7 +30376,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][211]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][211] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][212] 
@@ -30387,7 +30384,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][212]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][212] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][213] 
@@ -30395,7 +30392,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][213]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][213] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][214] 
@@ -30403,7 +30400,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][214]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][214] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][215] 
@@ -30411,7 +30408,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][215]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][215] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][216] 
@@ -30419,7 +30416,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][216]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][216] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][217] 
@@ -30427,7 +30424,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][217]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][217] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][218] 
@@ -30435,7 +30432,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][218]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][218] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][219] 
@@ -30443,7 +30440,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][219]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][219] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][21] 
@@ -30451,7 +30448,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][21]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][220] 
@@ -30459,7 +30456,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][220]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][220] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][221] 
@@ -30467,7 +30464,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][221]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][221] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][222] 
@@ -30475,7 +30472,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][222]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][222] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][223] 
@@ -30483,7 +30480,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][223]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][223] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][224] 
@@ -30491,7 +30488,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][224]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][224] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][225] 
@@ -30499,7 +30496,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][225]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][225] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][226] 
@@ -30507,7 +30504,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][226]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][226] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][227] 
@@ -30515,7 +30512,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][227]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][227] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][228] 
@@ -30523,7 +30520,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][228]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][228] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][229] 
@@ -30531,7 +30528,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][229]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][229] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][22] 
@@ -30539,7 +30536,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][22]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][230] 
@@ -30547,7 +30544,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][230]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][230] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][231] 
@@ -30555,7 +30552,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][231]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][231] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][232] 
@@ -30563,7 +30560,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][232]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][232] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][233] 
@@ -30571,7 +30568,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][233]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][233] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][234] 
@@ -30579,7 +30576,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][234]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][234] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][235] 
@@ -30587,7 +30584,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][235]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][235] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][236] 
@@ -30595,7 +30592,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][236]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][236] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][237] 
@@ -30603,7 +30600,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][237]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][237] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][238] 
@@ -30611,7 +30608,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][238]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][238] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][239] 
@@ -30619,7 +30616,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][239]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][239] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][23] 
@@ -30627,7 +30624,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][23]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][240] 
@@ -30635,7 +30632,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][240]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][240] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][241] 
@@ -30643,7 +30640,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][241]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][241] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][242] 
@@ -30651,7 +30648,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][242]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][242] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][243] 
@@ -30659,7 +30656,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][243]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][243] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][244] 
@@ -30667,7 +30664,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][244]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][244] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][245] 
@@ -30675,7 +30672,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][245]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][245] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][246] 
@@ -30683,7 +30680,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][246]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][246] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][247] 
@@ -30691,7 +30688,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][247]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][247] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][248] 
@@ -30699,7 +30696,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][248]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][248] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][249] 
@@ -30707,7 +30704,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][249]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][249] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][24] 
@@ -30715,7 +30712,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][24]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][250] 
@@ -30723,7 +30720,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][250]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][250] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][251] 
@@ -30731,7 +30728,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][251]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][251] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][252] 
@@ -30739,7 +30736,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][252]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][252] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][253] 
@@ -30747,7 +30744,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][253]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][253] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][254] 
@@ -30755,7 +30752,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][254]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][254] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][25] 
@@ -30763,7 +30760,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][25]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][26] 
@@ -30771,7 +30768,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][26]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][27] 
@@ -30779,7 +30776,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][27]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][28] 
@@ -30787,7 +30784,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][28]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][29] 
@@ -30795,7 +30792,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][29]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][2] 
@@ -30803,7 +30800,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][2]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][30] 
@@ -30811,7 +30808,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][30]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][31] 
@@ -30819,7 +30816,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][31]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][31] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][32] 
@@ -30827,7 +30824,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][32]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][32] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][33] 
@@ -30835,7 +30832,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][33]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][33] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][34] 
@@ -30843,7 +30840,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][34]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][34] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][35] 
@@ -30851,7 +30848,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][35]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][35] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][36] 
@@ -30859,7 +30856,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][36]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][36] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][37] 
@@ -30867,7 +30864,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][37]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][37] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][38] 
@@ -30875,7 +30872,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][38]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][38] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][39] 
@@ -30883,7 +30880,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][39]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][39] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][3] 
@@ -30891,7 +30888,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][3]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][40] 
@@ -30899,7 +30896,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][40]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][40] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][41] 
@@ -30907,7 +30904,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][41]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][41] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][42] 
@@ -30915,7 +30912,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][42]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][42] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][43] 
@@ -30923,7 +30920,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][43]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][43] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][44] 
@@ -30931,7 +30928,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][44]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][44] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][45] 
@@ -30939,7 +30936,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][45]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][45] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][46] 
@@ -30947,7 +30944,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][46]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][46] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][47] 
@@ -30955,7 +30952,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][47]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][47] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][48] 
@@ -30963,7 +30960,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][48]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][48] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][49] 
@@ -30971,7 +30968,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][49]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][49] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][4] 
@@ -30979,7 +30976,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][4]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][50] 
@@ -30987,7 +30984,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][50]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][50] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][51] 
@@ -30995,7 +30992,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][51]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][51] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][52] 
@@ -31003,7 +31000,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][52]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][52] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][53] 
@@ -31011,7 +31008,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][53]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][53] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][54] 
@@ -31019,7 +31016,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][54]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][54] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][55] 
@@ -31027,7 +31024,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][55]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][55] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][56] 
@@ -31035,7 +31032,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][56]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][56] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][57] 
@@ -31043,7 +31040,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][57]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][57] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][58] 
@@ -31051,7 +31048,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][58]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][58] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][59] 
@@ -31059,7 +31056,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][59]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][59] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][5] 
@@ -31067,7 +31064,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][5]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][60] 
@@ -31075,7 +31072,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][60]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][60] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][61] 
@@ -31083,7 +31080,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][61]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][61] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][62] 
@@ -31091,7 +31088,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][62]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][62] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][63] 
@@ -31099,7 +31096,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][63]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][63] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][64] 
@@ -31107,7 +31104,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][64]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][64] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][65] 
@@ -31115,7 +31112,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][65]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][65] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][66] 
@@ -31123,7 +31120,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][66]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][66] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][67] 
@@ -31131,7 +31128,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][67]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][67] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][68] 
@@ -31139,7 +31136,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][68]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][68] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][69] 
@@ -31147,7 +31144,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][69]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][69] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][6] 
@@ -31155,7 +31152,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][6]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][70] 
@@ -31163,7 +31160,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][70]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][70] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][71] 
@@ -31171,7 +31168,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][71]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][71] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][72] 
@@ -31179,7 +31176,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][72]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][72] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][73] 
@@ -31187,7 +31184,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][73]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][73] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][74] 
@@ -31195,7 +31192,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][74]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][74] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][75] 
@@ -31203,7 +31200,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][75]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][75] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][76] 
@@ -31211,7 +31208,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][76]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][76] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][77] 
@@ -31219,7 +31216,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][77]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][77] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][78] 
@@ -31227,7 +31224,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][78]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][78] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][79] 
@@ -31235,7 +31232,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][79]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][79] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][7] 
@@ -31243,7 +31240,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][7]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][80] 
@@ -31251,7 +31248,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][80]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][80] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][81] 
@@ -31259,7 +31256,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][81]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][81] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][82] 
@@ -31267,7 +31264,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][82]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][82] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][83] 
@@ -31275,7 +31272,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][83]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][83] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][84] 
@@ -31283,7 +31280,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][84]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][84] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][85] 
@@ -31291,7 +31288,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][85]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][85] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][86] 
@@ -31299,7 +31296,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][86]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][86] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][87] 
@@ -31307,7 +31304,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][87]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][87] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][88] 
@@ -31315,7 +31312,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][88]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][88] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][89] 
@@ -31323,7 +31320,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][89]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][89] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][8] 
@@ -31331,7 +31328,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][8]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][90] 
@@ -31339,7 +31336,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][90]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][90] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][91] 
@@ -31347,7 +31344,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][91]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][91] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][92] 
@@ -31355,7 +31352,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][92]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][92] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][93] 
@@ -31363,7 +31360,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][93]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][93] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][94] 
@@ -31371,7 +31368,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][94]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][94] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][95] 
@@ -31379,7 +31376,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][95]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][95] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][96] 
@@ -31387,7 +31384,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][96]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][96] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][97] 
@@ -31395,7 +31392,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][97]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][97] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][98] 
@@ -31403,7 +31400,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][98]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][98] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][99] 
@@ -31411,7 +31408,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][99]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][99] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[0].decoding_reg[1][9] 
@@ -31419,7 +31416,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[0].decoding[1][9]_i_1_n_0 ),
         .Q(\genblk1[0].decoding_reg_n_0_[1][9] ),
-        .R(reset_IBUF));
+        .R(out));
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[1].decoding[2][0]_i_1 
@@ -32316,7 +32313,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][0]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][100] 
@@ -32324,7 +32321,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][100]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][100] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][101] 
@@ -32332,7 +32329,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][101]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][101] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][102] 
@@ -32340,7 +32337,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][102]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][102] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][103] 
@@ -32348,7 +32345,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][103]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][103] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][104] 
@@ -32356,7 +32353,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][104]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][104] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][105] 
@@ -32364,7 +32361,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][105]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][105] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][106] 
@@ -32372,7 +32369,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][106]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][106] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][107] 
@@ -32380,7 +32377,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][107]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][107] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][108] 
@@ -32388,7 +32385,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][108]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][108] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][109] 
@@ -32396,7 +32393,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][109]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][109] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][10] 
@@ -32404,7 +32401,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][10]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][110] 
@@ -32412,7 +32409,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][110]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][110] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][111] 
@@ -32420,7 +32417,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][111]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][111] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][112] 
@@ -32428,7 +32425,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][112]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][112] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][113] 
@@ -32436,7 +32433,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][113]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][113] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][114] 
@@ -32444,7 +32441,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][114]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][114] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][115] 
@@ -32452,7 +32449,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][115]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][115] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][116] 
@@ -32460,7 +32457,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][116]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][116] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][117] 
@@ -32468,7 +32465,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][117]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][117] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][118] 
@@ -32476,7 +32473,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][118]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][118] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][119] 
@@ -32484,7 +32481,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][119]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][119] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][11] 
@@ -32492,7 +32489,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][11]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][120] 
@@ -32500,7 +32497,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][120]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][120] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][121] 
@@ -32508,7 +32505,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][121]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][121] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][122] 
@@ -32516,7 +32513,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][122]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][122] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][123] 
@@ -32524,7 +32521,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][123]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][123] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][124] 
@@ -32532,7 +32529,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][124]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][124] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][125] 
@@ -32540,7 +32537,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][125]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][125] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][126] 
@@ -32548,7 +32545,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][126]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][126] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][12] 
@@ -32556,7 +32553,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][12]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][13] 
@@ -32564,7 +32561,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][13]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][14] 
@@ -32572,7 +32569,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][14]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][15] 
@@ -32580,7 +32577,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][15]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][16] 
@@ -32588,7 +32585,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][16]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][17] 
@@ -32596,7 +32593,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][17]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][18] 
@@ -32604,7 +32601,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][18]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][19] 
@@ -32612,7 +32609,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][19]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][1] 
@@ -32620,7 +32617,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][1]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][20] 
@@ -32628,7 +32625,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][20]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][21] 
@@ -32636,7 +32633,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][21]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][22] 
@@ -32644,7 +32641,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][22]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][23] 
@@ -32652,7 +32649,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][23]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][24] 
@@ -32660,7 +32657,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][24]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][25] 
@@ -32668,7 +32665,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][25]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][26] 
@@ -32676,7 +32673,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][26]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][27] 
@@ -32684,7 +32681,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][27]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][28] 
@@ -32692,7 +32689,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][28]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][29] 
@@ -32700,7 +32697,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][29]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][2] 
@@ -32708,7 +32705,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][2]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][30] 
@@ -32716,7 +32713,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][30]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][31] 
@@ -32724,7 +32721,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][31]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][31] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][32] 
@@ -32732,7 +32729,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][32]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][32] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][33] 
@@ -32740,7 +32737,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][33]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][33] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][34] 
@@ -32748,7 +32745,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][34]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][34] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][35] 
@@ -32756,7 +32753,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][35]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][35] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][36] 
@@ -32764,7 +32761,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][36]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][36] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][37] 
@@ -32772,7 +32769,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][37]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][37] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][38] 
@@ -32780,7 +32777,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][38]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][38] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][39] 
@@ -32788,7 +32785,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][39]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][39] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][3] 
@@ -32796,7 +32793,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][3]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][40] 
@@ -32804,7 +32801,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][40]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][40] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][41] 
@@ -32812,7 +32809,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][41]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][41] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][42] 
@@ -32820,7 +32817,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][42]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][42] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][43] 
@@ -32828,7 +32825,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][43]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][43] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][44] 
@@ -32836,7 +32833,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][44]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][44] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][45] 
@@ -32844,7 +32841,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][45]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][45] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][46] 
@@ -32852,7 +32849,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][46]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][46] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][47] 
@@ -32860,7 +32857,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][47]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][47] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][48] 
@@ -32868,7 +32865,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][48]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][48] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][49] 
@@ -32876,7 +32873,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][49]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][49] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][4] 
@@ -32884,7 +32881,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][4]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][50] 
@@ -32892,7 +32889,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][50]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][50] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][51] 
@@ -32900,7 +32897,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][51]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][51] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][52] 
@@ -32908,7 +32905,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][52]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][52] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][53] 
@@ -32916,7 +32913,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][53]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][53] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][54] 
@@ -32924,7 +32921,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][54]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][54] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][55] 
@@ -32932,7 +32929,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][55]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][55] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][56] 
@@ -32940,7 +32937,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][56]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][56] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][57] 
@@ -32948,7 +32945,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][57]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][57] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][58] 
@@ -32956,7 +32953,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][58]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][58] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][59] 
@@ -32964,7 +32961,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][59]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][59] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][5] 
@@ -32972,7 +32969,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][5]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][60] 
@@ -32980,7 +32977,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][60]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][60] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][61] 
@@ -32988,7 +32985,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][61]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][61] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][62] 
@@ -32996,7 +32993,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][62]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][62] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][63] 
@@ -33004,7 +33001,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][63]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][63] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][64] 
@@ -33012,7 +33009,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][64]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][64] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][65] 
@@ -33020,7 +33017,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][65]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][65] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][66] 
@@ -33028,7 +33025,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][66]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][66] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][67] 
@@ -33036,7 +33033,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][67]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][67] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][68] 
@@ -33044,7 +33041,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][68]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][68] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][69] 
@@ -33052,7 +33049,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][69]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][69] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][6] 
@@ -33060,7 +33057,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][6]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][70] 
@@ -33068,7 +33065,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][70]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][70] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][71] 
@@ -33076,7 +33073,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][71]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][71] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][72] 
@@ -33084,7 +33081,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][72]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][72] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][73] 
@@ -33092,7 +33089,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][73]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][73] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][74] 
@@ -33100,7 +33097,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][74]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][74] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][75] 
@@ -33108,7 +33105,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][75]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][75] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][76] 
@@ -33116,7 +33113,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][76]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][76] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][77] 
@@ -33124,7 +33121,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][77]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][77] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][78] 
@@ -33132,7 +33129,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][78]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][78] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][79] 
@@ -33140,7 +33137,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][79]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][79] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][7] 
@@ -33148,7 +33145,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][7]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][80] 
@@ -33156,7 +33153,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][80]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][80] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][81] 
@@ -33164,7 +33161,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][81]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][81] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][82] 
@@ -33172,7 +33169,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][82]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][82] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][83] 
@@ -33180,7 +33177,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][83]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][83] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][84] 
@@ -33188,7 +33185,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][84]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][84] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][85] 
@@ -33196,7 +33193,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][85]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][85] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][86] 
@@ -33204,7 +33201,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][86]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][86] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][87] 
@@ -33212,7 +33209,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][87]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][87] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][88] 
@@ -33220,7 +33217,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][88]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][88] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][89] 
@@ -33228,7 +33225,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][89]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][89] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][8] 
@@ -33236,7 +33233,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][8]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][90] 
@@ -33244,7 +33241,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][90]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][90] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][91] 
@@ -33252,7 +33249,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][91]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][91] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][92] 
@@ -33260,7 +33257,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][92]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][92] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][93] 
@@ -33268,7 +33265,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][93]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][93] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][94] 
@@ -33276,7 +33273,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][94]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][94] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][95] 
@@ -33284,7 +33281,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][95]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][95] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][96] 
@@ -33292,7 +33289,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][96]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][96] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][97] 
@@ -33300,7 +33297,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][97]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][97] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][98] 
@@ -33308,7 +33305,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][98]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][98] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][99] 
@@ -33316,7 +33313,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][99]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][99] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[1].decoding_reg[2][9] 
@@ -33324,7 +33321,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[1].decoding[2][9]_i_1_n_0 ),
         .Q(\genblk1[1].decoding_reg_n_0_[2][9] ),
-        .R(reset_IBUF));
+        .R(out));
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[2].decoding[3][0]_i_1 
@@ -33773,7 +33770,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][0]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][10] 
@@ -33781,7 +33778,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][10]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][11] 
@@ -33789,7 +33786,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][11]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][12] 
@@ -33797,7 +33794,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][12]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][13] 
@@ -33805,7 +33802,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][13]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][14] 
@@ -33813,7 +33810,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][14]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][15] 
@@ -33821,7 +33818,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][15]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][16] 
@@ -33829,7 +33826,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][16]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][17] 
@@ -33837,7 +33834,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][17]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][18] 
@@ -33845,7 +33842,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][18]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][19] 
@@ -33853,7 +33850,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][19]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][1] 
@@ -33861,7 +33858,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][1]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][20] 
@@ -33869,7 +33866,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][20]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][21] 
@@ -33877,7 +33874,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][21]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][22] 
@@ -33885,7 +33882,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][22]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][23] 
@@ -33893,7 +33890,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][23]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][24] 
@@ -33901,7 +33898,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][24]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][25] 
@@ -33909,7 +33906,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][25]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][26] 
@@ -33917,7 +33914,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][26]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][27] 
@@ -33925,7 +33922,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][27]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][28] 
@@ -33933,7 +33930,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][28]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][29] 
@@ -33941,7 +33938,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][29]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][2] 
@@ -33949,7 +33946,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][2]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][30] 
@@ -33957,7 +33954,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][30]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][31] 
@@ -33965,7 +33962,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][31]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][31] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][32] 
@@ -33973,7 +33970,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][32]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][32] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][33] 
@@ -33981,7 +33978,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][33]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][33] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][34] 
@@ -33989,7 +33986,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][34]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][34] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][35] 
@@ -33997,7 +33994,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][35]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][35] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][36] 
@@ -34005,7 +34002,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][36]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][36] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][37] 
@@ -34013,7 +34010,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][37]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][37] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][38] 
@@ -34021,7 +34018,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][38]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][38] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][39] 
@@ -34029,7 +34026,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][39]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][39] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][3] 
@@ -34037,7 +34034,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][3]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][40] 
@@ -34045,7 +34042,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][40]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][40] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][41] 
@@ -34053,7 +34050,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][41]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][41] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][42] 
@@ -34061,7 +34058,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][42]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][42] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][43] 
@@ -34069,7 +34066,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][43]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][43] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][44] 
@@ -34077,7 +34074,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][44]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][44] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][45] 
@@ -34085,7 +34082,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][45]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][45] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][46] 
@@ -34093,7 +34090,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][46]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][46] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][47] 
@@ -34101,7 +34098,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][47]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][47] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][48] 
@@ -34109,7 +34106,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][48]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][48] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][49] 
@@ -34117,7 +34114,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][49]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][49] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][4] 
@@ -34125,7 +34122,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][4]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][50] 
@@ -34133,7 +34130,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][50]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][50] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][51] 
@@ -34141,7 +34138,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][51]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][51] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][52] 
@@ -34149,7 +34146,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][52]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][52] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][53] 
@@ -34157,7 +34154,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][53]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][53] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][54] 
@@ -34165,7 +34162,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][54]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][54] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][55] 
@@ -34173,7 +34170,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][55]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][55] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][56] 
@@ -34181,7 +34178,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][56]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][56] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][57] 
@@ -34189,7 +34186,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][57]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][57] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][58] 
@@ -34197,7 +34194,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][58]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][58] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][59] 
@@ -34205,7 +34202,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][59]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][59] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][5] 
@@ -34213,7 +34210,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][5]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][60] 
@@ -34221,7 +34218,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][60]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][60] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][61] 
@@ -34229,7 +34226,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][61]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][61] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][62] 
@@ -34237,7 +34234,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][62]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][62] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][6] 
@@ -34245,7 +34242,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][6]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][7] 
@@ -34253,7 +34250,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][7]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][8] 
@@ -34261,7 +34258,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][8]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[2].decoding_reg[3][9] 
@@ -34269,7 +34266,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[2].decoding[3][9]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][9] ),
-        .R(reset_IBUF));
+        .R(out));
   (* srl_bus_name = "\decode_inst/latch2bin_inst2/genblk1[3].data_valid_reg " *) 
   (* srl_name = "\decode_inst/latch2bin_inst2/genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2 " *) 
   SRL16E #(
@@ -34281,7 +34278,7 @@ module latch2bin_1
         .A3(1'b0),
         .CE(1'b1),
         .CLK(clk_out1),
-        .D(valid_for_latch2bin_dly),
+        .D(\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ),
         .Q(\genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2_n_0 ));
   LUT3 #(
     .INIT(8'hB8)) 
@@ -34507,7 +34504,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][0]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][10] 
@@ -34515,7 +34512,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][10]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][11] 
@@ -34523,7 +34520,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][11]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][12] 
@@ -34531,7 +34528,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][12]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][13] 
@@ -34539,7 +34536,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][13]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][14] 
@@ -34547,7 +34544,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][14]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][15] 
@@ -34555,7 +34552,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][15]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][15] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][16] 
@@ -34563,7 +34560,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][16]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][16] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][17] 
@@ -34571,7 +34568,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][17]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][17] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][18] 
@@ -34579,7 +34576,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][18]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][18] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][19] 
@@ -34587,7 +34584,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][19]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][19] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][1] 
@@ -34595,7 +34592,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][1]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][20] 
@@ -34603,7 +34600,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][20]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][20] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][21] 
@@ -34611,7 +34608,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][21]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][21] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][22] 
@@ -34619,7 +34616,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][22]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][22] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][23] 
@@ -34627,7 +34624,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][23]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][23] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][24] 
@@ -34635,7 +34632,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][24]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][24] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][25] 
@@ -34643,7 +34640,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][25]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][25] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][26] 
@@ -34651,7 +34648,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][26]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][26] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][27] 
@@ -34659,7 +34656,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][27]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][27] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][28] 
@@ -34667,7 +34664,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][28]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][28] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][29] 
@@ -34675,7 +34672,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][29]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][29] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][2] 
@@ -34683,7 +34680,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][2]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][30] 
@@ -34691,7 +34688,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][30]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][30] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][3] 
@@ -34699,7 +34696,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][3]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][4] 
@@ -34707,7 +34704,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][4]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][5] 
@@ -34715,7 +34712,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][5]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][6] 
@@ -34723,7 +34720,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][6]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][7] 
@@ -34731,7 +34728,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][7]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][8] 
@@ -34739,7 +34736,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][8]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[3].decoding_reg[4][9] 
@@ -34747,7 +34744,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding[4][9]_i_1_n_0 ),
         .Q(\genblk1[3].decoding_reg_n_0_[4][9] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].binary_reg[5][4] 
@@ -34755,7 +34752,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[3].decoding_reg_n_0_[4][15] ),
         .Q(\genblk1[4].binary_reg_n_0_[5][4] ),
-        .R(reset_IBUF));
+        .R(out));
   (* srl_bus_name = "\decode_inst/latch2bin_inst2/genblk1[4].binary_reg[5] " *) 
   (* srl_name = "\decode_inst/latch2bin_inst2/genblk1[4].binary_reg[5][5]_srl2___decode_inst_latch2bin_inst2_genblk1_r_0 " *) 
   SRL16E #(
@@ -34806,7 +34803,7 @@ module latch2bin_1
         .A3(1'b0),
         .CE(1'b1),
         .CLK(clk_out1),
-        .D(out[255]),
+        .D(\genblk1[0].decoding_reg[1][254]_0 [255]),
         .Q(\genblk1[4].binary_reg[5][8]_srl5___decode_inst_latch2bin_inst2_genblk1_r_3_n_0 ));
   FDRE #(
     .INIT(1'b0)) 
@@ -34928,7 +34925,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][0]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][10] 
@@ -34936,7 +34933,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][10]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][10] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][11] 
@@ -34944,7 +34941,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][11]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][11] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][12] 
@@ -34952,7 +34949,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][12]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][12] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][13] 
@@ -34960,7 +34957,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][13]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][13] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][14] 
@@ -34968,7 +34965,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][14]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][14] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][1] 
@@ -34976,7 +34973,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][1]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][2] 
@@ -34984,7 +34981,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][2]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][3] 
@@ -34992,7 +34989,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][3]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][3] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][4] 
@@ -35000,7 +34997,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][4]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][4] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][5] 
@@ -35008,7 +35005,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][5]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][5] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][6] 
@@ -35016,7 +35013,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][6]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][6] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][7] 
@@ -35024,7 +35021,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][7]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][7] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][8] 
@@ -35032,7 +35029,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][8]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][8] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \genblk1[4].decoding_reg[5][9] 
@@ -35040,7 +35037,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\genblk1[4].decoding[5][9]_i_1_n_0 ),
         .Q(\genblk1[4].decoding_reg_n_0_[5][9] ),
-        .R(reset_IBUF));
+        .R(out));
   LUT2 #(
     .INIT(4'h8)) 
     genblk1_gate
@@ -35054,7 +35051,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(1'b1),
         .Q(genblk1_r_n_0),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     genblk1_r_0
@@ -35062,7 +35059,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(genblk1_r_n_0),
         .Q(genblk1_r_0_n_0),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     genblk1_r_1
@@ -35070,7 +35067,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(genblk1_r_0_n_0),
         .Q(genblk1_r_1_0),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     genblk1_r_2
@@ -35078,7 +35075,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(genblk1_r_1_0),
         .Q(genblk1_r_2_0),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     genblk1_r_3
@@ -35086,7 +35083,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(genblk1_r_2_0),
         .Q(genblk1_r_3_0),
-        .R(reset_IBUF));
+        .R(out));
   LUT6 #(
     .INIT(64'h6996966996696996)) 
     \ones[0]_i_1 
@@ -35283,7 +35280,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones[0]_i_1_n_0 ),
         .Q(\ones_reg_n_0_[0] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \ones_reg[1] 
@@ -35291,7 +35288,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones[1]_i_1_n_0 ),
         .Q(\ones_reg_n_0_[1] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \ones_reg[2] 
@@ -35299,7 +35296,7 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones[2]_i_1_n_0 ),
         .Q(\ones_reg_n_0_[2] ),
-        .R(reset_IBUF));
+        .R(out));
   FDRE #(
     .INIT(1'b0)) 
     \ones_reg[3] 
@@ -35307,27 +35304,27 @@ module latch2bin_1
         .CE(1'b1),
         .D(\ones[3]_i_1_n_0 ),
         .Q(\ones_reg_n_0_[3] ),
-        .R(reset_IBUF));
+        .R(out));
 endmodule
 
 module line_tdc
-   (value_latch,
-    reset_IBUF,
+   (in0,
+    out,
     clk_out1,
-    sg_start);
-  output [511:0]value_latch;
-  input reset_IBUF;
+    sg_bufr);
+  output [511:0]in0;
+  input out;
   input clk_out1;
-  input sg_start;
+  input sg_bufr;
 
   (* DONT_TOUCH *) wire FDRE_REF;
   wire FDRE_REF_INST_i_1_n_0;
   wire clk_out1;
   (* DONT_TOUCH *) wire [511:0]dat_reg0;
   (* DONT_TOUCH *) wire [511:0]dat_reg1;
-  wire reset_IBUF;
-  wire sg_start;
-  wire [511:0]value_latch;
+  wire [511:0]in0;
+  wire out;
+  wire sg_bufr;
   wire [3:0]\NLW_genblk1[0].carry4_first.CARRY4_INST_O_UNCONNECTED ;
   wire [3:0]\NLW_genblk1[100].carry4_others.CARRY4_OTHERS_O_UNCONNECTED ;
   wire [3:0]\NLW_genblk1[101].carry4_others.CARRY4_OTHERS_O_UNCONNECTED ;
@@ -35468,7 +35465,7 @@ module line_tdc
         .CE(1'b1),
         .D(FDRE_REF_INST_i_1_n_0),
         .Q(FDRE_REF),
-        .R(reset_IBUF));
+        .R(out));
   LUT1 #(
     .INIT(2'h1)) 
     FDRE_REF_INST_i_1
@@ -35478,7 +35475,7 @@ module line_tdc
   CARRY4 \genblk1[0].carry4_first.CARRY4_INST 
        (.CI(1'b0),
         .CO(dat_reg0[3:0]),
-        .CYINIT(sg_start),
+        .CYINIT(sg_bufr),
         .DI({1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_genblk1[0].carry4_first.CARRY4_INST_O_UNCONNECTED [3:0]),
         .S({1'b1,1'b1,1'b1,1'b1}));
@@ -36509,7 +36506,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[0]),
         .Q(dat_reg1[0]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36520,8 +36517,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[0]),
-        .Q(value_latch[0]),
-        .R(reset_IBUF));
+        .Q(in0[0]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36533,7 +36530,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[100]),
         .Q(dat_reg1[100]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36544,8 +36541,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[100]),
-        .Q(value_latch[100]),
-        .R(reset_IBUF));
+        .Q(in0[100]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36557,7 +36554,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[101]),
         .Q(dat_reg1[101]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36568,8 +36565,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[101]),
-        .Q(value_latch[101]),
-        .R(reset_IBUF));
+        .Q(in0[101]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36581,7 +36578,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[102]),
         .Q(dat_reg1[102]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36592,8 +36589,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[102]),
-        .Q(value_latch[102]),
-        .R(reset_IBUF));
+        .Q(in0[102]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36605,7 +36602,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[103]),
         .Q(dat_reg1[103]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36616,8 +36613,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[103]),
-        .Q(value_latch[103]),
-        .R(reset_IBUF));
+        .Q(in0[103]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36629,7 +36626,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[104]),
         .Q(dat_reg1[104]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36640,8 +36637,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[104]),
-        .Q(value_latch[104]),
-        .R(reset_IBUF));
+        .Q(in0[104]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36653,7 +36650,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[105]),
         .Q(dat_reg1[105]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36664,8 +36661,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[105]),
-        .Q(value_latch[105]),
-        .R(reset_IBUF));
+        .Q(in0[105]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36677,7 +36674,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[106]),
         .Q(dat_reg1[106]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36688,8 +36685,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[106]),
-        .Q(value_latch[106]),
-        .R(reset_IBUF));
+        .Q(in0[106]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36701,7 +36698,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[107]),
         .Q(dat_reg1[107]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36712,8 +36709,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[107]),
-        .Q(value_latch[107]),
-        .R(reset_IBUF));
+        .Q(in0[107]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36725,7 +36722,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[108]),
         .Q(dat_reg1[108]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36736,8 +36733,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[108]),
-        .Q(value_latch[108]),
-        .R(reset_IBUF));
+        .Q(in0[108]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36749,7 +36746,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[109]),
         .Q(dat_reg1[109]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36760,8 +36757,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[109]),
-        .Q(value_latch[109]),
-        .R(reset_IBUF));
+        .Q(in0[109]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36773,7 +36770,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[10]),
         .Q(dat_reg1[10]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36784,8 +36781,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[10]),
-        .Q(value_latch[10]),
-        .R(reset_IBUF));
+        .Q(in0[10]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36797,7 +36794,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[110]),
         .Q(dat_reg1[110]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36808,8 +36805,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[110]),
-        .Q(value_latch[110]),
-        .R(reset_IBUF));
+        .Q(in0[110]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36821,7 +36818,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[111]),
         .Q(dat_reg1[111]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36832,8 +36829,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[111]),
-        .Q(value_latch[111]),
-        .R(reset_IBUF));
+        .Q(in0[111]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36845,7 +36842,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[112]),
         .Q(dat_reg1[112]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36856,8 +36853,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[112]),
-        .Q(value_latch[112]),
-        .R(reset_IBUF));
+        .Q(in0[112]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36869,7 +36866,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[113]),
         .Q(dat_reg1[113]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36880,8 +36877,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[113]),
-        .Q(value_latch[113]),
-        .R(reset_IBUF));
+        .Q(in0[113]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36893,7 +36890,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[114]),
         .Q(dat_reg1[114]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36904,8 +36901,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[114]),
-        .Q(value_latch[114]),
-        .R(reset_IBUF));
+        .Q(in0[114]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36917,7 +36914,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[115]),
         .Q(dat_reg1[115]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36928,8 +36925,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[115]),
-        .Q(value_latch[115]),
-        .R(reset_IBUF));
+        .Q(in0[115]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36941,7 +36938,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[116]),
         .Q(dat_reg1[116]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36952,8 +36949,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[116]),
-        .Q(value_latch[116]),
-        .R(reset_IBUF));
+        .Q(in0[116]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36965,7 +36962,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[117]),
         .Q(dat_reg1[117]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36976,8 +36973,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[117]),
-        .Q(value_latch[117]),
-        .R(reset_IBUF));
+        .Q(in0[117]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36989,7 +36986,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[118]),
         .Q(dat_reg1[118]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37000,8 +36997,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[118]),
-        .Q(value_latch[118]),
-        .R(reset_IBUF));
+        .Q(in0[118]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37013,7 +37010,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[119]),
         .Q(dat_reg1[119]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37024,8 +37021,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[119]),
-        .Q(value_latch[119]),
-        .R(reset_IBUF));
+        .Q(in0[119]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37037,7 +37034,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[11]),
         .Q(dat_reg1[11]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37048,8 +37045,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[11]),
-        .Q(value_latch[11]),
-        .R(reset_IBUF));
+        .Q(in0[11]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37061,7 +37058,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[120]),
         .Q(dat_reg1[120]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37072,8 +37069,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[120]),
-        .Q(value_latch[120]),
-        .R(reset_IBUF));
+        .Q(in0[120]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37085,7 +37082,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[121]),
         .Q(dat_reg1[121]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37096,8 +37093,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[121]),
-        .Q(value_latch[121]),
-        .R(reset_IBUF));
+        .Q(in0[121]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37109,7 +37106,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[122]),
         .Q(dat_reg1[122]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37120,8 +37117,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[122]),
-        .Q(value_latch[122]),
-        .R(reset_IBUF));
+        .Q(in0[122]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37133,7 +37130,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[123]),
         .Q(dat_reg1[123]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37144,8 +37141,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[123]),
-        .Q(value_latch[123]),
-        .R(reset_IBUF));
+        .Q(in0[123]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37157,7 +37154,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[124]),
         .Q(dat_reg1[124]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37168,8 +37165,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[124]),
-        .Q(value_latch[124]),
-        .R(reset_IBUF));
+        .Q(in0[124]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37181,7 +37178,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[125]),
         .Q(dat_reg1[125]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37192,8 +37189,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[125]),
-        .Q(value_latch[125]),
-        .R(reset_IBUF));
+        .Q(in0[125]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37205,7 +37202,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[126]),
         .Q(dat_reg1[126]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37216,8 +37213,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[126]),
-        .Q(value_latch[126]),
-        .R(reset_IBUF));
+        .Q(in0[126]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37229,7 +37226,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[127]),
         .Q(dat_reg1[127]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37240,8 +37237,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[127]),
-        .Q(value_latch[127]),
-        .R(reset_IBUF));
+        .Q(in0[127]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37253,7 +37250,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[128]),
         .Q(dat_reg1[128]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37264,8 +37261,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[128]),
-        .Q(value_latch[128]),
-        .R(reset_IBUF));
+        .Q(in0[128]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37277,7 +37274,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[129]),
         .Q(dat_reg1[129]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37288,8 +37285,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[129]),
-        .Q(value_latch[129]),
-        .R(reset_IBUF));
+        .Q(in0[129]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37301,7 +37298,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[12]),
         .Q(dat_reg1[12]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37312,8 +37309,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[12]),
-        .Q(value_latch[12]),
-        .R(reset_IBUF));
+        .Q(in0[12]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37325,7 +37322,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[130]),
         .Q(dat_reg1[130]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37336,8 +37333,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[130]),
-        .Q(value_latch[130]),
-        .R(reset_IBUF));
+        .Q(in0[130]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37349,7 +37346,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[131]),
         .Q(dat_reg1[131]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37360,8 +37357,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[131]),
-        .Q(value_latch[131]),
-        .R(reset_IBUF));
+        .Q(in0[131]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37373,7 +37370,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[132]),
         .Q(dat_reg1[132]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37384,8 +37381,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[132]),
-        .Q(value_latch[132]),
-        .R(reset_IBUF));
+        .Q(in0[132]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37397,7 +37394,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[133]),
         .Q(dat_reg1[133]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37408,8 +37405,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[133]),
-        .Q(value_latch[133]),
-        .R(reset_IBUF));
+        .Q(in0[133]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37421,7 +37418,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[134]),
         .Q(dat_reg1[134]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37432,8 +37429,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[134]),
-        .Q(value_latch[134]),
-        .R(reset_IBUF));
+        .Q(in0[134]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37445,7 +37442,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[135]),
         .Q(dat_reg1[135]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37456,8 +37453,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[135]),
-        .Q(value_latch[135]),
-        .R(reset_IBUF));
+        .Q(in0[135]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37469,7 +37466,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[136]),
         .Q(dat_reg1[136]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37480,8 +37477,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[136]),
-        .Q(value_latch[136]),
-        .R(reset_IBUF));
+        .Q(in0[136]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37493,7 +37490,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[137]),
         .Q(dat_reg1[137]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37504,8 +37501,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[137]),
-        .Q(value_latch[137]),
-        .R(reset_IBUF));
+        .Q(in0[137]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37517,7 +37514,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[138]),
         .Q(dat_reg1[138]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37528,8 +37525,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[138]),
-        .Q(value_latch[138]),
-        .R(reset_IBUF));
+        .Q(in0[138]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37541,7 +37538,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[139]),
         .Q(dat_reg1[139]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37552,8 +37549,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[139]),
-        .Q(value_latch[139]),
-        .R(reset_IBUF));
+        .Q(in0[139]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37565,7 +37562,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[13]),
         .Q(dat_reg1[13]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37576,8 +37573,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[13]),
-        .Q(value_latch[13]),
-        .R(reset_IBUF));
+        .Q(in0[13]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37589,7 +37586,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[140]),
         .Q(dat_reg1[140]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37600,8 +37597,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[140]),
-        .Q(value_latch[140]),
-        .R(reset_IBUF));
+        .Q(in0[140]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37613,7 +37610,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[141]),
         .Q(dat_reg1[141]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37624,8 +37621,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[141]),
-        .Q(value_latch[141]),
-        .R(reset_IBUF));
+        .Q(in0[141]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37637,7 +37634,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[142]),
         .Q(dat_reg1[142]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37648,8 +37645,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[142]),
-        .Q(value_latch[142]),
-        .R(reset_IBUF));
+        .Q(in0[142]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37661,7 +37658,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[143]),
         .Q(dat_reg1[143]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37672,8 +37669,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[143]),
-        .Q(value_latch[143]),
-        .R(reset_IBUF));
+        .Q(in0[143]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37685,7 +37682,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[144]),
         .Q(dat_reg1[144]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37696,8 +37693,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[144]),
-        .Q(value_latch[144]),
-        .R(reset_IBUF));
+        .Q(in0[144]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37709,7 +37706,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[145]),
         .Q(dat_reg1[145]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37720,8 +37717,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[145]),
-        .Q(value_latch[145]),
-        .R(reset_IBUF));
+        .Q(in0[145]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37733,7 +37730,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[146]),
         .Q(dat_reg1[146]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37744,8 +37741,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[146]),
-        .Q(value_latch[146]),
-        .R(reset_IBUF));
+        .Q(in0[146]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37757,7 +37754,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[147]),
         .Q(dat_reg1[147]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37768,8 +37765,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[147]),
-        .Q(value_latch[147]),
-        .R(reset_IBUF));
+        .Q(in0[147]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37781,7 +37778,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[148]),
         .Q(dat_reg1[148]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37792,8 +37789,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[148]),
-        .Q(value_latch[148]),
-        .R(reset_IBUF));
+        .Q(in0[148]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37805,7 +37802,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[149]),
         .Q(dat_reg1[149]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37816,8 +37813,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[149]),
-        .Q(value_latch[149]),
-        .R(reset_IBUF));
+        .Q(in0[149]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37829,7 +37826,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[14]),
         .Q(dat_reg1[14]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37840,8 +37837,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[14]),
-        .Q(value_latch[14]),
-        .R(reset_IBUF));
+        .Q(in0[14]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37853,7 +37850,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[150]),
         .Q(dat_reg1[150]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37864,8 +37861,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[150]),
-        .Q(value_latch[150]),
-        .R(reset_IBUF));
+        .Q(in0[150]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37877,7 +37874,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[151]),
         .Q(dat_reg1[151]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37888,8 +37885,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[151]),
-        .Q(value_latch[151]),
-        .R(reset_IBUF));
+        .Q(in0[151]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37901,7 +37898,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[152]),
         .Q(dat_reg1[152]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37912,8 +37909,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[152]),
-        .Q(value_latch[152]),
-        .R(reset_IBUF));
+        .Q(in0[152]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37925,7 +37922,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[153]),
         .Q(dat_reg1[153]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37936,8 +37933,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[153]),
-        .Q(value_latch[153]),
-        .R(reset_IBUF));
+        .Q(in0[153]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37949,7 +37946,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[154]),
         .Q(dat_reg1[154]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37960,8 +37957,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[154]),
-        .Q(value_latch[154]),
-        .R(reset_IBUF));
+        .Q(in0[154]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37973,7 +37970,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[155]),
         .Q(dat_reg1[155]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37984,8 +37981,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[155]),
-        .Q(value_latch[155]),
-        .R(reset_IBUF));
+        .Q(in0[155]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37997,7 +37994,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[156]),
         .Q(dat_reg1[156]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38008,8 +38005,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[156]),
-        .Q(value_latch[156]),
-        .R(reset_IBUF));
+        .Q(in0[156]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38021,7 +38018,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[157]),
         .Q(dat_reg1[157]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38032,8 +38029,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[157]),
-        .Q(value_latch[157]),
-        .R(reset_IBUF));
+        .Q(in0[157]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38045,7 +38042,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[158]),
         .Q(dat_reg1[158]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38056,8 +38053,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[158]),
-        .Q(value_latch[158]),
-        .R(reset_IBUF));
+        .Q(in0[158]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38069,7 +38066,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[159]),
         .Q(dat_reg1[159]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38080,8 +38077,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[159]),
-        .Q(value_latch[159]),
-        .R(reset_IBUF));
+        .Q(in0[159]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38093,7 +38090,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[15]),
         .Q(dat_reg1[15]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38104,8 +38101,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[15]),
-        .Q(value_latch[15]),
-        .R(reset_IBUF));
+        .Q(in0[15]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38117,7 +38114,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[160]),
         .Q(dat_reg1[160]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38128,8 +38125,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[160]),
-        .Q(value_latch[160]),
-        .R(reset_IBUF));
+        .Q(in0[160]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38141,7 +38138,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[161]),
         .Q(dat_reg1[161]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38152,8 +38149,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[161]),
-        .Q(value_latch[161]),
-        .R(reset_IBUF));
+        .Q(in0[161]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38165,7 +38162,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[162]),
         .Q(dat_reg1[162]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38176,8 +38173,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[162]),
-        .Q(value_latch[162]),
-        .R(reset_IBUF));
+        .Q(in0[162]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38189,7 +38186,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[163]),
         .Q(dat_reg1[163]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38200,8 +38197,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[163]),
-        .Q(value_latch[163]),
-        .R(reset_IBUF));
+        .Q(in0[163]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38213,7 +38210,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[164]),
         .Q(dat_reg1[164]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38224,8 +38221,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[164]),
-        .Q(value_latch[164]),
-        .R(reset_IBUF));
+        .Q(in0[164]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38237,7 +38234,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[165]),
         .Q(dat_reg1[165]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38248,8 +38245,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[165]),
-        .Q(value_latch[165]),
-        .R(reset_IBUF));
+        .Q(in0[165]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38261,7 +38258,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[166]),
         .Q(dat_reg1[166]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38272,8 +38269,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[166]),
-        .Q(value_latch[166]),
-        .R(reset_IBUF));
+        .Q(in0[166]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38285,7 +38282,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[167]),
         .Q(dat_reg1[167]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38296,8 +38293,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[167]),
-        .Q(value_latch[167]),
-        .R(reset_IBUF));
+        .Q(in0[167]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38309,7 +38306,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[168]),
         .Q(dat_reg1[168]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38320,8 +38317,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[168]),
-        .Q(value_latch[168]),
-        .R(reset_IBUF));
+        .Q(in0[168]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38333,7 +38330,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[169]),
         .Q(dat_reg1[169]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38344,8 +38341,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[169]),
-        .Q(value_latch[169]),
-        .R(reset_IBUF));
+        .Q(in0[169]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38357,7 +38354,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[16]),
         .Q(dat_reg1[16]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38368,8 +38365,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[16]),
-        .Q(value_latch[16]),
-        .R(reset_IBUF));
+        .Q(in0[16]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38381,7 +38378,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[170]),
         .Q(dat_reg1[170]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38392,8 +38389,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[170]),
-        .Q(value_latch[170]),
-        .R(reset_IBUF));
+        .Q(in0[170]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38405,7 +38402,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[171]),
         .Q(dat_reg1[171]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38416,8 +38413,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[171]),
-        .Q(value_latch[171]),
-        .R(reset_IBUF));
+        .Q(in0[171]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38429,7 +38426,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[172]),
         .Q(dat_reg1[172]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38440,8 +38437,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[172]),
-        .Q(value_latch[172]),
-        .R(reset_IBUF));
+        .Q(in0[172]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38453,7 +38450,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[173]),
         .Q(dat_reg1[173]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38464,8 +38461,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[173]),
-        .Q(value_latch[173]),
-        .R(reset_IBUF));
+        .Q(in0[173]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38477,7 +38474,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[174]),
         .Q(dat_reg1[174]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38488,8 +38485,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[174]),
-        .Q(value_latch[174]),
-        .R(reset_IBUF));
+        .Q(in0[174]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38501,7 +38498,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[175]),
         .Q(dat_reg1[175]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38512,8 +38509,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[175]),
-        .Q(value_latch[175]),
-        .R(reset_IBUF));
+        .Q(in0[175]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38525,7 +38522,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[176]),
         .Q(dat_reg1[176]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38536,8 +38533,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[176]),
-        .Q(value_latch[176]),
-        .R(reset_IBUF));
+        .Q(in0[176]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38549,7 +38546,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[177]),
         .Q(dat_reg1[177]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38560,8 +38557,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[177]),
-        .Q(value_latch[177]),
-        .R(reset_IBUF));
+        .Q(in0[177]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38573,7 +38570,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[178]),
         .Q(dat_reg1[178]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38584,8 +38581,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[178]),
-        .Q(value_latch[178]),
-        .R(reset_IBUF));
+        .Q(in0[178]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38597,7 +38594,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[179]),
         .Q(dat_reg1[179]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38608,8 +38605,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[179]),
-        .Q(value_latch[179]),
-        .R(reset_IBUF));
+        .Q(in0[179]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38621,7 +38618,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[17]),
         .Q(dat_reg1[17]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38632,8 +38629,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[17]),
-        .Q(value_latch[17]),
-        .R(reset_IBUF));
+        .Q(in0[17]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38645,7 +38642,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[180]),
         .Q(dat_reg1[180]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38656,8 +38653,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[180]),
-        .Q(value_latch[180]),
-        .R(reset_IBUF));
+        .Q(in0[180]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38669,7 +38666,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[181]),
         .Q(dat_reg1[181]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38680,8 +38677,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[181]),
-        .Q(value_latch[181]),
-        .R(reset_IBUF));
+        .Q(in0[181]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38693,7 +38690,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[182]),
         .Q(dat_reg1[182]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38704,8 +38701,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[182]),
-        .Q(value_latch[182]),
-        .R(reset_IBUF));
+        .Q(in0[182]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38717,7 +38714,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[183]),
         .Q(dat_reg1[183]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38728,8 +38725,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[183]),
-        .Q(value_latch[183]),
-        .R(reset_IBUF));
+        .Q(in0[183]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38741,7 +38738,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[184]),
         .Q(dat_reg1[184]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38752,8 +38749,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[184]),
-        .Q(value_latch[184]),
-        .R(reset_IBUF));
+        .Q(in0[184]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38765,7 +38762,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[185]),
         .Q(dat_reg1[185]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38776,8 +38773,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[185]),
-        .Q(value_latch[185]),
-        .R(reset_IBUF));
+        .Q(in0[185]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38789,7 +38786,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[186]),
         .Q(dat_reg1[186]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38800,8 +38797,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[186]),
-        .Q(value_latch[186]),
-        .R(reset_IBUF));
+        .Q(in0[186]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38813,7 +38810,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[187]),
         .Q(dat_reg1[187]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38824,8 +38821,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[187]),
-        .Q(value_latch[187]),
-        .R(reset_IBUF));
+        .Q(in0[187]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38837,7 +38834,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[188]),
         .Q(dat_reg1[188]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38848,8 +38845,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[188]),
-        .Q(value_latch[188]),
-        .R(reset_IBUF));
+        .Q(in0[188]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38861,7 +38858,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[189]),
         .Q(dat_reg1[189]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38872,8 +38869,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[189]),
-        .Q(value_latch[189]),
-        .R(reset_IBUF));
+        .Q(in0[189]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38885,7 +38882,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[18]),
         .Q(dat_reg1[18]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38896,8 +38893,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[18]),
-        .Q(value_latch[18]),
-        .R(reset_IBUF));
+        .Q(in0[18]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38909,7 +38906,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[190]),
         .Q(dat_reg1[190]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38920,8 +38917,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[190]),
-        .Q(value_latch[190]),
-        .R(reset_IBUF));
+        .Q(in0[190]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38933,7 +38930,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[191]),
         .Q(dat_reg1[191]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38944,8 +38941,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[191]),
-        .Q(value_latch[191]),
-        .R(reset_IBUF));
+        .Q(in0[191]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38957,7 +38954,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[192]),
         .Q(dat_reg1[192]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38968,8 +38965,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[192]),
-        .Q(value_latch[192]),
-        .R(reset_IBUF));
+        .Q(in0[192]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38981,7 +38978,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[193]),
         .Q(dat_reg1[193]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38992,8 +38989,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[193]),
-        .Q(value_latch[193]),
-        .R(reset_IBUF));
+        .Q(in0[193]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39005,7 +39002,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[194]),
         .Q(dat_reg1[194]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39016,8 +39013,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[194]),
-        .Q(value_latch[194]),
-        .R(reset_IBUF));
+        .Q(in0[194]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39029,7 +39026,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[195]),
         .Q(dat_reg1[195]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39040,8 +39037,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[195]),
-        .Q(value_latch[195]),
-        .R(reset_IBUF));
+        .Q(in0[195]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39053,7 +39050,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[196]),
         .Q(dat_reg1[196]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39064,8 +39061,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[196]),
-        .Q(value_latch[196]),
-        .R(reset_IBUF));
+        .Q(in0[196]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39077,7 +39074,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[197]),
         .Q(dat_reg1[197]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39088,8 +39085,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[197]),
-        .Q(value_latch[197]),
-        .R(reset_IBUF));
+        .Q(in0[197]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39101,7 +39098,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[198]),
         .Q(dat_reg1[198]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39112,8 +39109,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[198]),
-        .Q(value_latch[198]),
-        .R(reset_IBUF));
+        .Q(in0[198]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39125,7 +39122,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[199]),
         .Q(dat_reg1[199]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39136,8 +39133,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[199]),
-        .Q(value_latch[199]),
-        .R(reset_IBUF));
+        .Q(in0[199]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39149,7 +39146,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[19]),
         .Q(dat_reg1[19]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39160,8 +39157,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[19]),
-        .Q(value_latch[19]),
-        .R(reset_IBUF));
+        .Q(in0[19]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39173,7 +39170,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[1]),
         .Q(dat_reg1[1]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39184,8 +39181,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[1]),
-        .Q(value_latch[1]),
-        .R(reset_IBUF));
+        .Q(in0[1]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39197,7 +39194,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[200]),
         .Q(dat_reg1[200]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39208,8 +39205,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[200]),
-        .Q(value_latch[200]),
-        .R(reset_IBUF));
+        .Q(in0[200]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39221,7 +39218,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[201]),
         .Q(dat_reg1[201]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39232,8 +39229,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[201]),
-        .Q(value_latch[201]),
-        .R(reset_IBUF));
+        .Q(in0[201]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39245,7 +39242,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[202]),
         .Q(dat_reg1[202]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39256,8 +39253,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[202]),
-        .Q(value_latch[202]),
-        .R(reset_IBUF));
+        .Q(in0[202]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39269,7 +39266,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[203]),
         .Q(dat_reg1[203]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39280,8 +39277,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[203]),
-        .Q(value_latch[203]),
-        .R(reset_IBUF));
+        .Q(in0[203]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39293,7 +39290,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[204]),
         .Q(dat_reg1[204]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39304,8 +39301,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[204]),
-        .Q(value_latch[204]),
-        .R(reset_IBUF));
+        .Q(in0[204]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39317,7 +39314,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[205]),
         .Q(dat_reg1[205]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39328,8 +39325,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[205]),
-        .Q(value_latch[205]),
-        .R(reset_IBUF));
+        .Q(in0[205]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39341,7 +39338,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[206]),
         .Q(dat_reg1[206]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39352,8 +39349,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[206]),
-        .Q(value_latch[206]),
-        .R(reset_IBUF));
+        .Q(in0[206]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39365,7 +39362,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[207]),
         .Q(dat_reg1[207]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39376,8 +39373,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[207]),
-        .Q(value_latch[207]),
-        .R(reset_IBUF));
+        .Q(in0[207]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39389,7 +39386,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[208]),
         .Q(dat_reg1[208]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39400,8 +39397,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[208]),
-        .Q(value_latch[208]),
-        .R(reset_IBUF));
+        .Q(in0[208]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39413,7 +39410,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[209]),
         .Q(dat_reg1[209]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39424,8 +39421,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[209]),
-        .Q(value_latch[209]),
-        .R(reset_IBUF));
+        .Q(in0[209]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39437,7 +39434,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[20]),
         .Q(dat_reg1[20]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39448,8 +39445,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[20]),
-        .Q(value_latch[20]),
-        .R(reset_IBUF));
+        .Q(in0[20]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39461,7 +39458,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[210]),
         .Q(dat_reg1[210]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39472,8 +39469,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[210]),
-        .Q(value_latch[210]),
-        .R(reset_IBUF));
+        .Q(in0[210]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39485,7 +39482,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[211]),
         .Q(dat_reg1[211]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39496,8 +39493,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[211]),
-        .Q(value_latch[211]),
-        .R(reset_IBUF));
+        .Q(in0[211]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39509,7 +39506,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[212]),
         .Q(dat_reg1[212]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39520,8 +39517,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[212]),
-        .Q(value_latch[212]),
-        .R(reset_IBUF));
+        .Q(in0[212]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39533,7 +39530,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[213]),
         .Q(dat_reg1[213]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39544,8 +39541,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[213]),
-        .Q(value_latch[213]),
-        .R(reset_IBUF));
+        .Q(in0[213]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39557,7 +39554,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[214]),
         .Q(dat_reg1[214]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39568,8 +39565,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[214]),
-        .Q(value_latch[214]),
-        .R(reset_IBUF));
+        .Q(in0[214]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39581,7 +39578,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[215]),
         .Q(dat_reg1[215]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39592,8 +39589,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[215]),
-        .Q(value_latch[215]),
-        .R(reset_IBUF));
+        .Q(in0[215]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39605,7 +39602,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[216]),
         .Q(dat_reg1[216]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39616,8 +39613,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[216]),
-        .Q(value_latch[216]),
-        .R(reset_IBUF));
+        .Q(in0[216]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39629,7 +39626,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[217]),
         .Q(dat_reg1[217]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39640,8 +39637,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[217]),
-        .Q(value_latch[217]),
-        .R(reset_IBUF));
+        .Q(in0[217]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39653,7 +39650,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[218]),
         .Q(dat_reg1[218]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39664,8 +39661,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[218]),
-        .Q(value_latch[218]),
-        .R(reset_IBUF));
+        .Q(in0[218]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39677,7 +39674,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[219]),
         .Q(dat_reg1[219]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39688,8 +39685,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[219]),
-        .Q(value_latch[219]),
-        .R(reset_IBUF));
+        .Q(in0[219]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39701,7 +39698,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[21]),
         .Q(dat_reg1[21]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39712,8 +39709,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[21]),
-        .Q(value_latch[21]),
-        .R(reset_IBUF));
+        .Q(in0[21]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39725,7 +39722,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[220]),
         .Q(dat_reg1[220]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39736,8 +39733,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[220]),
-        .Q(value_latch[220]),
-        .R(reset_IBUF));
+        .Q(in0[220]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39749,7 +39746,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[221]),
         .Q(dat_reg1[221]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39760,8 +39757,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[221]),
-        .Q(value_latch[221]),
-        .R(reset_IBUF));
+        .Q(in0[221]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39773,7 +39770,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[222]),
         .Q(dat_reg1[222]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39784,8 +39781,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[222]),
-        .Q(value_latch[222]),
-        .R(reset_IBUF));
+        .Q(in0[222]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39797,7 +39794,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[223]),
         .Q(dat_reg1[223]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39808,8 +39805,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[223]),
-        .Q(value_latch[223]),
-        .R(reset_IBUF));
+        .Q(in0[223]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39821,7 +39818,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[224]),
         .Q(dat_reg1[224]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39832,8 +39829,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[224]),
-        .Q(value_latch[224]),
-        .R(reset_IBUF));
+        .Q(in0[224]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39845,7 +39842,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[225]),
         .Q(dat_reg1[225]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39856,8 +39853,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[225]),
-        .Q(value_latch[225]),
-        .R(reset_IBUF));
+        .Q(in0[225]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39869,7 +39866,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[226]),
         .Q(dat_reg1[226]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39880,8 +39877,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[226]),
-        .Q(value_latch[226]),
-        .R(reset_IBUF));
+        .Q(in0[226]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39893,7 +39890,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[227]),
         .Q(dat_reg1[227]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39904,8 +39901,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[227]),
-        .Q(value_latch[227]),
-        .R(reset_IBUF));
+        .Q(in0[227]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39917,7 +39914,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[228]),
         .Q(dat_reg1[228]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39928,8 +39925,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[228]),
-        .Q(value_latch[228]),
-        .R(reset_IBUF));
+        .Q(in0[228]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39941,7 +39938,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[229]),
         .Q(dat_reg1[229]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39952,8 +39949,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[229]),
-        .Q(value_latch[229]),
-        .R(reset_IBUF));
+        .Q(in0[229]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39965,7 +39962,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[22]),
         .Q(dat_reg1[22]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39976,8 +39973,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[22]),
-        .Q(value_latch[22]),
-        .R(reset_IBUF));
+        .Q(in0[22]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39989,7 +39986,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[230]),
         .Q(dat_reg1[230]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40000,8 +39997,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[230]),
-        .Q(value_latch[230]),
-        .R(reset_IBUF));
+        .Q(in0[230]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40013,7 +40010,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[231]),
         .Q(dat_reg1[231]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40024,8 +40021,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[231]),
-        .Q(value_latch[231]),
-        .R(reset_IBUF));
+        .Q(in0[231]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40037,7 +40034,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[232]),
         .Q(dat_reg1[232]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40048,8 +40045,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[232]),
-        .Q(value_latch[232]),
-        .R(reset_IBUF));
+        .Q(in0[232]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40061,7 +40058,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[233]),
         .Q(dat_reg1[233]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40072,8 +40069,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[233]),
-        .Q(value_latch[233]),
-        .R(reset_IBUF));
+        .Q(in0[233]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40085,7 +40082,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[234]),
         .Q(dat_reg1[234]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40096,8 +40093,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[234]),
-        .Q(value_latch[234]),
-        .R(reset_IBUF));
+        .Q(in0[234]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40109,7 +40106,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[235]),
         .Q(dat_reg1[235]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40120,8 +40117,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[235]),
-        .Q(value_latch[235]),
-        .R(reset_IBUF));
+        .Q(in0[235]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40133,7 +40130,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[236]),
         .Q(dat_reg1[236]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40144,8 +40141,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[236]),
-        .Q(value_latch[236]),
-        .R(reset_IBUF));
+        .Q(in0[236]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40157,7 +40154,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[237]),
         .Q(dat_reg1[237]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40168,8 +40165,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[237]),
-        .Q(value_latch[237]),
-        .R(reset_IBUF));
+        .Q(in0[237]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40181,7 +40178,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[238]),
         .Q(dat_reg1[238]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40192,8 +40189,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[238]),
-        .Q(value_latch[238]),
-        .R(reset_IBUF));
+        .Q(in0[238]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40205,7 +40202,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[239]),
         .Q(dat_reg1[239]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40216,8 +40213,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[239]),
-        .Q(value_latch[239]),
-        .R(reset_IBUF));
+        .Q(in0[239]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40229,7 +40226,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[23]),
         .Q(dat_reg1[23]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40240,8 +40237,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[23]),
-        .Q(value_latch[23]),
-        .R(reset_IBUF));
+        .Q(in0[23]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40253,7 +40250,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[240]),
         .Q(dat_reg1[240]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40264,8 +40261,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[240]),
-        .Q(value_latch[240]),
-        .R(reset_IBUF));
+        .Q(in0[240]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40277,7 +40274,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[241]),
         .Q(dat_reg1[241]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40288,8 +40285,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[241]),
-        .Q(value_latch[241]),
-        .R(reset_IBUF));
+        .Q(in0[241]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40301,7 +40298,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[242]),
         .Q(dat_reg1[242]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40312,8 +40309,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[242]),
-        .Q(value_latch[242]),
-        .R(reset_IBUF));
+        .Q(in0[242]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40325,7 +40322,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[243]),
         .Q(dat_reg1[243]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40336,8 +40333,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[243]),
-        .Q(value_latch[243]),
-        .R(reset_IBUF));
+        .Q(in0[243]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40349,7 +40346,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[244]),
         .Q(dat_reg1[244]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40360,8 +40357,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[244]),
-        .Q(value_latch[244]),
-        .R(reset_IBUF));
+        .Q(in0[244]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40373,7 +40370,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[245]),
         .Q(dat_reg1[245]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40384,8 +40381,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[245]),
-        .Q(value_latch[245]),
-        .R(reset_IBUF));
+        .Q(in0[245]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40397,7 +40394,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[246]),
         .Q(dat_reg1[246]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40408,8 +40405,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[246]),
-        .Q(value_latch[246]),
-        .R(reset_IBUF));
+        .Q(in0[246]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40421,7 +40418,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[247]),
         .Q(dat_reg1[247]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40432,8 +40429,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[247]),
-        .Q(value_latch[247]),
-        .R(reset_IBUF));
+        .Q(in0[247]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40445,7 +40442,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[248]),
         .Q(dat_reg1[248]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40456,8 +40453,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[248]),
-        .Q(value_latch[248]),
-        .R(reset_IBUF));
+        .Q(in0[248]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40469,7 +40466,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[249]),
         .Q(dat_reg1[249]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40480,8 +40477,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[249]),
-        .Q(value_latch[249]),
-        .R(reset_IBUF));
+        .Q(in0[249]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40493,7 +40490,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[24]),
         .Q(dat_reg1[24]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40504,8 +40501,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[24]),
-        .Q(value_latch[24]),
-        .R(reset_IBUF));
+        .Q(in0[24]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40517,7 +40514,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[250]),
         .Q(dat_reg1[250]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40528,8 +40525,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[250]),
-        .Q(value_latch[250]),
-        .R(reset_IBUF));
+        .Q(in0[250]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40541,7 +40538,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[251]),
         .Q(dat_reg1[251]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40552,8 +40549,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[251]),
-        .Q(value_latch[251]),
-        .R(reset_IBUF));
+        .Q(in0[251]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40565,7 +40562,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[252]),
         .Q(dat_reg1[252]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40576,8 +40573,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[252]),
-        .Q(value_latch[252]),
-        .R(reset_IBUF));
+        .Q(in0[252]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40589,7 +40586,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[253]),
         .Q(dat_reg1[253]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40600,8 +40597,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[253]),
-        .Q(value_latch[253]),
-        .R(reset_IBUF));
+        .Q(in0[253]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40613,7 +40610,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[254]),
         .Q(dat_reg1[254]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40624,8 +40621,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[254]),
-        .Q(value_latch[254]),
-        .R(reset_IBUF));
+        .Q(in0[254]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40637,7 +40634,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[255]),
         .Q(dat_reg1[255]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40648,8 +40645,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[255]),
-        .Q(value_latch[255]),
-        .R(reset_IBUF));
+        .Q(in0[255]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40661,7 +40658,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[256]),
         .Q(dat_reg1[256]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40672,8 +40669,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[256]),
-        .Q(value_latch[256]),
-        .R(reset_IBUF));
+        .Q(in0[256]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40685,7 +40682,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[257]),
         .Q(dat_reg1[257]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40696,8 +40693,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[257]),
-        .Q(value_latch[257]),
-        .R(reset_IBUF));
+        .Q(in0[257]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40709,7 +40706,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[258]),
         .Q(dat_reg1[258]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40720,8 +40717,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[258]),
-        .Q(value_latch[258]),
-        .R(reset_IBUF));
+        .Q(in0[258]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40733,7 +40730,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[259]),
         .Q(dat_reg1[259]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40744,8 +40741,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[259]),
-        .Q(value_latch[259]),
-        .R(reset_IBUF));
+        .Q(in0[259]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40757,7 +40754,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[25]),
         .Q(dat_reg1[25]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40768,8 +40765,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[25]),
-        .Q(value_latch[25]),
-        .R(reset_IBUF));
+        .Q(in0[25]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40781,7 +40778,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[260]),
         .Q(dat_reg1[260]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40792,8 +40789,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[260]),
-        .Q(value_latch[260]),
-        .R(reset_IBUF));
+        .Q(in0[260]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40805,7 +40802,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[261]),
         .Q(dat_reg1[261]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40816,8 +40813,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[261]),
-        .Q(value_latch[261]),
-        .R(reset_IBUF));
+        .Q(in0[261]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40829,7 +40826,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[262]),
         .Q(dat_reg1[262]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40840,8 +40837,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[262]),
-        .Q(value_latch[262]),
-        .R(reset_IBUF));
+        .Q(in0[262]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40853,7 +40850,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[263]),
         .Q(dat_reg1[263]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40864,8 +40861,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[263]),
-        .Q(value_latch[263]),
-        .R(reset_IBUF));
+        .Q(in0[263]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40877,7 +40874,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[264]),
         .Q(dat_reg1[264]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40888,8 +40885,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[264]),
-        .Q(value_latch[264]),
-        .R(reset_IBUF));
+        .Q(in0[264]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40901,7 +40898,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[265]),
         .Q(dat_reg1[265]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40912,8 +40909,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[265]),
-        .Q(value_latch[265]),
-        .R(reset_IBUF));
+        .Q(in0[265]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40925,7 +40922,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[266]),
         .Q(dat_reg1[266]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40936,8 +40933,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[266]),
-        .Q(value_latch[266]),
-        .R(reset_IBUF));
+        .Q(in0[266]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40949,7 +40946,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[267]),
         .Q(dat_reg1[267]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40960,8 +40957,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[267]),
-        .Q(value_latch[267]),
-        .R(reset_IBUF));
+        .Q(in0[267]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40973,7 +40970,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[268]),
         .Q(dat_reg1[268]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40984,8 +40981,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[268]),
-        .Q(value_latch[268]),
-        .R(reset_IBUF));
+        .Q(in0[268]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40997,7 +40994,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[269]),
         .Q(dat_reg1[269]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41008,8 +41005,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[269]),
-        .Q(value_latch[269]),
-        .R(reset_IBUF));
+        .Q(in0[269]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41021,7 +41018,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[26]),
         .Q(dat_reg1[26]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41032,8 +41029,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[26]),
-        .Q(value_latch[26]),
-        .R(reset_IBUF));
+        .Q(in0[26]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41045,7 +41042,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[270]),
         .Q(dat_reg1[270]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41056,8 +41053,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[270]),
-        .Q(value_latch[270]),
-        .R(reset_IBUF));
+        .Q(in0[270]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41069,7 +41066,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[271]),
         .Q(dat_reg1[271]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41080,8 +41077,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[271]),
-        .Q(value_latch[271]),
-        .R(reset_IBUF));
+        .Q(in0[271]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41093,7 +41090,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[272]),
         .Q(dat_reg1[272]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41104,8 +41101,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[272]),
-        .Q(value_latch[272]),
-        .R(reset_IBUF));
+        .Q(in0[272]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41117,7 +41114,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[273]),
         .Q(dat_reg1[273]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41128,8 +41125,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[273]),
-        .Q(value_latch[273]),
-        .R(reset_IBUF));
+        .Q(in0[273]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41141,7 +41138,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[274]),
         .Q(dat_reg1[274]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41152,8 +41149,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[274]),
-        .Q(value_latch[274]),
-        .R(reset_IBUF));
+        .Q(in0[274]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41165,7 +41162,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[275]),
         .Q(dat_reg1[275]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41176,8 +41173,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[275]),
-        .Q(value_latch[275]),
-        .R(reset_IBUF));
+        .Q(in0[275]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41189,7 +41186,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[276]),
         .Q(dat_reg1[276]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41200,8 +41197,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[276]),
-        .Q(value_latch[276]),
-        .R(reset_IBUF));
+        .Q(in0[276]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41213,7 +41210,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[277]),
         .Q(dat_reg1[277]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41224,8 +41221,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[277]),
-        .Q(value_latch[277]),
-        .R(reset_IBUF));
+        .Q(in0[277]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41237,7 +41234,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[278]),
         .Q(dat_reg1[278]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41248,8 +41245,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[278]),
-        .Q(value_latch[278]),
-        .R(reset_IBUF));
+        .Q(in0[278]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41261,7 +41258,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[279]),
         .Q(dat_reg1[279]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41272,8 +41269,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[279]),
-        .Q(value_latch[279]),
-        .R(reset_IBUF));
+        .Q(in0[279]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41285,7 +41282,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[27]),
         .Q(dat_reg1[27]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41296,8 +41293,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[27]),
-        .Q(value_latch[27]),
-        .R(reset_IBUF));
+        .Q(in0[27]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41309,7 +41306,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[280]),
         .Q(dat_reg1[280]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41320,8 +41317,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[280]),
-        .Q(value_latch[280]),
-        .R(reset_IBUF));
+        .Q(in0[280]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41333,7 +41330,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[281]),
         .Q(dat_reg1[281]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41344,8 +41341,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[281]),
-        .Q(value_latch[281]),
-        .R(reset_IBUF));
+        .Q(in0[281]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41357,7 +41354,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[282]),
         .Q(dat_reg1[282]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41368,8 +41365,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[282]),
-        .Q(value_latch[282]),
-        .R(reset_IBUF));
+        .Q(in0[282]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41381,7 +41378,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[283]),
         .Q(dat_reg1[283]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41392,8 +41389,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[283]),
-        .Q(value_latch[283]),
-        .R(reset_IBUF));
+        .Q(in0[283]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41405,7 +41402,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[284]),
         .Q(dat_reg1[284]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41416,8 +41413,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[284]),
-        .Q(value_latch[284]),
-        .R(reset_IBUF));
+        .Q(in0[284]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41429,7 +41426,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[285]),
         .Q(dat_reg1[285]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41440,8 +41437,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[285]),
-        .Q(value_latch[285]),
-        .R(reset_IBUF));
+        .Q(in0[285]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41453,7 +41450,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[286]),
         .Q(dat_reg1[286]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41464,8 +41461,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[286]),
-        .Q(value_latch[286]),
-        .R(reset_IBUF));
+        .Q(in0[286]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41477,7 +41474,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[287]),
         .Q(dat_reg1[287]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41488,8 +41485,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[287]),
-        .Q(value_latch[287]),
-        .R(reset_IBUF));
+        .Q(in0[287]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41501,7 +41498,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[288]),
         .Q(dat_reg1[288]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41512,8 +41509,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[288]),
-        .Q(value_latch[288]),
-        .R(reset_IBUF));
+        .Q(in0[288]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41525,7 +41522,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[289]),
         .Q(dat_reg1[289]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41536,8 +41533,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[289]),
-        .Q(value_latch[289]),
-        .R(reset_IBUF));
+        .Q(in0[289]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41549,7 +41546,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[28]),
         .Q(dat_reg1[28]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41560,8 +41557,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[28]),
-        .Q(value_latch[28]),
-        .R(reset_IBUF));
+        .Q(in0[28]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41573,7 +41570,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[290]),
         .Q(dat_reg1[290]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41584,8 +41581,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[290]),
-        .Q(value_latch[290]),
-        .R(reset_IBUF));
+        .Q(in0[290]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41597,7 +41594,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[291]),
         .Q(dat_reg1[291]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41608,8 +41605,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[291]),
-        .Q(value_latch[291]),
-        .R(reset_IBUF));
+        .Q(in0[291]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41621,7 +41618,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[292]),
         .Q(dat_reg1[292]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41632,8 +41629,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[292]),
-        .Q(value_latch[292]),
-        .R(reset_IBUF));
+        .Q(in0[292]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41645,7 +41642,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[293]),
         .Q(dat_reg1[293]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41656,8 +41653,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[293]),
-        .Q(value_latch[293]),
-        .R(reset_IBUF));
+        .Q(in0[293]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41669,7 +41666,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[294]),
         .Q(dat_reg1[294]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41680,8 +41677,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[294]),
-        .Q(value_latch[294]),
-        .R(reset_IBUF));
+        .Q(in0[294]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41693,7 +41690,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[295]),
         .Q(dat_reg1[295]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41704,8 +41701,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[295]),
-        .Q(value_latch[295]),
-        .R(reset_IBUF));
+        .Q(in0[295]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41717,7 +41714,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[296]),
         .Q(dat_reg1[296]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41728,8 +41725,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[296]),
-        .Q(value_latch[296]),
-        .R(reset_IBUF));
+        .Q(in0[296]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41741,7 +41738,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[297]),
         .Q(dat_reg1[297]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41752,8 +41749,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[297]),
-        .Q(value_latch[297]),
-        .R(reset_IBUF));
+        .Q(in0[297]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41765,7 +41762,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[298]),
         .Q(dat_reg1[298]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41776,8 +41773,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[298]),
-        .Q(value_latch[298]),
-        .R(reset_IBUF));
+        .Q(in0[298]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41789,7 +41786,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[299]),
         .Q(dat_reg1[299]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41800,8 +41797,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[299]),
-        .Q(value_latch[299]),
-        .R(reset_IBUF));
+        .Q(in0[299]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41813,7 +41810,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[29]),
         .Q(dat_reg1[29]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41824,8 +41821,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[29]),
-        .Q(value_latch[29]),
-        .R(reset_IBUF));
+        .Q(in0[29]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41837,7 +41834,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[2]),
         .Q(dat_reg1[2]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41848,8 +41845,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[2]),
-        .Q(value_latch[2]),
-        .R(reset_IBUF));
+        .Q(in0[2]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41861,7 +41858,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[300]),
         .Q(dat_reg1[300]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41872,8 +41869,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[300]),
-        .Q(value_latch[300]),
-        .R(reset_IBUF));
+        .Q(in0[300]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41885,7 +41882,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[301]),
         .Q(dat_reg1[301]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41896,8 +41893,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[301]),
-        .Q(value_latch[301]),
-        .R(reset_IBUF));
+        .Q(in0[301]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41909,7 +41906,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[302]),
         .Q(dat_reg1[302]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41920,8 +41917,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[302]),
-        .Q(value_latch[302]),
-        .R(reset_IBUF));
+        .Q(in0[302]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41933,7 +41930,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[303]),
         .Q(dat_reg1[303]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41944,8 +41941,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[303]),
-        .Q(value_latch[303]),
-        .R(reset_IBUF));
+        .Q(in0[303]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41957,7 +41954,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[304]),
         .Q(dat_reg1[304]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41968,8 +41965,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[304]),
-        .Q(value_latch[304]),
-        .R(reset_IBUF));
+        .Q(in0[304]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41981,7 +41978,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[305]),
         .Q(dat_reg1[305]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41992,8 +41989,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[305]),
-        .Q(value_latch[305]),
-        .R(reset_IBUF));
+        .Q(in0[305]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42005,7 +42002,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[306]),
         .Q(dat_reg1[306]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42016,8 +42013,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[306]),
-        .Q(value_latch[306]),
-        .R(reset_IBUF));
+        .Q(in0[306]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42029,7 +42026,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[307]),
         .Q(dat_reg1[307]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42040,8 +42037,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[307]),
-        .Q(value_latch[307]),
-        .R(reset_IBUF));
+        .Q(in0[307]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42053,7 +42050,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[308]),
         .Q(dat_reg1[308]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42064,8 +42061,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[308]),
-        .Q(value_latch[308]),
-        .R(reset_IBUF));
+        .Q(in0[308]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42077,7 +42074,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[309]),
         .Q(dat_reg1[309]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42088,8 +42085,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[309]),
-        .Q(value_latch[309]),
-        .R(reset_IBUF));
+        .Q(in0[309]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42101,7 +42098,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[30]),
         .Q(dat_reg1[30]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42112,8 +42109,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[30]),
-        .Q(value_latch[30]),
-        .R(reset_IBUF));
+        .Q(in0[30]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42125,7 +42122,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[310]),
         .Q(dat_reg1[310]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42136,8 +42133,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[310]),
-        .Q(value_latch[310]),
-        .R(reset_IBUF));
+        .Q(in0[310]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42149,7 +42146,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[311]),
         .Q(dat_reg1[311]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42160,8 +42157,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[311]),
-        .Q(value_latch[311]),
-        .R(reset_IBUF));
+        .Q(in0[311]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42173,7 +42170,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[312]),
         .Q(dat_reg1[312]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42184,8 +42181,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[312]),
-        .Q(value_latch[312]),
-        .R(reset_IBUF));
+        .Q(in0[312]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42197,7 +42194,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[313]),
         .Q(dat_reg1[313]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42208,8 +42205,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[313]),
-        .Q(value_latch[313]),
-        .R(reset_IBUF));
+        .Q(in0[313]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42221,7 +42218,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[314]),
         .Q(dat_reg1[314]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42232,8 +42229,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[314]),
-        .Q(value_latch[314]),
-        .R(reset_IBUF));
+        .Q(in0[314]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42245,7 +42242,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[315]),
         .Q(dat_reg1[315]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42256,8 +42253,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[315]),
-        .Q(value_latch[315]),
-        .R(reset_IBUF));
+        .Q(in0[315]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42269,7 +42266,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[316]),
         .Q(dat_reg1[316]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42280,8 +42277,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[316]),
-        .Q(value_latch[316]),
-        .R(reset_IBUF));
+        .Q(in0[316]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42293,7 +42290,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[317]),
         .Q(dat_reg1[317]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42304,8 +42301,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[317]),
-        .Q(value_latch[317]),
-        .R(reset_IBUF));
+        .Q(in0[317]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42317,7 +42314,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[318]),
         .Q(dat_reg1[318]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42328,8 +42325,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[318]),
-        .Q(value_latch[318]),
-        .R(reset_IBUF));
+        .Q(in0[318]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42341,7 +42338,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[319]),
         .Q(dat_reg1[319]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42352,8 +42349,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[319]),
-        .Q(value_latch[319]),
-        .R(reset_IBUF));
+        .Q(in0[319]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42365,7 +42362,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[31]),
         .Q(dat_reg1[31]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42376,8 +42373,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[31]),
-        .Q(value_latch[31]),
-        .R(reset_IBUF));
+        .Q(in0[31]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42389,7 +42386,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[320]),
         .Q(dat_reg1[320]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42400,8 +42397,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[320]),
-        .Q(value_latch[320]),
-        .R(reset_IBUF));
+        .Q(in0[320]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42413,7 +42410,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[321]),
         .Q(dat_reg1[321]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42424,8 +42421,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[321]),
-        .Q(value_latch[321]),
-        .R(reset_IBUF));
+        .Q(in0[321]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42437,7 +42434,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[322]),
         .Q(dat_reg1[322]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42448,8 +42445,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[322]),
-        .Q(value_latch[322]),
-        .R(reset_IBUF));
+        .Q(in0[322]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42461,7 +42458,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[323]),
         .Q(dat_reg1[323]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42472,8 +42469,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[323]),
-        .Q(value_latch[323]),
-        .R(reset_IBUF));
+        .Q(in0[323]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42485,7 +42482,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[324]),
         .Q(dat_reg1[324]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42496,8 +42493,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[324]),
-        .Q(value_latch[324]),
-        .R(reset_IBUF));
+        .Q(in0[324]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42509,7 +42506,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[325]),
         .Q(dat_reg1[325]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42520,8 +42517,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[325]),
-        .Q(value_latch[325]),
-        .R(reset_IBUF));
+        .Q(in0[325]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42533,7 +42530,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[326]),
         .Q(dat_reg1[326]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42544,8 +42541,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[326]),
-        .Q(value_latch[326]),
-        .R(reset_IBUF));
+        .Q(in0[326]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42557,7 +42554,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[327]),
         .Q(dat_reg1[327]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42568,8 +42565,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[327]),
-        .Q(value_latch[327]),
-        .R(reset_IBUF));
+        .Q(in0[327]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42581,7 +42578,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[328]),
         .Q(dat_reg1[328]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42592,8 +42589,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[328]),
-        .Q(value_latch[328]),
-        .R(reset_IBUF));
+        .Q(in0[328]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42605,7 +42602,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[329]),
         .Q(dat_reg1[329]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42616,8 +42613,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[329]),
-        .Q(value_latch[329]),
-        .R(reset_IBUF));
+        .Q(in0[329]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42629,7 +42626,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[32]),
         .Q(dat_reg1[32]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42640,8 +42637,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[32]),
-        .Q(value_latch[32]),
-        .R(reset_IBUF));
+        .Q(in0[32]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42653,7 +42650,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[330]),
         .Q(dat_reg1[330]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42664,8 +42661,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[330]),
-        .Q(value_latch[330]),
-        .R(reset_IBUF));
+        .Q(in0[330]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42677,7 +42674,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[331]),
         .Q(dat_reg1[331]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42688,8 +42685,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[331]),
-        .Q(value_latch[331]),
-        .R(reset_IBUF));
+        .Q(in0[331]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42701,7 +42698,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[332]),
         .Q(dat_reg1[332]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42712,8 +42709,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[332]),
-        .Q(value_latch[332]),
-        .R(reset_IBUF));
+        .Q(in0[332]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42725,7 +42722,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[333]),
         .Q(dat_reg1[333]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42736,8 +42733,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[333]),
-        .Q(value_latch[333]),
-        .R(reset_IBUF));
+        .Q(in0[333]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42749,7 +42746,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[334]),
         .Q(dat_reg1[334]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42760,8 +42757,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[334]),
-        .Q(value_latch[334]),
-        .R(reset_IBUF));
+        .Q(in0[334]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42773,7 +42770,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[335]),
         .Q(dat_reg1[335]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42784,8 +42781,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[335]),
-        .Q(value_latch[335]),
-        .R(reset_IBUF));
+        .Q(in0[335]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42797,7 +42794,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[336]),
         .Q(dat_reg1[336]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42808,8 +42805,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[336]),
-        .Q(value_latch[336]),
-        .R(reset_IBUF));
+        .Q(in0[336]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42821,7 +42818,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[337]),
         .Q(dat_reg1[337]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42832,8 +42829,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[337]),
-        .Q(value_latch[337]),
-        .R(reset_IBUF));
+        .Q(in0[337]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42845,7 +42842,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[338]),
         .Q(dat_reg1[338]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42856,8 +42853,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[338]),
-        .Q(value_latch[338]),
-        .R(reset_IBUF));
+        .Q(in0[338]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42869,7 +42866,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[339]),
         .Q(dat_reg1[339]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42880,8 +42877,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[339]),
-        .Q(value_latch[339]),
-        .R(reset_IBUF));
+        .Q(in0[339]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42893,7 +42890,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[33]),
         .Q(dat_reg1[33]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42904,8 +42901,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[33]),
-        .Q(value_latch[33]),
-        .R(reset_IBUF));
+        .Q(in0[33]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42917,7 +42914,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[340]),
         .Q(dat_reg1[340]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42928,8 +42925,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[340]),
-        .Q(value_latch[340]),
-        .R(reset_IBUF));
+        .Q(in0[340]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42941,7 +42938,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[341]),
         .Q(dat_reg1[341]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42952,8 +42949,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[341]),
-        .Q(value_latch[341]),
-        .R(reset_IBUF));
+        .Q(in0[341]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42965,7 +42962,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[342]),
         .Q(dat_reg1[342]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42976,8 +42973,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[342]),
-        .Q(value_latch[342]),
-        .R(reset_IBUF));
+        .Q(in0[342]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42989,7 +42986,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[343]),
         .Q(dat_reg1[343]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43000,8 +42997,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[343]),
-        .Q(value_latch[343]),
-        .R(reset_IBUF));
+        .Q(in0[343]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43013,7 +43010,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[344]),
         .Q(dat_reg1[344]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43024,8 +43021,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[344]),
-        .Q(value_latch[344]),
-        .R(reset_IBUF));
+        .Q(in0[344]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43037,7 +43034,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[345]),
         .Q(dat_reg1[345]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43048,8 +43045,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[345]),
-        .Q(value_latch[345]),
-        .R(reset_IBUF));
+        .Q(in0[345]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43061,7 +43058,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[346]),
         .Q(dat_reg1[346]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43072,8 +43069,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[346]),
-        .Q(value_latch[346]),
-        .R(reset_IBUF));
+        .Q(in0[346]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43085,7 +43082,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[347]),
         .Q(dat_reg1[347]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43096,8 +43093,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[347]),
-        .Q(value_latch[347]),
-        .R(reset_IBUF));
+        .Q(in0[347]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43109,7 +43106,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[348]),
         .Q(dat_reg1[348]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43120,8 +43117,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[348]),
-        .Q(value_latch[348]),
-        .R(reset_IBUF));
+        .Q(in0[348]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43133,7 +43130,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[349]),
         .Q(dat_reg1[349]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43144,8 +43141,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[349]),
-        .Q(value_latch[349]),
-        .R(reset_IBUF));
+        .Q(in0[349]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43157,7 +43154,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[34]),
         .Q(dat_reg1[34]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43168,8 +43165,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[34]),
-        .Q(value_latch[34]),
-        .R(reset_IBUF));
+        .Q(in0[34]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43181,7 +43178,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[350]),
         .Q(dat_reg1[350]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43192,8 +43189,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[350]),
-        .Q(value_latch[350]),
-        .R(reset_IBUF));
+        .Q(in0[350]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43205,7 +43202,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[351]),
         .Q(dat_reg1[351]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43216,8 +43213,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[351]),
-        .Q(value_latch[351]),
-        .R(reset_IBUF));
+        .Q(in0[351]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43229,7 +43226,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[352]),
         .Q(dat_reg1[352]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43240,8 +43237,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[352]),
-        .Q(value_latch[352]),
-        .R(reset_IBUF));
+        .Q(in0[352]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43253,7 +43250,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[353]),
         .Q(dat_reg1[353]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43264,8 +43261,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[353]),
-        .Q(value_latch[353]),
-        .R(reset_IBUF));
+        .Q(in0[353]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43277,7 +43274,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[354]),
         .Q(dat_reg1[354]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43288,8 +43285,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[354]),
-        .Q(value_latch[354]),
-        .R(reset_IBUF));
+        .Q(in0[354]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43301,7 +43298,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[355]),
         .Q(dat_reg1[355]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43312,8 +43309,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[355]),
-        .Q(value_latch[355]),
-        .R(reset_IBUF));
+        .Q(in0[355]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43325,7 +43322,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[356]),
         .Q(dat_reg1[356]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43336,8 +43333,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[356]),
-        .Q(value_latch[356]),
-        .R(reset_IBUF));
+        .Q(in0[356]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43349,7 +43346,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[357]),
         .Q(dat_reg1[357]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43360,8 +43357,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[357]),
-        .Q(value_latch[357]),
-        .R(reset_IBUF));
+        .Q(in0[357]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43373,7 +43370,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[358]),
         .Q(dat_reg1[358]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43384,8 +43381,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[358]),
-        .Q(value_latch[358]),
-        .R(reset_IBUF));
+        .Q(in0[358]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43397,7 +43394,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[359]),
         .Q(dat_reg1[359]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43408,8 +43405,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[359]),
-        .Q(value_latch[359]),
-        .R(reset_IBUF));
+        .Q(in0[359]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43421,7 +43418,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[35]),
         .Q(dat_reg1[35]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43432,8 +43429,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[35]),
-        .Q(value_latch[35]),
-        .R(reset_IBUF));
+        .Q(in0[35]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43445,7 +43442,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[360]),
         .Q(dat_reg1[360]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43456,8 +43453,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[360]),
-        .Q(value_latch[360]),
-        .R(reset_IBUF));
+        .Q(in0[360]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43469,7 +43466,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[361]),
         .Q(dat_reg1[361]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43480,8 +43477,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[361]),
-        .Q(value_latch[361]),
-        .R(reset_IBUF));
+        .Q(in0[361]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43493,7 +43490,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[362]),
         .Q(dat_reg1[362]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43504,8 +43501,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[362]),
-        .Q(value_latch[362]),
-        .R(reset_IBUF));
+        .Q(in0[362]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43517,7 +43514,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[363]),
         .Q(dat_reg1[363]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43528,8 +43525,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[363]),
-        .Q(value_latch[363]),
-        .R(reset_IBUF));
+        .Q(in0[363]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43541,7 +43538,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[364]),
         .Q(dat_reg1[364]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43552,8 +43549,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[364]),
-        .Q(value_latch[364]),
-        .R(reset_IBUF));
+        .Q(in0[364]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43565,7 +43562,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[365]),
         .Q(dat_reg1[365]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43576,8 +43573,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[365]),
-        .Q(value_latch[365]),
-        .R(reset_IBUF));
+        .Q(in0[365]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43589,7 +43586,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[366]),
         .Q(dat_reg1[366]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43600,8 +43597,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[366]),
-        .Q(value_latch[366]),
-        .R(reset_IBUF));
+        .Q(in0[366]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43613,7 +43610,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[367]),
         .Q(dat_reg1[367]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43624,8 +43621,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[367]),
-        .Q(value_latch[367]),
-        .R(reset_IBUF));
+        .Q(in0[367]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43637,7 +43634,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[368]),
         .Q(dat_reg1[368]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43648,8 +43645,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[368]),
-        .Q(value_latch[368]),
-        .R(reset_IBUF));
+        .Q(in0[368]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43661,7 +43658,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[369]),
         .Q(dat_reg1[369]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43672,8 +43669,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[369]),
-        .Q(value_latch[369]),
-        .R(reset_IBUF));
+        .Q(in0[369]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43685,7 +43682,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[36]),
         .Q(dat_reg1[36]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43696,8 +43693,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[36]),
-        .Q(value_latch[36]),
-        .R(reset_IBUF));
+        .Q(in0[36]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43709,7 +43706,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[370]),
         .Q(dat_reg1[370]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43720,8 +43717,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[370]),
-        .Q(value_latch[370]),
-        .R(reset_IBUF));
+        .Q(in0[370]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43733,7 +43730,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[371]),
         .Q(dat_reg1[371]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43744,8 +43741,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[371]),
-        .Q(value_latch[371]),
-        .R(reset_IBUF));
+        .Q(in0[371]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43757,7 +43754,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[372]),
         .Q(dat_reg1[372]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43768,8 +43765,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[372]),
-        .Q(value_latch[372]),
-        .R(reset_IBUF));
+        .Q(in0[372]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43781,7 +43778,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[373]),
         .Q(dat_reg1[373]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43792,8 +43789,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[373]),
-        .Q(value_latch[373]),
-        .R(reset_IBUF));
+        .Q(in0[373]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43805,7 +43802,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[374]),
         .Q(dat_reg1[374]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43816,8 +43813,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[374]),
-        .Q(value_latch[374]),
-        .R(reset_IBUF));
+        .Q(in0[374]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43829,7 +43826,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[375]),
         .Q(dat_reg1[375]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43840,8 +43837,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[375]),
-        .Q(value_latch[375]),
-        .R(reset_IBUF));
+        .Q(in0[375]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43853,7 +43850,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[376]),
         .Q(dat_reg1[376]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43864,8 +43861,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[376]),
-        .Q(value_latch[376]),
-        .R(reset_IBUF));
+        .Q(in0[376]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43877,7 +43874,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[377]),
         .Q(dat_reg1[377]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43888,8 +43885,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[377]),
-        .Q(value_latch[377]),
-        .R(reset_IBUF));
+        .Q(in0[377]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43901,7 +43898,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[378]),
         .Q(dat_reg1[378]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43912,8 +43909,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[378]),
-        .Q(value_latch[378]),
-        .R(reset_IBUF));
+        .Q(in0[378]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43925,7 +43922,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[379]),
         .Q(dat_reg1[379]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43936,8 +43933,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[379]),
-        .Q(value_latch[379]),
-        .R(reset_IBUF));
+        .Q(in0[379]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43949,7 +43946,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[37]),
         .Q(dat_reg1[37]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43960,8 +43957,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[37]),
-        .Q(value_latch[37]),
-        .R(reset_IBUF));
+        .Q(in0[37]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43973,7 +43970,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[380]),
         .Q(dat_reg1[380]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43984,8 +43981,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[380]),
-        .Q(value_latch[380]),
-        .R(reset_IBUF));
+        .Q(in0[380]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43997,7 +43994,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[381]),
         .Q(dat_reg1[381]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44008,8 +44005,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[381]),
-        .Q(value_latch[381]),
-        .R(reset_IBUF));
+        .Q(in0[381]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44021,7 +44018,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[382]),
         .Q(dat_reg1[382]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44032,8 +44029,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[382]),
-        .Q(value_latch[382]),
-        .R(reset_IBUF));
+        .Q(in0[382]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44045,7 +44042,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[383]),
         .Q(dat_reg1[383]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44056,8 +44053,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[383]),
-        .Q(value_latch[383]),
-        .R(reset_IBUF));
+        .Q(in0[383]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44069,7 +44066,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[384]),
         .Q(dat_reg1[384]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44080,8 +44077,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[384]),
-        .Q(value_latch[384]),
-        .R(reset_IBUF));
+        .Q(in0[384]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44093,7 +44090,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[385]),
         .Q(dat_reg1[385]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44104,8 +44101,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[385]),
-        .Q(value_latch[385]),
-        .R(reset_IBUF));
+        .Q(in0[385]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44117,7 +44114,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[386]),
         .Q(dat_reg1[386]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44128,8 +44125,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[386]),
-        .Q(value_latch[386]),
-        .R(reset_IBUF));
+        .Q(in0[386]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44141,7 +44138,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[387]),
         .Q(dat_reg1[387]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44152,8 +44149,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[387]),
-        .Q(value_latch[387]),
-        .R(reset_IBUF));
+        .Q(in0[387]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44165,7 +44162,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[388]),
         .Q(dat_reg1[388]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44176,8 +44173,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[388]),
-        .Q(value_latch[388]),
-        .R(reset_IBUF));
+        .Q(in0[388]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44189,7 +44186,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[389]),
         .Q(dat_reg1[389]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44200,8 +44197,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[389]),
-        .Q(value_latch[389]),
-        .R(reset_IBUF));
+        .Q(in0[389]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44213,7 +44210,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[38]),
         .Q(dat_reg1[38]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44224,8 +44221,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[38]),
-        .Q(value_latch[38]),
-        .R(reset_IBUF));
+        .Q(in0[38]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44237,7 +44234,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[390]),
         .Q(dat_reg1[390]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44248,8 +44245,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[390]),
-        .Q(value_latch[390]),
-        .R(reset_IBUF));
+        .Q(in0[390]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44261,7 +44258,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[391]),
         .Q(dat_reg1[391]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44272,8 +44269,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[391]),
-        .Q(value_latch[391]),
-        .R(reset_IBUF));
+        .Q(in0[391]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44285,7 +44282,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[392]),
         .Q(dat_reg1[392]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44296,8 +44293,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[392]),
-        .Q(value_latch[392]),
-        .R(reset_IBUF));
+        .Q(in0[392]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44309,7 +44306,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[393]),
         .Q(dat_reg1[393]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44320,8 +44317,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[393]),
-        .Q(value_latch[393]),
-        .R(reset_IBUF));
+        .Q(in0[393]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44333,7 +44330,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[394]),
         .Q(dat_reg1[394]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44344,8 +44341,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[394]),
-        .Q(value_latch[394]),
-        .R(reset_IBUF));
+        .Q(in0[394]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44357,7 +44354,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[395]),
         .Q(dat_reg1[395]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44368,8 +44365,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[395]),
-        .Q(value_latch[395]),
-        .R(reset_IBUF));
+        .Q(in0[395]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44381,7 +44378,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[396]),
         .Q(dat_reg1[396]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44392,8 +44389,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[396]),
-        .Q(value_latch[396]),
-        .R(reset_IBUF));
+        .Q(in0[396]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44405,7 +44402,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[397]),
         .Q(dat_reg1[397]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44416,8 +44413,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[397]),
-        .Q(value_latch[397]),
-        .R(reset_IBUF));
+        .Q(in0[397]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44429,7 +44426,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[398]),
         .Q(dat_reg1[398]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44440,8 +44437,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[398]),
-        .Q(value_latch[398]),
-        .R(reset_IBUF));
+        .Q(in0[398]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44453,7 +44450,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[399]),
         .Q(dat_reg1[399]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44464,8 +44461,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[399]),
-        .Q(value_latch[399]),
-        .R(reset_IBUF));
+        .Q(in0[399]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44477,7 +44474,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[39]),
         .Q(dat_reg1[39]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44488,8 +44485,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[39]),
-        .Q(value_latch[39]),
-        .R(reset_IBUF));
+        .Q(in0[39]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44501,7 +44498,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[3]),
         .Q(dat_reg1[3]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44512,8 +44509,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[3]),
-        .Q(value_latch[3]),
-        .R(reset_IBUF));
+        .Q(in0[3]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44525,7 +44522,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[400]),
         .Q(dat_reg1[400]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44536,8 +44533,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[400]),
-        .Q(value_latch[400]),
-        .R(reset_IBUF));
+        .Q(in0[400]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44549,7 +44546,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[401]),
         .Q(dat_reg1[401]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44560,8 +44557,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[401]),
-        .Q(value_latch[401]),
-        .R(reset_IBUF));
+        .Q(in0[401]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44573,7 +44570,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[402]),
         .Q(dat_reg1[402]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44584,8 +44581,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[402]),
-        .Q(value_latch[402]),
-        .R(reset_IBUF));
+        .Q(in0[402]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44597,7 +44594,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[403]),
         .Q(dat_reg1[403]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44608,8 +44605,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[403]),
-        .Q(value_latch[403]),
-        .R(reset_IBUF));
+        .Q(in0[403]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44621,7 +44618,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[404]),
         .Q(dat_reg1[404]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44632,8 +44629,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[404]),
-        .Q(value_latch[404]),
-        .R(reset_IBUF));
+        .Q(in0[404]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44645,7 +44642,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[405]),
         .Q(dat_reg1[405]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44656,8 +44653,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[405]),
-        .Q(value_latch[405]),
-        .R(reset_IBUF));
+        .Q(in0[405]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44669,7 +44666,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[406]),
         .Q(dat_reg1[406]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44680,8 +44677,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[406]),
-        .Q(value_latch[406]),
-        .R(reset_IBUF));
+        .Q(in0[406]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44693,7 +44690,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[407]),
         .Q(dat_reg1[407]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44704,8 +44701,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[407]),
-        .Q(value_latch[407]),
-        .R(reset_IBUF));
+        .Q(in0[407]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44717,7 +44714,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[408]),
         .Q(dat_reg1[408]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44728,8 +44725,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[408]),
-        .Q(value_latch[408]),
-        .R(reset_IBUF));
+        .Q(in0[408]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44741,7 +44738,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[409]),
         .Q(dat_reg1[409]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44752,8 +44749,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[409]),
-        .Q(value_latch[409]),
-        .R(reset_IBUF));
+        .Q(in0[409]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44765,7 +44762,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[40]),
         .Q(dat_reg1[40]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44776,8 +44773,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[40]),
-        .Q(value_latch[40]),
-        .R(reset_IBUF));
+        .Q(in0[40]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44789,7 +44786,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[410]),
         .Q(dat_reg1[410]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44800,8 +44797,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[410]),
-        .Q(value_latch[410]),
-        .R(reset_IBUF));
+        .Q(in0[410]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44813,7 +44810,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[411]),
         .Q(dat_reg1[411]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44824,8 +44821,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[411]),
-        .Q(value_latch[411]),
-        .R(reset_IBUF));
+        .Q(in0[411]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44837,7 +44834,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[412]),
         .Q(dat_reg1[412]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44848,8 +44845,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[412]),
-        .Q(value_latch[412]),
-        .R(reset_IBUF));
+        .Q(in0[412]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44861,7 +44858,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[413]),
         .Q(dat_reg1[413]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44872,8 +44869,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[413]),
-        .Q(value_latch[413]),
-        .R(reset_IBUF));
+        .Q(in0[413]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44885,7 +44882,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[414]),
         .Q(dat_reg1[414]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44896,8 +44893,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[414]),
-        .Q(value_latch[414]),
-        .R(reset_IBUF));
+        .Q(in0[414]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44909,7 +44906,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[415]),
         .Q(dat_reg1[415]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44920,8 +44917,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[415]),
-        .Q(value_latch[415]),
-        .R(reset_IBUF));
+        .Q(in0[415]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44933,7 +44930,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[416]),
         .Q(dat_reg1[416]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44944,8 +44941,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[416]),
-        .Q(value_latch[416]),
-        .R(reset_IBUF));
+        .Q(in0[416]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44957,7 +44954,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[417]),
         .Q(dat_reg1[417]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44968,8 +44965,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[417]),
-        .Q(value_latch[417]),
-        .R(reset_IBUF));
+        .Q(in0[417]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44981,7 +44978,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[418]),
         .Q(dat_reg1[418]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44992,8 +44989,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[418]),
-        .Q(value_latch[418]),
-        .R(reset_IBUF));
+        .Q(in0[418]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45005,7 +45002,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[419]),
         .Q(dat_reg1[419]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45016,8 +45013,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[419]),
-        .Q(value_latch[419]),
-        .R(reset_IBUF));
+        .Q(in0[419]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45029,7 +45026,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[41]),
         .Q(dat_reg1[41]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45040,8 +45037,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[41]),
-        .Q(value_latch[41]),
-        .R(reset_IBUF));
+        .Q(in0[41]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45053,7 +45050,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[420]),
         .Q(dat_reg1[420]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45064,8 +45061,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[420]),
-        .Q(value_latch[420]),
-        .R(reset_IBUF));
+        .Q(in0[420]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45077,7 +45074,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[421]),
         .Q(dat_reg1[421]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45088,8 +45085,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[421]),
-        .Q(value_latch[421]),
-        .R(reset_IBUF));
+        .Q(in0[421]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45101,7 +45098,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[422]),
         .Q(dat_reg1[422]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45112,8 +45109,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[422]),
-        .Q(value_latch[422]),
-        .R(reset_IBUF));
+        .Q(in0[422]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45125,7 +45122,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[423]),
         .Q(dat_reg1[423]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45136,8 +45133,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[423]),
-        .Q(value_latch[423]),
-        .R(reset_IBUF));
+        .Q(in0[423]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45149,7 +45146,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[424]),
         .Q(dat_reg1[424]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45160,8 +45157,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[424]),
-        .Q(value_latch[424]),
-        .R(reset_IBUF));
+        .Q(in0[424]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45173,7 +45170,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[425]),
         .Q(dat_reg1[425]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45184,8 +45181,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[425]),
-        .Q(value_latch[425]),
-        .R(reset_IBUF));
+        .Q(in0[425]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45197,7 +45194,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[426]),
         .Q(dat_reg1[426]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45208,8 +45205,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[426]),
-        .Q(value_latch[426]),
-        .R(reset_IBUF));
+        .Q(in0[426]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45221,7 +45218,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[427]),
         .Q(dat_reg1[427]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45232,8 +45229,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[427]),
-        .Q(value_latch[427]),
-        .R(reset_IBUF));
+        .Q(in0[427]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45245,7 +45242,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[428]),
         .Q(dat_reg1[428]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45256,8 +45253,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[428]),
-        .Q(value_latch[428]),
-        .R(reset_IBUF));
+        .Q(in0[428]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45269,7 +45266,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[429]),
         .Q(dat_reg1[429]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45280,8 +45277,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[429]),
-        .Q(value_latch[429]),
-        .R(reset_IBUF));
+        .Q(in0[429]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45293,7 +45290,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[42]),
         .Q(dat_reg1[42]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45304,8 +45301,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[42]),
-        .Q(value_latch[42]),
-        .R(reset_IBUF));
+        .Q(in0[42]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45317,7 +45314,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[430]),
         .Q(dat_reg1[430]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45328,8 +45325,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[430]),
-        .Q(value_latch[430]),
-        .R(reset_IBUF));
+        .Q(in0[430]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45341,7 +45338,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[431]),
         .Q(dat_reg1[431]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45352,8 +45349,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[431]),
-        .Q(value_latch[431]),
-        .R(reset_IBUF));
+        .Q(in0[431]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45365,7 +45362,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[432]),
         .Q(dat_reg1[432]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45376,8 +45373,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[432]),
-        .Q(value_latch[432]),
-        .R(reset_IBUF));
+        .Q(in0[432]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45389,7 +45386,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[433]),
         .Q(dat_reg1[433]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45400,8 +45397,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[433]),
-        .Q(value_latch[433]),
-        .R(reset_IBUF));
+        .Q(in0[433]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45413,7 +45410,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[434]),
         .Q(dat_reg1[434]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45424,8 +45421,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[434]),
-        .Q(value_latch[434]),
-        .R(reset_IBUF));
+        .Q(in0[434]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45437,7 +45434,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[435]),
         .Q(dat_reg1[435]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45448,8 +45445,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[435]),
-        .Q(value_latch[435]),
-        .R(reset_IBUF));
+        .Q(in0[435]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45461,7 +45458,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[436]),
         .Q(dat_reg1[436]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45472,8 +45469,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[436]),
-        .Q(value_latch[436]),
-        .R(reset_IBUF));
+        .Q(in0[436]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45485,7 +45482,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[437]),
         .Q(dat_reg1[437]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45496,8 +45493,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[437]),
-        .Q(value_latch[437]),
-        .R(reset_IBUF));
+        .Q(in0[437]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45509,7 +45506,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[438]),
         .Q(dat_reg1[438]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45520,8 +45517,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[438]),
-        .Q(value_latch[438]),
-        .R(reset_IBUF));
+        .Q(in0[438]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45533,7 +45530,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[439]),
         .Q(dat_reg1[439]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45544,8 +45541,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[439]),
-        .Q(value_latch[439]),
-        .R(reset_IBUF));
+        .Q(in0[439]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45557,7 +45554,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[43]),
         .Q(dat_reg1[43]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45568,8 +45565,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[43]),
-        .Q(value_latch[43]),
-        .R(reset_IBUF));
+        .Q(in0[43]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45581,7 +45578,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[440]),
         .Q(dat_reg1[440]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45592,8 +45589,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[440]),
-        .Q(value_latch[440]),
-        .R(reset_IBUF));
+        .Q(in0[440]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45605,7 +45602,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[441]),
         .Q(dat_reg1[441]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45616,8 +45613,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[441]),
-        .Q(value_latch[441]),
-        .R(reset_IBUF));
+        .Q(in0[441]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45629,7 +45626,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[442]),
         .Q(dat_reg1[442]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45640,8 +45637,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[442]),
-        .Q(value_latch[442]),
-        .R(reset_IBUF));
+        .Q(in0[442]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45653,7 +45650,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[443]),
         .Q(dat_reg1[443]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45664,8 +45661,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[443]),
-        .Q(value_latch[443]),
-        .R(reset_IBUF));
+        .Q(in0[443]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45677,7 +45674,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[444]),
         .Q(dat_reg1[444]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45688,8 +45685,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[444]),
-        .Q(value_latch[444]),
-        .R(reset_IBUF));
+        .Q(in0[444]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45701,7 +45698,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[445]),
         .Q(dat_reg1[445]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45712,8 +45709,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[445]),
-        .Q(value_latch[445]),
-        .R(reset_IBUF));
+        .Q(in0[445]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45725,7 +45722,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[446]),
         .Q(dat_reg1[446]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45736,8 +45733,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[446]),
-        .Q(value_latch[446]),
-        .R(reset_IBUF));
+        .Q(in0[446]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45749,7 +45746,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[447]),
         .Q(dat_reg1[447]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45760,8 +45757,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[447]),
-        .Q(value_latch[447]),
-        .R(reset_IBUF));
+        .Q(in0[447]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45773,7 +45770,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[448]),
         .Q(dat_reg1[448]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45784,8 +45781,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[448]),
-        .Q(value_latch[448]),
-        .R(reset_IBUF));
+        .Q(in0[448]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45797,7 +45794,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[449]),
         .Q(dat_reg1[449]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45808,8 +45805,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[449]),
-        .Q(value_latch[449]),
-        .R(reset_IBUF));
+        .Q(in0[449]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45821,7 +45818,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[44]),
         .Q(dat_reg1[44]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45832,8 +45829,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[44]),
-        .Q(value_latch[44]),
-        .R(reset_IBUF));
+        .Q(in0[44]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45845,7 +45842,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[450]),
         .Q(dat_reg1[450]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45856,8 +45853,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[450]),
-        .Q(value_latch[450]),
-        .R(reset_IBUF));
+        .Q(in0[450]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45869,7 +45866,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[451]),
         .Q(dat_reg1[451]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45880,8 +45877,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[451]),
-        .Q(value_latch[451]),
-        .R(reset_IBUF));
+        .Q(in0[451]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45893,7 +45890,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[452]),
         .Q(dat_reg1[452]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45904,8 +45901,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[452]),
-        .Q(value_latch[452]),
-        .R(reset_IBUF));
+        .Q(in0[452]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45917,7 +45914,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[453]),
         .Q(dat_reg1[453]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45928,8 +45925,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[453]),
-        .Q(value_latch[453]),
-        .R(reset_IBUF));
+        .Q(in0[453]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45941,7 +45938,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[454]),
         .Q(dat_reg1[454]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45952,8 +45949,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[454]),
-        .Q(value_latch[454]),
-        .R(reset_IBUF));
+        .Q(in0[454]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45965,7 +45962,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[455]),
         .Q(dat_reg1[455]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45976,8 +45973,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[455]),
-        .Q(value_latch[455]),
-        .R(reset_IBUF));
+        .Q(in0[455]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45989,7 +45986,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[456]),
         .Q(dat_reg1[456]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46000,8 +45997,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[456]),
-        .Q(value_latch[456]),
-        .R(reset_IBUF));
+        .Q(in0[456]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46013,7 +46010,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[457]),
         .Q(dat_reg1[457]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46024,8 +46021,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[457]),
-        .Q(value_latch[457]),
-        .R(reset_IBUF));
+        .Q(in0[457]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46037,7 +46034,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[458]),
         .Q(dat_reg1[458]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46048,8 +46045,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[458]),
-        .Q(value_latch[458]),
-        .R(reset_IBUF));
+        .Q(in0[458]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46061,7 +46058,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[459]),
         .Q(dat_reg1[459]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46072,8 +46069,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[459]),
-        .Q(value_latch[459]),
-        .R(reset_IBUF));
+        .Q(in0[459]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46085,7 +46082,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[45]),
         .Q(dat_reg1[45]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46096,8 +46093,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[45]),
-        .Q(value_latch[45]),
-        .R(reset_IBUF));
+        .Q(in0[45]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46109,7 +46106,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[460]),
         .Q(dat_reg1[460]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46120,8 +46117,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[460]),
-        .Q(value_latch[460]),
-        .R(reset_IBUF));
+        .Q(in0[460]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46133,7 +46130,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[461]),
         .Q(dat_reg1[461]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46144,8 +46141,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[461]),
-        .Q(value_latch[461]),
-        .R(reset_IBUF));
+        .Q(in0[461]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46157,7 +46154,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[462]),
         .Q(dat_reg1[462]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46168,8 +46165,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[462]),
-        .Q(value_latch[462]),
-        .R(reset_IBUF));
+        .Q(in0[462]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46181,7 +46178,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[463]),
         .Q(dat_reg1[463]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46192,8 +46189,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[463]),
-        .Q(value_latch[463]),
-        .R(reset_IBUF));
+        .Q(in0[463]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46205,7 +46202,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[464]),
         .Q(dat_reg1[464]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46216,8 +46213,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[464]),
-        .Q(value_latch[464]),
-        .R(reset_IBUF));
+        .Q(in0[464]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46229,7 +46226,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[465]),
         .Q(dat_reg1[465]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46240,8 +46237,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[465]),
-        .Q(value_latch[465]),
-        .R(reset_IBUF));
+        .Q(in0[465]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46253,7 +46250,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[466]),
         .Q(dat_reg1[466]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46264,8 +46261,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[466]),
-        .Q(value_latch[466]),
-        .R(reset_IBUF));
+        .Q(in0[466]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46277,7 +46274,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[467]),
         .Q(dat_reg1[467]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46288,8 +46285,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[467]),
-        .Q(value_latch[467]),
-        .R(reset_IBUF));
+        .Q(in0[467]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46301,7 +46298,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[468]),
         .Q(dat_reg1[468]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46312,8 +46309,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[468]),
-        .Q(value_latch[468]),
-        .R(reset_IBUF));
+        .Q(in0[468]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46325,7 +46322,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[469]),
         .Q(dat_reg1[469]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46336,8 +46333,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[469]),
-        .Q(value_latch[469]),
-        .R(reset_IBUF));
+        .Q(in0[469]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46349,7 +46346,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[46]),
         .Q(dat_reg1[46]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46360,8 +46357,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[46]),
-        .Q(value_latch[46]),
-        .R(reset_IBUF));
+        .Q(in0[46]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46373,7 +46370,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[470]),
         .Q(dat_reg1[470]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46384,8 +46381,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[470]),
-        .Q(value_latch[470]),
-        .R(reset_IBUF));
+        .Q(in0[470]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46397,7 +46394,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[471]),
         .Q(dat_reg1[471]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46408,8 +46405,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[471]),
-        .Q(value_latch[471]),
-        .R(reset_IBUF));
+        .Q(in0[471]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46421,7 +46418,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[472]),
         .Q(dat_reg1[472]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46432,8 +46429,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[472]),
-        .Q(value_latch[472]),
-        .R(reset_IBUF));
+        .Q(in0[472]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46445,7 +46442,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[473]),
         .Q(dat_reg1[473]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46456,8 +46453,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[473]),
-        .Q(value_latch[473]),
-        .R(reset_IBUF));
+        .Q(in0[473]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46469,7 +46466,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[474]),
         .Q(dat_reg1[474]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46480,8 +46477,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[474]),
-        .Q(value_latch[474]),
-        .R(reset_IBUF));
+        .Q(in0[474]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46493,7 +46490,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[475]),
         .Q(dat_reg1[475]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46504,8 +46501,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[475]),
-        .Q(value_latch[475]),
-        .R(reset_IBUF));
+        .Q(in0[475]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46517,7 +46514,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[476]),
         .Q(dat_reg1[476]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46528,8 +46525,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[476]),
-        .Q(value_latch[476]),
-        .R(reset_IBUF));
+        .Q(in0[476]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46541,7 +46538,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[477]),
         .Q(dat_reg1[477]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46552,8 +46549,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[477]),
-        .Q(value_latch[477]),
-        .R(reset_IBUF));
+        .Q(in0[477]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46565,7 +46562,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[478]),
         .Q(dat_reg1[478]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46576,8 +46573,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[478]),
-        .Q(value_latch[478]),
-        .R(reset_IBUF));
+        .Q(in0[478]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46589,7 +46586,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[479]),
         .Q(dat_reg1[479]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46600,8 +46597,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[479]),
-        .Q(value_latch[479]),
-        .R(reset_IBUF));
+        .Q(in0[479]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46613,7 +46610,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[47]),
         .Q(dat_reg1[47]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46624,8 +46621,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[47]),
-        .Q(value_latch[47]),
-        .R(reset_IBUF));
+        .Q(in0[47]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46637,7 +46634,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[480]),
         .Q(dat_reg1[480]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46648,8 +46645,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[480]),
-        .Q(value_latch[480]),
-        .R(reset_IBUF));
+        .Q(in0[480]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46661,7 +46658,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[481]),
         .Q(dat_reg1[481]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46672,8 +46669,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[481]),
-        .Q(value_latch[481]),
-        .R(reset_IBUF));
+        .Q(in0[481]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46685,7 +46682,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[482]),
         .Q(dat_reg1[482]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46696,8 +46693,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[482]),
-        .Q(value_latch[482]),
-        .R(reset_IBUF));
+        .Q(in0[482]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46709,7 +46706,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[483]),
         .Q(dat_reg1[483]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46720,8 +46717,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[483]),
-        .Q(value_latch[483]),
-        .R(reset_IBUF));
+        .Q(in0[483]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46733,7 +46730,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[484]),
         .Q(dat_reg1[484]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46744,8 +46741,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[484]),
-        .Q(value_latch[484]),
-        .R(reset_IBUF));
+        .Q(in0[484]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46757,7 +46754,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[485]),
         .Q(dat_reg1[485]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46768,8 +46765,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[485]),
-        .Q(value_latch[485]),
-        .R(reset_IBUF));
+        .Q(in0[485]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46781,7 +46778,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[486]),
         .Q(dat_reg1[486]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46792,8 +46789,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[486]),
-        .Q(value_latch[486]),
-        .R(reset_IBUF));
+        .Q(in0[486]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46805,7 +46802,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[487]),
         .Q(dat_reg1[487]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46816,8 +46813,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[487]),
-        .Q(value_latch[487]),
-        .R(reset_IBUF));
+        .Q(in0[487]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46829,7 +46826,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[488]),
         .Q(dat_reg1[488]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46840,8 +46837,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[488]),
-        .Q(value_latch[488]),
-        .R(reset_IBUF));
+        .Q(in0[488]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46853,7 +46850,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[489]),
         .Q(dat_reg1[489]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46864,8 +46861,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[489]),
-        .Q(value_latch[489]),
-        .R(reset_IBUF));
+        .Q(in0[489]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46877,7 +46874,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[48]),
         .Q(dat_reg1[48]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46888,8 +46885,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[48]),
-        .Q(value_latch[48]),
-        .R(reset_IBUF));
+        .Q(in0[48]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46901,7 +46898,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[490]),
         .Q(dat_reg1[490]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46912,8 +46909,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[490]),
-        .Q(value_latch[490]),
-        .R(reset_IBUF));
+        .Q(in0[490]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46925,7 +46922,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[491]),
         .Q(dat_reg1[491]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46936,8 +46933,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[491]),
-        .Q(value_latch[491]),
-        .R(reset_IBUF));
+        .Q(in0[491]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46949,7 +46946,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[492]),
         .Q(dat_reg1[492]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46960,8 +46957,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[492]),
-        .Q(value_latch[492]),
-        .R(reset_IBUF));
+        .Q(in0[492]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46973,7 +46970,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[493]),
         .Q(dat_reg1[493]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46984,8 +46981,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[493]),
-        .Q(value_latch[493]),
-        .R(reset_IBUF));
+        .Q(in0[493]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46997,7 +46994,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[494]),
         .Q(dat_reg1[494]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47008,8 +47005,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[494]),
-        .Q(value_latch[494]),
-        .R(reset_IBUF));
+        .Q(in0[494]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47021,7 +47018,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[495]),
         .Q(dat_reg1[495]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47032,8 +47029,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[495]),
-        .Q(value_latch[495]),
-        .R(reset_IBUF));
+        .Q(in0[495]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47045,7 +47042,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[496]),
         .Q(dat_reg1[496]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47056,8 +47053,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[496]),
-        .Q(value_latch[496]),
-        .R(reset_IBUF));
+        .Q(in0[496]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47069,7 +47066,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[497]),
         .Q(dat_reg1[497]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47080,8 +47077,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[497]),
-        .Q(value_latch[497]),
-        .R(reset_IBUF));
+        .Q(in0[497]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47093,7 +47090,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[498]),
         .Q(dat_reg1[498]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47104,8 +47101,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[498]),
-        .Q(value_latch[498]),
-        .R(reset_IBUF));
+        .Q(in0[498]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47117,7 +47114,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[499]),
         .Q(dat_reg1[499]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47128,8 +47125,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[499]),
-        .Q(value_latch[499]),
-        .R(reset_IBUF));
+        .Q(in0[499]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47141,7 +47138,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[49]),
         .Q(dat_reg1[49]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47152,8 +47149,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[49]),
-        .Q(value_latch[49]),
-        .R(reset_IBUF));
+        .Q(in0[49]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47165,7 +47162,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[4]),
         .Q(dat_reg1[4]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47176,8 +47173,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[4]),
-        .Q(value_latch[4]),
-        .R(reset_IBUF));
+        .Q(in0[4]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47189,7 +47186,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[500]),
         .Q(dat_reg1[500]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47200,8 +47197,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[500]),
-        .Q(value_latch[500]),
-        .R(reset_IBUF));
+        .Q(in0[500]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47213,7 +47210,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[501]),
         .Q(dat_reg1[501]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47224,8 +47221,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[501]),
-        .Q(value_latch[501]),
-        .R(reset_IBUF));
+        .Q(in0[501]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47237,7 +47234,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[502]),
         .Q(dat_reg1[502]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47248,8 +47245,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[502]),
-        .Q(value_latch[502]),
-        .R(reset_IBUF));
+        .Q(in0[502]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47261,7 +47258,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[503]),
         .Q(dat_reg1[503]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47272,8 +47269,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[503]),
-        .Q(value_latch[503]),
-        .R(reset_IBUF));
+        .Q(in0[503]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47285,7 +47282,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[504]),
         .Q(dat_reg1[504]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47296,8 +47293,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[504]),
-        .Q(value_latch[504]),
-        .R(reset_IBUF));
+        .Q(in0[504]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47309,7 +47306,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[505]),
         .Q(dat_reg1[505]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47320,8 +47317,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[505]),
-        .Q(value_latch[505]),
-        .R(reset_IBUF));
+        .Q(in0[505]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47333,7 +47330,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[506]),
         .Q(dat_reg1[506]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47344,8 +47341,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[506]),
-        .Q(value_latch[506]),
-        .R(reset_IBUF));
+        .Q(in0[506]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47357,7 +47354,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[507]),
         .Q(dat_reg1[507]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47368,8 +47365,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[507]),
-        .Q(value_latch[507]),
-        .R(reset_IBUF));
+        .Q(in0[507]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47381,7 +47378,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[508]),
         .Q(dat_reg1[508]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47392,8 +47389,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[508]),
-        .Q(value_latch[508]),
-        .R(reset_IBUF));
+        .Q(in0[508]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47405,7 +47402,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[509]),
         .Q(dat_reg1[509]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47416,8 +47413,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[509]),
-        .Q(value_latch[509]),
-        .R(reset_IBUF));
+        .Q(in0[509]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47429,7 +47426,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[50]),
         .Q(dat_reg1[50]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47440,8 +47437,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[50]),
-        .Q(value_latch[50]),
-        .R(reset_IBUF));
+        .Q(in0[50]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47453,7 +47450,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[510]),
         .Q(dat_reg1[510]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47464,8 +47461,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[510]),
-        .Q(value_latch[510]),
-        .R(reset_IBUF));
+        .Q(in0[510]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47477,7 +47474,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[511]),
         .Q(dat_reg1[511]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47488,8 +47485,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[511]),
-        .Q(value_latch[511]),
-        .R(reset_IBUF));
+        .Q(in0[511]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47501,7 +47498,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[51]),
         .Q(dat_reg1[51]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47512,8 +47509,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[51]),
-        .Q(value_latch[51]),
-        .R(reset_IBUF));
+        .Q(in0[51]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47525,7 +47522,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[52]),
         .Q(dat_reg1[52]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47536,8 +47533,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[52]),
-        .Q(value_latch[52]),
-        .R(reset_IBUF));
+        .Q(in0[52]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47549,7 +47546,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[53]),
         .Q(dat_reg1[53]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47560,8 +47557,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[53]),
-        .Q(value_latch[53]),
-        .R(reset_IBUF));
+        .Q(in0[53]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47573,7 +47570,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[54]),
         .Q(dat_reg1[54]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47584,8 +47581,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[54]),
-        .Q(value_latch[54]),
-        .R(reset_IBUF));
+        .Q(in0[54]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47597,7 +47594,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[55]),
         .Q(dat_reg1[55]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47608,8 +47605,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[55]),
-        .Q(value_latch[55]),
-        .R(reset_IBUF));
+        .Q(in0[55]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47621,7 +47618,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[56]),
         .Q(dat_reg1[56]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47632,8 +47629,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[56]),
-        .Q(value_latch[56]),
-        .R(reset_IBUF));
+        .Q(in0[56]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47645,7 +47642,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[57]),
         .Q(dat_reg1[57]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47656,8 +47653,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[57]),
-        .Q(value_latch[57]),
-        .R(reset_IBUF));
+        .Q(in0[57]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47669,7 +47666,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[58]),
         .Q(dat_reg1[58]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47680,8 +47677,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[58]),
-        .Q(value_latch[58]),
-        .R(reset_IBUF));
+        .Q(in0[58]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47693,7 +47690,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[59]),
         .Q(dat_reg1[59]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47704,8 +47701,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[59]),
-        .Q(value_latch[59]),
-        .R(reset_IBUF));
+        .Q(in0[59]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47717,7 +47714,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[5]),
         .Q(dat_reg1[5]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47728,8 +47725,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[5]),
-        .Q(value_latch[5]),
-        .R(reset_IBUF));
+        .Q(in0[5]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47741,7 +47738,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[60]),
         .Q(dat_reg1[60]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47752,8 +47749,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[60]),
-        .Q(value_latch[60]),
-        .R(reset_IBUF));
+        .Q(in0[60]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47765,7 +47762,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[61]),
         .Q(dat_reg1[61]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47776,8 +47773,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[61]),
-        .Q(value_latch[61]),
-        .R(reset_IBUF));
+        .Q(in0[61]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47789,7 +47786,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[62]),
         .Q(dat_reg1[62]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47800,8 +47797,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[62]),
-        .Q(value_latch[62]),
-        .R(reset_IBUF));
+        .Q(in0[62]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47813,7 +47810,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[63]),
         .Q(dat_reg1[63]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47824,8 +47821,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[63]),
-        .Q(value_latch[63]),
-        .R(reset_IBUF));
+        .Q(in0[63]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47837,7 +47834,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[64]),
         .Q(dat_reg1[64]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47848,8 +47845,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[64]),
-        .Q(value_latch[64]),
-        .R(reset_IBUF));
+        .Q(in0[64]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47861,7 +47858,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[65]),
         .Q(dat_reg1[65]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47872,8 +47869,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[65]),
-        .Q(value_latch[65]),
-        .R(reset_IBUF));
+        .Q(in0[65]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47885,7 +47882,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[66]),
         .Q(dat_reg1[66]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47896,8 +47893,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[66]),
-        .Q(value_latch[66]),
-        .R(reset_IBUF));
+        .Q(in0[66]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47909,7 +47906,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[67]),
         .Q(dat_reg1[67]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47920,8 +47917,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[67]),
-        .Q(value_latch[67]),
-        .R(reset_IBUF));
+        .Q(in0[67]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47933,7 +47930,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[68]),
         .Q(dat_reg1[68]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47944,8 +47941,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[68]),
-        .Q(value_latch[68]),
-        .R(reset_IBUF));
+        .Q(in0[68]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47957,7 +47954,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[69]),
         .Q(dat_reg1[69]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47968,8 +47965,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[69]),
-        .Q(value_latch[69]),
-        .R(reset_IBUF));
+        .Q(in0[69]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47981,7 +47978,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[6]),
         .Q(dat_reg1[6]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47992,8 +47989,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[6]),
-        .Q(value_latch[6]),
-        .R(reset_IBUF));
+        .Q(in0[6]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48005,7 +48002,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[70]),
         .Q(dat_reg1[70]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48016,8 +48013,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[70]),
-        .Q(value_latch[70]),
-        .R(reset_IBUF));
+        .Q(in0[70]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48029,7 +48026,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[71]),
         .Q(dat_reg1[71]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48040,8 +48037,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[71]),
-        .Q(value_latch[71]),
-        .R(reset_IBUF));
+        .Q(in0[71]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48053,7 +48050,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[72]),
         .Q(dat_reg1[72]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48064,8 +48061,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[72]),
-        .Q(value_latch[72]),
-        .R(reset_IBUF));
+        .Q(in0[72]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48077,7 +48074,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[73]),
         .Q(dat_reg1[73]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48088,8 +48085,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[73]),
-        .Q(value_latch[73]),
-        .R(reset_IBUF));
+        .Q(in0[73]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48101,7 +48098,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[74]),
         .Q(dat_reg1[74]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48112,8 +48109,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[74]),
-        .Q(value_latch[74]),
-        .R(reset_IBUF));
+        .Q(in0[74]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48125,7 +48122,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[75]),
         .Q(dat_reg1[75]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48136,8 +48133,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[75]),
-        .Q(value_latch[75]),
-        .R(reset_IBUF));
+        .Q(in0[75]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48149,7 +48146,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[76]),
         .Q(dat_reg1[76]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48160,8 +48157,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[76]),
-        .Q(value_latch[76]),
-        .R(reset_IBUF));
+        .Q(in0[76]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48173,7 +48170,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[77]),
         .Q(dat_reg1[77]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48184,8 +48181,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[77]),
-        .Q(value_latch[77]),
-        .R(reset_IBUF));
+        .Q(in0[77]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48197,7 +48194,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[78]),
         .Q(dat_reg1[78]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48208,8 +48205,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[78]),
-        .Q(value_latch[78]),
-        .R(reset_IBUF));
+        .Q(in0[78]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48221,7 +48218,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[79]),
         .Q(dat_reg1[79]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48232,8 +48229,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[79]),
-        .Q(value_latch[79]),
-        .R(reset_IBUF));
+        .Q(in0[79]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48245,7 +48242,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[7]),
         .Q(dat_reg1[7]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48256,8 +48253,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[7]),
-        .Q(value_latch[7]),
-        .R(reset_IBUF));
+        .Q(in0[7]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48269,7 +48266,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[80]),
         .Q(dat_reg1[80]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48280,8 +48277,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[80]),
-        .Q(value_latch[80]),
-        .R(reset_IBUF));
+        .Q(in0[80]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48293,7 +48290,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[81]),
         .Q(dat_reg1[81]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48304,8 +48301,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[81]),
-        .Q(value_latch[81]),
-        .R(reset_IBUF));
+        .Q(in0[81]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48317,7 +48314,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[82]),
         .Q(dat_reg1[82]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48328,8 +48325,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[82]),
-        .Q(value_latch[82]),
-        .R(reset_IBUF));
+        .Q(in0[82]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48341,7 +48338,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[83]),
         .Q(dat_reg1[83]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48352,8 +48349,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[83]),
-        .Q(value_latch[83]),
-        .R(reset_IBUF));
+        .Q(in0[83]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48365,7 +48362,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[84]),
         .Q(dat_reg1[84]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48376,8 +48373,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[84]),
-        .Q(value_latch[84]),
-        .R(reset_IBUF));
+        .Q(in0[84]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48389,7 +48386,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[85]),
         .Q(dat_reg1[85]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48400,8 +48397,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[85]),
-        .Q(value_latch[85]),
-        .R(reset_IBUF));
+        .Q(in0[85]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48413,7 +48410,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[86]),
         .Q(dat_reg1[86]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48424,8 +48421,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[86]),
-        .Q(value_latch[86]),
-        .R(reset_IBUF));
+        .Q(in0[86]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48437,7 +48434,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[87]),
         .Q(dat_reg1[87]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48448,8 +48445,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[87]),
-        .Q(value_latch[87]),
-        .R(reset_IBUF));
+        .Q(in0[87]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48461,7 +48458,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[88]),
         .Q(dat_reg1[88]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48472,8 +48469,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[88]),
-        .Q(value_latch[88]),
-        .R(reset_IBUF));
+        .Q(in0[88]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48485,7 +48482,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[89]),
         .Q(dat_reg1[89]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48496,8 +48493,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[89]),
-        .Q(value_latch[89]),
-        .R(reset_IBUF));
+        .Q(in0[89]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48509,7 +48506,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[8]),
         .Q(dat_reg1[8]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48520,8 +48517,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[8]),
-        .Q(value_latch[8]),
-        .R(reset_IBUF));
+        .Q(in0[8]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48533,7 +48530,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[90]),
         .Q(dat_reg1[90]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48544,8 +48541,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[90]),
-        .Q(value_latch[90]),
-        .R(reset_IBUF));
+        .Q(in0[90]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48557,7 +48554,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[91]),
         .Q(dat_reg1[91]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48568,8 +48565,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[91]),
-        .Q(value_latch[91]),
-        .R(reset_IBUF));
+        .Q(in0[91]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48581,7 +48578,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[92]),
         .Q(dat_reg1[92]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48592,8 +48589,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[92]),
-        .Q(value_latch[92]),
-        .R(reset_IBUF));
+        .Q(in0[92]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48605,7 +48602,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[93]),
         .Q(dat_reg1[93]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48616,8 +48613,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[93]),
-        .Q(value_latch[93]),
-        .R(reset_IBUF));
+        .Q(in0[93]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48629,7 +48626,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[94]),
         .Q(dat_reg1[94]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48640,8 +48637,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[94]),
-        .Q(value_latch[94]),
-        .R(reset_IBUF));
+        .Q(in0[94]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48653,7 +48650,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[95]),
         .Q(dat_reg1[95]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48664,8 +48661,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[95]),
-        .Q(value_latch[95]),
-        .R(reset_IBUF));
+        .Q(in0[95]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48677,7 +48674,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[96]),
         .Q(dat_reg1[96]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48688,8 +48685,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[96]),
-        .Q(value_latch[96]),
-        .R(reset_IBUF));
+        .Q(in0[96]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48701,7 +48698,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[97]),
         .Q(dat_reg1[97]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48712,8 +48709,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[97]),
-        .Q(value_latch[97]),
-        .R(reset_IBUF));
+        .Q(in0[97]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48725,7 +48722,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[98]),
         .Q(dat_reg1[98]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48736,8 +48733,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[98]),
-        .Q(value_latch[98]),
-        .R(reset_IBUF));
+        .Q(in0[98]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48749,7 +48746,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[99]),
         .Q(dat_reg1[99]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48760,8 +48757,8 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[99]),
-        .Q(value_latch[99]),
-        .R(reset_IBUF));
+        .Q(in0[99]),
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48773,7 +48770,7 @@ module line_tdc
         .CE(1'b1),
         .D(dat_reg0[9]),
         .Q(dat_reg1[9]),
-        .R(reset_IBUF));
+        .R(out));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48784,11 +48781,11 @@ module line_tdc
        (.C(clk_out1),
         .CE(1'b1),
         .D(dat_reg1[9]),
-        .Q(value_latch[9]),
-        .R(reset_IBUF));
+        .Q(in0[9]),
+        .R(out));
 endmodule
 
-(* ECO_CHECKSUM = "6c7dcba3" *) (* GAP_BITS = "9" *) (* STAGE = "512" *) 
+(* ECO_CHECKSUM = "d3b4f539" *) (* GAP_BITS = "9" *) (* STAGE = "512" *) 
 (* NotValidForBitStream *)
 module tdc_top
    (sg_start,
@@ -48804,25 +48801,47 @@ module tdc_top
 
   wire clk_bufg;
   (* IBUF_LOW_PWR *) wire clk_sys;
+  (* DONT_TOUCH *) wire [31:0]counter_for_coarse;
+  wire \counter_for_coarse[3]_i_2_n_0 ;
+  wire \counter_for_coarse_reg[11]_i_1_n_0 ;
+  wire \counter_for_coarse_reg[15]_i_1_n_0 ;
+  wire \counter_for_coarse_reg[19]_i_1_n_0 ;
+  wire \counter_for_coarse_reg[23]_i_1_n_0 ;
+  wire \counter_for_coarse_reg[27]_i_1_n_0 ;
+  wire \counter_for_coarse_reg[3]_i_1_n_0 ;
+  wire \counter_for_coarse_reg[7]_i_1_n_0 ;
   wire cs_gap;
   wire cs_gap_OBUF;
+  wire [1:0]judge_start;
+  wire [31:0]p_1_in;
+  (* DONT_TOUCH *) wire [31:0]realtime_for_coarse;
+  wire \realtime_for_coarse[31]_i_1_n_0 ;
   wire reset;
   wire reset_IBUF;
+  (* async_reg = "true" *) wire reset_sync0;
   wire sg_bufr;
   wire sg_start;
   wire sg_start_IBUF;
   wire valid_for_bubble_fix;
-  wire valid_for_bubble_fix_BUFG;
+  (* async_reg = "true" *) wire valid_for_bubble_fix_BUFG;
   wire valid_for_latch2bin;
-  wire valid_for_latch2bin_BUFG;
-  wire valid_for_latch2bin_dly;
-  wire valid_pre1;
-  wire valid_pre2;
+  (* async_reg = "true" *) wire valid_for_latch2bin_BUFG;
+  (* async_reg = "true" *) wire valid_for_latch2bin_dly;
+  (* async_reg = "true" *) wire valid_pre1;
+  (* async_reg = "true" *) wire valid_pre2;
   wire [8:0]value_gap;
   wire [8:0]value_gap_OBUF;
   (* DONT_TOUCH *) wire [511:0]value_latch_fixed;
   (* DONT_TOUCH *) wire [511:0]value_latch_fixed_dly;
   (* DONT_TOUCH *) wire [511:0]value_latch_raw;
+  wire [2:0]\NLW_counter_for_coarse_reg[11]_i_1_CO_UNCONNECTED ;
+  wire [2:0]\NLW_counter_for_coarse_reg[15]_i_1_CO_UNCONNECTED ;
+  wire [2:0]\NLW_counter_for_coarse_reg[19]_i_1_CO_UNCONNECTED ;
+  wire [2:0]\NLW_counter_for_coarse_reg[23]_i_1_CO_UNCONNECTED ;
+  wire [2:0]\NLW_counter_for_coarse_reg[27]_i_1_CO_UNCONNECTED ;
+  wire [3:0]\NLW_counter_for_coarse_reg[31]_i_1_CO_UNCONNECTED ;
+  wire [2:0]\NLW_counter_for_coarse_reg[3]_i_1_CO_UNCONNECTED ;
+  wire [2:0]\NLW_counter_for_coarse_reg[7]_i_1_CO_UNCONNECTED ;
 
 initial begin
  $sdf_annotate("tb_tdc_top_time_impl.sdf",,,,"tool_control");
@@ -48861,6 +48880,7 @@ end
         .D(valid_pre1),
         .Q(valid_pre2));
   (* BOX_TYPE = "PRIMITIVE" *) 
+  (* OPT_MODIFIED = "BUFG_OPT" *) 
   FDCE #(
     .INIT(1'b0),
     .IS_CLR_INVERTED(1'b0),
@@ -48873,6 +48893,7 @@ end
         .D(valid_pre2),
         .Q(valid_for_bubble_fix));
   (* BOX_TYPE = "PRIMITIVE" *) 
+  (* OPT_MODIFIED = "BUFG_OPT" *) 
   FDCE #(
     .INIT(1'b0),
     .IS_CLR_INVERTED(1'b0),
@@ -48885,6 +48906,7 @@ end
         .D(valid_for_bubble_fix_BUFG),
         .Q(valid_for_latch2bin));
   (* BOX_TYPE = "PRIMITIVE" *) 
+  (* OPT_MODIFIED = "RETARGET" *) 
   FDCE #(
     .INIT(1'b0),
     .IS_CLR_INVERTED(1'b0),
@@ -48897,47 +48919,802 @@ end
         .D(valid_for_latch2bin_BUFG),
         .Q(valid_for_latch2bin_dly));
   bubble_fix bubble_fix_inst1
-       (.CLK(valid_for_bubble_fix_BUFG),
-        .D(value_latch_raw),
+       (.D(value_latch_raw),
         .in0(value_latch_fixed),
-        .reset_IBUF(reset_IBUF));
+        .\in_code_reg_reg[511]_0 (valid_for_bubble_fix_BUFG),
+        .out(reset_IBUF));
   bubble_fix_0 bubble_fix_inst2
-       (.CLK(valid_for_latch2bin_BUFG),
-        .D(value_latch_raw),
+       (.D(value_latch_raw),
         .in0(value_latch_fixed_dly),
-        .reset_IBUF(reset_IBUF));
+        .\in_code_reg_reg[511]_0 (valid_for_latch2bin_BUFG),
+        .out(reset_IBUF));
   (* IMPORTED_FROM = "d:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp" *) 
   (* IMPORTED_TYPE = "CHECKPOINT" *) 
   (* IS_IMPORTED *) 
   clk_wiz_0 clk_wiz_0_inst
        (.clk_in1(clk_sys),
         .clk_out1(clk_bufg));
+  LUT1 #(
+    .INIT(2'h1)) 
+    \counter_for_coarse[3]_i_2 
+       (.I0(counter_for_coarse[0]),
+        .O(\counter_for_coarse[3]_i_2_n_0 ));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[0] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[0]),
+        .Q(counter_for_coarse[0]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[10] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[10]),
+        .Q(counter_for_coarse[10]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[11] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[11]),
+        .Q(counter_for_coarse[11]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[11]_i_1 
+       (.CI(\counter_for_coarse_reg[7]_i_1_n_0 ),
+        .CO({\counter_for_coarse_reg[11]_i_1_n_0 ,\NLW_counter_for_coarse_reg[11]_i_1_CO_UNCONNECTED [2:0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O(p_1_in[11:8]),
+        .S(counter_for_coarse[11:8]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[12] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[12]),
+        .Q(counter_for_coarse[12]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[13] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[13]),
+        .Q(counter_for_coarse[13]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[14] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[14]),
+        .Q(counter_for_coarse[14]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[15] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[15]),
+        .Q(counter_for_coarse[15]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[15]_i_1 
+       (.CI(\counter_for_coarse_reg[11]_i_1_n_0 ),
+        .CO({\counter_for_coarse_reg[15]_i_1_n_0 ,\NLW_counter_for_coarse_reg[15]_i_1_CO_UNCONNECTED [2:0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O(p_1_in[15:12]),
+        .S(counter_for_coarse[15:12]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[16] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[16]),
+        .Q(counter_for_coarse[16]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[17] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[17]),
+        .Q(counter_for_coarse[17]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[18] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[18]),
+        .Q(counter_for_coarse[18]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[19] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[19]),
+        .Q(counter_for_coarse[19]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[19]_i_1 
+       (.CI(\counter_for_coarse_reg[15]_i_1_n_0 ),
+        .CO({\counter_for_coarse_reg[19]_i_1_n_0 ,\NLW_counter_for_coarse_reg[19]_i_1_CO_UNCONNECTED [2:0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O(p_1_in[19:16]),
+        .S(counter_for_coarse[19:16]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[1] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[1]),
+        .Q(counter_for_coarse[1]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[20] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[20]),
+        .Q(counter_for_coarse[20]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[21] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[21]),
+        .Q(counter_for_coarse[21]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[22] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[22]),
+        .Q(counter_for_coarse[22]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[23] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[23]),
+        .Q(counter_for_coarse[23]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[23]_i_1 
+       (.CI(\counter_for_coarse_reg[19]_i_1_n_0 ),
+        .CO({\counter_for_coarse_reg[23]_i_1_n_0 ,\NLW_counter_for_coarse_reg[23]_i_1_CO_UNCONNECTED [2:0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O(p_1_in[23:20]),
+        .S(counter_for_coarse[23:20]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[24] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[24]),
+        .Q(counter_for_coarse[24]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[25] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[25]),
+        .Q(counter_for_coarse[25]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[26] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[26]),
+        .Q(counter_for_coarse[26]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[27] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[27]),
+        .Q(counter_for_coarse[27]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[27]_i_1 
+       (.CI(\counter_for_coarse_reg[23]_i_1_n_0 ),
+        .CO({\counter_for_coarse_reg[27]_i_1_n_0 ,\NLW_counter_for_coarse_reg[27]_i_1_CO_UNCONNECTED [2:0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O(p_1_in[27:24]),
+        .S(counter_for_coarse[27:24]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[28] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[28]),
+        .Q(counter_for_coarse[28]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[29] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[29]),
+        .Q(counter_for_coarse[29]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[2] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[2]),
+        .Q(counter_for_coarse[2]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[30] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[30]),
+        .Q(counter_for_coarse[30]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[31] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[31]),
+        .Q(counter_for_coarse[31]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[31]_i_1 
+       (.CI(\counter_for_coarse_reg[27]_i_1_n_0 ),
+        .CO(\NLW_counter_for_coarse_reg[31]_i_1_CO_UNCONNECTED [3:0]),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O(p_1_in[31:28]),
+        .S(counter_for_coarse[31:28]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[3] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[3]),
+        .Q(counter_for_coarse[3]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[3]_i_1 
+       (.CI(1'b0),
+        .CO({\counter_for_coarse_reg[3]_i_1_n_0 ,\NLW_counter_for_coarse_reg[3]_i_1_CO_UNCONNECTED [2:0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,counter_for_coarse[0]}),
+        .O(p_1_in[3:0]),
+        .S({counter_for_coarse[3:1],\counter_for_coarse[3]_i_2_n_0 }));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[4] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[4]),
+        .Q(counter_for_coarse[4]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[5] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[5]),
+        .Q(counter_for_coarse[5]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[6] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[6]),
+        .Q(counter_for_coarse[6]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[7] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[7]),
+        .Q(counter_for_coarse[7]));
+  (* ADDER_THRESHOLD = "35" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
+  CARRY4 \counter_for_coarse_reg[7]_i_1 
+       (.CI(\counter_for_coarse_reg[3]_i_1_n_0 ),
+        .CO({\counter_for_coarse_reg[7]_i_1_n_0 ,\NLW_counter_for_coarse_reg[7]_i_1_CO_UNCONNECTED [2:0]}),
+        .CYINIT(1'b0),
+        .DI({1'b0,1'b0,1'b0,1'b0}),
+        .O(p_1_in[7:4]),
+        .S(counter_for_coarse[7:4]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[8] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[8]),
+        .Q(counter_for_coarse[8]));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDCE #(
+    .INIT(1'b0)) 
+    \counter_for_coarse_reg[9] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .CLR(reset_sync0),
+        .D(p_1_in[9]),
+        .Q(counter_for_coarse[9]));
   OBUF cs_gap_OBUF_inst
        (.I(cs_gap_OBUF),
         .O(cs_gap));
   decode decode_inst
-       (.CLK(valid_for_latch2bin_BUFG),
-        .Q(value_gap_OBUF),
-        .bin_cs(cs_gap_OBUF),
+       (.Q(value_gap_OBUF),
         .clk_out1(clk_bufg),
-        .\genblk1[0].decoding_reg[1][254] (value_latch_fixed[510:0]),
-        .out(value_latch_fixed_dly[510:0]),
-        .reset_IBUF(reset_IBUF),
-        .valid_for_latch2bin_dly(valid_for_latch2bin_dly));
+        .cs_gap_OBUF(cs_gap_OBUF),
+        .\genblk1[0].decoding_reg[1][254] (value_latch_fixed_dly[510:0]),
+        .\genblk1[0].decoding_reg[1][254]_0 (value_latch_fixed[510:0]),
+        .\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3 (valid_for_latch2bin_BUFG),
+        .\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 (valid_for_latch2bin_dly),
+        .out(reset_IBUF));
+  FDRE #(
+    .INIT(1'b0)) 
+    \judge_start_reg[0] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .D(valid_pre2),
+        .Q(judge_start[0]),
+        .R(1'b0));
+  FDRE #(
+    .INIT(1'b0)) 
+    \judge_start_reg[1] 
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .D(judge_start[0]),
+        .Q(judge_start[1]),
+        .R(1'b0));
   line_tdc line_tdc_inst
        (.clk_out1(clk_bufg),
-        .reset_IBUF(reset_IBUF),
-        .sg_start(sg_bufr),
-        .value_latch(value_latch_raw));
+        .in0(value_latch_raw),
+        .out(reset_IBUF),
+        .sg_bufr(sg_bufr));
+  LUT2 #(
+    .INIT(4'h2)) 
+    \realtime_for_coarse[31]_i_1 
+       (.I0(judge_start[0]),
+        .I1(judge_start[1]),
+        .O(\realtime_for_coarse[31]_i_1_n_0 ));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[0] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[0]),
+        .Q(realtime_for_coarse[0]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[10] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[10]),
+        .Q(realtime_for_coarse[10]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[11] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[11]),
+        .Q(realtime_for_coarse[11]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[12] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[12]),
+        .Q(realtime_for_coarse[12]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[13] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[13]),
+        .Q(realtime_for_coarse[13]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[14] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[14]),
+        .Q(realtime_for_coarse[14]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[15] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[15]),
+        .Q(realtime_for_coarse[15]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[16] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[16]),
+        .Q(realtime_for_coarse[16]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[17] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[17]),
+        .Q(realtime_for_coarse[17]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[18] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[18]),
+        .Q(realtime_for_coarse[18]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[19] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[19]),
+        .Q(realtime_for_coarse[19]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[1] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[1]),
+        .Q(realtime_for_coarse[1]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[20] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[20]),
+        .Q(realtime_for_coarse[20]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[21] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[21]),
+        .Q(realtime_for_coarse[21]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[22] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[22]),
+        .Q(realtime_for_coarse[22]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[23] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[23]),
+        .Q(realtime_for_coarse[23]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[24] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[24]),
+        .Q(realtime_for_coarse[24]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[25] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[25]),
+        .Q(realtime_for_coarse[25]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[26] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[26]),
+        .Q(realtime_for_coarse[26]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[27] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[27]),
+        .Q(realtime_for_coarse[27]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[28] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[28]),
+        .Q(realtime_for_coarse[28]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[29] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[29]),
+        .Q(realtime_for_coarse[29]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[2] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[2]),
+        .Q(realtime_for_coarse[2]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[30] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[30]),
+        .Q(realtime_for_coarse[30]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[31] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[31]),
+        .Q(realtime_for_coarse[31]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[3] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[3]),
+        .Q(realtime_for_coarse[3]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[4] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[4]),
+        .Q(realtime_for_coarse[4]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[5] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[5]),
+        .Q(realtime_for_coarse[5]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[6] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[6]),
+        .Q(realtime_for_coarse[6]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[7] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[7]),
+        .Q(realtime_for_coarse[7]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[8] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[8]),
+        .Q(realtime_for_coarse[8]),
+        .R(1'b0));
+  (* DONT_TOUCH *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \realtime_for_coarse_reg[9] 
+       (.C(clk_bufg),
+        .CE(\realtime_for_coarse[31]_i_1_n_0 ),
+        .D(counter_for_coarse[9]),
+        .Q(realtime_for_coarse[9]),
+        .R(1'b0));
   IBUF reset_IBUF_inst
        (.I(reset),
         .O(reset_IBUF));
+  initial assign reset_sync0_reg.notifier = 1'bx;
+(* ASYNC_REG *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0),
+    .XON("FALSE")) 
+    reset_sync0_reg
+       (.C(clk_bufg),
+        .CE(1'b1),
+        .D(reset_IBUF),
+        .Q(reset_sync0),
+        .R(1'b0));
   IBUF sg_start_IBUF_inst
        (.I(sg_start),
         .O(sg_start_IBUF));
+  (* LOPT_BUFG_CLOCK *) 
+  (* OPT_MODIFIED = "BUFG_OPT" *) 
   BUFG valid_for_bubble_fix_BUFG_inst
        (.I(valid_for_bubble_fix),
         .O(valid_for_bubble_fix_BUFG));
+  (* LOPT_BUFG_CLOCK *) 
+  (* OPT_MODIFIED = "BUFG_OPT" *) 
   BUFG valid_for_latch2bin_BUFG_inst
        (.I(valid_for_latch2bin),
         .O(valid_for_latch2bin_BUFG));

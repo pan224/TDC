@@ -27,6 +27,7 @@ wire [8:0] bin1_reg;
 wire [8:0] bin2_reg;
 wire [8:0] value_gap;
 wire cs_gap;
+wire [31:0] realtime_for_coarse;
 
 
 integer csv_fd;
@@ -34,6 +35,7 @@ real     delta_ps;
 reg [8:0] value_sample;
 reg [8:0] bin1_sample;
 reg [8:0] bin2_sample;
+reg [31:0] realtime_sample;
 realtime last_clk_edge_time;
 realtime start_time;
 realtime next_clk_time;
@@ -74,6 +76,7 @@ assign bin_cs1 = tdc_top_inst.decode_inst.bin_cs1;
 assign bin_cs2 = tdc_top_inst.decode_inst.bin_cs2;
 assign bin1_reg = tdc_top_inst.decode_inst.bin1_reg;
 assign bin2_reg = tdc_top_inst.decode_inst.bin2_reg;
+assign realtime_for_coarse = tdc_top_inst.realtime_for_coarse;
 
 initial begin
     clk_sys = 1'b0;
@@ -87,10 +90,14 @@ initial begin
     reset = 1'b0;
     #1000; // 时间推进至 1200ns
     forever begin
-        sg_start = 1'b1;
+        reset = 1'b1;
+        #10;
+        reset = 1'b0;
         #30;
+        sg_start = 1'b1;
+        #10;
         sg_start = 1'b0;
-        #40.01;
+        #70.01;
     end
 end
 
@@ -101,7 +108,7 @@ initial begin
         $display("ERROR: Failed to open CSV file.");
         $finish;
     end
-    $fwrite(csv_fd, "start_to_clk_ps,value_gap_at_cs_gap,bin1_reg,bin2_reg\n");
+    $fwrite(csv_fd, "start_to_clk_ps,value_gap_at_cs_gap,bin1_reg,bin2_reg,realtime_coarse\n");
     // $fwrite(csv_fd, "start_to_clk_ps,value_gap_at_cs_gap\n");
     last_clk_edge_time = 0.0;
 end
@@ -127,13 +134,14 @@ always begin
     value_sample = value_gap;
     bin1_sample = bin1_reg;
     bin2_sample = bin2_reg;
-    $fwrite(csv_fd, "%0.0f,%0d,%0d,%0d\n", delta_ps, value_sample, bin1_sample, bin2_sample);
+    realtime_sample = realtime_for_coarse;
+    $fwrite(csv_fd, "%0.0f,%0d,%0d,%0d,%0d\n", delta_ps, value_sample, bin1_sample, bin2_sample, realtime_sample);
     // $fwrite(csv_fd, "%0.0f,%0d\n", delta_ps, value_sample);
 end
 
 initial begin
     // #176300;//70.001*2500+1200
-    #18800;//70.01*250+1200
+    #31200;//120.01*250+1200
     if (csv_fd) begin
         $fclose(csv_fd);
     end

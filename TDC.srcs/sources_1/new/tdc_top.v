@@ -16,12 +16,12 @@ clk_wiz_0 clk_wiz_0_inst(
 	.clk_in1(clk_sys)
 );
 
-wire valid_pre1;
-wire valid_pre2;
-wire valid_for_bubble_fix;//给气泡修复滤波模块用
-wire valid_for_latch2bin;//给latch2bin模块使用
-wire valid_for_bubble_fix_dly;//给气泡修复滤波模块使用的延时信号
-wire valid_for_latch2bin_dly;//给latch2bin模块使用的延时信号
+(* ASYNC_REG = "TRUE" *)wire valid_pre1;
+(* ASYNC_REG = "TRUE" *)wire valid_pre2;
+(* ASYNC_REG = "TRUE" *)wire valid_for_bubble_fix;//给气泡修复滤波模块用
+(* ASYNC_REG = "TRUE" *)wire valid_for_latch2bin;//给latch2bin模块使用
+(* ASYNC_REG = "TRUE" *)wire valid_for_bubble_fix_dly;//给气泡修复滤波模块使用的延时信号
+(* ASYNC_REG = "TRUE" *)wire valid_for_latch2bin_dly;//给latch2bin模块使用的延时信号
 assign valid_for_bubble_fix_dly = valid_for_latch2bin;
 // wire valid1;
 // wire valid2;
@@ -157,4 +157,33 @@ decode#(
 	.bin_cs                             (cs_gap),
 	.bin                                (value_gap)
 );
+
+(* ASYNC_REG = "TRUE" *)reg reset_sync0;
+always @(posedge clk_bufg) begin
+	reset_sync0 <= reset;
+end
+//32位粗时间计数器
+(* dont_touch="true" *)reg [31:0] counter_for_coarse;
+always @(posedge clk_bufg or posedge reset_sync0) begin
+	if (reset_sync0) begin
+		counter_for_coarse <= 32'b0;
+	end else begin
+		counter_for_coarse <= counter_for_coarse + 1;
+	end
+end
+(* dont_touch="true" *)reg [31:0] realtime_for_coarse;
+
+reg [1:0] judge_start;
+always @(posedge clk_bufg) begin
+	judge_start <= {judge_start[0], valid_pre2};
+end
+
+always @(posedge clk_bufg) begin
+	if(judge_start == 2'b01) begin
+		realtime_for_coarse <= counter_for_coarse;
+	end
+	else begin
+		realtime_for_coarse <= realtime_for_coarse;
+	end
+end
 endmodule
