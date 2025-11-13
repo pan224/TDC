@@ -11,8 +11,11 @@ module tdc_top#(
 
 (* clock_buffer_type = "none" *) wire clk_bufg;
 
+wire clk_ref200; // 由 clk_wiz_0 产生的 200MHz 参考时钟
+
 clk_wiz_0 clk_wiz_0_inst(
 	.clk_out1(clk_bufg),
+	.clk_out2(clk_ref200),
 	.clk_in1(clk_sys)
 );
 
@@ -27,18 +30,38 @@ assign valid_for_bubble_fix_dly = valid_for_latch2bin;
 wire bin_cs;
 wire [GAP_BITS-1:0] bin;
 
-wire sg_bufr;
+wire sg_bufr_raw;
+wire sg_bufr_delayed;
 
 BUFR #(
-    .BUFR_DIVIDE("BYPASS"),   // Values: "BYPASS, 1, 2, 3, 4, 5, 6, 7, 8" 
-    .SIM_DEVICE("7SERIES")  // Must be set to "7SERIES" 
- )
-BUFR_INST (
-    .O(sg_bufr),        // 1-bit output: Clock output port
-    .CE(1'b1),          // 1-bit input: Active high, clock enable (Divided modes only)
-    .CLR(1'b0),         // 1-bit input: Active high, asynchronous clear (Divided modes only)
-    .I(sg_start)        // 1-bit input: Clock buffer input driven by an IBUF, MMCM or local interconnect
+    .BUFR_DIVIDE("BYPASS"),
+    .SIM_DEVICE("7SERIES")
+) BUFR_INST (
+    .O(sg_bufr_raw),
+    .CE(1'b1),
+    .CLR(1'b0),
+    .I(sg_start)
 );
+
+// 插入 LUT 作为延迟（约 100-200 ps）
+(* DONT_TOUCH = "TRUE" *)
+LUT1 #(.INIT(2'b10)) delay_lut (
+    .O(sg_bufr_delayed),
+    .I0(sg_bufr_raw)
+);
+
+// 或者使用 IDELAY2（可配置延迟 0-255 taps，每个 ~78 ps）
+// IDELAY2 #(
+//     .IDELAY_TYPE("FIXED"),
+//     .IDELAY_VALUE(12)  // 约 936 ps
+// ) idelay_inst (
+//     .IDATAIN(sg_bufr_raw),
+//     .DATAOUT(sg_bufr_delayed),
+//     ...
+// );
+
+// 将延迟后的信号送入触发器和延迟链
+assign sg_bufr = sg_bufr_delayed;
 
 FDCE #(
 	.INIT(1'b0) // Initial value of register (1'b0 or 1'b1)

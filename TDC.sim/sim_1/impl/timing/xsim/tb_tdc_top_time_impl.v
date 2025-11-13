@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Thu Nov 13 20:18:23 2025
+// Date        : Thu Nov 13 20:54:00 2025
 // Host        : DESKTOP-RBHFTC6 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               D:/project/vivado_work/TDC/TDC/TDC.sim/sim_1/impl/timing/xsim/tb_tdc_top_time_impl.v
@@ -16418,23 +16418,29 @@ endmodule
 
 module clk_wiz_0
    (clk_out1,
+    clk_out2,
     clk_in1);
   output clk_out1;
+  output clk_out2;
   input clk_in1;
 
   wire clk_in1;
   wire clk_out1;
+  wire NLW_inst_clk_out2_UNCONNECTED;
 
   clk_wiz_0_clk_wiz_0_clk_wiz inst
        (.clk_in1(clk_in1),
-        .clk_out1(clk_out1));
+        .clk_out1(clk_out1),
+        .clk_out2(NLW_inst_clk_out2_UNCONNECTED));
 endmodule
 
 (* ORIG_REF_NAME = "clk_wiz_0_clk_wiz" *) 
 module clk_wiz_0_clk_wiz_0_clk_wiz
    (clk_out1,
+    clk_out2,
     clk_in1);
   output clk_out1;
+  output clk_out2;
   input clk_in1;
 
   wire clk_in1;
@@ -16479,6 +16485,7 @@ module clk_wiz_0_clk_wiz_0_clk_wiz
        (.I(clk_out1_clk_wiz_0),
         .O(clk_out1));
   (* BOX_TYPE = "PRIMITIVE" *) 
+  (* OPT_MODIFIED = "SWEEP" *) 
   MMCME2_ADV #(
     .BANDWIDTH("OPTIMIZED"),
     .CLKFBOUT_MULT_F(10.000000),
@@ -16490,7 +16497,7 @@ module clk_wiz_0_clk_wiz_0_clk_wiz
     .CLKOUT0_DUTY_CYCLE(0.500000),
     .CLKOUT0_PHASE(0.000000),
     .CLKOUT0_USE_FINE_PS("FALSE"),
-    .CLKOUT1_DIVIDE(1),
+    .CLKOUT1_DIVIDE(5),
     .CLKOUT1_DUTY_CYCLE(0.500000),
     .CLKOUT1_PHASE(0.000000),
     .CLKOUT1_USE_FINE_PS("FALSE"),
@@ -17798,7 +17805,6 @@ module latch2bin
   wire p_0_in7_in;
   wire p_0_in8_in;
   wire p_0_in9_in;
-  wire srlopt_n;
 
   LUT2 #(
     .INIT(4'hB)) 
@@ -24982,29 +24988,19 @@ module latch2bin
         .D(\genblk1[2].decoding[3][9]_i_1_n_0 ),
         .Q(\genblk1[2].decoding_reg_n_0_[3][9] ),
         .R(out));
-  (* PHYS_OPT_MODIFIED = "SHIFT_REGISTER_OPT" *) 
   (* srl_bus_name = "\decode_inst/latch2bin_inst1/genblk1[3].data_valid_reg " *) 
   (* srl_name = "\decode_inst/latch2bin_inst1/genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2 " *) 
   SRL16E #(
     .INIT(16'h0000)) 
     \genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2 
-       (.A0(1'b0),
+       (.A0(1'b1),
         .A1(1'b1),
         .A2(1'b0),
         .A3(1'b0),
         .CE(1'b1),
         .CLK(clk_out1),
-        .D(srlopt_n),
-        .Q(\genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2_n_0 ));
-  (* PHYS_OPT_MODIFIED = "SHIFT_REGISTER_OPT" *) 
-  FDRE #(
-    .INIT(1'b0)) 
-    \genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2_srlopt 
-       (.C(clk_out1),
-        .CE(1'b1),
         .D(\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 ),
-        .Q(srlopt_n),
-        .R(1'b0));
+        .Q(\genblk1[3].data_valid_reg[4]_srl4___decode_inst_latch2bin_inst2_genblk1_r_2_n_0 ));
   LUT3 #(
     .INIT(8'hB8)) 
     \genblk1[3].decoding[4][0]_i_1 
@@ -48786,7 +48782,7 @@ module line_tdc
         .R(reset));
 endmodule
 
-(* ECO_CHECKSUM = "20eee4cd" *) (* GAP_BITS = "9" *) (* STAGE = "512" *) 
+(* ECO_CHECKSUM = "93bed57a" *) (* GAP_BITS = "9" *) (* STAGE = "512" *) 
 (* NotValidForBitStream *)
 module tdc_top
    (sg_start,
@@ -48821,6 +48817,7 @@ module tdc_top
   wire reset_IBUF;
   (* async_reg = "true" *) wire reset_sync0;
   wire sg_bufr;
+  wire sg_bufr_raw;
   wire sg_start;
   wire sg_start_IBUF;
   wire valid_for_bubble_fix;
@@ -48835,6 +48832,7 @@ module tdc_top
   (* DONT_TOUCH *) wire [511:0]value_latch_fixed;
   (* DONT_TOUCH *) wire [511:0]value_latch_fixed_dly;
   (* DONT_TOUCH *) wire [511:0]value_latch_raw;
+  wire NLW_clk_wiz_0_inst_clk_out2_UNCONNECTED;
   wire [2:0]\NLW_counter_for_coarse_reg[11]_i_1_CO_UNCONNECTED ;
   wire [2:0]\NLW_counter_for_coarse_reg[15]_i_1_CO_UNCONNECTED ;
   wire [2:0]\NLW_counter_for_coarse_reg[19]_i_1_CO_UNCONNECTED ;
@@ -48855,7 +48853,7 @@ end
        (.CE(1'b1),
         .CLR(1'b0),
         .I(sg_start_IBUF),
-        .O(sg_bufr));
+        .O(sg_bufr_raw));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDCE #(
     .INIT(1'b0),
@@ -48934,7 +48932,8 @@ end
   (* IS_IMPORTED *) 
   clk_wiz_0 clk_wiz_0_inst
        (.clk_in1(clk_sys),
-        .clk_out1(clk_bufg));
+        .clk_out1(clk_bufg),
+        .clk_out2(NLW_clk_wiz_0_inst_clk_out2_UNCONNECTED));
   LUT1 #(
     .INIT(2'h1)) 
     \counter_for_coarse[3]_i_2 
@@ -49344,6 +49343,13 @@ end
         .\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3 (valid_for_latch2bin_BUFG),
         .\genblk1[4].data_valid_reg[5]_decode_inst_latch2bin_inst2_genblk1_r_3_0 (valid_for_latch2bin_dly),
         .out(reset_IBUF));
+  (* BOX_TYPE = "PRIMITIVE" *) 
+  (* DONT_TOUCH *) 
+  LUT1 #(
+    .INIT(2'h2)) 
+    delay_lut
+       (.I0(sg_bufr_raw),
+        .O(sg_bufr));
   FDRE #(
     .INIT(1'b0)) 
     \judge_start_reg[0] 
