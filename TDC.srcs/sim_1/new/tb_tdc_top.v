@@ -53,9 +53,7 @@ tdc_top tdc_top_inst(
 
 assign data_reg0 = tdc_top_inst.line_tdc_inst.dat_reg0;
 assign data_reg1 = tdc_top_inst.line_tdc_inst.dat_reg1;
-assign FDRE_REF = tdc_top_inst.line_tdc_inst.FDRE_REF_INST.Q;
-// assign valid1 = tdc_top_inst.valid1;
-// assign valid2 = tdc_top_inst.valid2;
+assign FDRE_REF = tdc_top_inst.line_tdc_inst.FDCE_INST3.Q;
 assign sg_bufr = tdc_top_inst.sg_bufr;
 assign valid_pre1 = tdc_top_inst.valid_pre1;
 assign valid_pre2 = tdc_top_inst.valid_pre2;
@@ -63,10 +61,7 @@ assign valid_for_bubble_fix = tdc_top_inst.valid_for_bubble_fix;
 assign valid_for_latch2bin = tdc_top_inst.valid_for_latch2bin;
 assign valid_for_bubble_fix_dly = valid_for_latch2bin;
 assign valid_for_latch2bin_dly = tdc_top_inst.valid_for_latch2bin_dly;
-// assign valid = tdc_top_inst.decode_inst.valid;
-// assign valid = tdc_top_inst.valid;
 assign clk_bufg = tdc_top_inst.clk_bufg;
-// assign value_latch = tdc_top_inst.value_latch;
 
 
 assign value_latch_raw = tdc_top_inst.value_latch_raw;

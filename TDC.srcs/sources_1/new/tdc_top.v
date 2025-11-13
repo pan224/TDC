@@ -9,7 +9,7 @@ module tdc_top#(
 	output wire [GAP_BITS-1:0]			value_gap		
 );
 
-wire clk_bufg;
+(* clock_buffer_type = "none" *) wire clk_bufg;
 
 clk_wiz_0 clk_wiz_0_inst(
 	.clk_out1(clk_bufg),
@@ -23,9 +23,6 @@ clk_wiz_0 clk_wiz_0_inst(
 (* ASYNC_REG = "TRUE" *)wire valid_for_bubble_fix_dly;//给气泡修复滤波模块使用的延时信号
 (* ASYNC_REG = "TRUE" *)wire valid_for_latch2bin_dly;//给latch2bin模块使用的延时信号
 assign valid_for_bubble_fix_dly = valid_for_latch2bin;
-// wire valid1;
-// wire valid2;
-// wire [STAGE-1:0]					value_latch;
 
 wire bin_cs;
 wire [GAP_BITS-1:0] bin;
@@ -102,7 +99,7 @@ FDCE_INST6 (
 (* dont_touch="true" *)wire [STAGE-1:0] value_latch_fixed;
 (* dont_touch="true" *)wire [STAGE-1:0] value_latch_fixed_dly;
 
-line_tdc#(
+(* keep_hierarchy = "soft" *) line_tdc#(
 	.STAGE								(STAGE)
 
 ) line_tdc_inst(
@@ -131,19 +128,6 @@ bubble_fix #(
     .in_code  (value_latch_raw),
     .out_code (value_latch_fixed_dly)
 );
-
-// latch2bin#(
-// 	.GAP_BITS						    (GAP_BITS)
-// ) latch2bin_inst(
-// 	.clk_bufg 							(clk_bufg),
-// 	.reset 								(reset),
-// 	.valid 								(valid),
-// 	.value_latch 						(value_latch_fixed),
-// 	.bin_cs                             (cs_gap),
-// 	.bin                                (value_gap)
-// );
-
-
 
 decode#(
 	.GAP_BITS						    (GAP_BITS)

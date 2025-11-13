@@ -63,13 +63,14 @@ generate
 endgenerate
 
 (* dont_touch="true" *)wire FDRE_REF;
-FDRE #(
-	.INIT				(1'b0) 						// Initial value of register (1'b0 or 1'b1)
-) FDRE_REF_INST (			
-	.Q					(FDRE_REF),   			// 1-bit Data output
-	.C					(clk_bufg),      			// 1-bit Clock input
-	.CE					(1'b1), 					// 1-bit Clock enable input
-	.R					(reset),  					// 1-bit Synchronous reset input
-	.D					(~FDRE_REF)    			// 1-bit Data input
+FDCE #(
+	.INIT(1'b0) // Initial value of register (1'b0 or 1'b1)
+) 
+FDCE_INST3 (
+	.Q(FDRE_REF),      // 1-bit Data output
+	.C(clk_bufg),      // 1-bit Clock input
+	.CE(1'b1),    // 1-bit Clock enable input
+	.CLR(1'b0),  // 1-bit Asynchronous clear input
+	.D(~FDRE_REF)       // 1-bit Data input
 );
 endmodule

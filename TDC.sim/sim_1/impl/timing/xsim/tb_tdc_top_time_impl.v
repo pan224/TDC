@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Tue Nov 11 17:28:25 2025
+// Date        : Thu Nov 13 20:18:23 2025
 // Host        : DESKTOP-RBHFTC6 running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               D:/project/vivado_work/TDC/TDC/TDC.sim/sim_1/impl/timing/xsim/tb_tdc_top_time_impl.v
@@ -16631,150 +16631,150 @@ module decode
   wire latch2bin_inst2_n_9;
   wire out;
 
-  FDCE #(
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[0] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_9),
-        .Q(bin1_reg[0]));
-  FDCE #(
+        .Q(bin1_reg[0]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[1] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_8),
-        .Q(bin1_reg[1]));
-  FDCE #(
+        .Q(bin1_reg[1]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[2] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_7),
-        .Q(bin1_reg[2]));
-  FDCE #(
+        .Q(bin1_reg[2]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[3] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_6),
-        .Q(bin1_reg[3]));
-  FDCE #(
+        .Q(bin1_reg[3]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[4] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_5),
-        .Q(bin1_reg[4]));
-  FDCE #(
+        .Q(bin1_reg[4]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[5] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_4),
-        .Q(bin1_reg[5]));
-  FDCE #(
+        .Q(bin1_reg[5]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[6] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_3),
-        .Q(bin1_reg[6]));
-  FDCE #(
+        .Q(bin1_reg[6]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[7] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_2),
-        .Q(bin1_reg[7]));
-  FDCE #(
+        .Q(bin1_reg[7]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin1_reg_reg[8] 
        (.C(bin_cs1),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst1_n_1),
-        .Q(bin1_reg[8]));
-  FDCE #(
+        .Q(bin1_reg[8]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[0] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_14),
-        .Q(bin2_reg[0]));
-  FDCE #(
+        .Q(bin2_reg[0]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[1] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_13),
-        .Q(bin2_reg[1]));
-  FDCE #(
+        .Q(bin2_reg[1]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[2] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_12),
-        .Q(bin2_reg[2]));
-  FDCE #(
+        .Q(bin2_reg[2]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[3] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_11),
-        .Q(bin2_reg[3]));
-  FDCE #(
+        .Q(bin2_reg[3]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[4] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_10),
-        .Q(bin2_reg[4]));
-  FDCE #(
+        .Q(bin2_reg[4]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[5] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_9),
-        .Q(bin2_reg[5]));
-  FDCE #(
+        .Q(bin2_reg[5]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[6] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_8),
-        .Q(bin2_reg[6]));
-  FDCE #(
+        .Q(bin2_reg[6]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[7] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_7),
-        .Q(bin2_reg[7]));
-  FDCE #(
+        .Q(bin2_reg[7]),
+        .R(1'b0));
+  FDRE #(
     .INIT(1'b0)) 
     \bin2_reg_reg[8] 
        (.C(bin_cs2),
         .CE(1'b1),
-        .CLR(out),
         .D(latch2bin_inst2_n_6),
-        .Q(bin2_reg[8]));
+        .Q(bin2_reg[8]),
+        .R(1'b0));
   (* srl_name = "\decode_inst/bin_cs_final_reg_reg_srl2 " *) 
   SRL16E #(
     .INIT(16'h0000)) 
@@ -35307,24 +35307,25 @@ module latch2bin_1
         .R(out));
 endmodule
 
+(* STAGE = "512" *) 
 module line_tdc
-   (in0,
-    out,
-    clk_out1,
-    sg_bufr);
-  output [511:0]in0;
-  input out;
-  input clk_out1;
-  input sg_bufr;
+   (sg_start,
+    clk_bufg,
+    reset,
+    value_latch);
+  input sg_start;
+  input clk_bufg;
+  input reset;
+  output [511:0]value_latch;
 
+  wire FDCE_INST3_i_1_n_0;
   (* DONT_TOUCH *) wire FDRE_REF;
-  wire FDRE_REF_INST_i_1_n_0;
-  wire clk_out1;
+  wire clk_bufg;
   (* DONT_TOUCH *) wire [511:0]dat_reg0;
   (* DONT_TOUCH *) wire [511:0]dat_reg1;
-  wire [511:0]in0;
-  wire out;
-  wire sg_bufr;
+  wire reset;
+  wire sg_start;
+  wire [511:0]value_latch;
   wire [3:0]\NLW_genblk1[0].carry4_first.CARRY4_INST_O_UNCONNECTED ;
   wire [3:0]\NLW_genblk1[100].carry4_others.CARRY4_OTHERS_O_UNCONNECTED ;
   wire [3:0]\NLW_genblk1[101].carry4_others.CARRY4_OTHERS_O_UNCONNECTED ;
@@ -35455,27 +35456,27 @@ module line_tdc
   wire [3:0]\NLW_genblk1[9].carry4_others.CARRY4_OTHERS_O_UNCONNECTED ;
 
   (* BOX_TYPE = "PRIMITIVE" *) 
-  FDRE #(
+  FDCE #(
     .INIT(1'b0),
+    .IS_CLR_INVERTED(1'b0),
     .IS_C_INVERTED(1'b0),
-    .IS_D_INVERTED(1'b0),
-    .IS_R_INVERTED(1'b0)) 
-    FDRE_REF_INST
-       (.C(clk_out1),
+    .IS_D_INVERTED(1'b0)) 
+    FDCE_INST3
+       (.C(clk_bufg),
         .CE(1'b1),
-        .D(FDRE_REF_INST_i_1_n_0),
-        .Q(FDRE_REF),
-        .R(out));
+        .CLR(1'b0),
+        .D(FDCE_INST3_i_1_n_0),
+        .Q(FDRE_REF));
   LUT1 #(
     .INIT(2'h1)) 
-    FDRE_REF_INST_i_1
+    FDCE_INST3_i_1
        (.I0(FDRE_REF),
-        .O(FDRE_REF_INST_i_1_n_0));
+        .O(FDCE_INST3_i_1_n_0));
   (* BOX_TYPE = "PRIMITIVE" *) 
   CARRY4 \genblk1[0].carry4_first.CARRY4_INST 
        (.CI(1'b0),
         .CO(dat_reg0[3:0]),
-        .CYINIT(sg_bufr),
+        .CYINIT(sg_start),
         .DI({1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_genblk1[0].carry4_first.CARRY4_INST_O_UNCONNECTED [3:0]),
         .S({1'b1,1'b1,1'b1,1'b1}));
@@ -36502,11 +36503,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[0].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[0]),
         .Q(dat_reg1[0]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36514,11 +36515,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[0].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[0]),
-        .Q(in0[0]),
-        .R(out));
+        .Q(value_latch[0]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36526,11 +36527,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[100].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[100]),
         .Q(dat_reg1[100]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36538,11 +36539,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[100].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[100]),
-        .Q(in0[100]),
-        .R(out));
+        .Q(value_latch[100]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36550,11 +36551,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[101].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[101]),
         .Q(dat_reg1[101]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36562,11 +36563,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[101].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[101]),
-        .Q(in0[101]),
-        .R(out));
+        .Q(value_latch[101]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36574,11 +36575,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[102].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[102]),
         .Q(dat_reg1[102]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36586,11 +36587,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[102].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[102]),
-        .Q(in0[102]),
-        .R(out));
+        .Q(value_latch[102]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36598,11 +36599,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[103].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[103]),
         .Q(dat_reg1[103]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36610,11 +36611,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[103].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[103]),
-        .Q(in0[103]),
-        .R(out));
+        .Q(value_latch[103]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36622,11 +36623,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[104].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[104]),
         .Q(dat_reg1[104]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36634,11 +36635,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[104].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[104]),
-        .Q(in0[104]),
-        .R(out));
+        .Q(value_latch[104]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36646,11 +36647,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[105].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[105]),
         .Q(dat_reg1[105]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36658,11 +36659,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[105].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[105]),
-        .Q(in0[105]),
-        .R(out));
+        .Q(value_latch[105]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36670,11 +36671,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[106].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[106]),
         .Q(dat_reg1[106]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36682,11 +36683,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[106].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[106]),
-        .Q(in0[106]),
-        .R(out));
+        .Q(value_latch[106]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36694,11 +36695,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[107].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[107]),
         .Q(dat_reg1[107]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36706,11 +36707,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[107].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[107]),
-        .Q(in0[107]),
-        .R(out));
+        .Q(value_latch[107]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36718,11 +36719,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[108].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[108]),
         .Q(dat_reg1[108]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36730,11 +36731,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[108].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[108]),
-        .Q(in0[108]),
-        .R(out));
+        .Q(value_latch[108]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36742,11 +36743,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[109].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[109]),
         .Q(dat_reg1[109]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36754,11 +36755,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[109].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[109]),
-        .Q(in0[109]),
-        .R(out));
+        .Q(value_latch[109]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36766,11 +36767,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[10].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[10]),
         .Q(dat_reg1[10]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36778,11 +36779,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[10].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[10]),
-        .Q(in0[10]),
-        .R(out));
+        .Q(value_latch[10]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36790,11 +36791,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[110].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[110]),
         .Q(dat_reg1[110]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36802,11 +36803,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[110].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[110]),
-        .Q(in0[110]),
-        .R(out));
+        .Q(value_latch[110]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36814,11 +36815,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[111].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[111]),
         .Q(dat_reg1[111]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36826,11 +36827,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[111].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[111]),
-        .Q(in0[111]),
-        .R(out));
+        .Q(value_latch[111]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36838,11 +36839,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[112].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[112]),
         .Q(dat_reg1[112]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36850,11 +36851,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[112].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[112]),
-        .Q(in0[112]),
-        .R(out));
+        .Q(value_latch[112]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36862,11 +36863,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[113].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[113]),
         .Q(dat_reg1[113]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36874,11 +36875,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[113].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[113]),
-        .Q(in0[113]),
-        .R(out));
+        .Q(value_latch[113]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36886,11 +36887,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[114].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[114]),
         .Q(dat_reg1[114]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36898,11 +36899,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[114].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[114]),
-        .Q(in0[114]),
-        .R(out));
+        .Q(value_latch[114]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36910,11 +36911,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[115].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[115]),
         .Q(dat_reg1[115]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36922,11 +36923,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[115].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[115]),
-        .Q(in0[115]),
-        .R(out));
+        .Q(value_latch[115]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36934,11 +36935,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[116].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[116]),
         .Q(dat_reg1[116]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36946,11 +36947,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[116].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[116]),
-        .Q(in0[116]),
-        .R(out));
+        .Q(value_latch[116]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36958,11 +36959,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[117].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[117]),
         .Q(dat_reg1[117]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36970,11 +36971,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[117].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[117]),
-        .Q(in0[117]),
-        .R(out));
+        .Q(value_latch[117]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36982,11 +36983,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[118].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[118]),
         .Q(dat_reg1[118]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -36994,11 +36995,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[118].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[118]),
-        .Q(in0[118]),
-        .R(out));
+        .Q(value_latch[118]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37006,11 +37007,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[119].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[119]),
         .Q(dat_reg1[119]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37018,11 +37019,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[119].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[119]),
-        .Q(in0[119]),
-        .R(out));
+        .Q(value_latch[119]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37030,11 +37031,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[11].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[11]),
         .Q(dat_reg1[11]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37042,11 +37043,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[11].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[11]),
-        .Q(in0[11]),
-        .R(out));
+        .Q(value_latch[11]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37054,11 +37055,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[120].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[120]),
         .Q(dat_reg1[120]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37066,11 +37067,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[120].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[120]),
-        .Q(in0[120]),
-        .R(out));
+        .Q(value_latch[120]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37078,11 +37079,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[121].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[121]),
         .Q(dat_reg1[121]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37090,11 +37091,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[121].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[121]),
-        .Q(in0[121]),
-        .R(out));
+        .Q(value_latch[121]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37102,11 +37103,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[122].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[122]),
         .Q(dat_reg1[122]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37114,11 +37115,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[122].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[122]),
-        .Q(in0[122]),
-        .R(out));
+        .Q(value_latch[122]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37126,11 +37127,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[123].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[123]),
         .Q(dat_reg1[123]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37138,11 +37139,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[123].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[123]),
-        .Q(in0[123]),
-        .R(out));
+        .Q(value_latch[123]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37150,11 +37151,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[124].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[124]),
         .Q(dat_reg1[124]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37162,11 +37163,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[124].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[124]),
-        .Q(in0[124]),
-        .R(out));
+        .Q(value_latch[124]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37174,11 +37175,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[125].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[125]),
         .Q(dat_reg1[125]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37186,11 +37187,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[125].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[125]),
-        .Q(in0[125]),
-        .R(out));
+        .Q(value_latch[125]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37198,11 +37199,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[126].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[126]),
         .Q(dat_reg1[126]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37210,11 +37211,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[126].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[126]),
-        .Q(in0[126]),
-        .R(out));
+        .Q(value_latch[126]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37222,11 +37223,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[127].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[127]),
         .Q(dat_reg1[127]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37234,11 +37235,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[127].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[127]),
-        .Q(in0[127]),
-        .R(out));
+        .Q(value_latch[127]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37246,11 +37247,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[128].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[128]),
         .Q(dat_reg1[128]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37258,11 +37259,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[128].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[128]),
-        .Q(in0[128]),
-        .R(out));
+        .Q(value_latch[128]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37270,11 +37271,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[129].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[129]),
         .Q(dat_reg1[129]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37282,11 +37283,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[129].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[129]),
-        .Q(in0[129]),
-        .R(out));
+        .Q(value_latch[129]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37294,11 +37295,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[12].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[12]),
         .Q(dat_reg1[12]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37306,11 +37307,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[12].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[12]),
-        .Q(in0[12]),
-        .R(out));
+        .Q(value_latch[12]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37318,11 +37319,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[130].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[130]),
         .Q(dat_reg1[130]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37330,11 +37331,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[130].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[130]),
-        .Q(in0[130]),
-        .R(out));
+        .Q(value_latch[130]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37342,11 +37343,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[131].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[131]),
         .Q(dat_reg1[131]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37354,11 +37355,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[131].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[131]),
-        .Q(in0[131]),
-        .R(out));
+        .Q(value_latch[131]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37366,11 +37367,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[132].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[132]),
         .Q(dat_reg1[132]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37378,11 +37379,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[132].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[132]),
-        .Q(in0[132]),
-        .R(out));
+        .Q(value_latch[132]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37390,11 +37391,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[133].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[133]),
         .Q(dat_reg1[133]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37402,11 +37403,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[133].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[133]),
-        .Q(in0[133]),
-        .R(out));
+        .Q(value_latch[133]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37414,11 +37415,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[134].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[134]),
         .Q(dat_reg1[134]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37426,11 +37427,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[134].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[134]),
-        .Q(in0[134]),
-        .R(out));
+        .Q(value_latch[134]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37438,11 +37439,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[135].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[135]),
         .Q(dat_reg1[135]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37450,11 +37451,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[135].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[135]),
-        .Q(in0[135]),
-        .R(out));
+        .Q(value_latch[135]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37462,11 +37463,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[136].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[136]),
         .Q(dat_reg1[136]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37474,11 +37475,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[136].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[136]),
-        .Q(in0[136]),
-        .R(out));
+        .Q(value_latch[136]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37486,11 +37487,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[137].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[137]),
         .Q(dat_reg1[137]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37498,11 +37499,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[137].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[137]),
-        .Q(in0[137]),
-        .R(out));
+        .Q(value_latch[137]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37510,11 +37511,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[138].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[138]),
         .Q(dat_reg1[138]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37522,11 +37523,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[138].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[138]),
-        .Q(in0[138]),
-        .R(out));
+        .Q(value_latch[138]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37534,11 +37535,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[139].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[139]),
         .Q(dat_reg1[139]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37546,11 +37547,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[139].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[139]),
-        .Q(in0[139]),
-        .R(out));
+        .Q(value_latch[139]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37558,11 +37559,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[13].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[13]),
         .Q(dat_reg1[13]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37570,11 +37571,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[13].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[13]),
-        .Q(in0[13]),
-        .R(out));
+        .Q(value_latch[13]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37582,11 +37583,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[140].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[140]),
         .Q(dat_reg1[140]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37594,11 +37595,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[140].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[140]),
-        .Q(in0[140]),
-        .R(out));
+        .Q(value_latch[140]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37606,11 +37607,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[141].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[141]),
         .Q(dat_reg1[141]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37618,11 +37619,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[141].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[141]),
-        .Q(in0[141]),
-        .R(out));
+        .Q(value_latch[141]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37630,11 +37631,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[142].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[142]),
         .Q(dat_reg1[142]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37642,11 +37643,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[142].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[142]),
-        .Q(in0[142]),
-        .R(out));
+        .Q(value_latch[142]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37654,11 +37655,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[143].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[143]),
         .Q(dat_reg1[143]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37666,11 +37667,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[143].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[143]),
-        .Q(in0[143]),
-        .R(out));
+        .Q(value_latch[143]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37678,11 +37679,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[144].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[144]),
         .Q(dat_reg1[144]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37690,11 +37691,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[144].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[144]),
-        .Q(in0[144]),
-        .R(out));
+        .Q(value_latch[144]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37702,11 +37703,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[145].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[145]),
         .Q(dat_reg1[145]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37714,11 +37715,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[145].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[145]),
-        .Q(in0[145]),
-        .R(out));
+        .Q(value_latch[145]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37726,11 +37727,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[146].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[146]),
         .Q(dat_reg1[146]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37738,11 +37739,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[146].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[146]),
-        .Q(in0[146]),
-        .R(out));
+        .Q(value_latch[146]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37750,11 +37751,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[147].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[147]),
         .Q(dat_reg1[147]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37762,11 +37763,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[147].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[147]),
-        .Q(in0[147]),
-        .R(out));
+        .Q(value_latch[147]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37774,11 +37775,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[148].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[148]),
         .Q(dat_reg1[148]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37786,11 +37787,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[148].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[148]),
-        .Q(in0[148]),
-        .R(out));
+        .Q(value_latch[148]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37798,11 +37799,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[149].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[149]),
         .Q(dat_reg1[149]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37810,11 +37811,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[149].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[149]),
-        .Q(in0[149]),
-        .R(out));
+        .Q(value_latch[149]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37822,11 +37823,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[14].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[14]),
         .Q(dat_reg1[14]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37834,11 +37835,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[14].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[14]),
-        .Q(in0[14]),
-        .R(out));
+        .Q(value_latch[14]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37846,11 +37847,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[150].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[150]),
         .Q(dat_reg1[150]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37858,11 +37859,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[150].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[150]),
-        .Q(in0[150]),
-        .R(out));
+        .Q(value_latch[150]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37870,11 +37871,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[151].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[151]),
         .Q(dat_reg1[151]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37882,11 +37883,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[151].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[151]),
-        .Q(in0[151]),
-        .R(out));
+        .Q(value_latch[151]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37894,11 +37895,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[152].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[152]),
         .Q(dat_reg1[152]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37906,11 +37907,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[152].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[152]),
-        .Q(in0[152]),
-        .R(out));
+        .Q(value_latch[152]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37918,11 +37919,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[153].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[153]),
         .Q(dat_reg1[153]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37930,11 +37931,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[153].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[153]),
-        .Q(in0[153]),
-        .R(out));
+        .Q(value_latch[153]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37942,11 +37943,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[154].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[154]),
         .Q(dat_reg1[154]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37954,11 +37955,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[154].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[154]),
-        .Q(in0[154]),
-        .R(out));
+        .Q(value_latch[154]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37966,11 +37967,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[155].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[155]),
         .Q(dat_reg1[155]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37978,11 +37979,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[155].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[155]),
-        .Q(in0[155]),
-        .R(out));
+        .Q(value_latch[155]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -37990,11 +37991,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[156].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[156]),
         .Q(dat_reg1[156]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38002,11 +38003,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[156].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[156]),
-        .Q(in0[156]),
-        .R(out));
+        .Q(value_latch[156]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38014,11 +38015,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[157].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[157]),
         .Q(dat_reg1[157]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38026,11 +38027,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[157].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[157]),
-        .Q(in0[157]),
-        .R(out));
+        .Q(value_latch[157]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38038,11 +38039,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[158].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[158]),
         .Q(dat_reg1[158]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38050,11 +38051,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[158].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[158]),
-        .Q(in0[158]),
-        .R(out));
+        .Q(value_latch[158]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38062,11 +38063,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[159].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[159]),
         .Q(dat_reg1[159]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38074,11 +38075,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[159].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[159]),
-        .Q(in0[159]),
-        .R(out));
+        .Q(value_latch[159]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38086,11 +38087,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[15].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[15]),
         .Q(dat_reg1[15]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38098,11 +38099,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[15].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[15]),
-        .Q(in0[15]),
-        .R(out));
+        .Q(value_latch[15]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38110,11 +38111,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[160].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[160]),
         .Q(dat_reg1[160]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38122,11 +38123,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[160].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[160]),
-        .Q(in0[160]),
-        .R(out));
+        .Q(value_latch[160]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38134,11 +38135,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[161].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[161]),
         .Q(dat_reg1[161]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38146,11 +38147,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[161].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[161]),
-        .Q(in0[161]),
-        .R(out));
+        .Q(value_latch[161]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38158,11 +38159,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[162].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[162]),
         .Q(dat_reg1[162]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38170,11 +38171,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[162].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[162]),
-        .Q(in0[162]),
-        .R(out));
+        .Q(value_latch[162]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38182,11 +38183,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[163].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[163]),
         .Q(dat_reg1[163]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38194,11 +38195,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[163].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[163]),
-        .Q(in0[163]),
-        .R(out));
+        .Q(value_latch[163]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38206,11 +38207,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[164].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[164]),
         .Q(dat_reg1[164]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38218,11 +38219,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[164].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[164]),
-        .Q(in0[164]),
-        .R(out));
+        .Q(value_latch[164]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38230,11 +38231,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[165].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[165]),
         .Q(dat_reg1[165]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38242,11 +38243,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[165].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[165]),
-        .Q(in0[165]),
-        .R(out));
+        .Q(value_latch[165]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38254,11 +38255,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[166].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[166]),
         .Q(dat_reg1[166]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38266,11 +38267,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[166].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[166]),
-        .Q(in0[166]),
-        .R(out));
+        .Q(value_latch[166]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38278,11 +38279,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[167].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[167]),
         .Q(dat_reg1[167]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38290,11 +38291,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[167].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[167]),
-        .Q(in0[167]),
-        .R(out));
+        .Q(value_latch[167]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38302,11 +38303,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[168].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[168]),
         .Q(dat_reg1[168]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38314,11 +38315,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[168].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[168]),
-        .Q(in0[168]),
-        .R(out));
+        .Q(value_latch[168]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38326,11 +38327,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[169].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[169]),
         .Q(dat_reg1[169]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38338,11 +38339,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[169].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[169]),
-        .Q(in0[169]),
-        .R(out));
+        .Q(value_latch[169]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38350,11 +38351,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[16].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[16]),
         .Q(dat_reg1[16]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38362,11 +38363,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[16].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[16]),
-        .Q(in0[16]),
-        .R(out));
+        .Q(value_latch[16]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38374,11 +38375,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[170].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[170]),
         .Q(dat_reg1[170]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38386,11 +38387,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[170].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[170]),
-        .Q(in0[170]),
-        .R(out));
+        .Q(value_latch[170]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38398,11 +38399,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[171].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[171]),
         .Q(dat_reg1[171]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38410,11 +38411,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[171].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[171]),
-        .Q(in0[171]),
-        .R(out));
+        .Q(value_latch[171]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38422,11 +38423,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[172].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[172]),
         .Q(dat_reg1[172]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38434,11 +38435,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[172].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[172]),
-        .Q(in0[172]),
-        .R(out));
+        .Q(value_latch[172]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38446,11 +38447,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[173].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[173]),
         .Q(dat_reg1[173]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38458,11 +38459,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[173].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[173]),
-        .Q(in0[173]),
-        .R(out));
+        .Q(value_latch[173]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38470,11 +38471,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[174].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[174]),
         .Q(dat_reg1[174]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38482,11 +38483,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[174].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[174]),
-        .Q(in0[174]),
-        .R(out));
+        .Q(value_latch[174]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38494,11 +38495,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[175].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[175]),
         .Q(dat_reg1[175]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38506,11 +38507,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[175].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[175]),
-        .Q(in0[175]),
-        .R(out));
+        .Q(value_latch[175]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38518,11 +38519,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[176].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[176]),
         .Q(dat_reg1[176]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38530,11 +38531,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[176].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[176]),
-        .Q(in0[176]),
-        .R(out));
+        .Q(value_latch[176]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38542,11 +38543,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[177].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[177]),
         .Q(dat_reg1[177]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38554,11 +38555,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[177].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[177]),
-        .Q(in0[177]),
-        .R(out));
+        .Q(value_latch[177]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38566,11 +38567,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[178].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[178]),
         .Q(dat_reg1[178]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38578,11 +38579,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[178].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[178]),
-        .Q(in0[178]),
-        .R(out));
+        .Q(value_latch[178]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38590,11 +38591,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[179].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[179]),
         .Q(dat_reg1[179]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38602,11 +38603,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[179].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[179]),
-        .Q(in0[179]),
-        .R(out));
+        .Q(value_latch[179]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38614,11 +38615,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[17].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[17]),
         .Q(dat_reg1[17]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38626,11 +38627,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[17].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[17]),
-        .Q(in0[17]),
-        .R(out));
+        .Q(value_latch[17]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38638,11 +38639,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[180].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[180]),
         .Q(dat_reg1[180]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38650,11 +38651,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[180].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[180]),
-        .Q(in0[180]),
-        .R(out));
+        .Q(value_latch[180]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38662,11 +38663,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[181].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[181]),
         .Q(dat_reg1[181]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38674,11 +38675,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[181].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[181]),
-        .Q(in0[181]),
-        .R(out));
+        .Q(value_latch[181]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38686,11 +38687,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[182].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[182]),
         .Q(dat_reg1[182]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38698,11 +38699,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[182].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[182]),
-        .Q(in0[182]),
-        .R(out));
+        .Q(value_latch[182]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38710,11 +38711,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[183].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[183]),
         .Q(dat_reg1[183]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38722,11 +38723,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[183].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[183]),
-        .Q(in0[183]),
-        .R(out));
+        .Q(value_latch[183]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38734,11 +38735,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[184].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[184]),
         .Q(dat_reg1[184]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38746,11 +38747,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[184].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[184]),
-        .Q(in0[184]),
-        .R(out));
+        .Q(value_latch[184]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38758,11 +38759,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[185].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[185]),
         .Q(dat_reg1[185]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38770,11 +38771,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[185].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[185]),
-        .Q(in0[185]),
-        .R(out));
+        .Q(value_latch[185]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38782,11 +38783,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[186].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[186]),
         .Q(dat_reg1[186]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38794,11 +38795,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[186].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[186]),
-        .Q(in0[186]),
-        .R(out));
+        .Q(value_latch[186]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38806,11 +38807,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[187].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[187]),
         .Q(dat_reg1[187]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38818,11 +38819,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[187].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[187]),
-        .Q(in0[187]),
-        .R(out));
+        .Q(value_latch[187]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38830,11 +38831,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[188].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[188]),
         .Q(dat_reg1[188]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38842,11 +38843,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[188].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[188]),
-        .Q(in0[188]),
-        .R(out));
+        .Q(value_latch[188]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38854,11 +38855,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[189].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[189]),
         .Q(dat_reg1[189]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38866,11 +38867,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[189].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[189]),
-        .Q(in0[189]),
-        .R(out));
+        .Q(value_latch[189]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38878,11 +38879,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[18].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[18]),
         .Q(dat_reg1[18]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38890,11 +38891,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[18].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[18]),
-        .Q(in0[18]),
-        .R(out));
+        .Q(value_latch[18]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38902,11 +38903,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[190].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[190]),
         .Q(dat_reg1[190]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38914,11 +38915,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[190].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[190]),
-        .Q(in0[190]),
-        .R(out));
+        .Q(value_latch[190]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38926,11 +38927,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[191].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[191]),
         .Q(dat_reg1[191]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38938,11 +38939,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[191].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[191]),
-        .Q(in0[191]),
-        .R(out));
+        .Q(value_latch[191]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38950,11 +38951,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[192].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[192]),
         .Q(dat_reg1[192]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38962,11 +38963,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[192].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[192]),
-        .Q(in0[192]),
-        .R(out));
+        .Q(value_latch[192]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38974,11 +38975,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[193].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[193]),
         .Q(dat_reg1[193]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38986,11 +38987,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[193].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[193]),
-        .Q(in0[193]),
-        .R(out));
+        .Q(value_latch[193]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -38998,11 +38999,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[194].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[194]),
         .Q(dat_reg1[194]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39010,11 +39011,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[194].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[194]),
-        .Q(in0[194]),
-        .R(out));
+        .Q(value_latch[194]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39022,11 +39023,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[195].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[195]),
         .Q(dat_reg1[195]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39034,11 +39035,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[195].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[195]),
-        .Q(in0[195]),
-        .R(out));
+        .Q(value_latch[195]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39046,11 +39047,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[196].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[196]),
         .Q(dat_reg1[196]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39058,11 +39059,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[196].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[196]),
-        .Q(in0[196]),
-        .R(out));
+        .Q(value_latch[196]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39070,11 +39071,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[197].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[197]),
         .Q(dat_reg1[197]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39082,11 +39083,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[197].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[197]),
-        .Q(in0[197]),
-        .R(out));
+        .Q(value_latch[197]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39094,11 +39095,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[198].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[198]),
         .Q(dat_reg1[198]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39106,11 +39107,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[198].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[198]),
-        .Q(in0[198]),
-        .R(out));
+        .Q(value_latch[198]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39118,11 +39119,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[199].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[199]),
         .Q(dat_reg1[199]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39130,11 +39131,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[199].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[199]),
-        .Q(in0[199]),
-        .R(out));
+        .Q(value_latch[199]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39142,11 +39143,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[19].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[19]),
         .Q(dat_reg1[19]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39154,11 +39155,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[19].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[19]),
-        .Q(in0[19]),
-        .R(out));
+        .Q(value_latch[19]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39166,11 +39167,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[1].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[1]),
         .Q(dat_reg1[1]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39178,11 +39179,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[1].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[1]),
-        .Q(in0[1]),
-        .R(out));
+        .Q(value_latch[1]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39190,11 +39191,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[200].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[200]),
         .Q(dat_reg1[200]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39202,11 +39203,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[200].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[200]),
-        .Q(in0[200]),
-        .R(out));
+        .Q(value_latch[200]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39214,11 +39215,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[201].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[201]),
         .Q(dat_reg1[201]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39226,11 +39227,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[201].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[201]),
-        .Q(in0[201]),
-        .R(out));
+        .Q(value_latch[201]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39238,11 +39239,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[202].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[202]),
         .Q(dat_reg1[202]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39250,11 +39251,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[202].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[202]),
-        .Q(in0[202]),
-        .R(out));
+        .Q(value_latch[202]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39262,11 +39263,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[203].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[203]),
         .Q(dat_reg1[203]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39274,11 +39275,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[203].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[203]),
-        .Q(in0[203]),
-        .R(out));
+        .Q(value_latch[203]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39286,11 +39287,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[204].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[204]),
         .Q(dat_reg1[204]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39298,11 +39299,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[204].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[204]),
-        .Q(in0[204]),
-        .R(out));
+        .Q(value_latch[204]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39310,11 +39311,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[205].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[205]),
         .Q(dat_reg1[205]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39322,11 +39323,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[205].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[205]),
-        .Q(in0[205]),
-        .R(out));
+        .Q(value_latch[205]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39334,11 +39335,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[206].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[206]),
         .Q(dat_reg1[206]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39346,11 +39347,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[206].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[206]),
-        .Q(in0[206]),
-        .R(out));
+        .Q(value_latch[206]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39358,11 +39359,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[207].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[207]),
         .Q(dat_reg1[207]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39370,11 +39371,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[207].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[207]),
-        .Q(in0[207]),
-        .R(out));
+        .Q(value_latch[207]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39382,11 +39383,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[208].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[208]),
         .Q(dat_reg1[208]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39394,11 +39395,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[208].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[208]),
-        .Q(in0[208]),
-        .R(out));
+        .Q(value_latch[208]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39406,11 +39407,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[209].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[209]),
         .Q(dat_reg1[209]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39418,11 +39419,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[209].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[209]),
-        .Q(in0[209]),
-        .R(out));
+        .Q(value_latch[209]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39430,11 +39431,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[20].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[20]),
         .Q(dat_reg1[20]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39442,11 +39443,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[20].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[20]),
-        .Q(in0[20]),
-        .R(out));
+        .Q(value_latch[20]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39454,11 +39455,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[210].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[210]),
         .Q(dat_reg1[210]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39466,11 +39467,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[210].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[210]),
-        .Q(in0[210]),
-        .R(out));
+        .Q(value_latch[210]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39478,11 +39479,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[211].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[211]),
         .Q(dat_reg1[211]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39490,11 +39491,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[211].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[211]),
-        .Q(in0[211]),
-        .R(out));
+        .Q(value_latch[211]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39502,11 +39503,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[212].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[212]),
         .Q(dat_reg1[212]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39514,11 +39515,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[212].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[212]),
-        .Q(in0[212]),
-        .R(out));
+        .Q(value_latch[212]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39526,11 +39527,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[213].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[213]),
         .Q(dat_reg1[213]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39538,11 +39539,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[213].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[213]),
-        .Q(in0[213]),
-        .R(out));
+        .Q(value_latch[213]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39550,11 +39551,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[214].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[214]),
         .Q(dat_reg1[214]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39562,11 +39563,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[214].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[214]),
-        .Q(in0[214]),
-        .R(out));
+        .Q(value_latch[214]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39574,11 +39575,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[215].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[215]),
         .Q(dat_reg1[215]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39586,11 +39587,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[215].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[215]),
-        .Q(in0[215]),
-        .R(out));
+        .Q(value_latch[215]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39598,11 +39599,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[216].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[216]),
         .Q(dat_reg1[216]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39610,11 +39611,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[216].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[216]),
-        .Q(in0[216]),
-        .R(out));
+        .Q(value_latch[216]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39622,11 +39623,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[217].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[217]),
         .Q(dat_reg1[217]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39634,11 +39635,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[217].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[217]),
-        .Q(in0[217]),
-        .R(out));
+        .Q(value_latch[217]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39646,11 +39647,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[218].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[218]),
         .Q(dat_reg1[218]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39658,11 +39659,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[218].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[218]),
-        .Q(in0[218]),
-        .R(out));
+        .Q(value_latch[218]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39670,11 +39671,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[219].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[219]),
         .Q(dat_reg1[219]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39682,11 +39683,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[219].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[219]),
-        .Q(in0[219]),
-        .R(out));
+        .Q(value_latch[219]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39694,11 +39695,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[21].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[21]),
         .Q(dat_reg1[21]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39706,11 +39707,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[21].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[21]),
-        .Q(in0[21]),
-        .R(out));
+        .Q(value_latch[21]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39718,11 +39719,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[220].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[220]),
         .Q(dat_reg1[220]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39730,11 +39731,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[220].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[220]),
-        .Q(in0[220]),
-        .R(out));
+        .Q(value_latch[220]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39742,11 +39743,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[221].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[221]),
         .Q(dat_reg1[221]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39754,11 +39755,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[221].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[221]),
-        .Q(in0[221]),
-        .R(out));
+        .Q(value_latch[221]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39766,11 +39767,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[222].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[222]),
         .Q(dat_reg1[222]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39778,11 +39779,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[222].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[222]),
-        .Q(in0[222]),
-        .R(out));
+        .Q(value_latch[222]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39790,11 +39791,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[223].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[223]),
         .Q(dat_reg1[223]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39802,11 +39803,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[223].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[223]),
-        .Q(in0[223]),
-        .R(out));
+        .Q(value_latch[223]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39814,11 +39815,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[224].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[224]),
         .Q(dat_reg1[224]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39826,11 +39827,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[224].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[224]),
-        .Q(in0[224]),
-        .R(out));
+        .Q(value_latch[224]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39838,11 +39839,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[225].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[225]),
         .Q(dat_reg1[225]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39850,11 +39851,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[225].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[225]),
-        .Q(in0[225]),
-        .R(out));
+        .Q(value_latch[225]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39862,11 +39863,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[226].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[226]),
         .Q(dat_reg1[226]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39874,11 +39875,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[226].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[226]),
-        .Q(in0[226]),
-        .R(out));
+        .Q(value_latch[226]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39886,11 +39887,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[227].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[227]),
         .Q(dat_reg1[227]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39898,11 +39899,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[227].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[227]),
-        .Q(in0[227]),
-        .R(out));
+        .Q(value_latch[227]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39910,11 +39911,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[228].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[228]),
         .Q(dat_reg1[228]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39922,11 +39923,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[228].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[228]),
-        .Q(in0[228]),
-        .R(out));
+        .Q(value_latch[228]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39934,11 +39935,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[229].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[229]),
         .Q(dat_reg1[229]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39946,11 +39947,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[229].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[229]),
-        .Q(in0[229]),
-        .R(out));
+        .Q(value_latch[229]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39958,11 +39959,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[22].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[22]),
         .Q(dat_reg1[22]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39970,11 +39971,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[22].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[22]),
-        .Q(in0[22]),
-        .R(out));
+        .Q(value_latch[22]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39982,11 +39983,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[230].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[230]),
         .Q(dat_reg1[230]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -39994,11 +39995,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[230].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[230]),
-        .Q(in0[230]),
-        .R(out));
+        .Q(value_latch[230]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40006,11 +40007,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[231].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[231]),
         .Q(dat_reg1[231]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40018,11 +40019,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[231].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[231]),
-        .Q(in0[231]),
-        .R(out));
+        .Q(value_latch[231]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40030,11 +40031,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[232].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[232]),
         .Q(dat_reg1[232]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40042,11 +40043,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[232].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[232]),
-        .Q(in0[232]),
-        .R(out));
+        .Q(value_latch[232]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40054,11 +40055,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[233].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[233]),
         .Q(dat_reg1[233]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40066,11 +40067,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[233].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[233]),
-        .Q(in0[233]),
-        .R(out));
+        .Q(value_latch[233]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40078,11 +40079,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[234].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[234]),
         .Q(dat_reg1[234]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40090,11 +40091,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[234].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[234]),
-        .Q(in0[234]),
-        .R(out));
+        .Q(value_latch[234]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40102,11 +40103,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[235].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[235]),
         .Q(dat_reg1[235]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40114,11 +40115,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[235].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[235]),
-        .Q(in0[235]),
-        .R(out));
+        .Q(value_latch[235]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40126,11 +40127,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[236].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[236]),
         .Q(dat_reg1[236]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40138,11 +40139,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[236].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[236]),
-        .Q(in0[236]),
-        .R(out));
+        .Q(value_latch[236]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40150,11 +40151,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[237].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[237]),
         .Q(dat_reg1[237]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40162,11 +40163,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[237].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[237]),
-        .Q(in0[237]),
-        .R(out));
+        .Q(value_latch[237]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40174,11 +40175,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[238].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[238]),
         .Q(dat_reg1[238]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40186,11 +40187,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[238].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[238]),
-        .Q(in0[238]),
-        .R(out));
+        .Q(value_latch[238]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40198,11 +40199,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[239].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[239]),
         .Q(dat_reg1[239]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40210,11 +40211,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[239].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[239]),
-        .Q(in0[239]),
-        .R(out));
+        .Q(value_latch[239]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40222,11 +40223,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[23].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[23]),
         .Q(dat_reg1[23]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40234,11 +40235,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[23].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[23]),
-        .Q(in0[23]),
-        .R(out));
+        .Q(value_latch[23]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40246,11 +40247,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[240].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[240]),
         .Q(dat_reg1[240]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40258,11 +40259,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[240].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[240]),
-        .Q(in0[240]),
-        .R(out));
+        .Q(value_latch[240]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40270,11 +40271,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[241].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[241]),
         .Q(dat_reg1[241]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40282,11 +40283,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[241].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[241]),
-        .Q(in0[241]),
-        .R(out));
+        .Q(value_latch[241]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40294,11 +40295,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[242].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[242]),
         .Q(dat_reg1[242]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40306,11 +40307,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[242].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[242]),
-        .Q(in0[242]),
-        .R(out));
+        .Q(value_latch[242]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40318,11 +40319,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[243].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[243]),
         .Q(dat_reg1[243]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40330,11 +40331,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[243].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[243]),
-        .Q(in0[243]),
-        .R(out));
+        .Q(value_latch[243]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40342,11 +40343,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[244].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[244]),
         .Q(dat_reg1[244]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40354,11 +40355,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[244].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[244]),
-        .Q(in0[244]),
-        .R(out));
+        .Q(value_latch[244]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40366,11 +40367,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[245].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[245]),
         .Q(dat_reg1[245]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40378,11 +40379,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[245].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[245]),
-        .Q(in0[245]),
-        .R(out));
+        .Q(value_latch[245]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40390,11 +40391,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[246].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[246]),
         .Q(dat_reg1[246]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40402,11 +40403,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[246].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[246]),
-        .Q(in0[246]),
-        .R(out));
+        .Q(value_latch[246]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40414,11 +40415,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[247].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[247]),
         .Q(dat_reg1[247]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40426,11 +40427,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[247].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[247]),
-        .Q(in0[247]),
-        .R(out));
+        .Q(value_latch[247]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40438,11 +40439,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[248].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[248]),
         .Q(dat_reg1[248]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40450,11 +40451,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[248].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[248]),
-        .Q(in0[248]),
-        .R(out));
+        .Q(value_latch[248]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40462,11 +40463,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[249].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[249]),
         .Q(dat_reg1[249]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40474,11 +40475,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[249].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[249]),
-        .Q(in0[249]),
-        .R(out));
+        .Q(value_latch[249]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40486,11 +40487,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[24].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[24]),
         .Q(dat_reg1[24]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40498,11 +40499,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[24].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[24]),
-        .Q(in0[24]),
-        .R(out));
+        .Q(value_latch[24]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40510,11 +40511,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[250].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[250]),
         .Q(dat_reg1[250]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40522,11 +40523,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[250].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[250]),
-        .Q(in0[250]),
-        .R(out));
+        .Q(value_latch[250]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40534,11 +40535,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[251].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[251]),
         .Q(dat_reg1[251]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40546,11 +40547,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[251].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[251]),
-        .Q(in0[251]),
-        .R(out));
+        .Q(value_latch[251]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40558,11 +40559,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[252].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[252]),
         .Q(dat_reg1[252]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40570,11 +40571,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[252].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[252]),
-        .Q(in0[252]),
-        .R(out));
+        .Q(value_latch[252]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40582,11 +40583,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[253].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[253]),
         .Q(dat_reg1[253]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40594,11 +40595,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[253].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[253]),
-        .Q(in0[253]),
-        .R(out));
+        .Q(value_latch[253]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40606,11 +40607,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[254].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[254]),
         .Q(dat_reg1[254]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40618,11 +40619,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[254].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[254]),
-        .Q(in0[254]),
-        .R(out));
+        .Q(value_latch[254]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40630,11 +40631,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[255].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[255]),
         .Q(dat_reg1[255]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40642,11 +40643,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[255].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[255]),
-        .Q(in0[255]),
-        .R(out));
+        .Q(value_latch[255]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40654,11 +40655,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[256].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[256]),
         .Q(dat_reg1[256]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40666,11 +40667,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[256].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[256]),
-        .Q(in0[256]),
-        .R(out));
+        .Q(value_latch[256]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40678,11 +40679,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[257].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[257]),
         .Q(dat_reg1[257]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40690,11 +40691,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[257].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[257]),
-        .Q(in0[257]),
-        .R(out));
+        .Q(value_latch[257]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40702,11 +40703,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[258].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[258]),
         .Q(dat_reg1[258]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40714,11 +40715,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[258].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[258]),
-        .Q(in0[258]),
-        .R(out));
+        .Q(value_latch[258]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40726,11 +40727,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[259].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[259]),
         .Q(dat_reg1[259]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40738,11 +40739,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[259].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[259]),
-        .Q(in0[259]),
-        .R(out));
+        .Q(value_latch[259]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40750,11 +40751,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[25].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[25]),
         .Q(dat_reg1[25]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40762,11 +40763,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[25].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[25]),
-        .Q(in0[25]),
-        .R(out));
+        .Q(value_latch[25]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40774,11 +40775,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[260].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[260]),
         .Q(dat_reg1[260]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40786,11 +40787,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[260].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[260]),
-        .Q(in0[260]),
-        .R(out));
+        .Q(value_latch[260]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40798,11 +40799,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[261].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[261]),
         .Q(dat_reg1[261]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40810,11 +40811,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[261].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[261]),
-        .Q(in0[261]),
-        .R(out));
+        .Q(value_latch[261]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40822,11 +40823,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[262].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[262]),
         .Q(dat_reg1[262]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40834,11 +40835,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[262].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[262]),
-        .Q(in0[262]),
-        .R(out));
+        .Q(value_latch[262]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40846,11 +40847,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[263].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[263]),
         .Q(dat_reg1[263]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40858,11 +40859,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[263].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[263]),
-        .Q(in0[263]),
-        .R(out));
+        .Q(value_latch[263]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40870,11 +40871,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[264].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[264]),
         .Q(dat_reg1[264]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40882,11 +40883,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[264].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[264]),
-        .Q(in0[264]),
-        .R(out));
+        .Q(value_latch[264]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40894,11 +40895,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[265].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[265]),
         .Q(dat_reg1[265]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40906,11 +40907,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[265].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[265]),
-        .Q(in0[265]),
-        .R(out));
+        .Q(value_latch[265]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40918,11 +40919,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[266].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[266]),
         .Q(dat_reg1[266]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40930,11 +40931,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[266].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[266]),
-        .Q(in0[266]),
-        .R(out));
+        .Q(value_latch[266]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40942,11 +40943,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[267].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[267]),
         .Q(dat_reg1[267]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40954,11 +40955,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[267].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[267]),
-        .Q(in0[267]),
-        .R(out));
+        .Q(value_latch[267]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40966,11 +40967,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[268].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[268]),
         .Q(dat_reg1[268]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40978,11 +40979,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[268].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[268]),
-        .Q(in0[268]),
-        .R(out));
+        .Q(value_latch[268]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -40990,11 +40991,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[269].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[269]),
         .Q(dat_reg1[269]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41002,11 +41003,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[269].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[269]),
-        .Q(in0[269]),
-        .R(out));
+        .Q(value_latch[269]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41014,11 +41015,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[26].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[26]),
         .Q(dat_reg1[26]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41026,11 +41027,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[26].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[26]),
-        .Q(in0[26]),
-        .R(out));
+        .Q(value_latch[26]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41038,11 +41039,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[270].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[270]),
         .Q(dat_reg1[270]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41050,11 +41051,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[270].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[270]),
-        .Q(in0[270]),
-        .R(out));
+        .Q(value_latch[270]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41062,11 +41063,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[271].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[271]),
         .Q(dat_reg1[271]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41074,11 +41075,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[271].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[271]),
-        .Q(in0[271]),
-        .R(out));
+        .Q(value_latch[271]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41086,11 +41087,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[272].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[272]),
         .Q(dat_reg1[272]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41098,11 +41099,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[272].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[272]),
-        .Q(in0[272]),
-        .R(out));
+        .Q(value_latch[272]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41110,11 +41111,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[273].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[273]),
         .Q(dat_reg1[273]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41122,11 +41123,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[273].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[273]),
-        .Q(in0[273]),
-        .R(out));
+        .Q(value_latch[273]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41134,11 +41135,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[274].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[274]),
         .Q(dat_reg1[274]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41146,11 +41147,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[274].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[274]),
-        .Q(in0[274]),
-        .R(out));
+        .Q(value_latch[274]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41158,11 +41159,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[275].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[275]),
         .Q(dat_reg1[275]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41170,11 +41171,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[275].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[275]),
-        .Q(in0[275]),
-        .R(out));
+        .Q(value_latch[275]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41182,11 +41183,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[276].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[276]),
         .Q(dat_reg1[276]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41194,11 +41195,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[276].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[276]),
-        .Q(in0[276]),
-        .R(out));
+        .Q(value_latch[276]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41206,11 +41207,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[277].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[277]),
         .Q(dat_reg1[277]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41218,11 +41219,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[277].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[277]),
-        .Q(in0[277]),
-        .R(out));
+        .Q(value_latch[277]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41230,11 +41231,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[278].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[278]),
         .Q(dat_reg1[278]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41242,11 +41243,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[278].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[278]),
-        .Q(in0[278]),
-        .R(out));
+        .Q(value_latch[278]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41254,11 +41255,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[279].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[279]),
         .Q(dat_reg1[279]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41266,11 +41267,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[279].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[279]),
-        .Q(in0[279]),
-        .R(out));
+        .Q(value_latch[279]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41278,11 +41279,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[27].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[27]),
         .Q(dat_reg1[27]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41290,11 +41291,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[27].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[27]),
-        .Q(in0[27]),
-        .R(out));
+        .Q(value_latch[27]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41302,11 +41303,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[280].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[280]),
         .Q(dat_reg1[280]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41314,11 +41315,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[280].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[280]),
-        .Q(in0[280]),
-        .R(out));
+        .Q(value_latch[280]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41326,11 +41327,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[281].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[281]),
         .Q(dat_reg1[281]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41338,11 +41339,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[281].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[281]),
-        .Q(in0[281]),
-        .R(out));
+        .Q(value_latch[281]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41350,11 +41351,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[282].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[282]),
         .Q(dat_reg1[282]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41362,11 +41363,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[282].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[282]),
-        .Q(in0[282]),
-        .R(out));
+        .Q(value_latch[282]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41374,11 +41375,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[283].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[283]),
         .Q(dat_reg1[283]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41386,11 +41387,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[283].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[283]),
-        .Q(in0[283]),
-        .R(out));
+        .Q(value_latch[283]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41398,11 +41399,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[284].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[284]),
         .Q(dat_reg1[284]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41410,11 +41411,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[284].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[284]),
-        .Q(in0[284]),
-        .R(out));
+        .Q(value_latch[284]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41422,11 +41423,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[285].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[285]),
         .Q(dat_reg1[285]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41434,11 +41435,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[285].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[285]),
-        .Q(in0[285]),
-        .R(out));
+        .Q(value_latch[285]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41446,11 +41447,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[286].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[286]),
         .Q(dat_reg1[286]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41458,11 +41459,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[286].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[286]),
-        .Q(in0[286]),
-        .R(out));
+        .Q(value_latch[286]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41470,11 +41471,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[287].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[287]),
         .Q(dat_reg1[287]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41482,11 +41483,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[287].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[287]),
-        .Q(in0[287]),
-        .R(out));
+        .Q(value_latch[287]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41494,11 +41495,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[288].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[288]),
         .Q(dat_reg1[288]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41506,11 +41507,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[288].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[288]),
-        .Q(in0[288]),
-        .R(out));
+        .Q(value_latch[288]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41518,11 +41519,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[289].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[289]),
         .Q(dat_reg1[289]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41530,11 +41531,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[289].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[289]),
-        .Q(in0[289]),
-        .R(out));
+        .Q(value_latch[289]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41542,11 +41543,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[28].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[28]),
         .Q(dat_reg1[28]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41554,11 +41555,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[28].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[28]),
-        .Q(in0[28]),
-        .R(out));
+        .Q(value_latch[28]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41566,11 +41567,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[290].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[290]),
         .Q(dat_reg1[290]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41578,11 +41579,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[290].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[290]),
-        .Q(in0[290]),
-        .R(out));
+        .Q(value_latch[290]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41590,11 +41591,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[291].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[291]),
         .Q(dat_reg1[291]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41602,11 +41603,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[291].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[291]),
-        .Q(in0[291]),
-        .R(out));
+        .Q(value_latch[291]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41614,11 +41615,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[292].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[292]),
         .Q(dat_reg1[292]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41626,11 +41627,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[292].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[292]),
-        .Q(in0[292]),
-        .R(out));
+        .Q(value_latch[292]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41638,11 +41639,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[293].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[293]),
         .Q(dat_reg1[293]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41650,11 +41651,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[293].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[293]),
-        .Q(in0[293]),
-        .R(out));
+        .Q(value_latch[293]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41662,11 +41663,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[294].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[294]),
         .Q(dat_reg1[294]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41674,11 +41675,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[294].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[294]),
-        .Q(in0[294]),
-        .R(out));
+        .Q(value_latch[294]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41686,11 +41687,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[295].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[295]),
         .Q(dat_reg1[295]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41698,11 +41699,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[295].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[295]),
-        .Q(in0[295]),
-        .R(out));
+        .Q(value_latch[295]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41710,11 +41711,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[296].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[296]),
         .Q(dat_reg1[296]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41722,11 +41723,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[296].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[296]),
-        .Q(in0[296]),
-        .R(out));
+        .Q(value_latch[296]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41734,11 +41735,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[297].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[297]),
         .Q(dat_reg1[297]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41746,11 +41747,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[297].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[297]),
-        .Q(in0[297]),
-        .R(out));
+        .Q(value_latch[297]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41758,11 +41759,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[298].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[298]),
         .Q(dat_reg1[298]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41770,11 +41771,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[298].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[298]),
-        .Q(in0[298]),
-        .R(out));
+        .Q(value_latch[298]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41782,11 +41783,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[299].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[299]),
         .Q(dat_reg1[299]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41794,11 +41795,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[299].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[299]),
-        .Q(in0[299]),
-        .R(out));
+        .Q(value_latch[299]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41806,11 +41807,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[29].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[29]),
         .Q(dat_reg1[29]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41818,11 +41819,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[29].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[29]),
-        .Q(in0[29]),
-        .R(out));
+        .Q(value_latch[29]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41830,11 +41831,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[2].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[2]),
         .Q(dat_reg1[2]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41842,11 +41843,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[2].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[2]),
-        .Q(in0[2]),
-        .R(out));
+        .Q(value_latch[2]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41854,11 +41855,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[300].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[300]),
         .Q(dat_reg1[300]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41866,11 +41867,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[300].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[300]),
-        .Q(in0[300]),
-        .R(out));
+        .Q(value_latch[300]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41878,11 +41879,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[301].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[301]),
         .Q(dat_reg1[301]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41890,11 +41891,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[301].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[301]),
-        .Q(in0[301]),
-        .R(out));
+        .Q(value_latch[301]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41902,11 +41903,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[302].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[302]),
         .Q(dat_reg1[302]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41914,11 +41915,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[302].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[302]),
-        .Q(in0[302]),
-        .R(out));
+        .Q(value_latch[302]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41926,11 +41927,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[303].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[303]),
         .Q(dat_reg1[303]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41938,11 +41939,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[303].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[303]),
-        .Q(in0[303]),
-        .R(out));
+        .Q(value_latch[303]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41950,11 +41951,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[304].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[304]),
         .Q(dat_reg1[304]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41962,11 +41963,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[304].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[304]),
-        .Q(in0[304]),
-        .R(out));
+        .Q(value_latch[304]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41974,11 +41975,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[305].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[305]),
         .Q(dat_reg1[305]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41986,11 +41987,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[305].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[305]),
-        .Q(in0[305]),
-        .R(out));
+        .Q(value_latch[305]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -41998,11 +41999,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[306].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[306]),
         .Q(dat_reg1[306]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42010,11 +42011,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[306].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[306]),
-        .Q(in0[306]),
-        .R(out));
+        .Q(value_latch[306]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42022,11 +42023,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[307].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[307]),
         .Q(dat_reg1[307]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42034,11 +42035,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[307].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[307]),
-        .Q(in0[307]),
-        .R(out));
+        .Q(value_latch[307]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42046,11 +42047,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[308].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[308]),
         .Q(dat_reg1[308]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42058,11 +42059,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[308].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[308]),
-        .Q(in0[308]),
-        .R(out));
+        .Q(value_latch[308]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42070,11 +42071,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[309].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[309]),
         .Q(dat_reg1[309]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42082,11 +42083,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[309].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[309]),
-        .Q(in0[309]),
-        .R(out));
+        .Q(value_latch[309]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42094,11 +42095,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[30].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[30]),
         .Q(dat_reg1[30]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42106,11 +42107,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[30].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[30]),
-        .Q(in0[30]),
-        .R(out));
+        .Q(value_latch[30]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42118,11 +42119,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[310].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[310]),
         .Q(dat_reg1[310]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42130,11 +42131,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[310].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[310]),
-        .Q(in0[310]),
-        .R(out));
+        .Q(value_latch[310]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42142,11 +42143,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[311].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[311]),
         .Q(dat_reg1[311]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42154,11 +42155,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[311].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[311]),
-        .Q(in0[311]),
-        .R(out));
+        .Q(value_latch[311]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42166,11 +42167,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[312].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[312]),
         .Q(dat_reg1[312]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42178,11 +42179,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[312].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[312]),
-        .Q(in0[312]),
-        .R(out));
+        .Q(value_latch[312]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42190,11 +42191,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[313].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[313]),
         .Q(dat_reg1[313]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42202,11 +42203,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[313].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[313]),
-        .Q(in0[313]),
-        .R(out));
+        .Q(value_latch[313]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42214,11 +42215,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[314].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[314]),
         .Q(dat_reg1[314]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42226,11 +42227,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[314].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[314]),
-        .Q(in0[314]),
-        .R(out));
+        .Q(value_latch[314]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42238,11 +42239,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[315].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[315]),
         .Q(dat_reg1[315]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42250,11 +42251,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[315].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[315]),
-        .Q(in0[315]),
-        .R(out));
+        .Q(value_latch[315]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42262,11 +42263,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[316].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[316]),
         .Q(dat_reg1[316]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42274,11 +42275,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[316].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[316]),
-        .Q(in0[316]),
-        .R(out));
+        .Q(value_latch[316]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42286,11 +42287,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[317].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[317]),
         .Q(dat_reg1[317]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42298,11 +42299,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[317].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[317]),
-        .Q(in0[317]),
-        .R(out));
+        .Q(value_latch[317]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42310,11 +42311,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[318].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[318]),
         .Q(dat_reg1[318]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42322,11 +42323,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[318].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[318]),
-        .Q(in0[318]),
-        .R(out));
+        .Q(value_latch[318]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42334,11 +42335,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[319].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[319]),
         .Q(dat_reg1[319]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42346,11 +42347,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[319].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[319]),
-        .Q(in0[319]),
-        .R(out));
+        .Q(value_latch[319]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42358,11 +42359,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[31].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[31]),
         .Q(dat_reg1[31]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42370,11 +42371,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[31].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[31]),
-        .Q(in0[31]),
-        .R(out));
+        .Q(value_latch[31]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42382,11 +42383,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[320].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[320]),
         .Q(dat_reg1[320]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42394,11 +42395,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[320].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[320]),
-        .Q(in0[320]),
-        .R(out));
+        .Q(value_latch[320]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42406,11 +42407,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[321].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[321]),
         .Q(dat_reg1[321]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42418,11 +42419,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[321].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[321]),
-        .Q(in0[321]),
-        .R(out));
+        .Q(value_latch[321]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42430,11 +42431,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[322].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[322]),
         .Q(dat_reg1[322]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42442,11 +42443,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[322].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[322]),
-        .Q(in0[322]),
-        .R(out));
+        .Q(value_latch[322]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42454,11 +42455,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[323].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[323]),
         .Q(dat_reg1[323]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42466,11 +42467,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[323].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[323]),
-        .Q(in0[323]),
-        .R(out));
+        .Q(value_latch[323]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42478,11 +42479,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[324].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[324]),
         .Q(dat_reg1[324]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42490,11 +42491,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[324].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[324]),
-        .Q(in0[324]),
-        .R(out));
+        .Q(value_latch[324]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42502,11 +42503,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[325].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[325]),
         .Q(dat_reg1[325]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42514,11 +42515,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[325].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[325]),
-        .Q(in0[325]),
-        .R(out));
+        .Q(value_latch[325]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42526,11 +42527,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[326].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[326]),
         .Q(dat_reg1[326]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42538,11 +42539,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[326].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[326]),
-        .Q(in0[326]),
-        .R(out));
+        .Q(value_latch[326]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42550,11 +42551,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[327].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[327]),
         .Q(dat_reg1[327]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42562,11 +42563,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[327].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[327]),
-        .Q(in0[327]),
-        .R(out));
+        .Q(value_latch[327]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42574,11 +42575,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[328].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[328]),
         .Q(dat_reg1[328]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42586,11 +42587,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[328].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[328]),
-        .Q(in0[328]),
-        .R(out));
+        .Q(value_latch[328]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42598,11 +42599,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[329].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[329]),
         .Q(dat_reg1[329]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42610,11 +42611,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[329].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[329]),
-        .Q(in0[329]),
-        .R(out));
+        .Q(value_latch[329]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42622,11 +42623,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[32].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[32]),
         .Q(dat_reg1[32]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42634,11 +42635,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[32].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[32]),
-        .Q(in0[32]),
-        .R(out));
+        .Q(value_latch[32]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42646,11 +42647,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[330].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[330]),
         .Q(dat_reg1[330]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42658,11 +42659,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[330].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[330]),
-        .Q(in0[330]),
-        .R(out));
+        .Q(value_latch[330]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42670,11 +42671,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[331].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[331]),
         .Q(dat_reg1[331]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42682,11 +42683,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[331].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[331]),
-        .Q(in0[331]),
-        .R(out));
+        .Q(value_latch[331]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42694,11 +42695,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[332].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[332]),
         .Q(dat_reg1[332]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42706,11 +42707,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[332].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[332]),
-        .Q(in0[332]),
-        .R(out));
+        .Q(value_latch[332]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42718,11 +42719,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[333].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[333]),
         .Q(dat_reg1[333]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42730,11 +42731,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[333].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[333]),
-        .Q(in0[333]),
-        .R(out));
+        .Q(value_latch[333]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42742,11 +42743,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[334].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[334]),
         .Q(dat_reg1[334]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42754,11 +42755,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[334].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[334]),
-        .Q(in0[334]),
-        .R(out));
+        .Q(value_latch[334]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42766,11 +42767,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[335].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[335]),
         .Q(dat_reg1[335]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42778,11 +42779,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[335].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[335]),
-        .Q(in0[335]),
-        .R(out));
+        .Q(value_latch[335]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42790,11 +42791,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[336].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[336]),
         .Q(dat_reg1[336]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42802,11 +42803,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[336].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[336]),
-        .Q(in0[336]),
-        .R(out));
+        .Q(value_latch[336]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42814,11 +42815,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[337].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[337]),
         .Q(dat_reg1[337]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42826,11 +42827,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[337].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[337]),
-        .Q(in0[337]),
-        .R(out));
+        .Q(value_latch[337]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42838,11 +42839,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[338].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[338]),
         .Q(dat_reg1[338]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42850,11 +42851,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[338].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[338]),
-        .Q(in0[338]),
-        .R(out));
+        .Q(value_latch[338]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42862,11 +42863,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[339].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[339]),
         .Q(dat_reg1[339]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42874,11 +42875,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[339].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[339]),
-        .Q(in0[339]),
-        .R(out));
+        .Q(value_latch[339]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42886,11 +42887,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[33].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[33]),
         .Q(dat_reg1[33]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42898,11 +42899,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[33].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[33]),
-        .Q(in0[33]),
-        .R(out));
+        .Q(value_latch[33]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42910,11 +42911,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[340].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[340]),
         .Q(dat_reg1[340]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42922,11 +42923,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[340].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[340]),
-        .Q(in0[340]),
-        .R(out));
+        .Q(value_latch[340]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42934,11 +42935,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[341].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[341]),
         .Q(dat_reg1[341]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42946,11 +42947,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[341].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[341]),
-        .Q(in0[341]),
-        .R(out));
+        .Q(value_latch[341]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42958,11 +42959,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[342].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[342]),
         .Q(dat_reg1[342]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42970,11 +42971,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[342].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[342]),
-        .Q(in0[342]),
-        .R(out));
+        .Q(value_latch[342]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42982,11 +42983,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[343].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[343]),
         .Q(dat_reg1[343]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -42994,11 +42995,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[343].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[343]),
-        .Q(in0[343]),
-        .R(out));
+        .Q(value_latch[343]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43006,11 +43007,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[344].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[344]),
         .Q(dat_reg1[344]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43018,11 +43019,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[344].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[344]),
-        .Q(in0[344]),
-        .R(out));
+        .Q(value_latch[344]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43030,11 +43031,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[345].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[345]),
         .Q(dat_reg1[345]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43042,11 +43043,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[345].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[345]),
-        .Q(in0[345]),
-        .R(out));
+        .Q(value_latch[345]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43054,11 +43055,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[346].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[346]),
         .Q(dat_reg1[346]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43066,11 +43067,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[346].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[346]),
-        .Q(in0[346]),
-        .R(out));
+        .Q(value_latch[346]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43078,11 +43079,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[347].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[347]),
         .Q(dat_reg1[347]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43090,11 +43091,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[347].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[347]),
-        .Q(in0[347]),
-        .R(out));
+        .Q(value_latch[347]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43102,11 +43103,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[348].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[348]),
         .Q(dat_reg1[348]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43114,11 +43115,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[348].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[348]),
-        .Q(in0[348]),
-        .R(out));
+        .Q(value_latch[348]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43126,11 +43127,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[349].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[349]),
         .Q(dat_reg1[349]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43138,11 +43139,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[349].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[349]),
-        .Q(in0[349]),
-        .R(out));
+        .Q(value_latch[349]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43150,11 +43151,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[34].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[34]),
         .Q(dat_reg1[34]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43162,11 +43163,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[34].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[34]),
-        .Q(in0[34]),
-        .R(out));
+        .Q(value_latch[34]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43174,11 +43175,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[350].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[350]),
         .Q(dat_reg1[350]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43186,11 +43187,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[350].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[350]),
-        .Q(in0[350]),
-        .R(out));
+        .Q(value_latch[350]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43198,11 +43199,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[351].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[351]),
         .Q(dat_reg1[351]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43210,11 +43211,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[351].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[351]),
-        .Q(in0[351]),
-        .R(out));
+        .Q(value_latch[351]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43222,11 +43223,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[352].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[352]),
         .Q(dat_reg1[352]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43234,11 +43235,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[352].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[352]),
-        .Q(in0[352]),
-        .R(out));
+        .Q(value_latch[352]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43246,11 +43247,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[353].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[353]),
         .Q(dat_reg1[353]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43258,11 +43259,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[353].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[353]),
-        .Q(in0[353]),
-        .R(out));
+        .Q(value_latch[353]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43270,11 +43271,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[354].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[354]),
         .Q(dat_reg1[354]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43282,11 +43283,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[354].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[354]),
-        .Q(in0[354]),
-        .R(out));
+        .Q(value_latch[354]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43294,11 +43295,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[355].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[355]),
         .Q(dat_reg1[355]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43306,11 +43307,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[355].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[355]),
-        .Q(in0[355]),
-        .R(out));
+        .Q(value_latch[355]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43318,11 +43319,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[356].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[356]),
         .Q(dat_reg1[356]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43330,11 +43331,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[356].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[356]),
-        .Q(in0[356]),
-        .R(out));
+        .Q(value_latch[356]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43342,11 +43343,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[357].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[357]),
         .Q(dat_reg1[357]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43354,11 +43355,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[357].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[357]),
-        .Q(in0[357]),
-        .R(out));
+        .Q(value_latch[357]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43366,11 +43367,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[358].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[358]),
         .Q(dat_reg1[358]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43378,11 +43379,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[358].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[358]),
-        .Q(in0[358]),
-        .R(out));
+        .Q(value_latch[358]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43390,11 +43391,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[359].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[359]),
         .Q(dat_reg1[359]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43402,11 +43403,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[359].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[359]),
-        .Q(in0[359]),
-        .R(out));
+        .Q(value_latch[359]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43414,11 +43415,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[35].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[35]),
         .Q(dat_reg1[35]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43426,11 +43427,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[35].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[35]),
-        .Q(in0[35]),
-        .R(out));
+        .Q(value_latch[35]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43438,11 +43439,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[360].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[360]),
         .Q(dat_reg1[360]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43450,11 +43451,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[360].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[360]),
-        .Q(in0[360]),
-        .R(out));
+        .Q(value_latch[360]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43462,11 +43463,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[361].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[361]),
         .Q(dat_reg1[361]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43474,11 +43475,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[361].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[361]),
-        .Q(in0[361]),
-        .R(out));
+        .Q(value_latch[361]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43486,11 +43487,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[362].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[362]),
         .Q(dat_reg1[362]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43498,11 +43499,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[362].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[362]),
-        .Q(in0[362]),
-        .R(out));
+        .Q(value_latch[362]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43510,11 +43511,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[363].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[363]),
         .Q(dat_reg1[363]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43522,11 +43523,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[363].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[363]),
-        .Q(in0[363]),
-        .R(out));
+        .Q(value_latch[363]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43534,11 +43535,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[364].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[364]),
         .Q(dat_reg1[364]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43546,11 +43547,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[364].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[364]),
-        .Q(in0[364]),
-        .R(out));
+        .Q(value_latch[364]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43558,11 +43559,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[365].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[365]),
         .Q(dat_reg1[365]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43570,11 +43571,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[365].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[365]),
-        .Q(in0[365]),
-        .R(out));
+        .Q(value_latch[365]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43582,11 +43583,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[366].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[366]),
         .Q(dat_reg1[366]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43594,11 +43595,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[366].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[366]),
-        .Q(in0[366]),
-        .R(out));
+        .Q(value_latch[366]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43606,11 +43607,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[367].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[367]),
         .Q(dat_reg1[367]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43618,11 +43619,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[367].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[367]),
-        .Q(in0[367]),
-        .R(out));
+        .Q(value_latch[367]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43630,11 +43631,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[368].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[368]),
         .Q(dat_reg1[368]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43642,11 +43643,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[368].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[368]),
-        .Q(in0[368]),
-        .R(out));
+        .Q(value_latch[368]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43654,11 +43655,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[369].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[369]),
         .Q(dat_reg1[369]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43666,11 +43667,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[369].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[369]),
-        .Q(in0[369]),
-        .R(out));
+        .Q(value_latch[369]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43678,11 +43679,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[36].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[36]),
         .Q(dat_reg1[36]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43690,11 +43691,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[36].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[36]),
-        .Q(in0[36]),
-        .R(out));
+        .Q(value_latch[36]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43702,11 +43703,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[370].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[370]),
         .Q(dat_reg1[370]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43714,11 +43715,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[370].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[370]),
-        .Q(in0[370]),
-        .R(out));
+        .Q(value_latch[370]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43726,11 +43727,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[371].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[371]),
         .Q(dat_reg1[371]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43738,11 +43739,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[371].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[371]),
-        .Q(in0[371]),
-        .R(out));
+        .Q(value_latch[371]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43750,11 +43751,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[372].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[372]),
         .Q(dat_reg1[372]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43762,11 +43763,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[372].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[372]),
-        .Q(in0[372]),
-        .R(out));
+        .Q(value_latch[372]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43774,11 +43775,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[373].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[373]),
         .Q(dat_reg1[373]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43786,11 +43787,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[373].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[373]),
-        .Q(in0[373]),
-        .R(out));
+        .Q(value_latch[373]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43798,11 +43799,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[374].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[374]),
         .Q(dat_reg1[374]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43810,11 +43811,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[374].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[374]),
-        .Q(in0[374]),
-        .R(out));
+        .Q(value_latch[374]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43822,11 +43823,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[375].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[375]),
         .Q(dat_reg1[375]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43834,11 +43835,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[375].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[375]),
-        .Q(in0[375]),
-        .R(out));
+        .Q(value_latch[375]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43846,11 +43847,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[376].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[376]),
         .Q(dat_reg1[376]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43858,11 +43859,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[376].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[376]),
-        .Q(in0[376]),
-        .R(out));
+        .Q(value_latch[376]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43870,11 +43871,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[377].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[377]),
         .Q(dat_reg1[377]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43882,11 +43883,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[377].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[377]),
-        .Q(in0[377]),
-        .R(out));
+        .Q(value_latch[377]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43894,11 +43895,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[378].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[378]),
         .Q(dat_reg1[378]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43906,11 +43907,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[378].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[378]),
-        .Q(in0[378]),
-        .R(out));
+        .Q(value_latch[378]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43918,11 +43919,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[379].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[379]),
         .Q(dat_reg1[379]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43930,11 +43931,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[379].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[379]),
-        .Q(in0[379]),
-        .R(out));
+        .Q(value_latch[379]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43942,11 +43943,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[37].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[37]),
         .Q(dat_reg1[37]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43954,11 +43955,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[37].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[37]),
-        .Q(in0[37]),
-        .R(out));
+        .Q(value_latch[37]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43966,11 +43967,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[380].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[380]),
         .Q(dat_reg1[380]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43978,11 +43979,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[380].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[380]),
-        .Q(in0[380]),
-        .R(out));
+        .Q(value_latch[380]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -43990,11 +43991,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[381].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[381]),
         .Q(dat_reg1[381]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44002,11 +44003,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[381].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[381]),
-        .Q(in0[381]),
-        .R(out));
+        .Q(value_latch[381]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44014,11 +44015,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[382].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[382]),
         .Q(dat_reg1[382]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44026,11 +44027,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[382].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[382]),
-        .Q(in0[382]),
-        .R(out));
+        .Q(value_latch[382]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44038,11 +44039,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[383].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[383]),
         .Q(dat_reg1[383]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44050,11 +44051,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[383].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[383]),
-        .Q(in0[383]),
-        .R(out));
+        .Q(value_latch[383]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44062,11 +44063,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[384].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[384]),
         .Q(dat_reg1[384]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44074,11 +44075,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[384].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[384]),
-        .Q(in0[384]),
-        .R(out));
+        .Q(value_latch[384]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44086,11 +44087,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[385].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[385]),
         .Q(dat_reg1[385]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44098,11 +44099,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[385].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[385]),
-        .Q(in0[385]),
-        .R(out));
+        .Q(value_latch[385]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44110,11 +44111,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[386].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[386]),
         .Q(dat_reg1[386]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44122,11 +44123,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[386].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[386]),
-        .Q(in0[386]),
-        .R(out));
+        .Q(value_latch[386]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44134,11 +44135,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[387].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[387]),
         .Q(dat_reg1[387]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44146,11 +44147,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[387].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[387]),
-        .Q(in0[387]),
-        .R(out));
+        .Q(value_latch[387]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44158,11 +44159,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[388].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[388]),
         .Q(dat_reg1[388]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44170,11 +44171,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[388].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[388]),
-        .Q(in0[388]),
-        .R(out));
+        .Q(value_latch[388]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44182,11 +44183,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[389].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[389]),
         .Q(dat_reg1[389]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44194,11 +44195,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[389].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[389]),
-        .Q(in0[389]),
-        .R(out));
+        .Q(value_latch[389]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44206,11 +44207,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[38].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[38]),
         .Q(dat_reg1[38]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44218,11 +44219,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[38].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[38]),
-        .Q(in0[38]),
-        .R(out));
+        .Q(value_latch[38]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44230,11 +44231,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[390].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[390]),
         .Q(dat_reg1[390]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44242,11 +44243,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[390].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[390]),
-        .Q(in0[390]),
-        .R(out));
+        .Q(value_latch[390]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44254,11 +44255,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[391].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[391]),
         .Q(dat_reg1[391]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44266,11 +44267,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[391].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[391]),
-        .Q(in0[391]),
-        .R(out));
+        .Q(value_latch[391]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44278,11 +44279,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[392].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[392]),
         .Q(dat_reg1[392]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44290,11 +44291,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[392].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[392]),
-        .Q(in0[392]),
-        .R(out));
+        .Q(value_latch[392]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44302,11 +44303,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[393].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[393]),
         .Q(dat_reg1[393]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44314,11 +44315,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[393].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[393]),
-        .Q(in0[393]),
-        .R(out));
+        .Q(value_latch[393]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44326,11 +44327,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[394].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[394]),
         .Q(dat_reg1[394]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44338,11 +44339,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[394].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[394]),
-        .Q(in0[394]),
-        .R(out));
+        .Q(value_latch[394]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44350,11 +44351,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[395].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[395]),
         .Q(dat_reg1[395]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44362,11 +44363,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[395].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[395]),
-        .Q(in0[395]),
-        .R(out));
+        .Q(value_latch[395]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44374,11 +44375,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[396].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[396]),
         .Q(dat_reg1[396]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44386,11 +44387,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[396].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[396]),
-        .Q(in0[396]),
-        .R(out));
+        .Q(value_latch[396]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44398,11 +44399,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[397].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[397]),
         .Q(dat_reg1[397]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44410,11 +44411,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[397].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[397]),
-        .Q(in0[397]),
-        .R(out));
+        .Q(value_latch[397]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44422,11 +44423,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[398].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[398]),
         .Q(dat_reg1[398]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44434,11 +44435,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[398].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[398]),
-        .Q(in0[398]),
-        .R(out));
+        .Q(value_latch[398]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44446,11 +44447,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[399].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[399]),
         .Q(dat_reg1[399]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44458,11 +44459,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[399].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[399]),
-        .Q(in0[399]),
-        .R(out));
+        .Q(value_latch[399]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44470,11 +44471,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[39].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[39]),
         .Q(dat_reg1[39]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44482,11 +44483,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[39].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[39]),
-        .Q(in0[39]),
-        .R(out));
+        .Q(value_latch[39]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44494,11 +44495,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[3].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[3]),
         .Q(dat_reg1[3]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44506,11 +44507,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[3].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[3]),
-        .Q(in0[3]),
-        .R(out));
+        .Q(value_latch[3]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44518,11 +44519,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[400].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[400]),
         .Q(dat_reg1[400]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44530,11 +44531,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[400].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[400]),
-        .Q(in0[400]),
-        .R(out));
+        .Q(value_latch[400]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44542,11 +44543,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[401].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[401]),
         .Q(dat_reg1[401]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44554,11 +44555,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[401].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[401]),
-        .Q(in0[401]),
-        .R(out));
+        .Q(value_latch[401]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44566,11 +44567,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[402].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[402]),
         .Q(dat_reg1[402]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44578,11 +44579,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[402].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[402]),
-        .Q(in0[402]),
-        .R(out));
+        .Q(value_latch[402]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44590,11 +44591,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[403].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[403]),
         .Q(dat_reg1[403]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44602,11 +44603,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[403].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[403]),
-        .Q(in0[403]),
-        .R(out));
+        .Q(value_latch[403]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44614,11 +44615,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[404].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[404]),
         .Q(dat_reg1[404]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44626,11 +44627,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[404].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[404]),
-        .Q(in0[404]),
-        .R(out));
+        .Q(value_latch[404]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44638,11 +44639,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[405].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[405]),
         .Q(dat_reg1[405]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44650,11 +44651,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[405].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[405]),
-        .Q(in0[405]),
-        .R(out));
+        .Q(value_latch[405]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44662,11 +44663,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[406].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[406]),
         .Q(dat_reg1[406]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44674,11 +44675,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[406].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[406]),
-        .Q(in0[406]),
-        .R(out));
+        .Q(value_latch[406]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44686,11 +44687,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[407].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[407]),
         .Q(dat_reg1[407]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44698,11 +44699,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[407].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[407]),
-        .Q(in0[407]),
-        .R(out));
+        .Q(value_latch[407]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44710,11 +44711,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[408].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[408]),
         .Q(dat_reg1[408]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44722,11 +44723,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[408].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[408]),
-        .Q(in0[408]),
-        .R(out));
+        .Q(value_latch[408]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44734,11 +44735,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[409].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[409]),
         .Q(dat_reg1[409]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44746,11 +44747,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[409].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[409]),
-        .Q(in0[409]),
-        .R(out));
+        .Q(value_latch[409]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44758,11 +44759,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[40].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[40]),
         .Q(dat_reg1[40]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44770,11 +44771,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[40].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[40]),
-        .Q(in0[40]),
-        .R(out));
+        .Q(value_latch[40]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44782,11 +44783,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[410].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[410]),
         .Q(dat_reg1[410]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44794,11 +44795,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[410].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[410]),
-        .Q(in0[410]),
-        .R(out));
+        .Q(value_latch[410]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44806,11 +44807,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[411].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[411]),
         .Q(dat_reg1[411]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44818,11 +44819,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[411].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[411]),
-        .Q(in0[411]),
-        .R(out));
+        .Q(value_latch[411]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44830,11 +44831,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[412].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[412]),
         .Q(dat_reg1[412]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44842,11 +44843,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[412].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[412]),
-        .Q(in0[412]),
-        .R(out));
+        .Q(value_latch[412]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44854,11 +44855,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[413].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[413]),
         .Q(dat_reg1[413]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44866,11 +44867,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[413].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[413]),
-        .Q(in0[413]),
-        .R(out));
+        .Q(value_latch[413]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44878,11 +44879,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[414].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[414]),
         .Q(dat_reg1[414]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44890,11 +44891,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[414].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[414]),
-        .Q(in0[414]),
-        .R(out));
+        .Q(value_latch[414]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44902,11 +44903,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[415].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[415]),
         .Q(dat_reg1[415]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44914,11 +44915,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[415].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[415]),
-        .Q(in0[415]),
-        .R(out));
+        .Q(value_latch[415]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44926,11 +44927,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[416].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[416]),
         .Q(dat_reg1[416]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44938,11 +44939,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[416].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[416]),
-        .Q(in0[416]),
-        .R(out));
+        .Q(value_latch[416]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44950,11 +44951,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[417].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[417]),
         .Q(dat_reg1[417]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44962,11 +44963,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[417].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[417]),
-        .Q(in0[417]),
-        .R(out));
+        .Q(value_latch[417]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44974,11 +44975,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[418].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[418]),
         .Q(dat_reg1[418]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44986,11 +44987,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[418].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[418]),
-        .Q(in0[418]),
-        .R(out));
+        .Q(value_latch[418]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -44998,11 +44999,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[419].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[419]),
         .Q(dat_reg1[419]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45010,11 +45011,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[419].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[419]),
-        .Q(in0[419]),
-        .R(out));
+        .Q(value_latch[419]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45022,11 +45023,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[41].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[41]),
         .Q(dat_reg1[41]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45034,11 +45035,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[41].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[41]),
-        .Q(in0[41]),
-        .R(out));
+        .Q(value_latch[41]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45046,11 +45047,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[420].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[420]),
         .Q(dat_reg1[420]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45058,11 +45059,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[420].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[420]),
-        .Q(in0[420]),
-        .R(out));
+        .Q(value_latch[420]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45070,11 +45071,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[421].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[421]),
         .Q(dat_reg1[421]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45082,11 +45083,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[421].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[421]),
-        .Q(in0[421]),
-        .R(out));
+        .Q(value_latch[421]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45094,11 +45095,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[422].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[422]),
         .Q(dat_reg1[422]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45106,11 +45107,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[422].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[422]),
-        .Q(in0[422]),
-        .R(out));
+        .Q(value_latch[422]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45118,11 +45119,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[423].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[423]),
         .Q(dat_reg1[423]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45130,11 +45131,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[423].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[423]),
-        .Q(in0[423]),
-        .R(out));
+        .Q(value_latch[423]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45142,11 +45143,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[424].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[424]),
         .Q(dat_reg1[424]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45154,11 +45155,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[424].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[424]),
-        .Q(in0[424]),
-        .R(out));
+        .Q(value_latch[424]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45166,11 +45167,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[425].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[425]),
         .Q(dat_reg1[425]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45178,11 +45179,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[425].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[425]),
-        .Q(in0[425]),
-        .R(out));
+        .Q(value_latch[425]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45190,11 +45191,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[426].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[426]),
         .Q(dat_reg1[426]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45202,11 +45203,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[426].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[426]),
-        .Q(in0[426]),
-        .R(out));
+        .Q(value_latch[426]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45214,11 +45215,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[427].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[427]),
         .Q(dat_reg1[427]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45226,11 +45227,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[427].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[427]),
-        .Q(in0[427]),
-        .R(out));
+        .Q(value_latch[427]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45238,11 +45239,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[428].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[428]),
         .Q(dat_reg1[428]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45250,11 +45251,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[428].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[428]),
-        .Q(in0[428]),
-        .R(out));
+        .Q(value_latch[428]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45262,11 +45263,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[429].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[429]),
         .Q(dat_reg1[429]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45274,11 +45275,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[429].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[429]),
-        .Q(in0[429]),
-        .R(out));
+        .Q(value_latch[429]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45286,11 +45287,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[42].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[42]),
         .Q(dat_reg1[42]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45298,11 +45299,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[42].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[42]),
-        .Q(in0[42]),
-        .R(out));
+        .Q(value_latch[42]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45310,11 +45311,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[430].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[430]),
         .Q(dat_reg1[430]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45322,11 +45323,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[430].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[430]),
-        .Q(in0[430]),
-        .R(out));
+        .Q(value_latch[430]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45334,11 +45335,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[431].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[431]),
         .Q(dat_reg1[431]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45346,11 +45347,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[431].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[431]),
-        .Q(in0[431]),
-        .R(out));
+        .Q(value_latch[431]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45358,11 +45359,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[432].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[432]),
         .Q(dat_reg1[432]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45370,11 +45371,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[432].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[432]),
-        .Q(in0[432]),
-        .R(out));
+        .Q(value_latch[432]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45382,11 +45383,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[433].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[433]),
         .Q(dat_reg1[433]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45394,11 +45395,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[433].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[433]),
-        .Q(in0[433]),
-        .R(out));
+        .Q(value_latch[433]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45406,11 +45407,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[434].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[434]),
         .Q(dat_reg1[434]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45418,11 +45419,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[434].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[434]),
-        .Q(in0[434]),
-        .R(out));
+        .Q(value_latch[434]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45430,11 +45431,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[435].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[435]),
         .Q(dat_reg1[435]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45442,11 +45443,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[435].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[435]),
-        .Q(in0[435]),
-        .R(out));
+        .Q(value_latch[435]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45454,11 +45455,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[436].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[436]),
         .Q(dat_reg1[436]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45466,11 +45467,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[436].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[436]),
-        .Q(in0[436]),
-        .R(out));
+        .Q(value_latch[436]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45478,11 +45479,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[437].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[437]),
         .Q(dat_reg1[437]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45490,11 +45491,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[437].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[437]),
-        .Q(in0[437]),
-        .R(out));
+        .Q(value_latch[437]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45502,11 +45503,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[438].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[438]),
         .Q(dat_reg1[438]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45514,11 +45515,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[438].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[438]),
-        .Q(in0[438]),
-        .R(out));
+        .Q(value_latch[438]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45526,11 +45527,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[439].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[439]),
         .Q(dat_reg1[439]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45538,11 +45539,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[439].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[439]),
-        .Q(in0[439]),
-        .R(out));
+        .Q(value_latch[439]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45550,11 +45551,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[43].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[43]),
         .Q(dat_reg1[43]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45562,11 +45563,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[43].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[43]),
-        .Q(in0[43]),
-        .R(out));
+        .Q(value_latch[43]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45574,11 +45575,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[440].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[440]),
         .Q(dat_reg1[440]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45586,11 +45587,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[440].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[440]),
-        .Q(in0[440]),
-        .R(out));
+        .Q(value_latch[440]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45598,11 +45599,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[441].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[441]),
         .Q(dat_reg1[441]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45610,11 +45611,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[441].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[441]),
-        .Q(in0[441]),
-        .R(out));
+        .Q(value_latch[441]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45622,11 +45623,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[442].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[442]),
         .Q(dat_reg1[442]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45634,11 +45635,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[442].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[442]),
-        .Q(in0[442]),
-        .R(out));
+        .Q(value_latch[442]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45646,11 +45647,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[443].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[443]),
         .Q(dat_reg1[443]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45658,11 +45659,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[443].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[443]),
-        .Q(in0[443]),
-        .R(out));
+        .Q(value_latch[443]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45670,11 +45671,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[444].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[444]),
         .Q(dat_reg1[444]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45682,11 +45683,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[444].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[444]),
-        .Q(in0[444]),
-        .R(out));
+        .Q(value_latch[444]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45694,11 +45695,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[445].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[445]),
         .Q(dat_reg1[445]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45706,11 +45707,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[445].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[445]),
-        .Q(in0[445]),
-        .R(out));
+        .Q(value_latch[445]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45718,11 +45719,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[446].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[446]),
         .Q(dat_reg1[446]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45730,11 +45731,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[446].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[446]),
-        .Q(in0[446]),
-        .R(out));
+        .Q(value_latch[446]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45742,11 +45743,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[447].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[447]),
         .Q(dat_reg1[447]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45754,11 +45755,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[447].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[447]),
-        .Q(in0[447]),
-        .R(out));
+        .Q(value_latch[447]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45766,11 +45767,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[448].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[448]),
         .Q(dat_reg1[448]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45778,11 +45779,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[448].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[448]),
-        .Q(in0[448]),
-        .R(out));
+        .Q(value_latch[448]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45790,11 +45791,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[449].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[449]),
         .Q(dat_reg1[449]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45802,11 +45803,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[449].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[449]),
-        .Q(in0[449]),
-        .R(out));
+        .Q(value_latch[449]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45814,11 +45815,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[44].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[44]),
         .Q(dat_reg1[44]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45826,11 +45827,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[44].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[44]),
-        .Q(in0[44]),
-        .R(out));
+        .Q(value_latch[44]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45838,11 +45839,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[450].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[450]),
         .Q(dat_reg1[450]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45850,11 +45851,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[450].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[450]),
-        .Q(in0[450]),
-        .R(out));
+        .Q(value_latch[450]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45862,11 +45863,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[451].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[451]),
         .Q(dat_reg1[451]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45874,11 +45875,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[451].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[451]),
-        .Q(in0[451]),
-        .R(out));
+        .Q(value_latch[451]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45886,11 +45887,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[452].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[452]),
         .Q(dat_reg1[452]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45898,11 +45899,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[452].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[452]),
-        .Q(in0[452]),
-        .R(out));
+        .Q(value_latch[452]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45910,11 +45911,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[453].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[453]),
         .Q(dat_reg1[453]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45922,11 +45923,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[453].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[453]),
-        .Q(in0[453]),
-        .R(out));
+        .Q(value_latch[453]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45934,11 +45935,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[454].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[454]),
         .Q(dat_reg1[454]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45946,11 +45947,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[454].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[454]),
-        .Q(in0[454]),
-        .R(out));
+        .Q(value_latch[454]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45958,11 +45959,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[455].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[455]),
         .Q(dat_reg1[455]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45970,11 +45971,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[455].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[455]),
-        .Q(in0[455]),
-        .R(out));
+        .Q(value_latch[455]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45982,11 +45983,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[456].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[456]),
         .Q(dat_reg1[456]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -45994,11 +45995,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[456].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[456]),
-        .Q(in0[456]),
-        .R(out));
+        .Q(value_latch[456]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46006,11 +46007,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[457].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[457]),
         .Q(dat_reg1[457]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46018,11 +46019,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[457].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[457]),
-        .Q(in0[457]),
-        .R(out));
+        .Q(value_latch[457]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46030,11 +46031,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[458].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[458]),
         .Q(dat_reg1[458]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46042,11 +46043,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[458].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[458]),
-        .Q(in0[458]),
-        .R(out));
+        .Q(value_latch[458]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46054,11 +46055,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[459].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[459]),
         .Q(dat_reg1[459]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46066,11 +46067,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[459].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[459]),
-        .Q(in0[459]),
-        .R(out));
+        .Q(value_latch[459]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46078,11 +46079,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[45].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[45]),
         .Q(dat_reg1[45]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46090,11 +46091,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[45].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[45]),
-        .Q(in0[45]),
-        .R(out));
+        .Q(value_latch[45]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46102,11 +46103,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[460].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[460]),
         .Q(dat_reg1[460]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46114,11 +46115,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[460].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[460]),
-        .Q(in0[460]),
-        .R(out));
+        .Q(value_latch[460]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46126,11 +46127,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[461].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[461]),
         .Q(dat_reg1[461]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46138,11 +46139,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[461].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[461]),
-        .Q(in0[461]),
-        .R(out));
+        .Q(value_latch[461]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46150,11 +46151,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[462].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[462]),
         .Q(dat_reg1[462]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46162,11 +46163,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[462].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[462]),
-        .Q(in0[462]),
-        .R(out));
+        .Q(value_latch[462]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46174,11 +46175,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[463].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[463]),
         .Q(dat_reg1[463]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46186,11 +46187,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[463].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[463]),
-        .Q(in0[463]),
-        .R(out));
+        .Q(value_latch[463]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46198,11 +46199,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[464].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[464]),
         .Q(dat_reg1[464]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46210,11 +46211,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[464].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[464]),
-        .Q(in0[464]),
-        .R(out));
+        .Q(value_latch[464]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46222,11 +46223,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[465].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[465]),
         .Q(dat_reg1[465]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46234,11 +46235,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[465].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[465]),
-        .Q(in0[465]),
-        .R(out));
+        .Q(value_latch[465]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46246,11 +46247,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[466].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[466]),
         .Q(dat_reg1[466]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46258,11 +46259,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[466].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[466]),
-        .Q(in0[466]),
-        .R(out));
+        .Q(value_latch[466]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46270,11 +46271,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[467].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[467]),
         .Q(dat_reg1[467]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46282,11 +46283,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[467].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[467]),
-        .Q(in0[467]),
-        .R(out));
+        .Q(value_latch[467]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46294,11 +46295,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[468].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[468]),
         .Q(dat_reg1[468]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46306,11 +46307,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[468].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[468]),
-        .Q(in0[468]),
-        .R(out));
+        .Q(value_latch[468]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46318,11 +46319,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[469].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[469]),
         .Q(dat_reg1[469]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46330,11 +46331,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[469].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[469]),
-        .Q(in0[469]),
-        .R(out));
+        .Q(value_latch[469]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46342,11 +46343,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[46].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[46]),
         .Q(dat_reg1[46]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46354,11 +46355,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[46].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[46]),
-        .Q(in0[46]),
-        .R(out));
+        .Q(value_latch[46]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46366,11 +46367,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[470].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[470]),
         .Q(dat_reg1[470]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46378,11 +46379,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[470].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[470]),
-        .Q(in0[470]),
-        .R(out));
+        .Q(value_latch[470]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46390,11 +46391,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[471].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[471]),
         .Q(dat_reg1[471]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46402,11 +46403,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[471].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[471]),
-        .Q(in0[471]),
-        .R(out));
+        .Q(value_latch[471]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46414,11 +46415,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[472].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[472]),
         .Q(dat_reg1[472]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46426,11 +46427,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[472].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[472]),
-        .Q(in0[472]),
-        .R(out));
+        .Q(value_latch[472]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46438,11 +46439,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[473].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[473]),
         .Q(dat_reg1[473]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46450,11 +46451,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[473].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[473]),
-        .Q(in0[473]),
-        .R(out));
+        .Q(value_latch[473]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46462,11 +46463,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[474].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[474]),
         .Q(dat_reg1[474]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46474,11 +46475,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[474].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[474]),
-        .Q(in0[474]),
-        .R(out));
+        .Q(value_latch[474]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46486,11 +46487,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[475].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[475]),
         .Q(dat_reg1[475]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46498,11 +46499,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[475].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[475]),
-        .Q(in0[475]),
-        .R(out));
+        .Q(value_latch[475]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46510,11 +46511,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[476].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[476]),
         .Q(dat_reg1[476]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46522,11 +46523,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[476].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[476]),
-        .Q(in0[476]),
-        .R(out));
+        .Q(value_latch[476]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46534,11 +46535,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[477].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[477]),
         .Q(dat_reg1[477]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46546,11 +46547,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[477].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[477]),
-        .Q(in0[477]),
-        .R(out));
+        .Q(value_latch[477]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46558,11 +46559,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[478].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[478]),
         .Q(dat_reg1[478]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46570,11 +46571,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[478].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[478]),
-        .Q(in0[478]),
-        .R(out));
+        .Q(value_latch[478]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46582,11 +46583,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[479].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[479]),
         .Q(dat_reg1[479]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46594,11 +46595,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[479].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[479]),
-        .Q(in0[479]),
-        .R(out));
+        .Q(value_latch[479]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46606,11 +46607,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[47].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[47]),
         .Q(dat_reg1[47]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46618,11 +46619,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[47].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[47]),
-        .Q(in0[47]),
-        .R(out));
+        .Q(value_latch[47]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46630,11 +46631,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[480].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[480]),
         .Q(dat_reg1[480]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46642,11 +46643,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[480].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[480]),
-        .Q(in0[480]),
-        .R(out));
+        .Q(value_latch[480]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46654,11 +46655,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[481].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[481]),
         .Q(dat_reg1[481]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46666,11 +46667,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[481].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[481]),
-        .Q(in0[481]),
-        .R(out));
+        .Q(value_latch[481]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46678,11 +46679,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[482].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[482]),
         .Q(dat_reg1[482]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46690,11 +46691,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[482].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[482]),
-        .Q(in0[482]),
-        .R(out));
+        .Q(value_latch[482]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46702,11 +46703,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[483].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[483]),
         .Q(dat_reg1[483]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46714,11 +46715,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[483].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[483]),
-        .Q(in0[483]),
-        .R(out));
+        .Q(value_latch[483]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46726,11 +46727,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[484].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[484]),
         .Q(dat_reg1[484]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46738,11 +46739,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[484].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[484]),
-        .Q(in0[484]),
-        .R(out));
+        .Q(value_latch[484]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46750,11 +46751,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[485].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[485]),
         .Q(dat_reg1[485]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46762,11 +46763,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[485].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[485]),
-        .Q(in0[485]),
-        .R(out));
+        .Q(value_latch[485]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46774,11 +46775,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[486].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[486]),
         .Q(dat_reg1[486]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46786,11 +46787,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[486].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[486]),
-        .Q(in0[486]),
-        .R(out));
+        .Q(value_latch[486]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46798,11 +46799,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[487].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[487]),
         .Q(dat_reg1[487]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46810,11 +46811,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[487].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[487]),
-        .Q(in0[487]),
-        .R(out));
+        .Q(value_latch[487]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46822,11 +46823,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[488].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[488]),
         .Q(dat_reg1[488]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46834,11 +46835,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[488].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[488]),
-        .Q(in0[488]),
-        .R(out));
+        .Q(value_latch[488]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46846,11 +46847,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[489].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[489]),
         .Q(dat_reg1[489]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46858,11 +46859,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[489].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[489]),
-        .Q(in0[489]),
-        .R(out));
+        .Q(value_latch[489]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46870,11 +46871,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[48].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[48]),
         .Q(dat_reg1[48]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46882,11 +46883,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[48].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[48]),
-        .Q(in0[48]),
-        .R(out));
+        .Q(value_latch[48]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46894,11 +46895,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[490].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[490]),
         .Q(dat_reg1[490]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46906,11 +46907,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[490].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[490]),
-        .Q(in0[490]),
-        .R(out));
+        .Q(value_latch[490]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46918,11 +46919,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[491].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[491]),
         .Q(dat_reg1[491]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46930,11 +46931,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[491].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[491]),
-        .Q(in0[491]),
-        .R(out));
+        .Q(value_latch[491]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46942,11 +46943,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[492].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[492]),
         .Q(dat_reg1[492]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46954,11 +46955,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[492].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[492]),
-        .Q(in0[492]),
-        .R(out));
+        .Q(value_latch[492]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46966,11 +46967,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[493].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[493]),
         .Q(dat_reg1[493]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46978,11 +46979,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[493].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[493]),
-        .Q(in0[493]),
-        .R(out));
+        .Q(value_latch[493]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -46990,11 +46991,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[494].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[494]),
         .Q(dat_reg1[494]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47002,11 +47003,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[494].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[494]),
-        .Q(in0[494]),
-        .R(out));
+        .Q(value_latch[494]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47014,11 +47015,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[495].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[495]),
         .Q(dat_reg1[495]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47026,11 +47027,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[495].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[495]),
-        .Q(in0[495]),
-        .R(out));
+        .Q(value_latch[495]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47038,11 +47039,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[496].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[496]),
         .Q(dat_reg1[496]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47050,11 +47051,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[496].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[496]),
-        .Q(in0[496]),
-        .R(out));
+        .Q(value_latch[496]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47062,11 +47063,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[497].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[497]),
         .Q(dat_reg1[497]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47074,11 +47075,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[497].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[497]),
-        .Q(in0[497]),
-        .R(out));
+        .Q(value_latch[497]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47086,11 +47087,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[498].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[498]),
         .Q(dat_reg1[498]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47098,11 +47099,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[498].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[498]),
-        .Q(in0[498]),
-        .R(out));
+        .Q(value_latch[498]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47110,11 +47111,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[499].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[499]),
         .Q(dat_reg1[499]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47122,11 +47123,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[499].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[499]),
-        .Q(in0[499]),
-        .R(out));
+        .Q(value_latch[499]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47134,11 +47135,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[49].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[49]),
         .Q(dat_reg1[49]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47146,11 +47147,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[49].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[49]),
-        .Q(in0[49]),
-        .R(out));
+        .Q(value_latch[49]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47158,11 +47159,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[4].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[4]),
         .Q(dat_reg1[4]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47170,11 +47171,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[4].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[4]),
-        .Q(in0[4]),
-        .R(out));
+        .Q(value_latch[4]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47182,11 +47183,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[500].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[500]),
         .Q(dat_reg1[500]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47194,11 +47195,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[500].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[500]),
-        .Q(in0[500]),
-        .R(out));
+        .Q(value_latch[500]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47206,11 +47207,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[501].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[501]),
         .Q(dat_reg1[501]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47218,11 +47219,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[501].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[501]),
-        .Q(in0[501]),
-        .R(out));
+        .Q(value_latch[501]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47230,11 +47231,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[502].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[502]),
         .Q(dat_reg1[502]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47242,11 +47243,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[502].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[502]),
-        .Q(in0[502]),
-        .R(out));
+        .Q(value_latch[502]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47254,11 +47255,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[503].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[503]),
         .Q(dat_reg1[503]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47266,11 +47267,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[503].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[503]),
-        .Q(in0[503]),
-        .R(out));
+        .Q(value_latch[503]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47278,11 +47279,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[504].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[504]),
         .Q(dat_reg1[504]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47290,11 +47291,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[504].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[504]),
-        .Q(in0[504]),
-        .R(out));
+        .Q(value_latch[504]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47302,11 +47303,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[505].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[505]),
         .Q(dat_reg1[505]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47314,11 +47315,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[505].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[505]),
-        .Q(in0[505]),
-        .R(out));
+        .Q(value_latch[505]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47326,11 +47327,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[506].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[506]),
         .Q(dat_reg1[506]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47338,11 +47339,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[506].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[506]),
-        .Q(in0[506]),
-        .R(out));
+        .Q(value_latch[506]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47350,11 +47351,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[507].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[507]),
         .Q(dat_reg1[507]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47362,11 +47363,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[507].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[507]),
-        .Q(in0[507]),
-        .R(out));
+        .Q(value_latch[507]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47374,11 +47375,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[508].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[508]),
         .Q(dat_reg1[508]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47386,11 +47387,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[508].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[508]),
-        .Q(in0[508]),
-        .R(out));
+        .Q(value_latch[508]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47398,11 +47399,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[509].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[509]),
         .Q(dat_reg1[509]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47410,11 +47411,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[509].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[509]),
-        .Q(in0[509]),
-        .R(out));
+        .Q(value_latch[509]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47422,11 +47423,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[50].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[50]),
         .Q(dat_reg1[50]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47434,11 +47435,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[50].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[50]),
-        .Q(in0[50]),
-        .R(out));
+        .Q(value_latch[50]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47446,11 +47447,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[510].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[510]),
         .Q(dat_reg1[510]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47458,11 +47459,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[510].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[510]),
-        .Q(in0[510]),
-        .R(out));
+        .Q(value_latch[510]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47470,11 +47471,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[511].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[511]),
         .Q(dat_reg1[511]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47482,11 +47483,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[511].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[511]),
-        .Q(in0[511]),
-        .R(out));
+        .Q(value_latch[511]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47494,11 +47495,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[51].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[51]),
         .Q(dat_reg1[51]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47506,11 +47507,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[51].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[51]),
-        .Q(in0[51]),
-        .R(out));
+        .Q(value_latch[51]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47518,11 +47519,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[52].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[52]),
         .Q(dat_reg1[52]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47530,11 +47531,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[52].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[52]),
-        .Q(in0[52]),
-        .R(out));
+        .Q(value_latch[52]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47542,11 +47543,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[53].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[53]),
         .Q(dat_reg1[53]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47554,11 +47555,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[53].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[53]),
-        .Q(in0[53]),
-        .R(out));
+        .Q(value_latch[53]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47566,11 +47567,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[54].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[54]),
         .Q(dat_reg1[54]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47578,11 +47579,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[54].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[54]),
-        .Q(in0[54]),
-        .R(out));
+        .Q(value_latch[54]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47590,11 +47591,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[55].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[55]),
         .Q(dat_reg1[55]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47602,11 +47603,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[55].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[55]),
-        .Q(in0[55]),
-        .R(out));
+        .Q(value_latch[55]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47614,11 +47615,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[56].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[56]),
         .Q(dat_reg1[56]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47626,11 +47627,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[56].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[56]),
-        .Q(in0[56]),
-        .R(out));
+        .Q(value_latch[56]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47638,11 +47639,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[57].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[57]),
         .Q(dat_reg1[57]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47650,11 +47651,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[57].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[57]),
-        .Q(in0[57]),
-        .R(out));
+        .Q(value_latch[57]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47662,11 +47663,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[58].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[58]),
         .Q(dat_reg1[58]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47674,11 +47675,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[58].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[58]),
-        .Q(in0[58]),
-        .R(out));
+        .Q(value_latch[58]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47686,11 +47687,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[59].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[59]),
         .Q(dat_reg1[59]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47698,11 +47699,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[59].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[59]),
-        .Q(in0[59]),
-        .R(out));
+        .Q(value_latch[59]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47710,11 +47711,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[5].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[5]),
         .Q(dat_reg1[5]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47722,11 +47723,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[5].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[5]),
-        .Q(in0[5]),
-        .R(out));
+        .Q(value_latch[5]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47734,11 +47735,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[60].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[60]),
         .Q(dat_reg1[60]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47746,11 +47747,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[60].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[60]),
-        .Q(in0[60]),
-        .R(out));
+        .Q(value_latch[60]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47758,11 +47759,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[61].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[61]),
         .Q(dat_reg1[61]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47770,11 +47771,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[61].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[61]),
-        .Q(in0[61]),
-        .R(out));
+        .Q(value_latch[61]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47782,11 +47783,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[62].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[62]),
         .Q(dat_reg1[62]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47794,11 +47795,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[62].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[62]),
-        .Q(in0[62]),
-        .R(out));
+        .Q(value_latch[62]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47806,11 +47807,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[63].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[63]),
         .Q(dat_reg1[63]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47818,11 +47819,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[63].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[63]),
-        .Q(in0[63]),
-        .R(out));
+        .Q(value_latch[63]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47830,11 +47831,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[64].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[64]),
         .Q(dat_reg1[64]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47842,11 +47843,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[64].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[64]),
-        .Q(in0[64]),
-        .R(out));
+        .Q(value_latch[64]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47854,11 +47855,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[65].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[65]),
         .Q(dat_reg1[65]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47866,11 +47867,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[65].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[65]),
-        .Q(in0[65]),
-        .R(out));
+        .Q(value_latch[65]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47878,11 +47879,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[66].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[66]),
         .Q(dat_reg1[66]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47890,11 +47891,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[66].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[66]),
-        .Q(in0[66]),
-        .R(out));
+        .Q(value_latch[66]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47902,11 +47903,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[67].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[67]),
         .Q(dat_reg1[67]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47914,11 +47915,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[67].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[67]),
-        .Q(in0[67]),
-        .R(out));
+        .Q(value_latch[67]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47926,11 +47927,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[68].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[68]),
         .Q(dat_reg1[68]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47938,11 +47939,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[68].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[68]),
-        .Q(in0[68]),
-        .R(out));
+        .Q(value_latch[68]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47950,11 +47951,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[69].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[69]),
         .Q(dat_reg1[69]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47962,11 +47963,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[69].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[69]),
-        .Q(in0[69]),
-        .R(out));
+        .Q(value_latch[69]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47974,11 +47975,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[6].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[6]),
         .Q(dat_reg1[6]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47986,11 +47987,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[6].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[6]),
-        .Q(in0[6]),
-        .R(out));
+        .Q(value_latch[6]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -47998,11 +47999,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[70].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[70]),
         .Q(dat_reg1[70]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48010,11 +48011,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[70].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[70]),
-        .Q(in0[70]),
-        .R(out));
+        .Q(value_latch[70]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48022,11 +48023,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[71].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[71]),
         .Q(dat_reg1[71]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48034,11 +48035,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[71].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[71]),
-        .Q(in0[71]),
-        .R(out));
+        .Q(value_latch[71]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48046,11 +48047,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[72].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[72]),
         .Q(dat_reg1[72]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48058,11 +48059,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[72].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[72]),
-        .Q(in0[72]),
-        .R(out));
+        .Q(value_latch[72]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48070,11 +48071,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[73].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[73]),
         .Q(dat_reg1[73]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48082,11 +48083,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[73].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[73]),
-        .Q(in0[73]),
-        .R(out));
+        .Q(value_latch[73]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48094,11 +48095,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[74].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[74]),
         .Q(dat_reg1[74]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48106,11 +48107,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[74].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[74]),
-        .Q(in0[74]),
-        .R(out));
+        .Q(value_latch[74]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48118,11 +48119,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[75].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[75]),
         .Q(dat_reg1[75]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48130,11 +48131,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[75].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[75]),
-        .Q(in0[75]),
-        .R(out));
+        .Q(value_latch[75]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48142,11 +48143,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[76].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[76]),
         .Q(dat_reg1[76]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48154,11 +48155,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[76].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[76]),
-        .Q(in0[76]),
-        .R(out));
+        .Q(value_latch[76]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48166,11 +48167,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[77].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[77]),
         .Q(dat_reg1[77]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48178,11 +48179,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[77].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[77]),
-        .Q(in0[77]),
-        .R(out));
+        .Q(value_latch[77]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48190,11 +48191,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[78].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[78]),
         .Q(dat_reg1[78]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48202,11 +48203,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[78].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[78]),
-        .Q(in0[78]),
-        .R(out));
+        .Q(value_latch[78]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48214,11 +48215,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[79].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[79]),
         .Q(dat_reg1[79]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48226,11 +48227,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[79].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[79]),
-        .Q(in0[79]),
-        .R(out));
+        .Q(value_latch[79]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48238,11 +48239,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[7].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[7]),
         .Q(dat_reg1[7]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48250,11 +48251,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[7].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[7]),
-        .Q(in0[7]),
-        .R(out));
+        .Q(value_latch[7]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48262,11 +48263,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[80].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[80]),
         .Q(dat_reg1[80]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48274,11 +48275,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[80].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[80]),
-        .Q(in0[80]),
-        .R(out));
+        .Q(value_latch[80]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48286,11 +48287,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[81].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[81]),
         .Q(dat_reg1[81]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48298,11 +48299,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[81].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[81]),
-        .Q(in0[81]),
-        .R(out));
+        .Q(value_latch[81]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48310,11 +48311,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[82].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[82]),
         .Q(dat_reg1[82]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48322,11 +48323,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[82].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[82]),
-        .Q(in0[82]),
-        .R(out));
+        .Q(value_latch[82]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48334,11 +48335,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[83].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[83]),
         .Q(dat_reg1[83]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48346,11 +48347,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[83].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[83]),
-        .Q(in0[83]),
-        .R(out));
+        .Q(value_latch[83]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48358,11 +48359,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[84].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[84]),
         .Q(dat_reg1[84]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48370,11 +48371,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[84].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[84]),
-        .Q(in0[84]),
-        .R(out));
+        .Q(value_latch[84]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48382,11 +48383,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[85].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[85]),
         .Q(dat_reg1[85]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48394,11 +48395,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[85].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[85]),
-        .Q(in0[85]),
-        .R(out));
+        .Q(value_latch[85]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48406,11 +48407,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[86].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[86]),
         .Q(dat_reg1[86]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48418,11 +48419,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[86].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[86]),
-        .Q(in0[86]),
-        .R(out));
+        .Q(value_latch[86]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48430,11 +48431,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[87].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[87]),
         .Q(dat_reg1[87]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48442,11 +48443,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[87].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[87]),
-        .Q(in0[87]),
-        .R(out));
+        .Q(value_latch[87]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48454,11 +48455,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[88].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[88]),
         .Q(dat_reg1[88]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48466,11 +48467,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[88].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[88]),
-        .Q(in0[88]),
-        .R(out));
+        .Q(value_latch[88]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48478,11 +48479,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[89].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[89]),
         .Q(dat_reg1[89]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48490,11 +48491,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[89].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[89]),
-        .Q(in0[89]),
-        .R(out));
+        .Q(value_latch[89]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48502,11 +48503,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[8].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[8]),
         .Q(dat_reg1[8]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48514,11 +48515,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[8].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[8]),
-        .Q(in0[8]),
-        .R(out));
+        .Q(value_latch[8]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48526,11 +48527,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[90].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[90]),
         .Q(dat_reg1[90]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48538,11 +48539,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[90].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[90]),
-        .Q(in0[90]),
-        .R(out));
+        .Q(value_latch[90]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48550,11 +48551,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[91].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[91]),
         .Q(dat_reg1[91]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48562,11 +48563,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[91].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[91]),
-        .Q(in0[91]),
-        .R(out));
+        .Q(value_latch[91]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48574,11 +48575,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[92].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[92]),
         .Q(dat_reg1[92]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48586,11 +48587,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[92].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[92]),
-        .Q(in0[92]),
-        .R(out));
+        .Q(value_latch[92]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48598,11 +48599,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[93].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[93]),
         .Q(dat_reg1[93]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48610,11 +48611,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[93].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[93]),
-        .Q(in0[93]),
-        .R(out));
+        .Q(value_latch[93]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48622,11 +48623,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[94].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[94]),
         .Q(dat_reg1[94]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48634,11 +48635,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[94].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[94]),
-        .Q(in0[94]),
-        .R(out));
+        .Q(value_latch[94]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48646,11 +48647,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[95].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[95]),
         .Q(dat_reg1[95]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48658,11 +48659,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[95].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[95]),
-        .Q(in0[95]),
-        .R(out));
+        .Q(value_latch[95]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48670,11 +48671,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[96].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[96]),
         .Q(dat_reg1[96]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48682,11 +48683,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[96].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[96]),
-        .Q(in0[96]),
-        .R(out));
+        .Q(value_latch[96]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48694,11 +48695,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[97].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[97]),
         .Q(dat_reg1[97]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48706,11 +48707,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[97].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[97]),
-        .Q(in0[97]),
-        .R(out));
+        .Q(value_latch[97]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48718,11 +48719,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[98].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[98]),
         .Q(dat_reg1[98]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48730,11 +48731,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[98].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[98]),
-        .Q(in0[98]),
-        .R(out));
+        .Q(value_latch[98]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48742,11 +48743,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[99].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[99]),
         .Q(dat_reg1[99]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48754,11 +48755,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[99].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[99]),
-        .Q(in0[99]),
-        .R(out));
+        .Q(value_latch[99]),
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48766,11 +48767,11 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[9].FDRE_INST0 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg0[9]),
         .Q(dat_reg1[9]),
-        .R(out));
+        .R(reset));
   (* BOX_TYPE = "PRIMITIVE" *) 
   FDRE #(
     .INIT(1'b0),
@@ -48778,14 +48779,14 @@ module line_tdc
     .IS_D_INVERTED(1'b0),
     .IS_R_INVERTED(1'b0)) 
     \loop_fdre[9].FDRE_INST1 
-       (.C(clk_out1),
+       (.C(clk_bufg),
         .CE(1'b1),
         .D(dat_reg1[9]),
-        .Q(in0[9]),
-        .R(out));
+        .Q(value_latch[9]),
+        .R(reset));
 endmodule
 
-(* ECO_CHECKSUM = "d3b4f539" *) (* GAP_BITS = "9" *) (* STAGE = "512" *) 
+(* ECO_CHECKSUM = "20eee4cd" *) (* GAP_BITS = "9" *) (* STAGE = "512" *) 
 (* NotValidForBitStream *)
 module tdc_top
    (sg_start,
@@ -49359,11 +49360,13 @@ end
         .D(judge_start[0]),
         .Q(judge_start[1]),
         .R(1'b0));
+  (* KEEP_HIERARCHY = "soft" *) 
+  (* STAGE = "512" *) 
   line_tdc line_tdc_inst
-       (.clk_out1(clk_bufg),
-        .in0(value_latch_raw),
-        .out(reset_IBUF),
-        .sg_bufr(sg_bufr));
+       (.clk_bufg(clk_bufg),
+        .reset(reset_IBUF),
+        .sg_start(sg_bufr),
+        .value_latch(value_latch_raw));
   LUT2 #(
     .INIT(4'h2)) 
     \realtime_for_coarse[31]_i_1 

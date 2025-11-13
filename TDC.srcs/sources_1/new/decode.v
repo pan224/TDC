@@ -67,22 +67,12 @@ reg [GAP_BITS-1:0] bin2_reg;
 reg [GAP_BITS-1:0] bin_final;
 
 
-always@(posedge bin_cs1 or posedge reset) begin
-    if(reset) begin
-        bin1_reg <= 'd0;
-    end
-    else begin
-        bin1_reg <= bin1;
-    end
+always@(posedge bin_cs1) begin
+    bin1_reg <= bin1;
 end
 
-always@(posedge bin_cs2 or posedge reset) begin
-    if(reset) begin
-        bin2_reg <= 'd0;
-    end
-    else begin
-        bin2_reg <= bin2;
-    end
+always@(posedge bin_cs2) begin
+    bin2_reg <= bin2;
 end
 
 wire bin_cs_comb;
