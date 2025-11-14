@@ -17,63 +17,92 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325
 INFO: [Device 21-403] Loading part xc7k325tffv900-2
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 38520
+INFO: [Synth 8-7075] Helper process launched with PID 43004
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1057.164 ; gain = 20.742
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1057.293 ; gain = 22.117
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'tdc_top' [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/tdc_top.v:1]
 	Parameter STAGE bound to: 512 - type: integer 
 	Parameter GAP_BITS bound to: 9 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/project/vivado_work/TDC/TDC/TDC.runs/synth_1/.Xil/Vivado-20000-DESKTOP-RBHFTC6/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/project/vivado_work/TDC/TDC/TDC.runs/synth_1/.Xil/Vivado-20000-DESKTOP-RBHFTC6/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'BUFR' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1410]
-	Parameter BUFR_DIVIDE bound to: BYPASS - type: string 
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/project/vivado_work/TDC/TDC/TDC.runs/synth_1/.Xil/Vivado-41360-DESKTOP-RBHFTC6/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/project/vivado_work/TDC/TDC/TDC.runs/synth_1/.Xil/Vivado-41360-DESKTOP-RBHFTC6/realtime/clk_wiz_0_stub.v:5]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/tdc_top.v:24]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYCTRL' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35056]
 	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'BUFR' (2#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1410]
-INFO: [Synth 8-6157] synthesizing module 'LUT1' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39133]
-	Parameter INIT bound to: 2'b10 
-INFO: [Synth 8-6155] done synthesizing module 'LUT1' (3#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39133]
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (2#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35056]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (3#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:32977]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 2 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (4#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2__parameterized0' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 21 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2__parameterized0' (4#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:35069]
 INFO: [Synth 8-6157] synthesizing module 'FDCE' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13508]
 	Parameter INIT bound to: 1'b0 
 	Parameter IS_CLR_INVERTED bound to: 1'b0 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'FDCE' (4#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13508]
+INFO: [Synth 8-6155] done synthesizing module 'FDCE' (5#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13508]
 INFO: [Synth 8-6157] synthesizing module 'line_tdc' [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/line_tdc.v:1]
 	Parameter STAGE bound to: 512 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'CARRY4' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1487]
-INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (5#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1487]
+INFO: [Synth 8-6155] done synthesizing module 'CARRY4' (6#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:1487]
 INFO: [Synth 8-6157] synthesizing module 'FDRE' [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724]
 	Parameter INIT bound to: 1'b0 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-6155] done synthesizing module 'FDRE' (6#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724]
-INFO: [Synth 8-6155] done synthesizing module 'line_tdc' (7#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/line_tdc.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'FDRE' (7#1) [D:/software/vivado/Vivado/2020.1/scripts/rt/data/unisim_comp.v:13724]
+INFO: [Synth 8-6155] done synthesizing module 'line_tdc' (8#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/line_tdc.v:1]
 INFO: [Synth 8-6157] synthesizing module 'bubble_fix' [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/bubble_fix.v:23]
 	Parameter STAGE bound to: 512 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'bubble_fix' (8#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/bubble_fix.v:23]
-INFO: [Synth 8-6157] synthesizing module 'decode' [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/decode.v:23]
-	Parameter GAP_BITS bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'bubble_fix' (9#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/bubble_fix.v:23]
 INFO: [Synth 8-6157] synthesizing module 'latch2bin' [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/latch2bin.v:1]
 	Parameter GAP_BITS bound to: 9 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'latch2bin' (9#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/latch2bin.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'decode' (10#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/decode.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'latch2bin' (10#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/latch2bin.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'tdc_top' (11#1) [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/tdc_top.v:1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1145.352 ; gain = 108.930
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1146.109 ; gain = 110.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1145.352 ; gain = 108.930
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1146.109 ; gain = 110.934
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1145.352 ; gain = 108.930
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1146.109 ; gain = 110.934
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1145.352 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 129 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 1146.109 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 130 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -85,28 +114,28 @@ WARNING: [Vivado 12-584] No ports matched ''. [d:/project/vivado_work/TDC/TDC/TD
 WARNING: [Vivado 12-584] No ports matched ''. [d:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:6]
 Finished Parsing XDC File [d:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk_wiz_0_inst'
 Parsing XDC File [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc]
-WARNING: [Vivado 12-584] No ports matched 'cs_gap_delay'. [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc:19]
-WARNING: [Vivado 12-584] No ports matched 'cs_gap_delay'. [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'cs_gap_delay'. [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'cs_gap_delay'. [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc:38]
 Finished Parsing XDC File [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/tdc_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/project/vivado_work/TDC/TDC/TDC.srcs/constrs_1/new/tdc.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/tdc_top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/tdc_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1262.707 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1257.359 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1262.707 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 1257.359 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k325tffv900-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -115,10 +144,10 @@ Applied set_property IO_BUFFER_TYPE = NONE for clk_sys. (constraint file  d:/pro
 Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_sys. (constraint file  d:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 8).
 Applied set_property DONT_TOUCH = true for clk_wiz_0_inst. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -126,25 +155,24 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input   32 Bit       Adders := 1     
-	  16 Input    4 Bit       Adders := 2     
+	  16 Input    4 Bit       Adders := 1     
 +---Registers : 
-	              511 Bit    Registers := 10    
+	              511 Bit    Registers := 5     
 	               32 Bit    Registers := 2     
-	               10 Bit    Registers := 12    
-	                9 Bit    Registers := 7     
-	                4 Bit    Registers := 2     
+	               10 Bit    Registers := 6     
+	                9 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
 	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 8     
+	                1 Bit    Registers := 4     
 +---Muxes : 
-	   2 Input  255 Bit        Muxes := 2     
-	   2 Input  127 Bit        Muxes := 2     
-	   2 Input   63 Bit        Muxes := 2     
+	   2 Input  255 Bit        Muxes := 1     
+	   2 Input  127 Bit        Muxes := 1     
+	   2 Input   63 Bit        Muxes := 1     
 	   2 Input   32 Bit        Muxes := 1     
-	   2 Input   31 Bit        Muxes := 2     
-	   2 Input   15 Bit        Muxes := 2     
-	   2 Input    9 Bit        Muxes := 1     
-	   2 Input    8 Bit        Muxes := 2     
-	   2 Input    1 Bit        Muxes := 2     
+	   2 Input   31 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -161,25 +189,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:42 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:57 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:58 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:01:00 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -197,60 +225,53 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/bubble_fix.v:38]
-WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/bubble_fix.v:38]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:01:08 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:01:08 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:01:08 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:01:08 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:01:09 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:01:09 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 
 Static Shift Register Report:
-+------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|Module Name | RTL Name                                      | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
-+------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|tdc_top     | decode_inst/bin_cs_reg                        | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst1/data_valid_reg[6] | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst2/data_valid_reg[6] | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst2/bin_final_reg[8]  | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst2/bin_final_reg[7]  | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst2/bin_final_reg[6]  | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst2/bin_final_reg[5]  | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst1/bin_final_reg[8]  | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst1/bin_final_reg[7]  | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst1/bin_final_reg[6]  | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-|tdc_top     | decode_inst/latch2bin_inst1/bin_final_reg[5]  | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
-+------------+-----------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
++------------+-----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                          | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|tdc_top     | latch2bin_inst1/data_valid_reg[6] | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|tdc_top     | latch2bin_inst1/bin_final_reg[8]  | 7      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|tdc_top     | latch2bin_inst1/bin_final_reg[7]  | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|tdc_top     | latch2bin_inst1/bin_final_reg[6]  | 5      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|tdc_top     | latch2bin_inst1/bin_final_reg[5]  | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+-----------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP and Shift Register Reporting
@@ -267,43 +288,46 @@ Report BlackBoxes:
 +------+--------------+----------+
 
 Report Cell Usage: 
-+------+--------+------+
-|      |Cell    |Count |
-+------+--------+------+
-|1     |clk_wiz |     1|
-|2     |BUFR    |     1|
-|3     |CARRY4  |   136|
-|4     |LUT1    |     4|
-|5     |LUT2    |    18|
-|6     |LUT3    |  2025|
-|7     |LUT5    |     6|
-|8     |LUT6    |    27|
-|9     |SRL16E  |    11|
-|10    |FDCE    |    38|
-|11    |FDRE    |  3165|
-|12    |IBUF    |     2|
-|13    |OBUF    |    10|
-+------+--------+------+
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |clk_wiz    |     1|
+|2     |CARRY4     |   136|
+|3     |IDELAYCTRL |     1|
+|4     |IDELAYE2   |     2|
+|6     |LUT1       |     2|
+|7     |LUT2       |     9|
+|8     |LUT3       |  1008|
+|9     |LUT5       |     3|
+|10    |LUT6       |    12|
+|11    |SRL16E     |     5|
+|12    |FDCE       |     4|
+|13    |FDRE       |  2134|
+|14    |IBUF       |     2|
+|15    |OBUF       |    10|
++------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:01:09 . Memory (MB): peak = 1257.359 ; gain = 222.184
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 1262.707 ; gain = 108.930
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1262.707 ; gain = 226.285
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:01:03 . Memory (MB): peak = 1257.359 ; gain = 110.934
+Synthesis Optimization Complete : Time (s): cpu = 00:00:59 ; elapsed = 00:01:09 . Memory (MB): peak = 1257.359 ; gain = 222.184
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1262.707 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 137 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1257.359 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 138 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1273.398 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1263.930 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-39 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+41 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 1273.398 ; gain = 236.977
+synth_design: Time (s): cpu = 00:01:07 ; elapsed = 00:01:20 . Memory (MB): peak = 1263.930 ; gain = 228.754
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/project/vivado_work/TDC/TDC/TDC.runs/synth_1/tdc_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file tdc_top_utilization_synth.rpt -pb tdc_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov 13 20:52:25 2025...
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 14 15:09:11 2025...

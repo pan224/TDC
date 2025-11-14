@@ -70,9 +70,11 @@
 - 2025/11/06：引入`bubble_fix`模块，修复热码气泡。
 - 2025/11/07：实现双路解码，有效处理时序违例。
 - 2025/11/11：添加了计数器用于粗时间计数，reset重置计数器。
+- 2025/11/14：添加了IDELAYE2原语，给reset信号和start信号，来改善保持时间违例。
 
 ## 参考资料
 - Xilinx 7 Series FPGAs SelectIO Resources
+- Kintex-7 FPGAs Data Sheet: DC and AC Switching Characteristics (DS182)（[text](https://docs.amd.com/v/u/en-US/ds182_Kintex_7_Data_Sheet)）
 - “Bubble-Free” Thermometer-to-Binary Decoding
 - 以太网通信模块（用于后续扩展）
 

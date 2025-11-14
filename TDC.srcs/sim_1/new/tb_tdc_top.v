@@ -4,7 +4,7 @@ module tb_tdc_top;
 reg  reset;
 reg  clk_sys;
 reg  sg_start;
-wire sg_bufr_raw;
+wire sg_bufr;
 wire valid_pre1;
 wire valid_pre2;
 wire valid_for_bubble_fix;//给气泡修复滤波模块用
@@ -54,7 +54,7 @@ tdc_top tdc_top_inst(
 assign data_reg0 = tdc_top_inst.line_tdc_inst.dat_reg0;
 assign data_reg1 = tdc_top_inst.line_tdc_inst.dat_reg1;
 assign FDRE_REF = tdc_top_inst.line_tdc_inst.FDCE_INST3.Q;
-assign sg_bufr_raw = tdc_top_inst.sg_bufr_raw;
+assign sg_bufr = tdc_top_inst.sg_bufr;
 assign valid_pre1 = tdc_top_inst.valid_pre1;
 assign valid_pre2 = tdc_top_inst.valid_pre2;
 assign valid_for_bubble_fix = tdc_top_inst.valid_for_bubble_fix;

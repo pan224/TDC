@@ -71,6 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 5
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7k325tffv900-2
 
@@ -89,7 +90,6 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
   D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/bubble_fix.v
-  D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/decode.v
   D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/latch2bin.v
   D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/line_tdc.v
   D:/project/vivado_work/TDC/TDC/TDC.srcs/sources_1/new/tdc_top.v
