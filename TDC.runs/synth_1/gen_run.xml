@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7k325tffv900-2" LaunchTime="1763104055">
   <File Type="PA-TCL" Name="tdc_top.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="tdc_top_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="tdc_top_reports.tcl"/>
   <File Type="RDS-RDS" Name="tdc_top.vds"/>
   <File Type="RDS-UTIL" Name="tdc_top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="tdc_top_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="tdc_top.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="tdc_top_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="tdc_top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/bubble_fix.v">

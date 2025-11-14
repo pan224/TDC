@@ -2,3 +2,6 @@ Running: xsim.dir/tb_tdc_top_time_impl/xsimk.exe -simmode gui -wdb tb_tdc_top_ti
 Design successfully loaded
 Design Loading Memory Usage: 63716 KB (Peak: 63716 KB)
 Design Loading CPU Usage: 264 ms
+Simulation completed
+Simulation Memory Usage: 84460 KB (Peak: 84460 KB)
+Simulation CPU Usage: 221405 ms
