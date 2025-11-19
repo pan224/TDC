@@ -88,7 +88,7 @@ always@(posedge clk_bufg) begin
         end
         else begin
             bin_cs_reg <= 1'b0;
-            bin <= 'b0;
+            bin <= bin_final;
         end
     end
 end
