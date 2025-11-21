@@ -159,32 +159,44 @@ ila_0 ila_wd0 (
             gig_eth_rx_fifo_rden,
             gig_eth_tx_fifo_wren})
    ); 
+
+
+// ila_tdc ila_latch2bin (
+// 	.clk(clk_100MHz), // input wire clk
+// 	.probe0({cs_gap, value_gap}) // input wire [9:0] probe0
+// );
 //------------------------------------------------------------------------------
 // VIO 和测试控制模块
 //------------------------------------------------------------------------------
-wire [4:0] vio_data;
+wire [7:0] vio_data;
 wire vio_valid;
+wire vio_reset;
 wire tdc_start;
 wire tdc_reset;
 
 // VIO IP 核例化
 vio_0 vio_inst (
     .clk(clk_100MHz),
-    .probe_out0(vio_data),      // 5-bit 延迟控制值 (0-31)
-    .probe_out1(vio_valid)      // 1-bit 触发信号
+    .probe_out0(vio_data),      // 8-bit 延迟控制值 (0-140)
+    .probe_out1(vio_valid),      // 1-bit 触发信号
+    .probe_out2(vio_reset)      // 1-bit 复位信号
+    
 );
 
 // 测试控制模块
-tdc_test_ctrl #(
-    .DATA_WIDTH(5)
+tdc_test_ctrl_phase #(
+    .DATA_WIDTH(8)  // 0-140 相位步数
 ) tdc_test_ctrl_inst (
     .clk_sys(sys_clk),          // 200MHz
-    .reset_in(reset),
-    .vio_data(vio_data),
+    .vio_reset_in(vio_reset),
+    // VIO 控制
+    .vio_phase(vio_data),      // 相位步数
     .vio_valid(vio_valid),
+    // TDC 控制信号
     .tdc_start(tdc_start),
     .tdc_reset(tdc_reset)
 );
+
 //------------------------------------------------------------------------------
 // IDELAYCTRL for TDC - 统一管理所有 IDELAYE2
 //------------------------------------------------------------------------------

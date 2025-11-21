@@ -1,287 +1,330 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Module Name: tb_test
-// Description: test.v 顶层模块的仿真文件
+// Testbench for test module - Focus on ETH transmission and cs_gap signals
 //////////////////////////////////////////////////////////////////////////////////
 
-module tb_test;
+module tb_test_eth_transmission;
+
+//------------------------------------------------------------------------------
+// 参数定义
+//------------------------------------------------------------------------------
+parameter CLK_PERIOD_200M = 5.0;    // 200MHz = 5ns
+parameter PHASE_VALUE = 8'd50;       // 50 * 17.86ps ≈ 893ps
 
 //------------------------------------------------------------------------------
 // 信号声明
 //------------------------------------------------------------------------------
 // 系统时钟和复位
-reg  CPU_RESET;
-reg  SYS_CLK_P;
-reg  SYS_CLK_N;
-reg  SGMIICLK_Q0_P;
-reg  SGMIICLK_Q0_N;
+reg CPU_RESET;
+reg SYS_CLK_P;
+reg SYS_CLK_N;
 
-// GBE 接口信号 - 改为 reg 类型并提供默认值
+// 以太网接口 (简化，只声明必要的)
 wire PHY_RESET_N;
-wire MDIO;
-wire MDC;
 wire [3:0] RGMII_TXD;
 wire RGMII_TX_CTL;
 wire RGMII_TXC;
-
-// RGMII 输入信号需要驱动
 reg [3:0] RGMII_RXD;
 reg RGMII_RX_CTL;
 reg RGMII_RXC;
+wire MDIO;
+wire MDC;
 
-// 内部探测信号
-wire sys_clk;
-wire reset;
+// 内部探测信号 (通过层次化访问)
+wire clk_100MHz;
 wire clk_bufg;
-wire tdc_start;
-wire tdc_reset;
 wire cs_gap;
 wire [8:0] value_gap;
 wire [22:0] coarse_counter;
-wire [511:0] value_latch_raw;
-wire [511:0] value_latch_fixed;
-
-// CSV 记录相关
-integer csv_fd;
-real delta_ps;
-reg [8:0] value_sample;
-reg [22:0] coarse_sample;
-realtime last_clk_edge_time;
-realtime start_time;
-realtime next_clk_time;
-
-// VIO 模拟信号
-reg [4:0] vio_data;
-reg vio_valid;
+wire gig_eth_tx_fifo_wren;
+wire [31:0] gig_eth_tx_fifo_q;
+wire gig_eth_tx_fifo_full;
+wire cs_gap_sync1, cs_gap_sync2, cs_gap_sync3;
+wire cs_gap_posedge;
 
 //------------------------------------------------------------------------------
-// DUT 例化
+// DUT 实例化
 //------------------------------------------------------------------------------
-test test_inst (
+test dut (
     .CPU_RESET(CPU_RESET),
     .SYS_CLK_P(SYS_CLK_P),
     .SYS_CLK_N(SYS_CLK_N),
-    .SGMIICLK_Q0_P(SGMIICLK_Q0_P),
-    .SGMIICLK_Q0_N(SGMIICLK_Q0_N),
     .PHY_RESET_N(PHY_RESET_N),
-    .MDIO(MDIO),
-    .MDC(MDC),
     .RGMII_TXD(RGMII_TXD),
-    .RGMII_RXD(RGMII_RXD),
     .RGMII_TX_CTL(RGMII_TX_CTL),
-    .RGMII_RX_CTL(RGMII_RX_CTL),
     .RGMII_TXC(RGMII_TXC),
-    .RGMII_RXC(RGMII_RXC)
+    .RGMII_RXD(RGMII_RXD),
+    .RGMII_RX_CTL(RGMII_RX_CTL),
+    .RGMII_RXC(RGMII_RXC),
+    .MDIO(MDIO),
+    .MDC(MDC)
 );
 
 //------------------------------------------------------------------------------
-// 信号连接到内部节点（用于观察）
+// 层次化信号访问
 //------------------------------------------------------------------------------
-assign sys_clk = test_inst.sys_clk;
-assign reset = test_inst.reset;
+assign clk_100MHz = dut.clk_100MHz;
+assign clk_bufg = dut.clk_bufg;
+assign cs_gap = dut.cs_gap;
+assign value_gap = dut.value_gap;
+assign coarse_counter = dut.coarse_counter;
 
-// 使用条件赋值避免层次路径错误
-generate
-    if (1) begin : check_hierarchy
-        assign clk_bufg = test_inst.clk_bufg;
-        assign tdc_start = test_inst.tdc_start;
-        assign tdc_reset = test_inst.tdc_reset;
-        assign cs_gap = test_inst.cs_gap;
-        assign value_gap = test_inst.value_gap;
-        assign coarse_counter = test_inst.coarse_counter;
-        assign value_latch_raw = test_inst.tdc_top_inst.value_latch_raw;
-        assign value_latch_fixed = test_inst.tdc_top_inst.value_latch_fixed;
-    end
-endgenerate
+// 以太网发送 FIFO 信号
+assign gig_eth_tx_fifo_wren = dut.gig_eth_tx_fifo_wren;
+assign gig_eth_tx_fifo_q = dut.gig_eth_tx_fifo_q;
+assign gig_eth_tx_fifo_full = dut.gig_eth_tx_fifo_full;
+
+// 跨时钟域同步信号
+assign cs_gap_sync1 = dut.eth_comm_ctrl_inst.cs_gap_sync1;
+assign cs_gap_sync2 = dut.eth_comm_ctrl_inst.cs_gap_sync2;
+assign cs_gap_sync3 = dut.eth_comm_ctrl_inst.cs_gap_sync3;
+assign cs_gap_posedge = dut.eth_comm_ctrl_inst.cs_gap_posedge;
 
 //------------------------------------------------------------------------------
-// 时钟生成
+// VIO 信号模拟
 //------------------------------------------------------------------------------
-// 200MHz 差分系统时钟
+reg [7:0] vio_phase;
+reg vio_valid;
+reg vio_reset;
+
+// 将模拟的 VIO 信号连接到 DUT
 initial begin
-    SYS_CLK_P = 1'b0;
-    SYS_CLK_N = 1'b1;
+    force dut.vio_data = vio_phase;
+    force dut.vio_valid = vio_valid;
+    force dut.tdc_test_ctrl_inst.vio_reset_in = vio_reset;
+end
+
+//------------------------------------------------------------------------------
+// 差分时钟生成 - 200MHz
+//------------------------------------------------------------------------------
+initial begin
+    SYS_CLK_P = 0;
+    SYS_CLK_N = 1;
     forever begin
-        #2.5 SYS_CLK_P = ~SYS_CLK_P;
+        #(CLK_PERIOD_200M/2) SYS_CLK_P = ~SYS_CLK_P;
         SYS_CLK_N = ~SYS_CLK_P;
     end
 end
 
-// 125MHz SGMII 时钟（GBE 用）
+//------------------------------------------------------------------------------
+// RGMII 接收时钟 - 125MHz (简化，不接收数据)
+//------------------------------------------------------------------------------
 initial begin
-    SGMIICLK_Q0_P = 1'b0;
-    SGMIICLK_Q0_N = 1'b1;
-    forever begin
-        #4 SGMIICLK_Q0_P = ~SGMIICLK_Q0_P;
-        SGMIICLK_Q0_N = ~SGMIICLK_Q0_P;
-    end
+    RGMII_RXC = 0;
+    forever #4 RGMII_RXC = ~RGMII_RXC;
 end
 
-// RGMII 接收时钟（模拟 PHY 接收）
 initial begin
-    RGMII_RXC = 1'b0;
     RGMII_RXD = 4'b0;
     RGMII_RX_CTL = 1'b0;
-    forever begin
-        #4 RGMII_RXC = ~RGMII_RXC;  // 125MHz
-    end
-end
-
-//------------------------------------------------------------------------------
-// VIO 模拟 - 修正路径
-//------------------------------------------------------------------------------
-initial begin
-    #1; // 等待 DUT 例化完成
-    // 检查层次路径是否正确
-    if ($test$plusargs("debug")) begin
-        $display("Forcing VIO signals...");
-    end
-    
-    // 根据实际层次路径强制连接
-    force test_inst.vio_inst.probe_out0 = vio_data;
-    force test_inst.vio_inst.probe_out1 = vio_valid;
 end
 
 //------------------------------------------------------------------------------
 // 测试激励
 //------------------------------------------------------------------------------
 initial begin
+    // 初始化
     CPU_RESET = 1'b0;  // 低电平复位
-    vio_data = 5'd0;
+    vio_reset = 1'b1;
+    vio_phase = 8'd0;
     vio_valid = 1'b0;
     
-    $display("=================================================");
-    $display("TDC Test Simulation Started at %0t", $time);
-    $display("=================================================");
+    $display("=== Simulation Start ===");
+    $display("Time: %0t ns", $time);
     
-    #100;  // 初始延迟
+    // 复位
+    #100;
     CPU_RESET = 1'b1;  // 释放复位
+    #50;
+    vio_reset = 1'b0;
     
-    // 等待系统稳定
-    wait(reset == 1'b0);  // 等待内部复位释放
-    #500;
+    // 等待时钟稳定和 MMCM 锁定
+    $display("Waiting for clocks to stabilize...");
+    wait(dut.clk_bufg !== 1'bx);
+    repeat(100) @(posedge clk_100MHz);
     
-    $display("System initialized. Starting tests at %0t", $time);
+    $display("\n=== Test 1: Single TDC Measurement (Phase = 50) ===");
+    $display("Target delay: 50 * 17.86ps = 893ps");
     
-    // 配置初始延迟值
-    @(posedge sys_clk);
-    vio_data = 5'd5;  // 设置延迟为 5 tap (990ps)
+    // 设置相位值为 50
+    vio_phase = PHASE_VALUE;
+    #20;
     
-    // 开始测试循环
-    repeat(50) begin  // 运行 50 次测试
-        @(posedge sys_clk);
-        vio_valid = 1'b1;  // 拉高触发信号
-        
-        repeat(3) @(posedge sys_clk);
-        vio_valid = 1'b0;  // 拉低触发信号
-        
-        // 等待测试完成
-        wait(cs_gap == 1'b1);
-        wait(cs_gap == 1'b0);
-        
-        // 延迟一段时间再开始下一次测试
-        repeat(10) @(posedge sys_clk);
-        
-        // 改变延迟值
-        vio_data = (vio_data + 1) % 32;
+    // 触发测量
+    @(posedge dut.clk_sys);
+    vio_valid = 1'b1;
+    $display("Time: %0t ns - VIO triggered, phase = %0d", $time, vio_phase);
+    
+    // 保持 valid 高电平一段时间
+    repeat(10) @(posedge dut.clk_sys);
+    vio_valid = 1'b0;
+    
+    // 等待 TDC 测量完成
+    wait(cs_gap == 1'b1);
+    $display("\nTime: %0t ns - cs_gap asserted!", $time);
+    $display("  TDC Results:");
+    $display("    value_gap = %0d", value_gap);
+    $display("    coarse_counter = %0d", coarse_counter);
+    
+    // 等待信号跨时钟域同步
+    @(posedge clk_100MHz);
+    repeat(5) @(posedge clk_100MHz);
+    
+    $display("\nTime: %0t ns - Cross-domain synchronization:", $time);
+    $display("    cs_gap_sync1 = %b", cs_gap_sync1);
+    $display("    cs_gap_sync2 = %b", cs_gap_sync2);
+    $display("    cs_gap_sync3 = %b", cs_gap_sync3);
+    
+    // 等待边沿检测
+    wait(cs_gap_posedge == 1'b1);
+    $display("\nTime: %0t ns - cs_gap_posedge detected!", $time);
+    
+    // 观察 TX FIFO 写入
+    @(posedge clk_100MHz);
+    if(gig_eth_tx_fifo_wren) begin
+        $display("\nTime: %0t ns - TX FIFO Write:", $time);
+        $display("    wren = %b", gig_eth_tx_fifo_wren);
+        $display("    data = 0x%08h", gig_eth_tx_fifo_q);
+        $display("    data breakdown:");
+        $display("      coarse_counter[22:0] = %0d (0x%06h)", 
+                 gig_eth_tx_fifo_q[31:9], gig_eth_tx_fifo_q[31:9]);
+        $display("      value_gap[8:0] = %0d (0x%03h)", 
+                 gig_eth_tx_fifo_q[8:0], gig_eth_tx_fifo_q[8:0]);
     end
     
-    // 完成仿真
-    #1000;
-    $display("=================================================");
-    $display("Test completed at %0t", $time);
-    $display("=================================================");
-    if (csv_fd) $fclose(csv_fd);
+    // 等待发送完成
+    repeat(10) @(posedge clk_100MHz);
+    
+    $display("\n=== Test 2: Multiple Measurements ===");
+    
+    // 第二次测量
+    repeat(100) @(posedge dut.clk_sys);
+    vio_phase = PHASE_VALUE;
+    @(posedge dut.clk_sys);
+    vio_valid = 1'b1;
+    $display("\nTime: %0t ns - Second measurement triggered", $time);
+    repeat(10) @(posedge dut.clk_sys);
+    vio_valid = 1'b0;
+    
+    wait(cs_gap_posedge == 1'b1);
+    @(posedge clk_100MHz);
+    if(gig_eth_tx_fifo_wren) begin
+        $display("\nTime: %0t ns - Second TX FIFO Write:", $time);
+        $display("    data = 0x%08h", gig_eth_tx_fifo_q);
+    end
+    
+    // 第三次测量
+    repeat(100) @(posedge dut.clk_sys);
+    vio_phase = PHASE_VALUE;
+    @(posedge dut.clk_sys);
+    vio_valid = 1'b1;
+    $display("\nTime: %0t ns - Third measurement triggered", $time);
+    repeat(10) @(posedge dut.clk_sys);
+    vio_valid = 1'b0;
+    
+    wait(cs_gap_posedge == 1'b1);
+    @(posedge clk_100MHz);
+    if(gig_eth_tx_fifo_wren) begin
+        $display("\nTime: %0t ns - Third TX FIFO Write:", $time);
+        $display("    data = 0x%08h", gig_eth_tx_fifo_q);
+    end
+    
+    // 结束仿真
+    repeat(100) @(posedge clk_100MHz);
+    
+    $display("\n=== Simulation Summary ===");
+    $display("Total simulation time: %0t ns", $time);
+    $display("Phase setting: %0d (%.2f ps delay)", PHASE_VALUE, PHASE_VALUE * 17.86);
+    $display("=== Simulation End ===");
+    
     $finish;
 end
 
 //------------------------------------------------------------------------------
-// CSV 数据记录
+// 监控关键信号变化
 //------------------------------------------------------------------------------
-initial begin
-    csv_fd = $fopen("tdc_test_capture.csv", "w");
-    if (csv_fd == 0) begin
-        $display("ERROR: Failed to open CSV file.");
-        $finish;
-    end
-    $fwrite(csv_fd, "start_to_clk_ps,value_gap_at_cs_gap,coarse_counter,vio_delay_tap\n");
-    last_clk_edge_time = 0.0;
-end
-
-// 记录最后一次时钟上升沿时间
-always @(posedge clk_bufg) begin
-    last_clk_edge_time = $realtime;
-end
-
-// 捕获 start 到下一个 clk_bufg 上升沿的时间差
-always begin
-    @(posedge tdc_start);
-    start_time = $realtime;
-    
-    // 等待下一个时钟边沿
-    @(posedge clk_bufg);
-    next_clk_time = $realtime;
-    
-    delta_ps = (next_clk_time - start_time) * 1000.0;
-    
-    // 等待 cs_gap 有效并采样数据
-    @(posedge cs_gap);
-    #1;  // 小延迟确保数据稳定
-    value_sample = value_gap;
-    coarse_sample = coarse_counter;
-    
-    $fwrite(csv_fd, "%.1f,%0d,%0d,%0d\n", 
-            delta_ps, value_sample, coarse_sample, vio_data);
-    
-    $display("[%0t] Delta=%.1fps, Gap=%0d, Coarse=%0d, VIO=%0d", 
-             $time, delta_ps, value_sample, coarse_sample, vio_data);
-end
-
-//------------------------------------------------------------------------------
-// 错误检测 - 修复后的版本
-//------------------------------------------------------------------------------
-reg timeout_flag;
-initial begin
-    forever begin
-        @(posedge tdc_start);
-        timeout_flag = 1'b0;
-        
-        fork
-            // 超时检测分支
-            begin
-                #500;  // 500ns 超时
-                if (!timeout_flag) begin
-                    $display("WARNING @ %0t: No cs_gap detected after 500ns!", $time);
-                end
-            end
-            
-            // cs_gap 检测分支
-            begin
-                @(posedge cs_gap);
-                timeout_flag = 1'b1;
-            end
-        // join_any
-        
-        disable fork;  // 杀死未完成的分支
-    end
-end
-
-//------------------------------------------------------------------------------
-// 实时监控
-//------------------------------------------------------------------------------
+// 监控 cs_gap 信号
 always @(posedge cs_gap) begin
-    $display("[MEASURE @ %8.3f ns] Value=%3d, Coarse=%6d, VIO_tap=%2d", 
-             $realtime/1000.0, value_gap, coarse_counter, vio_data);
+    $display(">>> [%0t ns] cs_gap rising edge", $time);
 end
 
-// // 监控 IDELAYCTRL 就绪状态
-// initial begin
-//     wait(reset == 1'b0);
-//     #100;
-//     if ($test$plusargs("verbose")) begin
-//         $display("Monitoring IDELAYCTRL ready status...");
-//         // 这里可以添加更多调试信息
-//     end
-// end
+always @(negedge cs_gap) begin
+    $display(">>> [%0t ns] cs_gap falling edge", $time);
+end
+
+// 监控 TX FIFO 写入
+always @(posedge clk_100MHz) begin
+    if(gig_eth_tx_fifo_wren) begin
+        $display(">>> [%0t ns] TX FIFO Write: 0x%08h", $time, gig_eth_tx_fifo_q);
+    end
+end
+
+// 监控跨时钟域同步
+always @(posedge clk_100MHz) begin
+    if(cs_gap_posedge) begin
+        $display(">>> [%0t ns] cs_gap_posedge detected in 100MHz domain", $time);
+    end
+end
+
+//------------------------------------------------------------------------------
+// 超时保护
+//------------------------------------------------------------------------------
+initial begin
+    #50000;  // 50us 超时
+    $display("\n!!! Simulation Timeout !!!");
+    $finish;
+end
+
+//------------------------------------------------------------------------------
+// 波形文件生成
+//------------------------------------------------------------------------------
+initial begin
+    $dumpfile("tb_test_eth.vcd");
+    $dumpvars(0, tb_test_eth_transmission);
+    
+    // 重点监控的信号
+    $dumpvars(1, dut.clk_sys);
+    $dumpvars(1, dut.clk_100MHz);
+    $dumpvars(1, dut.clk_bufg);
+    $dumpvars(1, dut.cs_gap);
+    $dumpvars(1, dut.value_gap);
+    $dumpvars(1, dut.coarse_counter);
+    
+    // 跨时钟域信号
+    $dumpvars(1, cs_gap_sync1);
+    $dumpvars(1, cs_gap_sync2);
+    $dumpvars(1, cs_gap_sync3);
+    $dumpvars(1, cs_gap_posedge);
+    
+    // 以太网发送信号
+    $dumpvars(1, gig_eth_tx_fifo_wren);
+    $dumpvars(1, gig_eth_tx_fifo_q);
+    $dumpvars(1, gig_eth_tx_fifo_full);
+    
+    // VIO 模拟信号
+    $dumpvars(1, vio_phase);
+    $dumpvars(1, vio_valid);
+end
+
+//------------------------------------------------------------------------------
+// 时钟频率检查
+//------------------------------------------------------------------------------
+real clk_100M_period;
+time last_100M_edge;
+
+initial begin
+    last_100M_edge = 0;
+    @(posedge clk_100MHz);
+    forever begin
+        @(posedge clk_100MHz);
+        clk_100M_period = ($time - last_100M_edge);
+        last_100M_edge = $time;
+        
+        // 检查时钟频率是否正确 (100MHz = 10ns)
+        if(clk_100M_period > 10.5 || clk_100M_period < 9.5) begin
+            $display("WARNING: clk_100MHz period = %0.2f ns (expected 10ns)", clk_100M_period);
+        end
+    end
+end
 
 endmodule
