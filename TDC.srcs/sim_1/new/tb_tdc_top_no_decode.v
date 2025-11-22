@@ -44,7 +44,6 @@ tdc_top #(
     .coarse_counter(coarse_counter)
 );
 
-
 assign data_reg0 = tdc_top_inst.line_tdc_inst.dat_reg0;
 assign data_reg1 = tdc_top_inst.line_tdc_inst.dat_reg1;
 assign FDRE_REF = tdc_top_inst.line_tdc_inst.FDCE_INST3.Q;

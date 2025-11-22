@@ -12,7 +12,7 @@ module dynamic_phase_pulse_gen #(
     input wire          reset,
     
     // VIO 控制接口
-    input wire [5:0]    target_phase,   // 目标相位步数 (0-55)
+    input wire [7:0]    target_phase,   // 目标相位步数 (0-140)
     input wire          phase_load,     // 加载新相位
     
     // 脉冲生成
@@ -53,9 +53,9 @@ localparam WAIT_DONE    = 3'd3;
 localparam COMPLETE     = 3'd4;
 
 reg [2:0] state;
-reg [5:0] current_phase;
-reg [5:0] target_phase_reg;
-reg [6:0] phase_delta;  // 带符号
+reg [7:0] current_phase;
+reg [7:0] target_phase_reg;
+reg [7:0] phase_delta;  // 带符号
 reg phase_direction;    // 0=减少, 1=增加
 
 assign phase_ready = (state == IDLE || state == COMPLETE);
@@ -73,11 +73,11 @@ assign phase_load_posedge = phase_load & ~phase_load_d1;
 always @(posedge clk_ref) begin
     if(reset) begin
         state <= IDLE;
-        current_phase <= 6'd0;
-        target_phase_reg <= 6'd0;
+        current_phase <= 8'd0;
+        target_phase_reg <= 8'd0;
         psen <= 1'b0;
         psincdec <= 1'b0;
-        phase_delta <= 7'd0;
+        phase_delta <= 8'd0;
     end
     else begin
         case(state)
@@ -100,7 +100,7 @@ always @(posedge clk_ref) begin
                     phase_direction <= 1'b0; // 减少
                 end
                 else begin
-                    phase_delta <= 7'd0;
+                    phase_delta <= 8'd0;
                 end
                 
                 state <= SHIFT_PHASE;
@@ -166,7 +166,7 @@ end
 assign trigger_posedge = trigger_sync2 & ~trigger_d1;
 
 // 可配置脉宽生成器
-localparam COUNTER_WIDTH = $clog2(PULSE_WIDTH + 1);
+localparam COUNTER_WIDTH = $clog2(PULSE_WIDTH)+1;
 reg [COUNTER_WIDTH-1:0] pulse_counter;
 
 always @(posedge clk_200MHz_shifted) begin

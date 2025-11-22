@@ -75,7 +75,8 @@ always@(posedge clk_bufg) begin
     end
 end
 
-reg bin_cs_reg;
+reg bin_cs_reg1;
+reg bin_cs_reg2;
 // always@(posedge clk_bufg) begin
 //     if(reset) begin
 //         bin_cs_reg <= 1'b0;
@@ -97,29 +98,30 @@ reg [2:0] bin_cs_extend;  // 展宽计数器
 
 always@(posedge clk_bufg) begin
     if(reset) begin
-        bin_cs_reg <= 1'b0;
+        bin_cs_reg1 <= 1'b0;
         bin_cs_extend <= 3'd0;
         bin <= 'b0;
     end
     else begin
         if(data_valid[GAP_BITS-2] == 1'b1) begin
-            bin_cs_reg <= 1'b1;
+            bin_cs_reg1 <= 1'b1;
             bin_cs_extend <= 3'd4;  // 保持 4 个周期
             bin <= bin_final;
         end
         else if(bin_cs_extend > 0) begin
             bin_cs_extend <= bin_cs_extend - 1'b1;
-            bin_cs_reg <= 1'b1;  // 保持高电平
+            bin_cs_reg1 <= 1'b1;  // 保持高电平
         end
         else begin
-            bin_cs_reg <= 1'b0;
+            bin_cs_reg1 <= 1'b0;
             bin <= bin_final;
         end
     end
 end
 
 always @(posedge clk_bufg) begin
-    bin_cs <= bin_cs_reg;
+    bin_cs_reg2 <= bin_cs_reg1;
+    bin_cs <= bin_cs_reg2;
 end
 
 endmodule

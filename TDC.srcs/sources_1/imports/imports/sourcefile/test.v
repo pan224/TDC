@@ -168,30 +168,42 @@ ila_0 ila_wd0 (
 //------------------------------------------------------------------------------
 // VIO 和测试控制模块
 //------------------------------------------------------------------------------
-wire [7:0] vio_data;
-wire vio_valid;
-wire vio_reset;
+// wire [7:0] vio_data;
+// wire vio_valid;
+// wire vio_reset;
+// wire sel_function;  // 新增：功能选择信号
+// wire tdc_start;
+// wire tdc_reset;
+
+// // VIO IP 核例化
+// vio_0 vio_inst (
+//     .clk(clk_100MHz),
+//     .probe_out0(vio_data),      // 8-bit 延迟控制值 (0-140)
+//     .probe_out1(vio_valid),      // 1-bit 触发信号
+//     .probe_out2(vio_reset),      // 1-bit 复位信号
+//     .probe_out3(sel_function)   // 1-bit 功能选择 (0=单次, 1=扫描)
+// );
+//------------------------------------------------------------------------------
+// 从以太网通信模块获取控制信号
+//------------------------------------------------------------------------------
+
+wire [7:0] tdc_phase;
+wire tdc_valid;
+wire tdc_sel_function;
+wire tdc_reset_eth;
 wire tdc_start;
 wire tdc_reset;
-
-// VIO IP 核例化
-vio_0 vio_inst (
-    .clk(clk_100MHz),
-    .probe_out0(vio_data),      // 8-bit 延迟控制值 (0-140)
-    .probe_out1(vio_valid),      // 1-bit 触发信号
-    .probe_out2(vio_reset)      // 1-bit 复位信号
-    
-);
 
 // 测试控制模块
 tdc_test_ctrl_phase #(
     .DATA_WIDTH(8)  // 0-140 相位步数
 ) tdc_test_ctrl_inst (
     .clk_sys(sys_clk),          // 200MHz
-    .vio_reset_in(vio_reset),
-    // VIO 控制
-    .vio_phase(vio_data),      // 相位步数
-    .vio_valid(vio_valid),
+    .vio_reset_in(tdc_reset_eth),
+    // 以太网控制
+    .vio_phase(tdc_phase),      // 相位步数
+    .vio_valid(tdc_valid),
+    .sel_function(tdc_sel_function), // 功能选择
     // TDC 控制信号
     .tdc_start(tdc_start),
     .tdc_reset(tdc_reset)
@@ -288,7 +300,13 @@ eth_comm_ctrl #(
     .sg_delay_value(sg_delay_value),
     .sg_delay_load(sg_delay_load),
     .rst_delay_value(rst_delay_value),
-    .rst_delay_load(rst_delay_load)
+    .rst_delay_load(rst_delay_load),
+
+    // TDC 控制信号输出（新增）
+    .tdc_phase(tdc_phase),
+    .tdc_valid(tdc_valid),
+    .tdc_sel_function(tdc_sel_function),
+    .tdc_reset_out(tdc_reset_eth)
 );
 
 endmodule

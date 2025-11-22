@@ -1,8 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Module Name: eth_comm_ctrl
-// Description: 以太网通信控制模块，管理接收和发送逻辑
-//////////////////////////////////////////////////////////////////////////////////
 
 module eth_comm_ctrl #(
     parameter GAP_BITS = 9
@@ -28,12 +24,17 @@ module eth_comm_ctrl #(
     output reg [4:0]                sg_delay_value,
     output reg                      sg_delay_load,
     output reg [4:0]                rst_delay_value,
-    output reg                      rst_delay_load
+    output reg                      rst_delay_load,
+    
+    // TDC 控制信号输出（新增）
+    output reg [7:0]                tdc_phase,
+    output reg                      tdc_valid,
+    output reg                      tdc_sel_function,
+    output reg                      tdc_reset_out
 );
 
 //------------------------------------------------------------------------------
 // 发送逻辑 - 跨时钟域同步
-//发送数据格式：{coarse_counter[22:0],value_gap_reg[GAP_BITS-1:0]} -粗计数+细计数
 //------------------------------------------------------------------------------
 (* ASYNC_REG = "TRUE" *) reg cs_gap_sync1;
 (* ASYNC_REG = "TRUE" *) reg cs_gap_sync2;
@@ -111,9 +112,12 @@ end
 
 //------------------------------------------------------------------------------
 // 接收逻辑 - 解析上位机命令
-// 数据格式：
-// {2'b10, 25'b0, sg_delay_value[4:0]}  - 配置 sg_start 延迟
-// {2'b01, 25'b0, rst_delay_value[4:0]} - 配置 reset 延迟
+// 命令格式：
+// [31:30] = 命令类型
+//   2'b00: 保留
+//   2'b01: 设置 reset 延迟值        [4:0] = rst_delay_value
+//   2'b10: 设置 sg_start 延迟值     [4:0] = sg_delay_value
+//   2'b11: TDC 测试控制             [29] = sel_function, [28] = tdc_reset, [7:0] = phase_value
 //------------------------------------------------------------------------------
 reg [2:0] rx_state;
 reg [31:0] rx_data_buffer;
@@ -124,7 +128,8 @@ localparam RX_READ       = 3'd1;
 localparam RX_DECODE     = 3'd2;
 localparam RX_LOAD_SG    = 3'd3;
 localparam RX_LOAD_RST   = 3'd4;
-localparam RX_WAIT       = 3'd5;
+localparam RX_TDC_CTRL   = 3'd5;
+localparam RX_WAIT       = 3'd6;
 
 assign gig_eth_rx_fifo_rden = rx_fifo_rden_reg;
 
@@ -133,18 +138,25 @@ always @(posedge clk_100MHz) begin
         rx_state <= RX_IDLE;
         rx_data_buffer <= 32'd0;
         rx_fifo_rden_reg <= 1'b0;
+        
         sg_delay_value <= 5'd0;
         sg_delay_load <= 1'b0;
         rst_delay_value <= 5'd0;
         rst_delay_load <= 1'b0;
+        
+        tdc_phase <= 8'd0;
+        tdc_valid <= 1'b0;
+        tdc_sel_function <= 1'b0;
+        tdc_reset_out <= 1'b1;
     end
     else begin
         case(rx_state)
             RX_IDLE: begin
                 sg_delay_load <= 1'b0;
                 rst_delay_load <= 1'b0;
+                tdc_valid <= 1'b0;
                 rx_fifo_rden_reg <= 1'b0;
-                
+                tdc_reset_out <= 1'b0;
                 if(~gig_eth_rx_fifo_empty) begin
                     rx_state <= RX_READ;
                     rx_fifo_rden_reg <= 1'b1;
@@ -159,14 +171,21 @@ always @(posedge clk_100MHz) begin
             
             RX_DECODE: begin
                 case(rx_data_buffer[31:30])
-                    2'b10: begin
+                    2'b10: begin  // 设置 sg_start 延迟
                         sg_delay_value <= rx_data_buffer[4:0];
                         rx_state <= RX_LOAD_SG;
                     end
                     
-                    2'b01: begin
+                    2'b01: begin  // 设置 reset 延迟
                         rst_delay_value <= rx_data_buffer[4:0];
                         rx_state <= RX_LOAD_RST;
+                    end
+                    
+                    2'b11: begin  // TDC 控制命令
+                        tdc_sel_function <= rx_data_buffer[29];
+                        tdc_reset_out <= rx_data_buffer[28];
+                        tdc_phase <= rx_data_buffer[7:0];
+                        rx_state <= RX_TDC_CTRL;
                     end
                     
                     default: begin
@@ -185,9 +204,17 @@ always @(posedge clk_100MHz) begin
                 rx_state <= RX_WAIT;
             end
             
+            RX_TDC_CTRL: begin
+                tdc_reset_out <= 1'b0;
+                tdc_valid <= 1'b1;
+                rx_state <= RX_WAIT;
+            end
+            
             RX_WAIT: begin
                 sg_delay_load <= 1'b0;
                 rst_delay_load <= 1'b0;
+                tdc_reset_out <= 1'b0;
+                tdc_valid <= 1'b0;
                 rx_state <= RX_IDLE;
             end
             
