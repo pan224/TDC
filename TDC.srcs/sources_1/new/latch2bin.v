@@ -120,11 +120,14 @@ always@(posedge clk_bufg) begin
     end
 end
 
+// always @(posedge clk_bufg) begin
+//     // bin_cs_reg2 <= bin_cs_reg1;
+//     // bin_cs <= bin_cs_reg2;
+//     {bin_cs,bin_cs_reg3,bin_cs_reg2} <= {bin_cs_reg3, bin_cs_reg2, bin_cs_reg1};
+// end
 always @(posedge clk_bufg) begin
-    // bin_cs_reg2 <= bin_cs_reg1;
-    // bin_cs <= bin_cs_reg2;
-    {bin_cs,bin_cs_reg3,bin_cs_reg2} <= {bin_cs_reg3, bin_cs_reg2, bin_cs_reg1};
+    bin_cs_reg2 <= bin_cs_reg1;
+    bin_cs <= bin_cs_reg2;
 end
-
 endmodule
 
