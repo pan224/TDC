@@ -10,7 +10,8 @@ module tdc_top#(
 	output wire [22:0]                  coarse_counter		
 );
 
-(* ASYNC_REG = "TRUE" *)wire valid_pre;
+(* ASYNC_REG = "TRUE" *)wire valid_pre1;
+(* ASYNC_REG = "TRUE" *)wire valid_pre2;
 (* ASYNC_REG = "TRUE" *)wire valid_for_bubble_fix;
 (* ASYNC_REG = "TRUE" *)wire valid_for_latch2bin;
 
@@ -19,12 +20,25 @@ FDCE #(
 	.INIT(1'b0)
 ) 
 FDCE_INST2 (
-	.Q(valid_pre),
+	.Q(valid_pre1),
 	.C(clk_bufg),
 	.CE(1'b1),
 	.CLR(1'b0),
 	.D(sg_start_delayed)
-);FDCE #(
+);
+
+FDCE #(
+	.INIT(1'b0)
+) 
+FDCE_INST3 (
+	.Q(valid_pre2),
+	.C(clk_bufg),
+	.CE(1'b1),
+	.CLR(1'b0),
+	.D(valid_pre1)
+);
+
+FDCE #(
     .INIT(1'b0)
 ) 
 FDCE_INST4 (
@@ -32,7 +46,7 @@ FDCE_INST4 (
     .C(clk_bufg),
     .CE(1'b1),
     .CLR(1'b0),
-    .D(valid_pre)
+    .D(valid_pre2)
 );
 
 FDCE #(

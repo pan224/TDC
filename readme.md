@@ -331,7 +331,8 @@ python tdc_pc_control.py -i
 - 2025/11/07：实现双路解码，有效处理时序违例。
 - 2025/11/11：添加了计数器用于粗时间计数，reset重置计数器。
 - 2025/11/14：添加了IDELAYE2原语，给reset信号和start信号，来改善保持时间违例。
-- 2025/11/20：完善以太网通信模块，实现动态相位扫描功能。进行了初步测试，测试数据在tdc_scan_result文件夹里（delay取的5taps）![alt text](tdc_scan_results/tdc_data_20251122_151452.png)
+- 2025/11/20：完善以太网通信模块，实现动态相位扫描功能。进行了初步测试，测试数据在tdc_scan_result文件夹里（delay取的5taps）
+- 2025/11/24：在tdc_top模块前多加了一级d触发器，完成一次成功的测试。（delay取的9taps），但发现delay模块对reset没有影响，初步认定是delay_ctr模块要区分，暂未验证。![alt text](tdc_scan_results/tdc_data_20251124_131602.png)
 
 ---
 

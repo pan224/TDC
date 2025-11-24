@@ -210,16 +210,16 @@ class TDCController:
         return self.send_command(cmd)
     
     def tdc_single_shot(self, phase_value, reset_tdc=False):
-        """TDC 单次测量 (phase: 0-140)"""
-        if not (0 <= phase_value <= 140):
-            print("[ERROR] phase_value 必须在 0-140 之间")
+        """TDC 单次测量 (phase: 0-255)"""
+        if not (0 <= phase_value <= 255):
+            print("[ERROR] phase_value 必须在 0-255 之间")
             return False
         
         sel_function = 0
         reset_bit = 1 if reset_tdc else 0
         
         cmd = (0b11 << 30) | (sel_function << 29) | (reset_bit << 28) | (phase_value & 0xFF)
-        print(f"[CMD] TDC 单次测量: phase={phase_value} (~{phase_value*17.8:.1f}ps), reset={reset_tdc}")
+        print(f"[CMD] TDC 单次测量: phase={phase_value} (0-255范围), reset={reset_tdc}")
         return self.send_command(cmd)
     
     def tdc_scan_mode(self, reset_tdc=False):
@@ -406,7 +406,7 @@ def interactive_menu(controller):
                 controller.set_reset_delay(value)
                 
             elif choice == '3':
-                phase = int(input("输入相位值 (0-140): "))
+                phase = int(input("输入相位值 (0-255): "))
                 reset = input("是否复位TDC? (y/n): ").lower() == 'y'
                 controller.clear_buffer()
                 controller.tdc_single_shot(phase, reset)
@@ -487,7 +487,7 @@ def main():
     parser_rst.add_argument('value', type=int, help='延迟值 (0-31)')
     
     parser_single = subparsers.add_parser('single-shot', help='TDC 单次测量')
-    parser_single.add_argument('phase', type=int, help='相位值 (0-140)')
+    parser_single.add_argument('phase', type=int, help='相位值 (0-255)')
     parser_single.add_argument('--reset', action='store_true', help='复位 TDC')
     
     parser_scan = subparsers.add_parser('scan', help='TDC 扫描模式')

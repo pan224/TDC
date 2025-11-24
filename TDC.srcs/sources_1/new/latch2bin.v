@@ -77,6 +77,7 @@ end
 
 reg bin_cs_reg1;
 reg bin_cs_reg2;
+reg bin_cs_reg3;
 // always@(posedge clk_bufg) begin
 //     if(reset) begin
 //         bin_cs_reg <= 1'b0;
@@ -120,8 +121,9 @@ always@(posedge clk_bufg) begin
 end
 
 always @(posedge clk_bufg) begin
-    bin_cs_reg2 <= bin_cs_reg1;
-    bin_cs <= bin_cs_reg2;
+    // bin_cs_reg2 <= bin_cs_reg1;
+    // bin_cs <= bin_cs_reg2;
+    {bin_cs,bin_cs_reg3,bin_cs_reg2} <= {bin_cs_reg3, bin_cs_reg2, bin_cs_reg1};
 end
 
 endmodule

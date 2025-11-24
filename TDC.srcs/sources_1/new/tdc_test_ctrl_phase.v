@@ -133,7 +133,7 @@ always @(posedge clk_sys) begin
                 tdc_reset <= 1'b0;
                 counter <= counter + 1'b1;
                 
-                if(counter >= 16'd8) begin  // 等待 40ns
+                if(counter >= 16'd40) begin  // 等待 200ns
                     counter <= 16'd0;
                     state <= TRIGGER;
                 end
@@ -149,7 +149,7 @@ always @(posedge clk_sys) begin
                 if(counter >= 16'd2) begin  // 保持脉冲 10ns
                     trigger_pulse <= 1'b0;
                 end
-                if(counter >= 16'd20) begin  // 等待 100ns
+                if(counter >= 16'd40) begin  // 等待 200ns
                     counter <= 16'd0;
                     state <= RESET_HIGH;
                 end
