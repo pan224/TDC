@@ -19,6 +19,9 @@ from datetime import datetime
 try:
     import numpy as np
     import matplotlib.pyplot as plt
+    # 设置中文字体支持
+    plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei', 'Arial Unicode MS']  # 黑体、微软雅黑
+    plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
     ANALYSIS_AVAILABLE = True
 except ImportError:
     ANALYSIS_AVAILABLE = False
@@ -296,13 +299,18 @@ class TDCAnalyzer:
         
         # 如果是扫描模式(141个点)
         if len(self.data) == 141:
-            delay = total_time - total_time[0]
-            theoretical = np.arange(141) * self.T_PHASE
-            error = delay - theoretical
+            # 实际延迟: fine值/4 * 53ps
+            actual_delay = (self.fine / 4.0) * self.TDC_BIN
+            
+            # 理论延迟: 2500ps - 17.8ps * tap_index
+            tap_indices = np.arange(141)
+            theoretical_delay = 2500.0 - self.T_PHASE * tap_indices
+            
+            error = actual_delay - theoretical_delay
             
             print(f"\n扫描模式分析:")
-            print(f"理论延迟范围: 0 - {140*self.T_PHASE:.2f} ps")
-            print(f"实际延迟范围: {delay[0]:.2f} - {delay[-1]:.2f} ps")
+            print(f"理论延迟范围: {theoretical_delay[0]:.2f} - {theoretical_delay[-1]:.2f} ps")
+            print(f"实际延迟范围: {actual_delay.min():.2f} - {actual_delay.max():.2f} ps")
             print(f"最大误差: {np.max(np.abs(error)):.2f} ps")
             print(f"RMS误差: {np.sqrt(np.mean(error**2)):.2f} ps")
         
@@ -340,17 +348,18 @@ class TDCAnalyzer:
         
         # 子图4: 如果是扫描模式,显示延迟曲线
         if len(self.data) == 141:
-            coarse_time = self.coarse * self.T_CLK * 1000
-            fine_time = self.fine * self.TDC_BIN
-            total_time = coarse_time + fine_time
-            delay = total_time - total_time[0]
-            theoretical = np.arange(141) * self.T_PHASE
+            # 实际延迟: fine值/4 * 53ps
+            actual_delay = (self.fine / 4.0) * self.TDC_BIN
             
-            axes[1, 1].plot(delay, 'b.-', label='实际延迟')
-            axes[1, 1].plot(theoretical, 'r--', label='理论延迟')
-            axes[1, 1].set_xlabel('Phase Index')
+            # 理论延迟: 2500ps - 17.8ps * tap_index
+            tap_indices = np.arange(141)
+            theoretical_delay = 2500.0 - self.T_PHASE * tap_indices
+            
+            axes[1, 1].plot(tap_indices, actual_delay, 'b.-', label='实际延迟', markersize=3)
+            axes[1, 1].plot(tap_indices, theoretical_delay, 'r--', label='理论延迟', linewidth=2)
+            axes[1, 1].set_xlabel('Tap Index (0-140)')
             axes[1, 1].set_ylabel('Delay (ps)')
-            axes[1, 1].set_title('延迟 vs 相位')
+            axes[1, 1].set_title('延迟 vs Tap索引')
             axes[1, 1].legend()
             axes[1, 1].grid(True)
         else:
