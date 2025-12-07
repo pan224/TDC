@@ -1,0 +1,42 @@
+
+# 忽略所有文件和文件夹
+*
+
+# 保留特定目录和文件
+!.gitignore
+!readme.md
+!readme_backup.md
+
+# 保留 TDC.srcs 目录及其内容
+!TDC.srcs/
+!TDC.srcs/**
+
+# 保留 tdc_scan_results 目录及其内容
+!tdc_scan_results/
+!tdc_scan_results/**
+
+# 保留 tdc_reference 目录及其内容
+!tdc_reference/
+!tdc_reference/**
+
+# Vivado 临时文件（即使在保留目录中也忽略）
+**/*.log
+**/*.jou
+**/*.str
+**/*.debug
+**/*.pb
+**/.Xil/
+**/xsim.dir/
+**/*.wdb
+**/*.vcd
+**/*.backup.jou
+
+# IP 缓存文件
+TDC.srcs/**/*.dcp
+TDC.srcs/**/simulation/
+TDC.srcs/**/synth/
+
+# 编译生成的文件
+**/*.o
+**/*.pyc
+**/__pycache__/
